@@ -49,6 +49,7 @@
 | Psychic | 灵能 | 元素/能力系别。 |
 | Power | 能力 | 游戏内 power 概念，先统一译为“能力”。 |
 | Powerless | 无能之人 | 不使用能力取得胜利的事迹名称。 |
+| Empowered | 赋能 | 升级奖励中可能获得的通用效果。 |
 | Ability Book | 能力书 | 查看能力与进阶职业的界面。 |
 | Armory | 军械库 | 查看装备的界面。 |
 | Bestiary | 图鉴 | 查看敌人的界面。 |
@@ -71,6 +72,8 @@
 | Next Unlock | 下个解锁 | 荣耀进度提示。 |
 | Randomize | 随机 | 角色创建随机组合。 |
 | Search | 搜索 | 角色创建筛选框。 |
+| Victorious | 已胜利 | 已用对应条目取得胜利的标记。 |
+| Requirements unmet | 未满足条件 | 进阶职业解锁条件未达成。 |
 | Start | 开始 | 开始新游戏。 |
 | Continue | 继续 | 继续已载入角色。 |
 | Return | 返回 | 返回主菜单。 |

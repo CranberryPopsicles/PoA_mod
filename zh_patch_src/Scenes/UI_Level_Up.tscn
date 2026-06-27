@@ -1,0 +1,1050 @@
+[gd_scene load_steps=45 format=2]
+
+[ext_resource path="res://Ham_Sprite/UI/Invoke.png" type="Texture" id=1]
+[ext_resource path="res://Ham_Sprite/UI/UI_Box_Sideways.png" type="Texture" id=2]
+[ext_resource path="res://Ham_Sprite/Buttons/Button_UI_Corners_Hovered.png" type="Texture" id=3]
+[ext_resource path="res://Ham_Sprite/Buttons/Button_UI_Corners_Pressed.png" type="Texture" id=4]
+[ext_resource path="res://Ham_Sprite/UI/Icon_Ankh.png" type="Texture" id=5]
+[ext_resource path="res://Ham_Sprite/Buttons/Button_UI_Spirals_Hovered.png" type="Texture" id=6]
+[ext_resource path="res://Scenes/UI_Level_Up.gd" type="Script" id=7]
+[ext_resource path="res://Ham_Sprite/Buttons/Button_UI_Spirals.png" type="Texture" id=8]
+[ext_resource path="res://Ham_Sprite/Buttons/Button_UI_Spirals_Pressed.png" type="Texture" id=9]
+[ext_resource path="res://button_inv_pressed.tres" type="StyleBox" id=10]
+[ext_resource path="res://button_inv_hovered.tres" type="StyleBox" id=11]
+[ext_resource path="res://Ham_Sprite/UI/Powers.png" type="Texture" id=13]
+[ext_resource path="res://Ham_Sprite/UI/Info/speed.png" type="Texture" id=14]
+[ext_resource path="res://Ham_Sprite/UI/UI_Box_150x300.png" type="Texture" id=15]
+[ext_resource path="res://Ham_Sprite/UI/UI_Box_400.png" type="Texture" id=16]
+[ext_resource path="res://Ham_Sprite/UI/UI_Box_300.png" type="Texture" id=17]
+[ext_resource path="res://Ham_Sprite/Gods/Ashem_3.png" type="Texture" id=18]
+[ext_resource path="res://Ham_Sprite/Buttons/Button_UI.png" type="Texture" id=19]
+[ext_resource path="res://Ham_Sprite/Buttons/Button_UI_Pressed.png" type="Texture" id=20]
+
+[sub_resource type="StyleBoxEmpty" id=6]
+
+[sub_resource type="StyleBoxEmpty" id=43]
+
+[sub_resource type="StyleBoxTexture" id=44]
+texture = ExtResource( 19 )
+region_rect = Rect2( 0, 0, 32, 32 )
+modulate_color = Color( 0.466667, 0, 0.792157, 1 )
+
+[sub_resource type="StyleBoxTexture" id=45]
+texture = ExtResource( 20 )
+region_rect = Rect2( 0, 0, 32, 32 )
+modulate_color = Color( 0.466667, 0, 0.792157, 1 )
+
+[sub_resource type="StyleBoxEmpty" id=46]
+
+[sub_resource type="StyleBoxEmpty" id=47]
+
+[sub_resource type="StyleBoxTexture" id=48]
+texture = ExtResource( 19 )
+region_rect = Rect2( 0, 0, 32, 32 )
+modulate_color = Color( 0.466667, 0, 0.792157, 1 )
+
+[sub_resource type="StyleBoxTexture" id=49]
+texture = ExtResource( 20 )
+region_rect = Rect2( 0, 0, 32, 32 )
+modulate_color = Color( 0.466667, 0, 0.792157, 1 )
+
+[sub_resource type="StyleBoxEmpty" id=50]
+
+[sub_resource type="StyleBoxEmpty" id=51]
+
+[sub_resource type="StyleBoxTexture" id=28]
+texture = ExtResource( 3 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxTexture" id=29]
+texture = ExtResource( 4 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxEmpty" id=30]
+
+[sub_resource type="StyleBoxEmpty" id=39]
+
+[sub_resource type="StyleBoxTexture" id=52]
+texture = ExtResource( 19 )
+region_rect = Rect2( 0, 0, 32, 32 )
+modulate_color = Color( 0.466667, 0, 0.792157, 1 )
+
+[sub_resource type="StyleBoxTexture" id=53]
+texture = ExtResource( 20 )
+region_rect = Rect2( 0, 0, 32, 32 )
+modulate_color = Color( 0.466667, 0, 0.792157, 1 )
+
+[sub_resource type="StyleBoxEmpty" id=54]
+
+[sub_resource type="StyleBoxEmpty" id=55]
+
+[sub_resource type="StyleBoxTexture" id=20]
+texture = ExtResource( 6 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxTexture" id=21]
+texture = ExtResource( 9 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxEmpty" id=22]
+
+[sub_resource type="StyleBoxTexture" id=23]
+texture = ExtResource( 8 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="Animation" id=24]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=25]
+resource_name = "fade_in"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+tracks/1/type = "method"
+tracks/1/path = NodePath(".")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0.5 ),
+"transitions": PoolRealArray( 1 ),
+"values": [ {
+"args": [  ],
+"method": "enable"
+} ]
+}
+
+[sub_resource type="Animation" id=35]
+resource_name = "fade_out"
+length = 0.75
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.75 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+tracks/1/type = "method"
+tracks/1/path = NodePath(".")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0.75 ),
+"transitions": PoolRealArray( 1 ),
+"values": [ {
+"args": [  ],
+"method": "queue_free"
+} ]
+}
+
+[node name="UI_Level_Up" type="Node2D"]
+modulate = Color( 1, 1, 1, 0 )
+position = Vector2( 226, 35 )
+script = ExtResource( 7 )
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_left = -512.0
+margin_top = -136.0
+margin_right = 1064.0
+margin_bottom = 624.0
+color = Color( 0, 0, 0, 0.929412 )
+
+[node name="color2" type="ColorRect" parent="."]
+visible = false
+margin_top = 40.0
+margin_right = 232.0
+margin_bottom = 360.0
+color = Color( 1, 1, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="color" type="ColorRect" parent="."]
+visible = false
+margin_left = 2.0
+margin_top = 42.0
+margin_right = 230.0
+margin_bottom = 358.0
+color = Color( 0, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="UiBox300X800" type="Sprite" parent="."]
+visible = false
+position = Vector2( 91, 73 )
+rotation = 1.5708
+scale = Vector2( 1, 1.5 )
+texture = ExtResource( 15 )
+
+[node name="ColorRect2" type="ColorRect" parent="UiBox300X800"]
+show_behind_parent = true
+margin_left = -74.0
+margin_top = -149.0
+margin_right = 74.0
+margin_bottom = 149.0
+color = Color( 0, 0, 0, 1 )
+
+[node name="UiBox300" type="Sprite" parent="."]
+visible = false
+position = Vector2( 113, 158 )
+texture = ExtResource( 17 )
+
+[node name="UiBox400" type="Sprite" parent="."]
+visible = false
+position = Vector2( 116, 173 )
+texture = ExtResource( 16 )
+
+[node name="UiBoxSideways" type="Sprite" parent="."]
+visible = false
+position = Vector2( 114, 172 )
+scale = Vector2( 1.37179, 1.8 )
+texture = ExtResource( 2 )
+
+[node name="EFFECTS" type="Node2D" parent="."]
+modulate = Color( 1, 1, 1, 0.537255 )
+z_index = -50
+
+[node name="Choices" type="Control" parent="."]
+margin_left = 52.0
+margin_top = -78.0
+margin_right = 103.0
+margin_bottom = -43.0
+
+[node name="stone" type="Sprite" parent="Choices"]
+visible = false
+modulate = Color( 0.788235, 0, 0, 1 )
+position = Vector2( 139, 132 )
+texture = ExtResource( 1 )
+
+[node name="title" type="RichTextLabel" parent="Choices"]
+modulate = Color( 1, 1, 0, 1 )
+margin_left = -256.0
+margin_top = 89.0
+margin_right = 340.0
+margin_bottom = 127.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[center]你的荣耀提升了！"
+text = "你的荣耀提升了！"
+
+[node name="stats" type="RichTextLabel" parent="Choices"]
+margin_left = -256.0
+margin_top = 452.0
+margin_right = 340.0
+margin_bottom = 528.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[center]属性"
+text = "属性"
+
+[node name="text4" type="RichTextLabel" parent="Choices"]
+visible = false
+modulate = Color( 0.584314, 0.584314, 0.584314, 1 )
+margin_left = 22.0
+margin_top = 94.0
+margin_right = 86.0
+margin_bottom = 134.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "选择一项："
+text = "选择一项："
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="RichTextLabel" parent="Choices"]
+visible = false
+modulate = Color( 1, 1, 0, 1 )
+margin_left = -77.0
+margin_top = 127.0
+margin_right = -13.0
+margin_bottom = 167.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "+1"
+text = "+1"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Life_TEXT" type="RichTextLabel" parent="Choices"]
+visible = false
+margin_left = 124.0
+margin_top = 127.0
+margin_right = 508.0
+margin_bottom = 143.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = " [color=#ffff00][/color][color=#ff8080]生命[/color]"
+text = " 生命"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Stength" type="RichTextLabel" parent="Choices"]
+visible = false
+margin_left = -55.0
+margin_top = 119.0
+margin_right = 329.0
+margin_bottom = 135.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[color=#808080][[/color] [color=#ffff00]S[/color] [color=#808080]][/color]"
+text = "[ S ]"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Stength2" type="RichTextLabel" parent="Choices"]
+visible = false
+margin_left = -9.0
+margin_top = 119.0
+margin_right = 375.0
+margin_bottom = 135.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[color=#808080][[/color] [color=#ffff00]D[/color] [color=#808080]][/color]"
+text = "[ D ]"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Stength3" type="RichTextLabel" parent="Choices"]
+visible = false
+margin_left = 36.0
+margin_top = 119.0
+margin_right = 420.0
+margin_bottom = 135.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[color=#808080][[/color] [color=#ffff00]W[/color] [color=#808080]][/color]"
+text = "[ W ]"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Stength4" type="RichTextLabel" parent="Choices"]
+visible = false
+margin_left = 126.0
+margin_top = 119.0
+margin_right = 510.0
+margin_bottom = 135.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[color=#808080][[/color] [color=#ffff00]L[/color] [color=#808080]][/color]"
+text = "[ L ]"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="stone2" type="Sprite" parent="Choices"]
+visible = false
+modulate = Color( 0.890196, 0.6, 0, 1 )
+position = Vector2( 6, 135 )
+texture = ExtResource( 1 )
+
+[node name="STR" type="Button" parent="Choices" groups=["LevelUp"]]
+self_modulate = Color( 0.25098, 0.0117647, 0.611765, 1 )
+margin_left = -268.0
+margin_top = 127.0
+margin_right = -118.0
+margin_bottom = 427.0
+custom_styles/hover = ExtResource( 11 )
+custom_styles/pressed = ExtResource( 10 )
+custom_styles/focus = SubResource( 6 )
+custom_styles/normal = SubResource( 43 )
+
+[node name="ColorRect" type="ColorRect" parent="Choices/STR"]
+show_behind_parent = true
+margin_left = 1.0
+margin_top = 1.0
+margin_right = 149.0
+margin_bottom = 298.0
+mouse_filter = 2
+color = Color( 0, 0, 0, 1 )
+
+[node name="ColorRect" type="ColorRect" parent="Choices/STR/ColorRect"]
+visible = false
+show_behind_parent = true
+margin_left = -1.0
+margin_top = -1.0
+margin_right = 149.0
+margin_bottom = 299.0
+mouse_filter = 2
+color = Color( 0.745098, 0.533333, 0.380392, 1 )
+
+[node name="Sprite" type="Sprite" parent="Choices/STR"]
+modulate = Color( 0.92549, 0.658824, 0.407843, 1 )
+position = Vector2( 75, 150 )
+texture = ExtResource( 15 )
+
+[node name="Label" type="RichTextLabel" parent="Choices/STR"]
+margin_left = 10.0
+margin_top = 11.0
+margin_right = 141.0
+margin_bottom = 297.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[center][1] 
+力量 50 +1
+
+[/center]
+
++1 max Hit
+
+etc"
+text = "[1] 
+力量 50 +1
+
+
+
++1 max Hit
+
+etc"
+
+[node name="STRTEXT" type="Control" parent="Choices"]
+visible = false
+margin_left = -141.0
+margin_top = 158.0
+margin_right = 107.0
+margin_bottom = 273.0
+mouse_filter = 2
+
+[node name="stat" type="RichTextLabel" parent="Choices/STRTEXT"]
+margin_left = -28.0
+margin_top = 12.0
+margin_right = 65.0
+margin_bottom = 52.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "STR 30"
+text = "STR 30"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="plus" type="RichTextLabel" parent="Choices/STRTEXT"]
+visible = false
+margin_left = 29.0
+margin_top = 13.0
+margin_right = 69.0
+margin_bottom = 53.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[color=#ffff50]+[/color]"
+text = "+"
+
+[node name="plus2" type="RichTextLabel" parent="Choices/STRTEXT"]
+margin_left = 30.0
+margin_top = 12.0
+margin_right = 70.0
+margin_bottom = 52.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[color=#a0a0a0]+1[/color]"
+text = "+1"
+
+[node name="STR_TEXT" type="RichTextLabel" parent="Choices"]
+visible = false
+margin_left = -8.0
+margin_top = 129.0
+margin_right = 376.0
+margin_bottom = 145.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = " [color=#ffff00][/color][color=#ff7050]STR[/color]"
+text = " STR"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite2" type="Sprite" parent="Choices"]
+visible = false
+modulate = Color( 0, 0.956863, 0.392157, 1 )
+position = Vector2( 62, 135 )
+texture = ExtResource( 1 )
+
+[node name="DEX" type="Button" parent="Choices" groups=["LevelUp"]]
+self_modulate = Color( 0.25098, 0.0117647, 0.611765, 1 )
+margin_left = -112.0
+margin_top = 127.0
+margin_right = 38.0
+margin_bottom = 427.0
+custom_styles/hover = SubResource( 44 )
+custom_styles/pressed = SubResource( 45 )
+custom_styles/focus = SubResource( 46 )
+custom_styles/normal = SubResource( 47 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="Choices/DEX"]
+show_behind_parent = true
+margin_left = 1.0
+margin_top = 1.0
+margin_right = 149.0
+margin_bottom = 298.0
+mouse_filter = 2
+color = Color( 0, 0, 0, 1 )
+
+[node name="ColorRect" type="ColorRect" parent="Choices/DEX/ColorRect"]
+visible = false
+show_behind_parent = true
+margin_left = -1.0
+margin_top = -1.0
+margin_right = 149.0
+margin_bottom = 299.0
+mouse_filter = 2
+color = Color( 0.392157, 0.745098, 0.380392, 1 )
+
+[node name="Sprite" type="Sprite" parent="Choices/DEX"]
+modulate = Color( 0.615686, 0.913725, 0.627451, 1 )
+position = Vector2( 75, 150 )
+texture = ExtResource( 15 )
+
+[node name="Label" type="RichTextLabel" parent="Choices/DEX"]
+margin_left = 10.0
+margin_top = 11.0
+margin_right = 141.0
+margin_bottom = 297.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[center][1] 
+敏捷 50 +1
+
+[/center]
+
++1 max Hit
+
+etc"
+text = "[1] 
+敏捷 50 +1
+
+
+
++1 max Hit
+
+etc"
+
+[node name="DEXTEXT" type="Control" parent="Choices"]
+visible = false
+margin_left = -50.0
+margin_top = 130.0
+margin_right = 198.0
+margin_bottom = 245.0
+mouse_filter = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="stat" type="RichTextLabel" parent="Choices/DEXTEXT"]
+margin_left = -28.0
+margin_top = 12.0
+margin_right = 55.0
+margin_bottom = 52.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "STR 30"
+text = "STR 30"
+
+[node name="plus" type="RichTextLabel" parent="Choices/DEXTEXT"]
+visible = false
+margin_left = 29.0
+margin_top = 13.0
+margin_right = 69.0
+margin_bottom = 53.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[color=#ffff50]+[/color]"
+text = "+"
+
+[node name="plus2" type="RichTextLabel" parent="Choices/DEXTEXT"]
+margin_left = 30.0
+margin_top = 12.0
+margin_right = 70.0
+margin_bottom = 52.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[color=#a0a0a0]+1[/color]"
+text = "+1"
+
+[node name="DEX_TEXT" type="RichTextLabel" parent="Choices"]
+visible = false
+margin_left = 49.0
+margin_top = 129.0
+margin_right = 433.0
+margin_bottom = 145.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = " [color=#ffff00][/color][color=#50ff70]DEX[/color]"
+text = " DEX"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite3" type="Sprite" parent="Choices"]
+visible = false
+modulate = Color( 0.721569, 0, 0.85098, 1 )
+position = Vector2( 118, 135 )
+texture = ExtResource( 1 )
+
+[node name="WIL" type="Button" parent="Choices" groups=["LevelUp"]]
+self_modulate = Color( 0.25098, 0.0117647, 0.611765, 1 )
+margin_left = 44.0
+margin_top = 127.0
+margin_right = 194.0
+margin_bottom = 427.0
+custom_styles/hover = SubResource( 48 )
+custom_styles/pressed = SubResource( 49 )
+custom_styles/focus = SubResource( 50 )
+custom_styles/normal = SubResource( 51 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="Choices/WIL"]
+show_behind_parent = true
+margin_left = 1.0
+margin_top = 1.0
+margin_right = 149.0
+margin_bottom = 298.0
+mouse_filter = 2
+color = Color( 0, 0, 0, 1 )
+
+[node name="ColorRect" type="ColorRect" parent="Choices/WIL/ColorRect"]
+visible = false
+show_behind_parent = true
+margin_left = -1.0
+margin_top = -1.0
+margin_right = 149.0
+margin_bottom = 299.0
+mouse_filter = 2
+color = Color( 0.807843, 0.529412, 0.866667, 1 )
+
+[node name="Sprite" type="Sprite" parent="Choices/WIL"]
+modulate = Color( 1, 0.670588, 0.956863, 1 )
+position = Vector2( 75, 150 )
+texture = ExtResource( 15 )
+
+[node name="Label" type="RichTextLabel" parent="Choices/WIL"]
+margin_left = 10.0
+margin_top = 11.0
+margin_right = 141.0
+margin_bottom = 297.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[center][1] 
+意志 50 +1
+
+[/center]
+
++1 max Hit
+
+etc"
+text = "[1] 
+意志 50 +1
+
+
+
++1 max Hit
+
+etc"
+
+[node name="WILTEXT" type="Control" parent="Choices"]
+visible = false
+margin_left = -50.0
+margin_top = 149.0
+margin_right = 198.0
+margin_bottom = 264.0
+mouse_filter = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="stat" type="RichTextLabel" parent="Choices/WILTEXT"]
+margin_left = -28.0
+margin_top = 12.0
+margin_right = 79.0
+margin_bottom = 52.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "STR 30"
+text = "STR 30"
+
+[node name="plus" type="RichTextLabel" parent="Choices/WILTEXT"]
+margin_left = 30.0
+margin_top = 12.0
+margin_right = 70.0
+margin_bottom = 52.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[color=#a0a0a0]+1[/color]"
+text = "+1"
+
+[node name="WIL_TEXT" type="RichTextLabel" parent="Choices"]
+visible = false
+margin_left = 103.0
+margin_top = 129.0
+margin_right = 487.0
+margin_bottom = 145.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = " [color=#ffff00][/color][color=#c050ff]WIL[/color]"
+text = " WIL"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text2" type="RichTextLabel" parent="Choices"]
+visible = false
+modulate = Color( 1, 1, 0, 1 )
+margin_left = 98.0
+margin_top = 127.0
+margin_right = 162.0
+margin_bottom = 167.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "+50"
+text = "+50"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HP" type="Button" parent="Choices"]
+visible = false
+modulate = Color( 1, 1, 0, 1 )
+margin_left = 123.0
+margin_top = 116.0
+margin_right = 155.0
+margin_bottom = 148.0
+mouse_filter = 2
+custom_styles/hover = SubResource( 28 )
+custom_styles/pressed = SubResource( 29 )
+custom_styles/focus = SubResource( 30 )
+custom_styles/normal = SubResource( 39 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LIFE" type="Button" parent="Choices" groups=["LevelUp"]]
+self_modulate = Color( 0.25098, 0.0117647, 0.611765, 1 )
+margin_left = 200.0
+margin_top = 127.0
+margin_right = 350.0
+margin_bottom = 427.0
+custom_styles/hover = SubResource( 52 )
+custom_styles/pressed = SubResource( 53 )
+custom_styles/focus = SubResource( 54 )
+custom_styles/normal = SubResource( 55 )
+
+[node name="ColorRect" type="ColorRect" parent="Choices/LIFE"]
+show_behind_parent = true
+margin_left = 1.0
+margin_top = 1.0
+margin_right = 149.0
+margin_bottom = 298.0
+mouse_filter = 2
+color = Color( 0, 0, 0, 1 )
+
+[node name="ColorRect" type="ColorRect" parent="Choices/LIFE/ColorRect"]
+visible = false
+show_behind_parent = true
+margin_left = -1.0
+margin_top = -1.0
+margin_right = 149.0
+margin_bottom = 299.0
+mouse_filter = 2
+color = Color( 0.619608, 0.211765, 0.211765, 1 )
+
+[node name="Sprite" type="Sprite" parent="Choices/LIFE"]
+modulate = Color( 0.929412, 0.4, 0.4, 1 )
+position = Vector2( 75, 150 )
+texture = ExtResource( 15 )
+
+[node name="Label" type="RichTextLabel" parent="Choices/LIFE"]
+margin_left = 10.0
+margin_top = 11.0
+margin_right = 141.0
+margin_bottom = 297.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[center][1] 
+活力 50 +1
+
+[/center]
+
++1 max Hit
+
+etc"
+text = "[1] 
+活力 50 +1
+
+
+
++1 max Hit
+
+etc"
+
+[node name="LIFETEXT" type="Control" parent="Choices"]
+visible = false
+margin_left = -50.0
+margin_top = 168.0
+margin_right = 198.0
+margin_bottom = 283.0
+mouse_filter = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="stat" type="RichTextLabel" parent="Choices/LIFETEXT"]
+margin_left = -28.0
+margin_top = 12.0
+margin_right = 76.0
+margin_bottom = 52.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[color=#a0a0a0][[color=#ffff50]4[/color]] [color=#ff8080]活力[/color]"
+text = "[4] 活力"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="plus" type="RichTextLabel" parent="Choices/LIFETEXT"]
+visible = false
+margin_left = 10.0
+margin_top = 12.0
+margin_right = 50.0
+margin_bottom = 52.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[color=#a0a0a0]+50[/color]"
+text = "+50"
+
+[node name="plus2" type="RichTextLabel" parent="Choices/LIFETEXT"]
+margin_left = 23.0
+margin_top = 12.0
+margin_right = 63.0
+margin_bottom = 52.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[color=#a0a0a0]+75[/color]"
+text = "+75"
+
+[node name="youget" type="RichTextLabel" parent="."]
+visible = false
+modulate = Color( 0.584314, 0.584314, 0.584314, 1 )
+margin_left = -72.0
+margin_top = 48.0
+margin_right = -8.0
+margin_bottom = 88.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "获得："
+text = "获得："
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Rewards" type="Control" parent="."]
+visible = false
+margin_left = 49.0
+margin_top = 232.0
+margin_right = 71.0
+margin_bottom = 277.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="RichTextLabel" parent="Rewards"]
+visible = false
+margin_top = 8.0
+margin_right = 96.0
+margin_bottom = 33.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[color=#808080]+1[/color]"
+text = "+1"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="Rewards"]
+position = Vector2( -40, 8 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 14 )
+
+[node name="magireward" type="RichTextLabel" parent="Rewards"]
+margin_left = -72.0
+margin_top = -24.0
+margin_right = 104.0
+margin_bottom = 24.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[color=#808080]---------------------
+荣耀提升奖励：[/color]"
+text = "---------------------
+荣耀提升奖励："
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="magi" type="Sprite" parent="Rewards"]
+position = Vector2( -64, 8 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 13 )
+
+[node name="invoketext" type="RichTextLabel" parent="Rewards"]
+margin_left = -4.0
+margin_top = 4.0
+margin_right = 60.0
+margin_bottom = 44.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[color=#dfdf50]Yazata[/color]"
+text = "Yazata"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="invoke" type="Sprite" parent="Rewards"]
+position = Vector2( -16, 8 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 18 )
+
+[node name="rewards" type="RichTextLabel" parent="."]
+margin_left = -24.0
+margin_top = 171.0
+margin_right = 256.0
+margin_bottom = 251.0
+mouse_filter = 2
+bbcode_enabled = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite4" type="Sprite" parent="."]
+position = Vector2( 112, 320 )
+
+[node name="Sprite5" type="Sprite" parent="."]
+position = Vector2( 144, 320 )
+
+[node name="Unlocked" type="RichTextLabel" parent="."]
+visible = false
+modulate = Color( 0.627451, 0.627451, 0.627451, 1 )
+margin_left = 72.0
+margin_top = 280.0
+margin_right = 456.0
+margin_bottom = 296.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "已解锁"
+text = "已解锁"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Traits" type="Button" parent="."]
+visible = false
+margin_left = 176.0
+margin_top = 272.0
+margin_right = 208.0
+margin_bottom = 304.0
+custom_styles/hover = SubResource( 20 )
+custom_styles/pressed = SubResource( 21 )
+custom_styles/focus = SubResource( 22 )
+custom_styles/normal = SubResource( 23 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="Traits"]
+show_behind_parent = true
+position = Vector2( 16, 16 )
+texture = ExtResource( 5 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+autoplay = "fade_in"
+anims/RESET = SubResource( 24 )
+anims/fade_in = SubResource( 25 )
+anims/fade_out = SubResource( 35 )
+
+[node name="InfoBlocker" type="ColorRect" parent="."]
+margin_left = 318.0
+margin_top = 101.0
+margin_right = 318.0
+margin_bottom = 124.0
+mouse_filter = 2
+color = Color( 0, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="info" type="RichTextLabel" parent="."]
+visible = false
+margin_left = 60.0
+margin_top = 98.0
+margin_right = 253.0
+margin_bottom = 321.0
+mouse_filter = 2
+bbcode_enabled = true
+
+[node name="info2" type="RichTextLabel" parent="."]
+margin_left = -225.0
+margin_top = 31.0
+margin_right = 411.0
+margin_bottom = 188.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[color=#909090][center]小小朝圣者..."
+text = "小小朝圣者..."
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.1
+
+[connection signal="mouse_entered" from="Choices/STR" to="." method="_on_STR_mouse_entered"]
+[connection signal="mouse_exited" from="Choices/STR" to="." method="_on_STR_mouse_exited"]
+[connection signal="pressed" from="Choices/STR" to="." method="_on_STR_pressed"]
+[connection signal="mouse_entered" from="Choices/DEX" to="." method="_on_DEX_mouse_entered"]
+[connection signal="mouse_exited" from="Choices/DEX" to="." method="_on_DEX_mouse_exited"]
+[connection signal="pressed" from="Choices/DEX" to="." method="_on_DEX_pressed"]
+[connection signal="mouse_entered" from="Choices/WIL" to="." method="_on_WIL_mouse_entered"]
+[connection signal="mouse_exited" from="Choices/WIL" to="." method="_on_WIL_mouse_exited"]
+[connection signal="pressed" from="Choices/WIL" to="." method="_on_WIL_pressed"]
+[connection signal="mouse_entered" from="Choices/HP" to="." method="_on_HP_mouse_entered"]
+[connection signal="mouse_exited" from="Choices/HP" to="." method="_on_HP_mouse_exited"]
+[connection signal="pressed" from="Choices/HP" to="." method="_on_HP_pressed"]
+[connection signal="mouse_entered" from="Choices/LIFE" to="." method="_on_LIFE_mouse_entered"]
+[connection signal="mouse_exited" from="Choices/LIFE" to="." method="_on_LIFE_mouse_exited"]
+[connection signal="pressed" from="Choices/LIFE" to="." method="_on_LIFE_pressed"]
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]

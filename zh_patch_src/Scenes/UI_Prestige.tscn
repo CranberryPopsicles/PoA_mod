@@ -1,0 +1,314 @@
+[gd_scene load_steps=32 format=2]
+
+[ext_resource path="res://texthover.tres" type="StyleBox" id=1]
+[ext_resource path="res://textpressed.tres" type="StyleBox" id=2]
+[ext_resource path="res://Scenes/Background.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Ham_Sprite/UI/Dice.png" type="Texture" id=4]
+[ext_resource path="res://Ham_Sprite/Buttons/Button_UI_Spirals.png" type="Texture" id=5]
+[ext_resource path="res://Ham_Sprite/UI/Powers.png" type="Texture" id=6]
+[ext_resource path="res://Ham_Sprite/TraitIcons/Afrit.png" type="Texture" id=7]
+[ext_resource path="res://Scenes/UI_Prestige.gd" type="Script" id=8]
+[ext_resource path="res://Ham_Sprite/UI/Border.png" type="Texture" id=9]
+[ext_resource path="res://Gamepad.gd" type="Script" id=10]
+[ext_resource path="res://Ham_Sprite/UI/gamepad_x.png" type="Texture" id=11]
+[ext_resource path="res://Ham_Sprite/UI/gamepad_stick.png" type="Texture" id=12]
+[ext_resource path="res://Ham_Sprite/EffectsAnimated/BoxSelect_1.png" type="Texture" id=13]
+[ext_resource path="res://Ham_Sprite/UI/gamepad_a.png" type="Texture" id=14]
+[ext_resource path="res://Ham_Sprite/UI/UI_Traits_Popup.png" type="Texture" id=15]
+[ext_resource path="res://Ham_Sprite/UI/gamepad_b.png" type="Texture" id=16]
+[ext_resource path="res://button_inv_hovered.tres" type="StyleBox" id=17]
+[ext_resource path="res://button_inv_pressed.tres" type="StyleBox" id=18]
+[ext_resource path="res://Ham_Sprite/UI/gamepad_y.png" type="Texture" id=19]
+
+[sub_resource type="StyleBoxEmpty" id=6]
+
+[sub_resource type="StyleBoxTexture" id=7]
+texture = ExtResource( 5 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="SpriteFrames" id=8]
+animations = [ {
+"frames": [ ExtResource( 13 ) ],
+"loop": true,
+"name": "default",
+"speed": 2.5
+} ]
+
+[sub_resource type="StyleBoxEmpty" id=9]
+
+[sub_resource type="StyleBoxEmpty" id=10]
+
+[sub_resource type="StyleBoxEmpty" id=11]
+
+[sub_resource type="StyleBoxEmpty" id=12]
+
+[sub_resource type="StyleBoxEmpty" id=13]
+
+[sub_resource type="StyleBoxEmpty" id=14]
+
+[sub_resource type="StyleBoxEmpty" id=15]
+
+[sub_resource type="StyleBoxEmpty" id=16]
+
+[sub_resource type="StyleBoxEmpty" id=17]
+
+[node name="UI_Prestige" type="Node2D"]
+script = ExtResource( 8 )
+
+[node name="Background" parent="." instance=ExtResource( 3 )]
+
+[node name="Control" type="Control" parent="."]
+margin_left = 40.0
+margin_top = 8.0
+margin_right = 200.0
+margin_bottom = 112.0
+
+[node name="Generic" type="Node2D" parent="Control"]
+position = Vector2( 24, 105 )
+
+[node name="Sprite" type="Sprite" parent="Control/Generic"]
+visible = false
+position = Vector2( 16, 16 )
+texture = ExtResource( 7 )
+
+[node name="CloseSprite" type="Sprite" parent="Control"]
+position = Vector2( 155, 31 )
+texture = ExtResource( 6 )
+
+[node name="Button_Quit" type="Button" parent="Control"]
+modulate = Color( 1, 0, 0, 1 )
+margin_left = 139.0
+margin_top = 15.0
+margin_right = 171.0
+margin_bottom = 47.0
+custom_styles/hover = ExtResource( 1 )
+custom_styles/pressed = ExtResource( 2 )
+custom_styles/focus = SubResource( 6 )
+custom_styles/normal = SubResource( 7 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Control"]
+margin_left = 24.0
+margin_top = 58.0
+margin_right = 120.0
+margin_bottom = 98.0
+bbcode_enabled = true
+bbcode_text = "[color=#c0c0c0]做出你的选择..."
+text = "做出你的选择..."
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="Control"]
+margin_left = 24.0
+margin_top = 78.0
+margin_right = 262.0
+margin_bottom = 118.0
+bbcode_enabled = true
+bbcode_text = "元素 1 / 元素 2 / 元素 3"
+text = "元素 1 / 元素 2 / 元素 3"
+
+[node name="Description" type="Node2D" parent="."]
+position = Vector2( -248, -88 )
+
+[node name="ColorRect4" type="ColorRect" parent="Description"]
+visible = false
+margin_left = 680.0
+margin_top = 104.0
+margin_right = 880.0
+margin_bottom = 416.0
+color = Color( 0.0666667, 0.14902, 0.0941176, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="Description/ColorRect4"]
+visible = false
+margin_left = 2.0
+margin_top = 2.0
+margin_right = 198.0
+margin_bottom = 248.0
+color = Color( 0, 0, 0, 1 )
+
+[node name="Trait_Info_Pic" type="Sprite" parent="Description"]
+visible = false
+position = Vector2( 776, 152 )
+texture = ExtResource( 4 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Description"]
+margin_left = 648.0
+margin_top = 112.0
+margin_right = 870.0
+margin_bottom = 670.0
+bbcode_enabled = true
+text = "top here"
+
+[node name="Border" type="Sprite" parent="."]
+position = Vector2( 320, 240 )
+texture = ExtResource( 9 )
+
+[node name="Select" type="Node2D" parent="."]
+position = Vector2( 192, -8 )
+z_index = 40
+
+[node name="Sprite_Animated2" type="AnimatedSprite" parent="Select"]
+position = Vector2( 16, 16 )
+frames = SubResource( 8 )
+playing = true
+
+[node name="PopupLayer" type="CanvasLayer" parent="."]
+
+[node name="Popup" type="Node2D" parent="PopupLayer"]
+position = Vector2( 269, 366 )
+z_index = 100
+
+[node name="Button_Popup_Background" type="Button" parent="PopupLayer/Popup"]
+margin_left = -1248.0
+margin_top = -1407.0
+margin_right = 1610.0
+margin_bottom = 1309.0
+custom_styles/hover = SubResource( 9 )
+custom_styles/pressed = SubResource( 10 )
+custom_styles/focus = SubResource( 11 )
+custom_styles/disabled = SubResource( 12 )
+custom_styles/normal = SubResource( 13 )
+
+[node name="Sprite" type="Sprite" parent="PopupLayer/Popup"]
+position = Vector2( 113, 34 )
+texture = ExtResource( 15 )
+
+[node name="Button_Learn" type="Button" parent="PopupLayer/Popup"]
+margin_left = 56.0
+margin_top = 30.0
+margin_right = 168.0
+margin_bottom = 55.0
+custom_styles/hover = ExtResource( 17 )
+custom_styles/pressed = ExtResource( 18 )
+custom_styles/focus = SubResource( 14 )
+custom_styles/normal = SubResource( 15 )
+
+[node name="Sprite" type="Sprite" parent="PopupLayer/Popup/Button_Learn"]
+visible = false
+position = Vector2( 16, 16 )
+texture = ExtResource( 13 )
+
+[node name="text" type="RichTextLabel" parent="PopupLayer/Popup/Button_Learn"]
+margin_left = 6.0
+margin_top = 7.0
+margin_right = 107.0
+margin_bottom = 47.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[center]成为"
+text = "成为"
+
+[node name="RichTextLabel" type="RichTextLabel" parent="PopupLayer/Popup"]
+margin_left = 59.0
+margin_top = 10.0
+margin_right = 166.0
+margin_bottom = 58.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[center]进阶职业名称[/center]"
+text = "进阶职业名称"
+
+[node name="TextEdit" type="LineEdit" parent="."]
+modulate = Color( 0.580392, 0.580392, 0.580392, 1 )
+margin_left = 486.0
+margin_top = 5.0
+margin_right = 635.0
+margin_bottom = 20.0
+custom_styles/focus = SubResource( 16 )
+custom_styles/normal = SubResource( 17 )
+text = "搜索..."
+context_menu_enabled = false
+shortcut_keys_enabled = false
+caret_blink = true
+
+[node name="ColorRect" type="ColorRect" parent="TextEdit"]
+show_behind_parent = true
+margin_left = -2.0
+margin_top = -2.0
+margin_right = 151.0
+margin_bottom = 15.0
+mouse_filter = 2
+color = Color( 0.2, 0.0862745, 0.172549, 1 )
+
+[node name="Gamepad_help" type="Node2D" parent="."]
+position = Vector2( 16, 272 )
+script = ExtResource( 10 )
+
+[node name="Sprite" type="Sprite" parent="Gamepad_help"]
+texture = ExtResource( 12 )
+
+[node name="Label" type="Label" parent="Gamepad_help/Sprite"]
+visible = false
+modulate = Color( 0.380392, 0.376471, 0.376471, 1 )
+margin_left = 10.0
+margin_top = -2.0
+margin_right = 50.0
+margin_bottom = 8.0
+text = "选择"
+
+[node name="Sprite2" type="Sprite" parent="Gamepad_help"]
+position = Vector2( 0, 20 )
+texture = ExtResource( 14 )
+
+[node name="Label2" type="Label" parent="Gamepad_help/Sprite2"]
+visible = false
+modulate = Color( 0.380392, 0.376471, 0.376471, 1 )
+margin_left = 10.0
+margin_top = -2.0
+margin_right = 50.0
+margin_bottom = 21.0
+text = "点击
+"
+
+[node name="Sprite3" type="Sprite" parent="Gamepad_help"]
+position = Vector2( 0, 40 )
+texture = ExtResource( 16 )
+
+[node name="Label2" type="Label" parent="Gamepad_help/Sprite3"]
+visible = false
+modulate = Color( 0.380392, 0.376471, 0.376471, 1 )
+margin_left = 10.0
+margin_top = -2.0
+margin_right = 50.0
+margin_bottom = 21.0
+text = "自动
+"
+
+[node name="Sprite5" type="Sprite" parent="Gamepad_help"]
+position = Vector2( 0, 60 )
+texture = ExtResource( 11 )
+
+[node name="Label2" type="Label" parent="Gamepad_help/Sprite5"]
+visible = false
+modulate = Color( 0.380392, 0.376471, 0.376471, 1 )
+margin_left = 10.0
+margin_top = -2.0
+margin_right = 50.0
+margin_bottom = 21.0
+text = "原地
+"
+
+[node name="Sprite4" type="Sprite" parent="Gamepad_help"]
+position = Vector2( 0, 80 )
+texture = ExtResource( 19 )
+
+[node name="Label2" type="Label" parent="Gamepad_help/Sprite4"]
+visible = false
+modulate = Color( 0.380392, 0.376471, 0.376471, 1 )
+margin_left = 10.0
+margin_top = -2.0
+margin_right = 50.0
+margin_bottom = 21.0
+text = "确认
+"
+
+[connection signal="mouse_entered" from="Control/Button_Quit" to="." method="_on_Button_Quit_mouse_entered"]
+[connection signal="mouse_exited" from="Control/Button_Quit" to="." method="_on_Button_Quit_mouse_exited"]
+[connection signal="pressed" from="Control/Button_Quit" to="." method="_on_Button_Quit_pressed"]
+[connection signal="pressed" from="PopupLayer/Popup/Button_Popup_Background" to="." method="_on_Button_Popup_Background_pressed"]
+[connection signal="mouse_entered" from="PopupLayer/Popup/Button_Learn" to="." method="_on_Button_Learn_mouse_entered"]
+[connection signal="mouse_exited" from="PopupLayer/Popup/Button_Learn" to="." method="_on_Button_Learn_mouse_exited"]
+[connection signal="pressed" from="PopupLayer/Popup/Button_Learn" to="." method="_on_Button_Learn_pressed"]
+[connection signal="focus_entered" from="TextEdit" to="." method="_on_TextEdit_focus_entered"]
+[connection signal="focus_exited" from="TextEdit" to="." method="_on_TextEdit_focus_exited"]
+[connection signal="text_changed" from="TextEdit" to="." method="_on_TextEdit_text_changed"]

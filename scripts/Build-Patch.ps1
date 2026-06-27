@@ -62,7 +62,10 @@ $sceneScripts = @(
     'Bestiary.gd',
     'Feats.gd',
     'First_Menu.gd',
-    'Start_Menu.gd'
+    'Start_Menu.gd',
+    'UI_Level_Up.gd',
+    'UI_Prestige.gd',
+    'UI_Traits_Basic.gd'
 )
 foreach ($script in $sceneScripts) {
     $scriptPath = Join-Path $patchScenes $script
@@ -94,7 +97,10 @@ $externalFiles = @(
     'Bestiary.tscn',
     'First_Menu.tscn',
     'Feats.tscn',
-    'Start_Menu.tscn'
+    'Start_Menu.tscn',
+    'UI_Level_Up.tscn',
+    'UI_Prestige.tscn',
+    'UI_Traits_Basic.tscn'
 )
 foreach ($file in $externalFiles) {
     Copy-Item -Path (Join-Path $patchScenes $file) -Destination (Join-Path $externalScenes $file) -Force
