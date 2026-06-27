@@ -25,6 +25,52 @@ function Wait-Path {
     throw "Timed out waiting for path: $Path"
 }
 
+function Wait-StableFile {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$Path,
+        [int]$TimeoutSeconds = 30,
+        [int]$StableChecks = 3
+    )
+
+    $deadline = (Get-Date).AddSeconds($TimeoutSeconds)
+    $lastLength = -1
+    $stableCount = 0
+    while ((Get-Date) -lt $deadline) {
+        if (Test-Path $Path) {
+            $length = (Get-Item -LiteralPath $Path).Length
+            if ($length -gt 0 -and $length -eq $lastLength) {
+                $stableCount += 1
+                if ($stableCount -ge $StableChecks) {
+                    return
+                }
+            } else {
+                $stableCount = 0
+                $lastLength = $length
+            }
+        }
+        Start-Sleep -Milliseconds 500
+    }
+
+    throw "Timed out waiting for stable file: $Path"
+}
+
+function Copy-Verified {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$Source,
+        [Parameter(Mandatory = $true)]
+        [string]$Destination
+    )
+
+    Copy-Item -LiteralPath $Source -Destination $Destination -Force
+    $sourceHash = (Get-FileHash -LiteralPath $Source -Algorithm SHA256).Hash
+    $destinationHash = (Get-FileHash -LiteralPath $Destination -Algorithm SHA256).Hash
+    if ($sourceHash -ne $destinationHash) {
+        throw "Copied file hash mismatch: $Destination"
+    }
+}
+
 $originalPck = Join-Path $GameDir 'PathofAchra.pck.orig-backup'
 $gamePck = Join-Path $GameDir 'PathofAchra.pck'
 $buildDir = Join-Path $ProjectRoot 'build'
@@ -140,15 +186,15 @@ Write-Host "Building external Chinese patch PCK..."
 & $GDRETools --headless "--pck-create=$externalSrc" "--output=$zhPck" --pck-version=1 --pck-engine-version=3.5.2
 
 Write-Host "Verifying outputs..."
-Wait-Path -Path $loaderPck
-Wait-Path -Path $zhPck
+Wait-StableFile -Path $loaderPck
+Wait-StableFile -Path $zhPck
 
 & $GDRETools --headless "--list-files=$zhPck"
 
 if ($Deploy) {
     Write-Host "Deploying to game directory..."
-    Copy-Item -Path $loaderPck -Destination $gamePck -Force
-    Copy-Item -Path $zhPck -Destination (Join-Path $GameDir 'poa_zh.pck') -Force
+    Copy-Verified -Source $loaderPck -Destination $gamePck
+    Copy-Verified -Source $zhPck -Destination (Join-Path $GameDir 'poa_zh.pck')
 }
 
 Write-Host "Done."
