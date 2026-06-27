@@ -29,6 +29,10 @@
 | Willpower | 意志 | WIL 的完整属性名。 |
 | Encumbrance | 负重 | 超过力量后惩罚速度和闪避。 |
 | Inflexibility | 僵硬度 | 会除算速度和意志伤害加成，并提高装备格挡缩放。 |
+| Encumbered | 超重 | 负重高于力量时的状态。 |
+| Unencumbered | 未超重 | 负重不高于力量时的状态。 |
+| Inflexible | 僵硬 | 僵硬度高于 1 时的状态。 |
+| Flexible | 灵活 | 僵硬度为 1 时的状态。 |
 | Vigor | 活力 | 升级界面中的生命恢复选项。 |
 | Divine intervention | 神圣干预 | 神祇阻止死亡的机制。 |
 | Game turn | 游戏回合 | 触发部分回合效果和状态到期的时间单位。 |
@@ -54,6 +58,10 @@
 | Armory | 军械库 | 查看装备的界面。 |
 | Bestiary | 图鉴 | 查看敌人的界面。 |
 | Bare Fist | 空手 | 无武器或特定武器视作的攻击类型。 |
+| Two-handing | 双手持握 | 副手为空并支援主手的装备状态；避免译为“双持”。 |
+| Single-handing | 单手持握 | 副手持有武器，或主手为空手时的装备状态。 |
+| Support Hand | 支援手 | 双手持握时副手槽位的说明。 |
+| Sacrifice | 献祭 | 销毁背包物品以强化对应装备并获得生命。 |
 | Void | 虚空 | 高稀有度装备/区域语境。 |
 | Astrolith | 星石 | 胜利目标与区域名。 |
 | Mind-warren | 心灵巢穴 | 区域名。 |

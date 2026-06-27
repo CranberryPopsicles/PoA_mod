@@ -1,0 +1,1896 @@
+[gd_scene load_steps=138 format=2]
+
+[ext_resource path="res://Ham_Sprite/Buttons/Button_UI_Corners.png" type="Texture" id=1]
+[ext_resource path="res://Ham_Sprite/Buttons/Button_UI_Corners_Pressed.png" type="Texture" id=2]
+[ext_resource path="res://Ham_Sprite/UI/Bag.png" type="Texture" id=3]
+[ext_resource path="res://Scenes/UI_Inv.gd" type="Script" id=4]
+[ext_resource path="res://Ham_Sprite/Buttons/Button_UI_Corners_Hovered.png" type="Texture" id=5]
+[ext_resource path="res://alagard.ttf" type="DynamicFontData" id=6]
+[ext_resource path="res://Ham_Sprite/UI/weaponselect.png" type="Texture" id=7]
+[ext_resource path="res://Scenes/InfoButtons.gd" type="Script" id=8]
+[ext_resource path="res://Ham_Sprite/UI/Swap.png" type="Texture" id=9]
+[ext_resource path="res://Ham_Sprite/EffectsAnimated/BoxSelect_1.png" type="Texture" id=10]
+[ext_resource path="res://textnormal.tres" type="StyleBox" id=11]
+[ext_resource path="res://Ham_Sprite/UI/Icon_Body.png" type="Texture" id=12]
+[ext_resource path="res://Ham_Sprite/Buttons/Button_UI_Spirals_Pressed.png" type="Texture" id=13]
+[ext_resource path="res://Ham_Sprite/Buttons/Button_UI_Spirals.png" type="Texture" id=14]
+[ext_resource path="res://Ham_Sprite/Buttons/Button_UI_Spirals_Hovered.png" type="Texture" id=15]
+[ext_resource path="res://Fonts/Pixolletta8px.ttf" type="DynamicFontData" id=16]
+[ext_resource path="res://Ham_Sprite/UI/UI_Box1.png" type="Texture" id=17]
+[ext_resource path="res://textpressed.tres" type="StyleBox" id=18]
+[ext_resource path="res://texthover.tres" type="StyleBox" id=19]
+[ext_resource path="res://Ham_Sprite/UI/Border.png" type="Texture" id=20]
+[ext_resource path="res://Ham_Sprite/UI/Powers.png" type="Texture" id=21]
+[ext_resource path="res://Ham_Sprite/UI/Inventory.png" type="Texture" id=22]
+[ext_resource path="res://Ham_Sprite/UI/Inv_Outlines.png" type="Texture" id=23]
+[ext_resource path="res://Ham_Sprite/UI/Icon_Trait_Tenacity.png" type="Texture" id=24]
+[ext_resource path="res://button_inv_pressed.tres" type="StyleBox" id=25]
+[ext_resource path="res://button_inv_hovered.tres" type="StyleBox" id=26]
+[ext_resource path="res://Scenes/Background.tscn" type="PackedScene" id=27]
+[ext_resource path="res://Ham_Sprite/UI/UI_Inv_Popup.png" type="Texture" id=28]
+[ext_resource path="res://Ham_Sprite/Buttons/Line_Hovered.png" type="Texture" id=29]
+[ext_resource path="res://Ham_Sprite/EffectsAnimated/Stasis_1.png" type="Texture" id=30]
+[ext_resource path="res://Ham_Sprite/EffectsAnimated/Stasis_2.png" type="Texture" id=31]
+[ext_resource path="res://Ham_Sprite/Preview.png" type="Texture" id=32]
+[ext_resource path="res://Ham_Sprite/EffectsAnimated/Delayed_Generic_2.png" type="Texture" id=33]
+[ext_resource path="res://Ham_Sprite/EffectsAnimated/Delayed_Generic_1.png" type="Texture" id=34]
+[ext_resource path="res://Ham_Sprite/EffectsAnimated/Delayed_Generic_3.png" type="Texture" id=35]
+[ext_resource path="res://Gamepad.gd" type="Script" id=36]
+[ext_resource path="res://Ham_Sprite/UI/gamepad_x.png" type="Texture" id=37]
+[ext_resource path="res://Ham_Sprite/UI/gamepad_stick.png" type="Texture" id=38]
+[ext_resource path="res://Ham_Sprite/UI/gamepad_a.png" type="Texture" id=39]
+[ext_resource path="res://Ham_Sprite/UI/gamepad_b.png" type="Texture" id=40]
+[ext_resource path="res://Ham_Sprite/UI/gamepad_y.png" type="Texture" id=41]
+
+[sub_resource type="StyleBoxEmpty" id=3]
+
+[sub_resource type="StyleBoxTexture" id=4]
+texture = ExtResource( 14 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="Animation" id=108]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=109]
+resource_name = "flash"
+length = 0.3
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.3 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 0.603922, 0.431373, 0.0196078, 1 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=110]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=111]
+resource_name = "flash"
+length = 0.3
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.3 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 0.603922, 0.431373, 0.0196078, 1 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=112]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=113]
+resource_name = "flash"
+length = 0.3
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.3 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 0.603922, 0.431373, 0.0196078, 1 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=114]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=115]
+resource_name = "flash"
+length = 0.3
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.3 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 0.603922, 0.431373, 0.0196078, 1 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=116]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=117]
+resource_name = "flash"
+length = 0.3
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.3 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 0.603922, 0.431373, 0.0196078, 1 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=131]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=132]
+resource_name = "flash"
+length = 0.3
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.3 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 0.603922, 0.431373, 0.0196078, 1 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=118]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=119]
+resource_name = "flash"
+length = 0.3
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.3 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 0.603922, 0.431373, 0.0196078, 1 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=100]
+resource_name = "FLASH"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.3, 0.5 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 0.196078, 0.12549, 0.0627451, 1 ), Color( 0.196078, 0.12549, 0.0627451, 1 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=101]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("weapon_main:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("armor_head:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("armor_legs:modulate")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("armor_chest:modulate")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("armor_hands:modulate")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("body:modulate")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=102]
+resource_name = "arm"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath("armor_hands:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.3, 0.5 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 0.196078, 0.12549, 0.0627451, 1 ), Color( 0.196078, 0.12549, 0.0627451, 1 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=107]
+resource_name = "body"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath("body:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.3, 0.5 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 0.196078, 0.12549, 0.0627451, 1 ), Color( 0.196078, 0.12549, 0.0627451, 1 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=103]
+resource_name = "chest"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath("armor_chest:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.3, 0.5 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 0.196078, 0.12549, 0.0627451, 1 ), Color( 0.196078, 0.12549, 0.0627451, 1 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=104]
+resource_name = "head"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath("armor_head:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.3, 0.5 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 0.196078, 0.12549, 0.0627451, 1 ), Color( 0.196078, 0.12549, 0.0627451, 1 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=105]
+resource_name = "leg"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath("armor_legs:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.3, 0.5 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 0.196078, 0.12549, 0.0627451, 1 ), Color( 0.196078, 0.12549, 0.0627451, 1 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=106]
+resource_name = "main"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath("weapon_main:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.3, 0.5 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 0.196078, 0.12549, 0.0627451, 1 ), Color( 0.196078, 0.12549, 0.0627451, 1 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="StyleBoxTexture" id=33]
+texture = ExtResource( 5 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxTexture" id=34]
+texture = ExtResource( 2 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxEmpty" id=35]
+
+[sub_resource type="StyleBoxTexture" id=36]
+texture = ExtResource( 1 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxTexture" id=89]
+texture = ExtResource( 5 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxTexture" id=6]
+texture = ExtResource( 2 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxEmpty" id=7]
+
+[sub_resource type="StyleBoxEmpty" id=60]
+
+[sub_resource type="SpriteFrames" id=120]
+animations = [ {
+"frames": [ ExtResource( 34 ), ExtResource( 33 ), ExtResource( 35 ) ],
+"loop": true,
+"name": "default",
+"speed": 3.0
+} ]
+
+[sub_resource type="StyleBoxTexture" id=90]
+texture = ExtResource( 5 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxTexture" id=10]
+texture = ExtResource( 2 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxEmpty" id=11]
+
+[sub_resource type="StyleBoxEmpty" id=61]
+
+[sub_resource type="SpriteFrames" id=121]
+animations = [ {
+"frames": [ ExtResource( 34 ), ExtResource( 33 ), ExtResource( 35 ) ],
+"loop": true,
+"name": "default",
+"speed": 3.0
+} ]
+
+[sub_resource type="StyleBoxTexture" id=13]
+texture = ExtResource( 5 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxTexture" id=14]
+texture = ExtResource( 2 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxEmpty" id=15]
+
+[sub_resource type="StyleBoxEmpty" id=62]
+
+[sub_resource type="SpriteFrames" id=122]
+animations = [ {
+"frames": [ ExtResource( 34 ), ExtResource( 33 ), ExtResource( 35 ) ],
+"loop": true,
+"name": "default",
+"speed": 3.0
+} ]
+
+[sub_resource type="StreamTexture" id=66]
+load_path = "res://.import/Icon_Body.png-e06c6d123975c1df48f4b3a183cc57d5.stex"
+
+[sub_resource type="StyleBoxTexture" id=17]
+texture = ExtResource( 5 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxTexture" id=18]
+texture = ExtResource( 2 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxEmpty" id=19]
+
+[sub_resource type="StyleBoxEmpty" id=63]
+
+[sub_resource type="SpriteFrames" id=123]
+animations = [ {
+"frames": [ ExtResource( 34 ), ExtResource( 33 ), ExtResource( 35 ) ],
+"loop": true,
+"name": "default",
+"speed": 3.0
+} ]
+
+[sub_resource type="StreamTexture" id=67]
+load_path = "res://.import/Icon_Body.png-e06c6d123975c1df48f4b3a183cc57d5.stex"
+
+[sub_resource type="StyleBoxTexture" id=21]
+texture = ExtResource( 5 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxTexture" id=22]
+texture = ExtResource( 2 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxEmpty" id=23]
+
+[sub_resource type="StyleBoxEmpty" id=64]
+
+[sub_resource type="SpriteFrames" id=124]
+animations = [ {
+"frames": [ ExtResource( 34 ), ExtResource( 33 ), ExtResource( 35 ) ],
+"loop": true,
+"name": "default",
+"speed": 3.0
+} ]
+
+[sub_resource type="StreamTexture" id=68]
+load_path = "res://.import/Icon_Body.png-e06c6d123975c1df48f4b3a183cc57d5.stex"
+
+[sub_resource type="StyleBoxTexture" id=25]
+texture = ExtResource( 5 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxTexture" id=26]
+texture = ExtResource( 2 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxEmpty" id=27]
+
+[sub_resource type="StyleBoxEmpty" id=65]
+
+[sub_resource type="SpriteFrames" id=125]
+animations = [ {
+"frames": [ ExtResource( 34 ), ExtResource( 33 ), ExtResource( 35 ) ],
+"loop": true,
+"name": "default",
+"speed": 3.0
+} ]
+
+[sub_resource type="StreamTexture" id=69]
+load_path = "res://.import/Icon_Body.png-e06c6d123975c1df48f4b3a183cc57d5.stex"
+
+[sub_resource type="StyleBoxTexture" id=52]
+texture = ExtResource( 15 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxTexture" id=53]
+texture = ExtResource( 13 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxEmpty" id=54]
+
+[sub_resource type="StyleBoxTexture" id=55]
+texture = ExtResource( 14 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxEmpty" id=128]
+
+[sub_resource type="StyleBoxEmpty" id=129]
+
+[sub_resource type="StyleBoxEmpty" id=130]
+
+[sub_resource type="StyleBoxTexture" id=29]
+texture = ExtResource( 5 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxTexture" id=30]
+texture = ExtResource( 2 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxEmpty" id=31]
+
+[sub_resource type="DynamicFont" id=46]
+size = 10
+font_data = ExtResource( 16 )
+
+[sub_resource type="DynamicFont" id=47]
+size = 10
+font_data = ExtResource( 16 )
+
+[sub_resource type="DynamicFont" id=76]
+size = 10
+font_data = ExtResource( 16 )
+
+[sub_resource type="StreamTexture" id=56]
+load_path = "res://.import/Icon_Plus.png-7b4c7c0d842af3c3ec72b29725907e05.stex"
+
+[sub_resource type="DynamicFont" id=37]
+font_data = ExtResource( 6 )
+
+[sub_resource type="SpriteFrames" id=39]
+animations = [ {
+"frames": [ ExtResource( 7 ) ],
+"loop": true,
+"name": "default",
+"speed": 2.5
+} ]
+
+[sub_resource type="SpriteFrames" id=38]
+animations = [ {
+"frames": [ ExtResource( 10 ) ],
+"loop": true,
+"name": "default",
+"speed": 2.5
+} ]
+
+[sub_resource type="StyleBoxEmpty" id=42]
+
+[sub_resource type="StyleBoxEmpty" id=74]
+
+[sub_resource type="StyleBoxEmpty" id=50]
+
+[sub_resource type="StyleBoxEmpty" id=75]
+
+[sub_resource type="StyleBoxEmpty" id=95]
+
+[sub_resource type="StyleBoxEmpty" id=96]
+
+[sub_resource type="StyleBoxEmpty" id=97]
+
+[sub_resource type="StyleBoxEmpty" id=98]
+
+[sub_resource type="StyleBoxEmpty" id=99]
+
+[sub_resource type="StyleBoxEmpty" id=57]
+
+[sub_resource type="StyleBoxEmpty" id=92]
+
+[sub_resource type="StyleBoxEmpty" id=72]
+
+[sub_resource type="StyleBoxEmpty" id=93]
+
+[sub_resource type="StyleBoxEmpty" id=94]
+
+[sub_resource type="SpriteFrames" id=91]
+animations = [ {
+"frames": [ ExtResource( 30 ), ExtResource( 31 ) ],
+"loop": true,
+"name": "default",
+"speed": 3.0
+} ]
+
+[sub_resource type="StyleBoxEmpty" id=126]
+
+[sub_resource type="StyleBoxEmpty" id=127]
+
+[node name="UI_Inv" type="CanvasLayer"]
+script = ExtResource( 4 )
+
+[node name="ColorRect" type="ColorRect" parent="."]
+visible = false
+margin_left = -208.0
+margin_top = -96.0
+margin_right = 1568.0
+margin_bottom = 720.0
+color = Color( 0, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect2" type="ColorRect" parent="."]
+visible = false
+margin_right = 232.0
+margin_bottom = 504.0
+color = Color( 0, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect3" type="ColorRect" parent="."]
+visible = false
+margin_right = 856.0
+margin_bottom = 24.0
+color = Color( 0, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Background" parent="." instance=ExtResource( 27 )]
+
+[node name="CloseSprite" type="Sprite" parent="."]
+position = Vector2( 20, 20 )
+texture = ExtResource( 22 )
+
+[node name="InvOutlines" type="Sprite" parent="."]
+visible = false
+position = Vector2( 320, 240 )
+texture = ExtResource( 23 )
+
+[node name="Button_Close" type="Button" parent="."]
+modulate = Color( 1, 0, 0, 1 )
+margin_left = 4.0
+margin_top = 4.0
+margin_right = 36.0
+margin_bottom = 36.0
+custom_styles/hover = ExtResource( 19 )
+custom_styles/pressed = ExtResource( 18 )
+custom_styles/focus = SubResource( 3 )
+custom_styles/normal = SubResource( 4 )
+text = "X"
+
+[node name="Image" type="Control" parent="."]
+margin_left = 304.0
+margin_top = 192.0
+margin_right = 304.0
+margin_bottom = 192.0
+rect_scale = Vector2( 4, 4 )
+
+[node name="body" type="Sprite" parent="Image"]
+texture = ExtResource( 12 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Image/body"]
+anims/RESET = SubResource( 108 )
+anims/flash = SubResource( 109 )
+
+[node name="armor_legs" type="Sprite" parent="Image"]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Image/armor_legs"]
+anims/RESET = SubResource( 110 )
+anims/flash = SubResource( 111 )
+
+[node name="armor_hands" type="Sprite" parent="Image"]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Image/armor_hands"]
+anims/RESET = SubResource( 112 )
+anims/flash = SubResource( 113 )
+
+[node name="armor_chest" type="Sprite" parent="Image"]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Image/armor_chest"]
+anims/RESET = SubResource( 114 )
+anims/flash = SubResource( 115 )
+
+[node name="armor_head" type="Sprite" parent="Image"]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Image/armor_head"]
+anims/RESET = SubResource( 116 )
+anims/flash = SubResource( 117 )
+
+[node name="weapon_off" type="Sprite" parent="Image"]
+position = Vector2( 1, 0 )
+rotation = 3.14159
+scale = Vector2( 1, -1 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Image/weapon_off"]
+anims/RESET = SubResource( 131 )
+anims/flash = SubResource( 132 )
+
+[node name="weapon_main" type="Sprite" parent="Image"]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Image/weapon_main"]
+anims/RESET = SubResource( 118 )
+anims/flash = SubResource( 119 )
+
+[node name="PointHead" type="Node2D" parent="Image"]
+position = Vector2( -3, -15.75 )
+
+[node name="PointArm" type="Node2D" parent="Image"]
+position = Vector2( -7.75, -7.75 )
+
+[node name="PointChest" type="Node2D" parent="Image"]
+position = Vector2( -3, -3.5 )
+
+[node name="PointMain" type="Node2D" parent="Image"]
+position = Vector2( 7.75, -0.5 )
+
+[node name="PointLeg" type="Node2D" parent="Image"]
+position = Vector2( -2.5, 7.25 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Image"]
+anims/FLASH = SubResource( 100 )
+anims/RESET = SubResource( 101 )
+anims/arm = SubResource( 102 )
+anims/body = SubResource( 107 )
+anims/chest = SubResource( 103 )
+anims/head = SubResource( 104 )
+anims/leg = SubResource( 105 )
+anims/main = SubResource( 106 )
+
+[node name="Buttons_Equipped" type="Control" parent="."]
+margin_left = 32.0
+margin_top = 56.0
+margin_right = 32.0
+margin_bottom = 56.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button_SWAP" type="Button" parent="Buttons_Equipped"]
+visible = false
+margin_left = 160.0
+margin_top = -24.0
+margin_right = 192.0
+margin_bottom = 8.0
+custom_styles/hover = SubResource( 33 )
+custom_styles/pressed = SubResource( 34 )
+custom_styles/focus = SubResource( 35 )
+custom_styles/normal = SubResource( 36 )
+icon = ExtResource( 9 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Description_WeaponMain" type="RichTextLabel" parent="Buttons_Equipped"]
+visible = false
+margin_left = 104.0
+margin_top = 40.0
+margin_right = 808.0
+margin_bottom = 88.0
+mouse_filter = 2
+bbcode_enabled = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button_WeaponMain" type="Button" parent="Buttons_Equipped"]
+margin_left = 168.0
+margin_top = -32.0
+margin_right = 200.0
+custom_styles/hover = SubResource( 89 )
+custom_styles/pressed = SubResource( 6 )
+custom_styles/focus = SubResource( 7 )
+custom_styles/normal = SubResource( 60 )
+
+[node name="Body" type="Sprite" parent="Buttons_Equipped/Button_WeaponMain"]
+visible = false
+modulate = Color( 0.211765, 0.211765, 0.211765, 1 )
+show_behind_parent = true
+position = Vector2( 16, 16 )
+texture = ExtResource( 12 )
+
+[node name="background" type="Sprite" parent="Buttons_Equipped/Button_WeaponMain"]
+modulate = Color( 0.658824, 0.290196, 0, 1 )
+show_behind_parent = true
+position = Vector2( 16, 16 )
+texture = ExtResource( 13 )
+
+[node name="background" type="Sprite" parent="Buttons_Equipped/Button_WeaponMain/background"]
+modulate = Color( 0.384314, 0.384314, 0.384314, 1 )
+show_behind_parent = true
+position = Vector2( -1, -1 )
+texture = ExtResource( 13 )
+
+[node name="tint" type="AnimatedSprite" parent="Buttons_Equipped/Button_WeaponMain"]
+visible = false
+modulate = Color( 0.709804, 0.215686, 0.6, 1 )
+position = Vector2( 16, 16 )
+frames = SubResource( 120 )
+playing = true
+
+[node name="Sprite" type="Sprite" parent="Buttons_Equipped/Button_WeaponMain"]
+show_behind_parent = true
+position = Vector2( 16, 16 )
+
+[node name="MainLabel" type="RichTextLabel" parent="Buttons_Equipped/Button_WeaponMain"]
+modulate = Color( 0.580392, 0.552941, 0.552941, 1 )
+margin_left = 40.0
+margin_top = 8.0
+margin_right = 80.0
+margin_bottom = 48.0
+mouse_filter = 2
+bbcode_text = "主手"
+text = "主手"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button_WeaponOff" type="Button" parent="Buttons_Equipped"]
+margin_left = 168.0
+margin_top = 8.0
+margin_right = 200.0
+margin_bottom = 40.0
+custom_styles/hover = SubResource( 90 )
+custom_styles/pressed = SubResource( 10 )
+custom_styles/focus = SubResource( 11 )
+custom_styles/normal = SubResource( 61 )
+
+[node name="Body" type="Sprite" parent="Buttons_Equipped/Button_WeaponOff"]
+visible = false
+modulate = Color( 0.211765, 0.211765, 0.211765, 1 )
+show_behind_parent = true
+position = Vector2( 16, 16 )
+texture = ExtResource( 12 )
+
+[node name="background" type="Sprite" parent="Buttons_Equipped/Button_WeaponOff"]
+modulate = Color( 0.658824, 0.290196, 0, 1 )
+show_behind_parent = true
+position = Vector2( 16, 16 )
+texture = ExtResource( 13 )
+
+[node name="background" type="Sprite" parent="Buttons_Equipped/Button_WeaponOff/background"]
+modulate = Color( 0.384314, 0.384314, 0.384314, 1 )
+show_behind_parent = true
+position = Vector2( -1, -1 )
+texture = ExtResource( 13 )
+
+[node name="tint" type="AnimatedSprite" parent="Buttons_Equipped/Button_WeaponOff"]
+visible = false
+modulate = Color( 0.709804, 0.215686, 0.6, 1 )
+position = Vector2( 16, 16 )
+frames = SubResource( 121 )
+frame = 1
+playing = true
+
+[node name="Sprite" type="Sprite" parent="Buttons_Equipped/Button_WeaponOff"]
+show_behind_parent = true
+position = Vector2( 16, 16 )
+
+[node name="Sprite2" type="Sprite" parent="Buttons_Equipped/Button_WeaponOff"]
+show_behind_parent = true
+position = Vector2( 17, 16 )
+scale = Vector2( -1, 1 )
+
+[node name="OffLabel" type="RichTextLabel" parent="Buttons_Equipped/Button_WeaponOff"]
+modulate = Color( 0.376471, 0.360784, 0.360784, 1 )
+margin_left = 40.0
+margin_top = 8.0
+margin_right = 80.0
+margin_bottom = 48.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "副手"
+text = "副手"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Description_WeaponOff" type="RichTextLabel" parent="Buttons_Equipped"]
+visible = false
+margin_left = 104.0
+margin_top = 88.0
+margin_right = 808.0
+margin_bottom = 136.0
+mouse_filter = 2
+bbcode_enabled = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button_ArmorHead" type="Button" parent="Buttons_Equipped"]
+margin_left = 168.0
+margin_top = 48.0
+margin_right = 200.0
+margin_bottom = 80.0
+custom_styles/hover = SubResource( 13 )
+custom_styles/pressed = SubResource( 14 )
+custom_styles/focus = SubResource( 15 )
+custom_styles/normal = SubResource( 62 )
+
+[node name="Body" type="Sprite" parent="Buttons_Equipped/Button_ArmorHead"]
+visible = false
+modulate = Color( 0.211765, 0.211765, 0.211765, 1 )
+show_behind_parent = true
+position = Vector2( 16, 16 )
+texture = ExtResource( 12 )
+
+[node name="background" type="Sprite" parent="Buttons_Equipped/Button_ArmorHead"]
+modulate = Color( 0.270588, 0.270588, 0.529412, 1 )
+show_behind_parent = true
+position = Vector2( 16, 16 )
+texture = ExtResource( 13 )
+
+[node name="background" type="Sprite" parent="Buttons_Equipped/Button_ArmorHead/background"]
+modulate = Color( 0.384314, 0.384314, 0.384314, 1 )
+show_behind_parent = true
+position = Vector2( -1, -1 )
+texture = ExtResource( 13 )
+
+[node name="tint" type="AnimatedSprite" parent="Buttons_Equipped/Button_ArmorHead"]
+visible = false
+modulate = Color( 0.709804, 0.215686, 0.6, 1 )
+position = Vector2( 16, 16 )
+frames = SubResource( 122 )
+playing = true
+
+[node name="Sprite2" type="Sprite" parent="Buttons_Equipped/Button_ArmorHead"]
+visible = false
+show_behind_parent = true
+position = Vector2( 16, 16 )
+texture = SubResource( 66 )
+
+[node name="Sprite" type="Sprite" parent="Buttons_Equipped/Button_ArmorHead"]
+show_behind_parent = true
+position = Vector2( 16, 16 )
+
+[node name="Description_ArmorHead" type="RichTextLabel" parent="Buttons_Equipped"]
+visible = false
+margin_left = 104.0
+margin_top = 136.0
+margin_right = 808.0
+margin_bottom = 184.0
+mouse_filter = 2
+bbcode_enabled = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button_ArmorHand" type="Button" parent="Buttons_Equipped"]
+margin_left = 168.0
+margin_top = 88.0
+margin_right = 200.0
+margin_bottom = 120.0
+custom_styles/hover = SubResource( 17 )
+custom_styles/pressed = SubResource( 18 )
+custom_styles/focus = SubResource( 19 )
+custom_styles/normal = SubResource( 63 )
+
+[node name="Body" type="Sprite" parent="Buttons_Equipped/Button_ArmorHand"]
+visible = false
+modulate = Color( 0.211765, 0.211765, 0.211765, 1 )
+show_behind_parent = true
+position = Vector2( 16, 16 )
+texture = ExtResource( 12 )
+
+[node name="background" type="Sprite" parent="Buttons_Equipped/Button_ArmorHand"]
+modulate = Color( 0.270588, 0.270588, 0.529412, 1 )
+show_behind_parent = true
+position = Vector2( 16, 16 )
+texture = ExtResource( 13 )
+
+[node name="background" type="Sprite" parent="Buttons_Equipped/Button_ArmorHand/background"]
+modulate = Color( 0.384314, 0.384314, 0.384314, 1 )
+show_behind_parent = true
+position = Vector2( -1, -1 )
+texture = ExtResource( 13 )
+
+[node name="tint" type="AnimatedSprite" parent="Buttons_Equipped/Button_ArmorHand"]
+visible = false
+modulate = Color( 0.709804, 0.215686, 0.6, 1 )
+position = Vector2( 16, 16 )
+frames = SubResource( 123 )
+playing = true
+
+[node name="Sprite2" type="Sprite" parent="Buttons_Equipped/Button_ArmorHand"]
+visible = false
+show_behind_parent = true
+position = Vector2( 16, 16 )
+texture = SubResource( 67 )
+
+[node name="Sprite" type="Sprite" parent="Buttons_Equipped/Button_ArmorHand"]
+show_behind_parent = true
+position = Vector2( 16, 16 )
+
+[node name="Description_ArmorHand" type="RichTextLabel" parent="Buttons_Equipped"]
+visible = false
+margin_left = 104.0
+margin_top = 184.0
+margin_right = 808.0
+margin_bottom = 232.0
+mouse_filter = 2
+bbcode_enabled = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button_ArmorChest" type="Button" parent="Buttons_Equipped"]
+margin_left = 168.0
+margin_top = 128.0
+margin_right = 200.0
+margin_bottom = 160.0
+custom_styles/hover = SubResource( 21 )
+custom_styles/pressed = SubResource( 22 )
+custom_styles/focus = SubResource( 23 )
+custom_styles/normal = SubResource( 64 )
+
+[node name="Body" type="Sprite" parent="Buttons_Equipped/Button_ArmorChest"]
+visible = false
+modulate = Color( 0.211765, 0.211765, 0.211765, 1 )
+show_behind_parent = true
+position = Vector2( 16, 16 )
+texture = ExtResource( 12 )
+
+[node name="background" type="Sprite" parent="Buttons_Equipped/Button_ArmorChest"]
+modulate = Color( 0.270588, 0.270588, 0.529412, 1 )
+show_behind_parent = true
+position = Vector2( 16, 16 )
+texture = ExtResource( 13 )
+
+[node name="background" type="Sprite" parent="Buttons_Equipped/Button_ArmorChest/background"]
+modulate = Color( 0.384314, 0.384314, 0.384314, 1 )
+show_behind_parent = true
+position = Vector2( -1, -1 )
+texture = ExtResource( 13 )
+
+[node name="tint" type="AnimatedSprite" parent="Buttons_Equipped/Button_ArmorChest"]
+visible = false
+modulate = Color( 0.709804, 0.215686, 0.6, 1 )
+position = Vector2( 16, 16 )
+frames = SubResource( 124 )
+frame = 2
+playing = true
+
+[node name="Sprite2" type="Sprite" parent="Buttons_Equipped/Button_ArmorChest"]
+visible = false
+show_behind_parent = true
+position = Vector2( 16, 16 )
+texture = SubResource( 68 )
+
+[node name="Sprite" type="Sprite" parent="Buttons_Equipped/Button_ArmorChest"]
+show_behind_parent = true
+position = Vector2( 16, 16 )
+
+[node name="Description_ArmorChest" type="RichTextLabel" parent="Buttons_Equipped"]
+visible = false
+margin_left = 104.0
+margin_top = 232.0
+margin_right = 808.0
+margin_bottom = 280.0
+mouse_filter = 2
+bbcode_enabled = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button_ArmorLeg" type="Button" parent="Buttons_Equipped"]
+margin_left = 168.0
+margin_top = 168.0
+margin_right = 200.0
+margin_bottom = 200.0
+custom_styles/hover = SubResource( 25 )
+custom_styles/pressed = SubResource( 26 )
+custom_styles/focus = SubResource( 27 )
+custom_styles/normal = SubResource( 65 )
+
+[node name="Body" type="Sprite" parent="Buttons_Equipped/Button_ArmorLeg"]
+visible = false
+modulate = Color( 0.211765, 0.211765, 0.211765, 1 )
+show_behind_parent = true
+position = Vector2( 16, 16 )
+texture = ExtResource( 12 )
+
+[node name="background" type="Sprite" parent="Buttons_Equipped/Button_ArmorLeg"]
+modulate = Color( 0.270588, 0.270588, 0.529412, 1 )
+show_behind_parent = true
+position = Vector2( 16, 16 )
+texture = ExtResource( 13 )
+
+[node name="background" type="Sprite" parent="Buttons_Equipped/Button_ArmorLeg/background"]
+modulate = Color( 0.384314, 0.384314, 0.384314, 1 )
+show_behind_parent = true
+position = Vector2( -1, -1 )
+texture = ExtResource( 13 )
+
+[node name="tint" type="AnimatedSprite" parent="Buttons_Equipped/Button_ArmorLeg"]
+visible = false
+modulate = Color( 0.709804, 0.215686, 0.6, 1 )
+position = Vector2( 16, 16 )
+frames = SubResource( 125 )
+frame = 2
+playing = true
+
+[node name="Sprite2" type="Sprite" parent="Buttons_Equipped/Button_ArmorLeg"]
+visible = false
+show_behind_parent = true
+position = Vector2( 16, 16 )
+texture = SubResource( 69 )
+
+[node name="Sprite" type="Sprite" parent="Buttons_Equipped/Button_ArmorLeg"]
+show_behind_parent = true
+position = Vector2( 16, 16 )
+
+[node name="Description_ArmorLeg" type="RichTextLabel" parent="Buttons_Equipped"]
+visible = false
+margin_left = 104.0
+margin_top = 280.0
+margin_right = 808.0
+margin_bottom = 328.0
+mouse_filter = 2
+bbcode_enabled = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Description_Traits" type="RichTextLabel" parent="."]
+visible = false
+margin_left = 9.0
+margin_top = 425.0
+margin_right = 201.0
+margin_bottom = 457.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[color=#ffff40]特性与能力[/color]"
+text = "特性与能力"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Traits" type="Node2D" parent="."]
+position = Vector2( 40, 440 )
+
+[node name="IconTraitTenacity" type="Sprite" parent="Traits"]
+visible = false
+position = Vector2( 16, 16 )
+texture = ExtResource( 24 )
+
+[node name="Buttons_Bag" type="Node2D" parent="."]
+position = Vector2( 40, 312 )
+
+[node name="IconTraitTenacity" type="Sprite" parent="Buttons_Bag"]
+visible = false
+position = Vector2( 16, 16 )
+texture = ExtResource( 24 )
+
+[node name="InfoButtons" type="Control" parent="."]
+margin_left = 8.0
+margin_right = 8.0
+script = ExtResource( 8 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="InfoButtons"]
+visible = false
+margin_left = 168.0
+margin_top = 8.0
+margin_right = 200.0
+margin_bottom = 40.0
+custom_styles/hover = SubResource( 52 )
+custom_styles/pressed = SubResource( 53 )
+custom_styles/focus = SubResource( 54 )
+custom_styles/normal = SubResource( 55 )
+text = "STR"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Stats" type="Node2D" parent="InfoButtons"]
+position = Vector2( 0, 56 )
+
+[node name="Attributes" type="Node2D" parent="InfoButtons"]
+position = Vector2( 32, 8 )
+
+[node name="Label" type="Label" parent="InfoButtons/Attributes"]
+visible = false
+margin_right = 40.0
+margin_bottom = 10.0
+text = "STR     5          DEX       5        WIL      5"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonStates" type="Button" parent="InfoButtons"]
+modulate = Color( 0.501961, 0.305882, 0.14902, 1 )
+margin_left = 191.0
+margin_top = 6.0
+margin_right = 397.0
+margin_bottom = 22.0
+custom_styles/hover = ExtResource( 26 )
+custom_styles/pressed = ExtResource( 25 )
+custom_styles/focus = SubResource( 128 )
+custom_styles/disabled = SubResource( 129 )
+custom_styles/normal = SubResource( 130 )
+
+[node name="States" type="RichTextLabel" parent="InfoButtons"]
+margin_left = 192.0
+margin_top = 9.0
+margin_right = 496.0
+margin_bottom = 49.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "单手持握，未超重，僵硬"
+text = "单手持握，未超重，僵硬"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Buffs" type="Node2D" parent="InfoButtons"]
+position = Vector2( 40, 260 )
+
+[node name="Label" type="RichTextLabel" parent="InfoButtons/Buffs"]
+visible = false
+margin_left = -48.0
+margin_top = 2.0
+margin_right = 32.0
+margin_bottom = 18.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[color=#a0a0a0]效果：[/color]"
+text = "效果："
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Main" type="Node2D" parent="InfoButtons"]
+position = Vector2( 264, 16 )
+
+[node name="Label" type="Label" parent="InfoButtons/Main"]
+visible = false
+margin_right = 128.0
+margin_bottom = 62.0
+text = "精准  200-300 
+射程 6   
+
+命中 200-300 
+穿刺"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Off" type="Node2D" parent="InfoButtons"]
+position = Vector2( 264, 56 )
+
+[node name="Label" type="Label" parent="InfoButtons/Off"]
+visible = false
+margin_left = 64.0
+margin_top = 24.0
+margin_right = 132.0
+margin_bottom = 34.0
+text = "-
+支援"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Life" type="Node2D" parent="InfoButtons"]
+position = Vector2( 88, 88 )
+
+[node name="Button_Drop" type="Button" parent="."]
+margin_left = -40.0
+margin_top = 280.0
+margin_right = -8.0
+margin_bottom = 312.0
+mouse_filter = 2
+custom_styles/hover = SubResource( 29 )
+custom_styles/pressed = SubResource( 30 )
+custom_styles/focus = SubResource( 31 )
+custom_styles/normal = ExtResource( 11 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="Button_Drop"]
+position = Vector2( 16, 16 )
+texture = ExtResource( 3 )
+
+[node name="Description_Bag" type="RichTextLabel" parent="."]
+visible = false
+margin_left = 9.0
+margin_top = 297.0
+margin_right = 153.0
+margin_bottom = 329.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "从背包装备"
+text = "从背包装备"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Description" type="RichTextLabel" parent="."]
+visible = false
+margin_left = 144.0
+margin_top = 48.0
+margin_right = 424.0
+margin_bottom = 272.0
+mouse_filter = 2
+custom_fonts/normal_font = SubResource( 46 )
+bbcode_enabled = true
+bbcode_text = "主手装备示例武器，造成 100-200 攻击与 300-400 斩击伤害。副手装备示例盾牌，造成 200-300 攻击与 500-600 钝击伤害。
+
+闪避为 20-300，防御为 200-300，可格挡低于 50 的伤害。护甲最多可抵消 50 点伤害。
+
+总速度为 10，总负重为 20。"
+text = "主手装备示例武器，造成 100-200 攻击与 300-400 斩击伤害。副手装备示例盾牌，造成 200-300 攻击与 500-600 钝击伤害。
+
+闪避为 20-300，防御为 200-300，可格挡低于 50 的伤害。护甲最多可抵消 50 点伤害。
+
+总速度为 10，总负重为 20。"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect4" type="ColorRect" parent="."]
+visible = false
+margin_left = 432.0
+margin_top = 40.0
+margin_right = 632.0
+margin_bottom = 352.0
+color = Color( 0.0666667, 0.14902, 0.0941176, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Focus" type="Control" parent="."]
+anchor_right = 0.5
+margin_left = 8.0
+margin_top = -64.0
+margin_right = -312.0
+margin_bottom = -64.0
+size_flags_horizontal = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite_Focus" type="Sprite" parent="Focus"]
+modulate = Color( 0.211765, 0.211765, 0.211765, 1 )
+position = Vector2( 516, 122 )
+texture = ExtResource( 12 )
+
+[node name="Sprite_Equip_Focused" type="Sprite" parent="Focus"]
+position = Vector2( 516, 122 )
+
+[node name="UiBox1" type="Sprite" parent="Focus"]
+visible = false
+position = Vector2( 532, 236 )
+texture = ExtResource( 17 )
+
+[node name="DescriptionFocus" type="RichTextLabel" parent="Focus"]
+margin_left = 400.0
+margin_top = 88.0
+margin_right = 613.0
+margin_bottom = 707.0
+mouse_filter = 2
+custom_fonts/normal_font = SubResource( 47 )
+bbcode_enabled = true
+bbcode_text = "详情"
+text = "详情"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="DescriptionFocus2" type="RichTextLabel" parent="Focus"]
+margin_left = 400.0
+margin_top = 88.0
+margin_right = 536.0
+margin_bottom = 304.0
+mouse_filter = 2
+custom_fonts/normal_font = SubResource( 76 )
+bbcode_enabled = true
+bbcode_text = "详情"
+text = "详情"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="infpen" type="Sprite" parent="Focus"]
+position = Vector2( 576, 104 )
+texture = SubResource( 56 )
+
+[node name="Node2D" type="Node2D" parent="Focus"]
+
+[node name="Info" type="RichTextLabel" parent="."]
+margin_left = 248.0
+margin_top = 8.0
+margin_right = 800.0
+margin_bottom = 72.0
+mouse_filter = 2
+custom_fonts/normal_font = SubResource( 37 )
+bbcode_enabled = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Title" type="RichTextLabel" parent="."]
+visible = false
+margin_left = 40.0
+margin_top = 8.0
+margin_right = 328.0
+margin_bottom = 24.0
+rect_scale = Vector2( 2, 2 )
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "身体"
+text = "身体"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Select_WeaponHand" type="Node2D" parent="."]
+visible = false
+position = Vector2( 208, 64 )
+
+[node name="Sprite_Animated" type="AnimatedSprite" parent="Select_WeaponHand"]
+position = Vector2( 8, 8 )
+frames = SubResource( 39 )
+playing = true
+
+[node name="Select" type="Node2D" parent="."]
+position = Vector2( 200, 56 )
+z_index = 10
+
+[node name="Sprite_Animated" type="AnimatedSprite" parent="Select"]
+position = Vector2( 16, 16 )
+frames = SubResource( 38 )
+playing = true
+
+[node name="Button_Magi" type="Button" parent="."]
+margin_left = 4.0
+margin_top = 38.0
+margin_right = 36.0
+margin_bottom = 70.0
+custom_styles/hover = ExtResource( 19 )
+custom_styles/pressed = ExtResource( 18 )
+custom_styles/focus = SubResource( 42 )
+custom_styles/normal = SubResource( 74 )
+
+[node name="Sprite" type="Sprite" parent="Button_Magi"]
+show_behind_parent = true
+position = Vector2( 16, 16 )
+texture = ExtResource( 21 )
+
+[node name="Button_God" type="Button" parent="."]
+visible = false
+margin_left = 4.0
+margin_top = 72.0
+margin_right = 36.0
+margin_bottom = 104.0
+mouse_filter = 2
+custom_styles/hover = ExtResource( 19 )
+custom_styles/pressed = ExtResource( 18 )
+custom_styles/focus = SubResource( 50 )
+custom_styles/normal = SubResource( 75 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="Button_God"]
+show_behind_parent = true
+position = Vector2( 16, 16 )
+
+[node name="Border" type="Sprite" parent="."]
+position = Vector2( 320, 240 )
+texture = ExtResource( 20 )
+
+[node name="PopupLayer" type="CanvasLayer" parent="."]
+layer = 2
+
+[node name="Popup" type="Node2D" parent="PopupLayer"]
+position = Vector2( 269, 366 )
+z_index = 100
+
+[node name="Button_Popup_Background" type="Button" parent="PopupLayer/Popup"]
+margin_left = -1248.0
+margin_top = -1407.0
+margin_right = 1610.0
+margin_bottom = 1309.0
+custom_styles/hover = SubResource( 95 )
+custom_styles/pressed = SubResource( 96 )
+custom_styles/focus = SubResource( 97 )
+custom_styles/disabled = SubResource( 98 )
+custom_styles/normal = SubResource( 99 )
+
+[node name="Sprite" type="Sprite" parent="PopupLayer/Popup"]
+position = Vector2( 80, -47 )
+texture = ExtResource( 28 )
+
+[node name="Equip" type="Button" parent="PopupLayer/Popup"]
+margin_left = 14.0
+margin_top = -65.0
+margin_right = 147.0
+margin_bottom = -49.0
+custom_styles/hover = ExtResource( 26 )
+custom_styles/pressed = ExtResource( 25 )
+custom_styles/focus = SubResource( 57 )
+custom_styles/normal = SubResource( 92 )
+
+[node name="Sprite" type="Sprite" parent="PopupLayer/Popup/Equip"]
+visible = false
+position = Vector2( 7.5, 16 )
+scale = Vector2( 0.46875, 1 )
+texture = ExtResource( 10 )
+
+[node name="label" type="RichTextLabel" parent="PopupLayer/Popup/Equip"]
+margin_left = 4.0
+margin_top = 4.0
+margin_right = 133.0
+margin_bottom = 19.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "1 装备到主手"
+text = "1 装备到主手"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Equip2" type="Button" parent="PopupLayer/Popup"]
+margin_left = 14.0
+margin_top = -45.0
+margin_right = 147.0
+margin_bottom = -29.0
+custom_styles/hover = ExtResource( 26 )
+custom_styles/pressed = ExtResource( 25 )
+custom_styles/focus = SubResource( 72 )
+custom_styles/normal = SubResource( 93 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite2" type="Sprite" parent="PopupLayer/Popup/Equip2"]
+visible = false
+position = Vector2( 16, 16 )
+texture = ExtResource( 10 )
+
+[node name="label" type="RichTextLabel" parent="PopupLayer/Popup/Equip2"]
+margin_left = 4.0
+margin_top = 4.0
+margin_right = 133.0
+margin_bottom = 19.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "1 装备到主手"
+text = "1 装备到主手"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Destroy" type="Button" parent="PopupLayer/Popup"]
+margin_left = 14.0
+margin_top = -25.0
+margin_right = 147.0
+margin_bottom = -9.0
+custom_styles/hover = ExtResource( 26 )
+custom_styles/pressed = ExtResource( 25 )
+custom_styles/focus = SubResource( 57 )
+custom_styles/normal = SubResource( 94 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite3" type="Sprite" parent="PopupLayer/Popup/Destroy"]
+visible = false
+position = Vector2( 16, 16 )
+texture = ExtResource( 10 )
+
+[node name="label" type="RichTextLabel" parent="PopupLayer/Popup/Destroy"]
+margin_left = 4.0
+margin_top = 4.0
+margin_right = 133.0
+margin_bottom = 19.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "1 装备到主手"
+text = "1 装备到主手"
+
+[node name="RichTextLabel" type="RichTextLabel" parent="PopupLayer/Popup"]
+margin_left = 4.0
+margin_top = -86.0
+margin_right = 156.0
+margin_bottom = -23.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[center]示例装备"
+text = "示例装备"
+
+[node name="CancelLoc" type="Node2D" parent="PopupLayer"]
+visible = false
+position = Vector2( 269, 366 )
+z_index = 100
+
+[node name="Cancel" type="Button" parent="PopupLayer/CancelLoc"]
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+margin_right = 32.0
+margin_bottom = 32.0
+mouse_filter = 2
+custom_styles/hover = ExtResource( 19 )
+custom_styles/pressed = ExtResource( 18 )
+custom_styles/focus = SubResource( 3 )
+custom_styles/normal = SubResource( 4 )
+text = "X"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="PopupLayer/CancelLoc"]
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( 16, -4 )
+texture = ExtResource( 29 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="PopupLayer/CancelLoc"]
+position = Vector2( 15, 9 )
+scale = Vector2( 2.2, 2.2 )
+frames = SubResource( 91 )
+frame = 1
+playing = true
+
+[node name="Sprite" type="Sprite" parent="PopupLayer"]
+visible = false
+position = Vector2( 254, 205 )
+scale = Vector2( 7.38, 6.57 )
+texture = ExtResource( 32 )
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.1
+autostart = true
+
+[node name="TextEdit" type="LineEdit" parent="."]
+modulate = Color( 0.580392, 0.580392, 0.580392, 1 )
+margin_left = 486.0
+margin_top = 5.0
+margin_right = 635.0
+margin_bottom = 20.0
+custom_styles/focus = SubResource( 126 )
+custom_styles/normal = SubResource( 127 )
+text = "搜索背包..."
+context_menu_enabled = false
+shortcut_keys_enabled = false
+caret_blink = true
+
+[node name="ColorRect" type="ColorRect" parent="TextEdit"]
+show_behind_parent = true
+margin_left = -2.0
+margin_top = -2.0
+margin_right = 151.0
+margin_bottom = 15.0
+mouse_filter = 2
+color = Color( 0.2, 0.0862745, 0.172549, 1 )
+
+[node name="Gamepad_help" type="Node2D" parent="."]
+position = Vector2( 16, 272 )
+script = ExtResource( 36 )
+
+[node name="Sprite" type="Sprite" parent="Gamepad_help"]
+texture = ExtResource( 38 )
+
+[node name="Label" type="Label" parent="Gamepad_help/Sprite"]
+visible = false
+modulate = Color( 0.380392, 0.376471, 0.376471, 1 )
+margin_left = 10.0
+margin_top = -2.0
+margin_right = 50.0
+margin_bottom = 8.0
+text = "选择"
+
+[node name="Sprite2" type="Sprite" parent="Gamepad_help"]
+position = Vector2( 0, 20 )
+texture = ExtResource( 39 )
+
+[node name="Label2" type="Label" parent="Gamepad_help/Sprite2"]
+visible = false
+modulate = Color( 0.380392, 0.376471, 0.376471, 1 )
+margin_left = 10.0
+margin_top = -2.0
+margin_right = 50.0
+margin_bottom = 21.0
+text = "点击
+"
+
+[node name="Sprite3" type="Sprite" parent="Gamepad_help"]
+position = Vector2( 0, 40 )
+texture = ExtResource( 40 )
+
+[node name="Label2" type="Label" parent="Gamepad_help/Sprite3"]
+visible = false
+modulate = Color( 0.380392, 0.376471, 0.376471, 1 )
+margin_left = 10.0
+margin_top = -2.0
+margin_right = 50.0
+margin_bottom = 21.0
+text = "自动
+"
+
+[node name="Sprite5" type="Sprite" parent="Gamepad_help"]
+position = Vector2( 0, 60 )
+texture = ExtResource( 37 )
+
+[node name="Label2" type="Label" parent="Gamepad_help/Sprite5"]
+visible = false
+modulate = Color( 0.380392, 0.376471, 0.376471, 1 )
+margin_left = 10.0
+margin_top = -2.0
+margin_right = 50.0
+margin_bottom = 21.0
+text = "原地
+"
+
+[node name="Sprite4" type="Sprite" parent="Gamepad_help"]
+position = Vector2( 0, 80 )
+texture = ExtResource( 41 )
+
+[node name="Label2" type="Label" parent="Gamepad_help/Sprite4"]
+visible = false
+modulate = Color( 0.380392, 0.376471, 0.376471, 1 )
+margin_left = 10.0
+margin_top = -2.0
+margin_right = 50.0
+margin_bottom = 21.0
+text = "确认
+"
+
+[connection signal="mouse_entered" from="Button_Close" to="." method="_on_Button_Close_mouse_entered"]
+[connection signal="pressed" from="Button_Close" to="." method="_on_Button_Close_pressed"]
+[connection signal="mouse_entered" from="Buttons_Equipped/Button_SWAP" to="." method="_on_Button_SWAP_mouse_entered"]
+[connection signal="pressed" from="Buttons_Equipped/Button_SWAP" to="." method="_on_Button_SWAP_pressed"]
+[connection signal="mouse_entered" from="Buttons_Equipped/Button_WeaponMain" to="." method="_on_Button_WeaponMain_mouse_entered"]
+[connection signal="mouse_exited" from="Buttons_Equipped/Button_WeaponMain" to="." method="_on_Button_WeaponMain_mouse_exited"]
+[connection signal="pressed" from="Buttons_Equipped/Button_WeaponMain" to="." method="_on_Button_WeaponMain_pressed"]
+[connection signal="mouse_entered" from="Buttons_Equipped/Button_WeaponOff" to="." method="_on_Button_WeaponOff_mouse_entered"]
+[connection signal="mouse_exited" from="Buttons_Equipped/Button_WeaponOff" to="." method="_on_Button_WeaponOff_mouse_exited"]
+[connection signal="pressed" from="Buttons_Equipped/Button_WeaponOff" to="." method="_on_Button_WeaponOff_pressed"]
+[connection signal="mouse_entered" from="Buttons_Equipped/Button_ArmorHead" to="." method="_on_Button_ArmorHead_mouse_entered"]
+[connection signal="mouse_exited" from="Buttons_Equipped/Button_ArmorHead" to="." method="_on_Button_ArmorHead_mouse_exited"]
+[connection signal="pressed" from="Buttons_Equipped/Button_ArmorHead" to="." method="_on_Button_ArmorHead_pressed"]
+[connection signal="mouse_entered" from="Buttons_Equipped/Button_ArmorHand" to="." method="_on_Button_ArmorHand_mouse_entered"]
+[connection signal="mouse_exited" from="Buttons_Equipped/Button_ArmorHand" to="." method="_on_Button_ArmorHand_mouse_exited"]
+[connection signal="pressed" from="Buttons_Equipped/Button_ArmorHand" to="." method="_on_Button_ArmorHand_pressed"]
+[connection signal="mouse_entered" from="Buttons_Equipped/Button_ArmorChest" to="." method="_on_Button_ArmorChest_mouse_entered"]
+[connection signal="mouse_exited" from="Buttons_Equipped/Button_ArmorChest" to="." method="_on_Button_ArmorChest_mouse_exited"]
+[connection signal="pressed" from="Buttons_Equipped/Button_ArmorChest" to="." method="_on_Button_ArmorChest_pressed"]
+[connection signal="mouse_entered" from="Buttons_Equipped/Button_ArmorLeg" to="." method="_on_Button_ArmorLeg_mouse_entered"]
+[connection signal="mouse_exited" from="Buttons_Equipped/Button_ArmorLeg" to="." method="_on_Button_ArmorLeg_mouse_exited"]
+[connection signal="pressed" from="Buttons_Equipped/Button_ArmorLeg" to="." method="_on_Button_ArmorLeg_pressed"]
+[connection signal="mouse_entered" from="InfoButtons/ButtonStates" to="." method="_on_ButtonStates_mouse_entered"]
+[connection signal="mouse_exited" from="InfoButtons/ButtonStates" to="." method="_on_ButtonStates_mouse_exited"]
+[connection signal="pressed" from="Button_Drop" to="." method="_on_Button_Drop_pressed"]
+[connection signal="mouse_entered" from="Button_Magi" to="." method="_on_Button_Magi_mouse_entered"]
+[connection signal="pressed" from="Button_Magi" to="." method="_on_Button_Magi_pressed"]
+[connection signal="mouse_entered" from="Button_God" to="." method="_on_Button_God_mouse_entered"]
+[connection signal="pressed" from="Button_God" to="." method="_on_Button_God_pressed"]
+[connection signal="pressed" from="PopupLayer/Popup/Button_Popup_Background" to="." method="_on_Button_Popup_Background_pressed"]
+[connection signal="mouse_entered" from="PopupLayer/Popup/Equip" to="." method="_on_Equip_mouse_entered"]
+[connection signal="mouse_exited" from="PopupLayer/Popup/Equip" to="." method="_on_Equip_mouse_exited"]
+[connection signal="pressed" from="PopupLayer/Popup/Equip" to="." method="_on_Equip_pressed"]
+[connection signal="mouse_entered" from="PopupLayer/Popup/Equip2" to="." method="_on_Equip2_mouse_entered"]
+[connection signal="mouse_exited" from="PopupLayer/Popup/Equip2" to="." method="_on_Equip2_mouse_exited"]
+[connection signal="pressed" from="PopupLayer/Popup/Equip2" to="." method="_on_Equip2_pressed"]
+[connection signal="mouse_entered" from="PopupLayer/Popup/Destroy" to="." method="_on_Destroy_mouse_entered"]
+[connection signal="mouse_exited" from="PopupLayer/Popup/Destroy" to="." method="_on_Destroy_mouse_exited"]
+[connection signal="pressed" from="PopupLayer/Popup/Destroy" to="." method="_on_Destroy_pressed"]
+[connection signal="mouse_entered" from="PopupLayer/CancelLoc/Cancel" to="." method="_on_Cancel_mouse_entered"]
+[connection signal="pressed" from="PopupLayer/CancelLoc/Cancel" to="." method="_on_Cancel_pressed"]
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
+[connection signal="focus_entered" from="TextEdit" to="." method="_on_TextEdit_focus_entered"]
+[connection signal="focus_exited" from="TextEdit" to="." method="_on_TextEdit_focus_exited"]
+[connection signal="text_changed" from="TextEdit" to="." method="_on_TextEdit_text_changed"]

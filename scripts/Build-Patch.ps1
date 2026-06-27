@@ -63,6 +63,7 @@ $sceneScripts = @(
     'Feats.gd',
     'First_Menu.gd',
     'Start_Menu.gd',
+    'UI_Inv.gd',
     'UI_Level_Up.gd',
     'UI_Prestige.gd',
     'UI_Traits_Basic.gd'
@@ -98,6 +99,7 @@ $externalFiles = @(
     'First_Menu.tscn',
     'Feats.tscn',
     'Start_Menu.tscn',
+    'UI_Inv.tscn',
     'UI_Level_Up.tscn',
     'UI_Prestige.tscn',
     'UI_Traits_Basic.tscn'
