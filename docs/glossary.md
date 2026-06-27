@@ -49,6 +49,17 @@
 | Psychic | 灵能 | 元素/能力系别。 |
 | Power | 能力 | 游戏内 power 概念，先统一译为“能力”。 |
 | Powerless | 无能之人 | 不使用能力取得胜利的事迹名称。 |
+| Ability Book | 能力书 | 查看能力与进阶职业的界面。 |
+| Armory | 军械库 | 查看装备的界面。 |
+| Bestiary | 图鉴 | 查看敌人的界面。 |
+| Bare Fist | 空手 | 无武器或特定武器视作的攻击类型。 |
+| Void | 虚空 | 高稀有度装备/区域语境。 |
+| Astrolith | 星石 | 胜利目标与区域名。 |
+| Mind-warren | 心灵巢穴 | 区域名。 |
+| Blood-void | 血之虚空 | 区域名。 |
+| Forbidden trod | 禁行之路 | 区域名。 |
+| Astral swamps | 星界沼泽 | 区域名。 |
+| Eaten star | 被吞噬之星 | 区域名。 |
 | Main hand | 主手 | 装备槽位。 |
 | Off hand | 副手 | 装备槽位。 |
 | Head | 头部 | 装备槽位。 |

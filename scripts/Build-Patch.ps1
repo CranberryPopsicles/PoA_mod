@@ -55,16 +55,33 @@ Write-Host "Compiling loader..."
 Wait-Path -Path (Join-Path $loaderBuildDir 'global.gdc')
 Set-Content -Path (Join-Path $loaderBuildDir 'global.gd.remap') -Value "[remap]`n`npath=`"res://global.gdc`"" -Encoding utf8NoBOM
 
-Write-Host "Compiling translated menu scripts..."
-& $GDRETools --headless "--compile=$((Join-Path $patchScenes 'First_Menu.gd'))" --bytecode='3.5.0-stable' "--output=$patchScenes"
-Wait-Path -Path (Join-Path $patchScenes 'First_Menu.gdc')
-& $GDRETools --headless "--compile=$((Join-Path $patchScenes 'Start_Menu.gd'))" --bytecode='3.5.0-stable' "--output=$patchScenes"
-Wait-Path -Path (Join-Path $patchScenes 'Start_Menu.gdc')
-& $GDRETools --headless "--compile=$((Join-Path $patchScenes 'Feats.gd'))" --bytecode='3.5.0-stable' "--output=$patchScenes"
-Wait-Path -Path (Join-Path $patchScenes 'Feats.gdc')
-Set-Content -Path (Join-Path $patchScenes 'First_Menu.gd.remap') -Value "[remap]`n`npath=`"res://Scenes/First_Menu.gdc`"" -Encoding utf8NoBOM
-Set-Content -Path (Join-Path $patchScenes 'Start_Menu.gd.remap') -Value "[remap]`n`npath=`"res://Scenes/Start_Menu.gdc`"" -Encoding utf8NoBOM
-Set-Content -Path (Join-Path $patchScenes 'Feats.gd.remap') -Value "[remap]`n`npath=`"res://Scenes/Feats.gdc`"" -Encoding utf8NoBOM
+Write-Host "Compiling translated scripts..."
+$sceneScripts = @(
+    'AbilityBook.gd',
+    'Armory.gd',
+    'Bestiary.gd',
+    'Feats.gd',
+    'First_Menu.gd',
+    'Start_Menu.gd'
+)
+foreach ($script in $sceneScripts) {
+    $scriptPath = Join-Path $patchScenes $script
+    $compiledName = [System.IO.Path]::ChangeExtension($script, '.gdc')
+    & $GDRETools --headless "--compile=$scriptPath" --bytecode='3.5.0-stable' "--output=$patchScenes"
+    Wait-Path -Path (Join-Path $patchScenes $compiledName)
+    Set-Content -Path (Join-Path $patchScenes "$script.remap") -Value "[remap]`n`npath=`"res://Scenes/$compiledName`"" -Encoding utf8NoBOM
+}
+
+$topLevelScripts = @(
+    'translate.gd'
+)
+foreach ($script in $topLevelScripts) {
+    $scriptPath = Join-Path $patchSrc $script
+    $compiledName = [System.IO.Path]::ChangeExtension($script, '.gdc')
+    & $GDRETools --headless "--compile=$scriptPath" --bytecode='3.5.0-stable' "--output=$patchSrc"
+    Wait-Path -Path (Join-Path $patchSrc $compiledName)
+    Set-Content -Path (Join-Path $patchSrc "$script.remap") -Value "[remap]`n`npath=`"res://$compiledName`"" -Encoding utf8NoBOM
+}
 
 Write-Host "Preparing external patch source..."
 if (Test-Path $externalSrc) {
@@ -72,18 +89,25 @@ if (Test-Path $externalSrc) {
 }
 New-Item -ItemType Directory -Path $externalScenes, $externalData -Force | Out-Null
 $externalFiles = @(
+    'AbilityBook.tscn',
+    'Armory.tscn',
+    'Bestiary.tscn',
     'First_Menu.tscn',
     'Feats.tscn',
-    'Start_Menu.tscn',
-    'First_Menu.gdc',
-    'Feats.gdc',
-    'Start_Menu.gdc',
-    'First_Menu.gd.remap',
-    'Feats.gd.remap',
-    'Start_Menu.gd.remap'
+    'Start_Menu.tscn'
 )
 foreach ($file in $externalFiles) {
     Copy-Item -Path (Join-Path $patchScenes $file) -Destination (Join-Path $externalScenes $file) -Force
+}
+foreach ($script in $sceneScripts) {
+    $compiledName = [System.IO.Path]::ChangeExtension($script, '.gdc')
+    Copy-Item -Path (Join-Path $patchScenes $compiledName) -Destination (Join-Path $externalScenes $compiledName) -Force
+    Copy-Item -Path (Join-Path $patchScenes "$script.remap") -Destination (Join-Path $externalScenes "$script.remap") -Force
+}
+foreach ($script in $topLevelScripts) {
+    $compiledName = [System.IO.Path]::ChangeExtension($script, '.gdc')
+    Copy-Item -Path (Join-Path $patchSrc $compiledName) -Destination (Join-Path $externalSrc $compiledName) -Force
+    Copy-Item -Path (Join-Path $patchSrc "$script.remap") -Destination (Join-Path $externalSrc "$script.remap") -Force
 }
 if (Test-Path $patchData) {
     Get-ChildItem -Path $patchData -Filter '*.json' -File | ForEach-Object {
