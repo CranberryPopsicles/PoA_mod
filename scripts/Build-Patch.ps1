@@ -97,8 +97,10 @@ if (-not (Test-Path $fontPath)) {
 New-Item -ItemType Directory -Path $buildDir, $loaderBuildDir, $externalScenes -Force | Out-Null
 
 Write-Host "Compiling loader..."
+$loaderGdc = Join-Path $loaderBuildDir 'global.gdc'
+Remove-Item -LiteralPath $loaderGdc -Force -ErrorAction SilentlyContinue
 & $GDRETools --headless "--compile=$((Join-Path $loaderSrc 'global.gd'))" --bytecode='3.5.0-stable' "--output=$loaderBuildDir"
-Wait-Path -Path (Join-Path $loaderBuildDir 'global.gdc')
+Wait-StableFile -Path $loaderGdc
 Set-Content -Path (Join-Path $loaderBuildDir 'global.gd.remap') -Value "[remap]`n`npath=`"res://global.gdc`"" -Encoding utf8NoBOM
 
 Write-Host "Compiling translated scripts..."
@@ -117,8 +119,10 @@ $sceneScripts = @(
 foreach ($script in $sceneScripts) {
     $scriptPath = Join-Path $patchScenes $script
     $compiledName = [System.IO.Path]::ChangeExtension($script, '.gdc')
+    $compiledPath = Join-Path $patchScenes $compiledName
+    Remove-Item -LiteralPath $compiledPath -Force -ErrorAction SilentlyContinue
     & $GDRETools --headless "--compile=$scriptPath" --bytecode='3.5.0-stable' "--output=$patchScenes"
-    Wait-Path -Path (Join-Path $patchScenes $compiledName)
+    Wait-StableFile -Path $compiledPath
     Set-Content -Path (Join-Path $patchScenes "$script.remap") -Value "[remap]`n`npath=`"res://Scenes/$compiledName`"" -Encoding utf8NoBOM
 }
 
@@ -128,8 +132,10 @@ $topLevelScripts = @(
 foreach ($script in $topLevelScripts) {
     $scriptPath = Join-Path $patchSrc $script
     $compiledName = [System.IO.Path]::ChangeExtension($script, '.gdc')
+    $compiledPath = Join-Path $patchSrc $compiledName
+    Remove-Item -LiteralPath $compiledPath -Force -ErrorAction SilentlyContinue
     & $GDRETools --headless "--compile=$scriptPath" --bytecode='3.5.0-stable' "--output=$patchSrc"
-    Wait-Path -Path (Join-Path $patchSrc $compiledName)
+    Wait-StableFile -Path $compiledPath
     Set-Content -Path (Join-Path $patchSrc "$script.remap") -Value "[remap]`n`npath=`"res://$compiledName`"" -Encoding utf8NoBOM
 }
 
