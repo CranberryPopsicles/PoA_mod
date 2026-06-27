@@ -1038,7 +1038,7 @@ func get_info_string(info, player):
 					color = "[color=#ff0000]"
 				if int(game.Player.get_total_weight()) <= int(game.Player.get_total_STR()):
 					color = "[color=#00ff00]"
-	stringa = color + stringa + "[/color]" + " [color=#707070]" + str(player.get_total_STR()) + " STR"
+				stringa = color + stringa + "[/color]" + " [color=#707070]" + str(player.get_total_STR()) + " STR"
 				
 				
 			"inflex":
