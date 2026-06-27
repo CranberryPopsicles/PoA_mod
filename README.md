@@ -7,14 +7,14 @@
 - 游戏版本基线：Path of Achra 1.4.4
 - Godot 版本：3.5.x
 - 字体：本地中文字体，统一命名为 `zh-CN.ttf`
-- 已汉化：主菜单、角色创建界面的一部分 UI 和悬停说明
+- 已汉化：主菜单、角色创建界面的一部分 UI、悬停说明和基础机制说明
 - 未汉化：种族、职业、神祇、物品、能力、状态、剧情文本
 
 ## 目录说明
 
 ```text
 src/loader/          主资源包注入用 loader 源码
-zh_patch_src/        汉化资源源码，包含菜单场景、脚本、字体资源引用
+zh_patch_src/        汉化资源源码，包含菜单场景、脚本、字体资源引用和数据表覆盖
 local_assets/        本地字体等不提交资源，已被 .gitignore 忽略
 docs/glossary.md     术语表，翻译前优先维护这里
 scripts/             构建脚本
@@ -110,7 +110,7 @@ ProjectSettings.load_resource_pack("poa_zh.pck", true)
 
 主包里同时放入 `zh-CN.ttf` 和 `MyFont*.tres`，因为 Godot 的默认 GUI 字体加载很早。如果字体只放在外部包里，菜单中文会被加载但显示为空白。
 
-外部 `poa_zh.pck` 目前只放汉化场景和脚本：
+外部 `poa_zh.pck` 目前放汉化场景、脚本和少量数据表覆盖：
 
 ```text
 res://Scenes/First_Menu.tscn
@@ -119,6 +119,7 @@ res://Scenes/First_Menu.gd.remap
 res://Scenes/First_Menu.gdc
 res://Scenes/Start_Menu.gd.remap
 res://Scenes/Start_Menu.gdc
+res://Data/Table_InfoButtons.json
 ```
 
 ## 翻译流程

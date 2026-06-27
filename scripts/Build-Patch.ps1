@@ -31,8 +31,10 @@ $buildDir = Join-Path $ProjectRoot 'build'
 $loaderBuildDir = Join-Path $ProjectRoot 'compiled_loader'
 $externalSrc = Join-Path $ProjectRoot 'zh_patch_external'
 $externalScenes = Join-Path $externalSrc 'Scenes'
+$externalData = Join-Path $externalSrc 'Data'
 $patchSrc = Join-Path $ProjectRoot 'zh_patch_src'
 $patchScenes = Join-Path $patchSrc 'Scenes'
+$patchData = Join-Path $patchSrc 'Data'
 $loaderSrc = Join-Path $ProjectRoot 'src\loader'
 $fontPath = Join-Path $ProjectRoot 'local_assets\Fonts\zh-CN.ttf'
 
@@ -65,7 +67,7 @@ Write-Host "Preparing external patch source..."
 if (Test-Path $externalSrc) {
     Remove-Item -Path $externalSrc -Recurse -Force
 }
-New-Item -ItemType Directory -Path $externalScenes -Force | Out-Null
+New-Item -ItemType Directory -Path $externalScenes, $externalData -Force | Out-Null
 $externalFiles = @(
     'First_Menu.tscn',
     'Start_Menu.tscn',
@@ -76,6 +78,11 @@ $externalFiles = @(
 )
 foreach ($file in $externalFiles) {
     Copy-Item -Path (Join-Path $patchScenes $file) -Destination (Join-Path $externalScenes $file) -Force
+}
+if (Test-Path $patchData) {
+    Get-ChildItem -Path $patchData -Filter '*.json' -File | ForEach-Object {
+        Copy-Item -Path $_.FullName -Destination (Join-Path $externalData $_.Name) -Force
+    }
 }
 
 $loaderPck = Join-Path $buildDir 'PathofAchra.loader.pck'

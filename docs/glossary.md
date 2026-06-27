@@ -19,9 +19,27 @@
 | Life | 生命 | 生命值/最大生命。 |
 | Speed | 速度 | 行动速度。 |
 | Dodge | 闪避 | 防御相关数值。 |
+| Defense | 防御 | 尝试格挡攻击的概率相关数值。 |
 | Block | 格挡 | 防御相关数值。 |
 | Armor | 护甲 | 防御相关数值。 |
 | Resist | 抗性 | 元素/伤害类型抗性。 |
+| Strength | 力量 | STR 的完整属性名。 |
+| Dexterity | 敏捷 | DEX 的完整属性名。 |
+| Willpower | 意志 | WIL 的完整属性名。 |
+| Encumbrance | 负重 | 超过力量后惩罚速度和闪避。 |
+| Inflexibility | 僵硬度 | 会除算速度和意志伤害加成，并提高装备格挡缩放。 |
+| Vigor | 活力 | 升级界面中的生命恢复选项。 |
+| Divine intervention | 神圣干预 | 神祇阻止死亡的机制。 |
+| Game turn | 游戏回合 | 触发部分回合效果和状态到期的时间单位。 |
+| Familiar | 魔宠 | 召唤相关单位类型。 |
+| Summoned allies | 召唤盟友 | 意志决定上限的召唤单位。 |
+| Physical | 物理 | 斩击、钝击、穿刺伤害总类。 |
+| Slash | 斩击 | 物理伤害类型。 |
+| Blunt | 钝击 | 物理伤害类型。 |
+| Pierce | 穿刺 | 物理伤害类型。 |
+| Poison | 毒素 | 抗性/伤害类型。 |
+| Blood | 鲜血 | 抗性/伤害类型。 |
+| Weapon Size | 武器尺寸 | 会影响特定能力的武器属性。 |
 | Main hand | 主手 | 装备槽位。 |
 | Off hand | 副手 | 装备槽位。 |
 | Head | 头部 | 装备槽位。 |
@@ -57,5 +75,3 @@
 | Amplification | 增幅 / 强化 | 当前 UI 采用“增幅”。 |
 | applied effects | 已施加效果 / 附加效果 | 当前 UI 采用“已施加效果”。 |
 | Two-Handing | 双手持握 / 双持 | 当前 UI 采用“双手持握”，避免与 dual wield 混淆。 |
-| Inflexibility | 僵硬 / 不灵活 | 仍在脚本中保留英文，后续结合机制确认。 |
-
