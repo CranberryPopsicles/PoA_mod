@@ -60,8 +60,11 @@ Write-Host "Compiling translated menu scripts..."
 Wait-Path -Path (Join-Path $patchScenes 'First_Menu.gdc')
 & $GDRETools --headless "--compile=$((Join-Path $patchScenes 'Start_Menu.gd'))" --bytecode='3.5.0-stable' "--output=$patchScenes"
 Wait-Path -Path (Join-Path $patchScenes 'Start_Menu.gdc')
+& $GDRETools --headless "--compile=$((Join-Path $patchScenes 'Feats.gd'))" --bytecode='3.5.0-stable' "--output=$patchScenes"
+Wait-Path -Path (Join-Path $patchScenes 'Feats.gdc')
 Set-Content -Path (Join-Path $patchScenes 'First_Menu.gd.remap') -Value "[remap]`n`npath=`"res://Scenes/First_Menu.gdc`"" -Encoding utf8NoBOM
 Set-Content -Path (Join-Path $patchScenes 'Start_Menu.gd.remap') -Value "[remap]`n`npath=`"res://Scenes/Start_Menu.gdc`"" -Encoding utf8NoBOM
+Set-Content -Path (Join-Path $patchScenes 'Feats.gd.remap') -Value "[remap]`n`npath=`"res://Scenes/Feats.gdc`"" -Encoding utf8NoBOM
 
 Write-Host "Preparing external patch source..."
 if (Test-Path $externalSrc) {
@@ -70,10 +73,13 @@ if (Test-Path $externalSrc) {
 New-Item -ItemType Directory -Path $externalScenes, $externalData -Force | Out-Null
 $externalFiles = @(
     'First_Menu.tscn',
+    'Feats.tscn',
     'Start_Menu.tscn',
     'First_Menu.gdc',
+    'Feats.gdc',
     'Start_Menu.gdc',
     'First_Menu.gd.remap',
+    'Feats.gd.remap',
     'Start_Menu.gd.remap'
 )
 foreach ($file in $externalFiles) {

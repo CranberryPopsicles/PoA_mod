@@ -1,0 +1,74 @@
+{
+  "victory": {
+    "title": "victory",
+    "name": "[color=#ff3000]胜利[/color]",
+    "description": "穿过[color=#8030ff]星石[/color]",
+    "sprite": "res://Ham_Sprite/World/Astrolith.png"
+  },
+  "fire": {
+    "title": "fire",
+    "name": "[color=#ff7000]烈焰之道[/color]",
+    "description": "只使用[color=#ff7000]火焰[/color]能力取得胜利",
+    "sprite": "res://Ham_Sprite/Feats/fire.png"
+  },
+  "martial": {
+    "title": "martial",
+    "name": "[color=#af8f50]武艺纯粹[/color]",
+    "description": "只使用[color=#af8f50]武艺[/color]能力取得胜利",
+    "sprite": "res://Ham_Sprite/Feats/martial.png"
+  },
+  "lightning": {
+    "title": "lightning",
+    "name": "[color=#0060ff]雷霆之道[/color]",
+    "description": "只使用[color=#0060ff]闪电[/color]能力取得胜利",
+    "sprite": "res://Ham_Sprite/Feats/lightning.png"
+  },
+  "astral": {
+    "title": "astral",
+    "name": "[color=#8030af]星界纯粹[/color]",
+    "description": "只使用[color=#8030af]星界[/color]能力取得胜利",
+    "sprite": "res://Ham_Sprite/Feats/astral.png"
+  },
+  "ice": {
+    "title": "ice",
+    "name": "[color=#5080ff]寒冰之道[/color]",
+    "description": "只使用[color=#5080ff]寒冰[/color]能力取得胜利",
+    "sprite": "res://Ham_Sprite/Feats/ice.png"
+  },
+  "death2": {
+    "title": "death2",
+    "name": "[color=#a0a000]死亡之道[/color]",
+    "description": "只使用[color=#a0a000]死亡[/color]能力取得胜利",
+    "sprite": "res://Ham_Sprite/Feats/death.png"
+  },
+  "psychic": {
+    "title": "psychic",
+    "name": "[color=#ffaf30]灵能纯粹[/color]",
+    "description": "只使用[color=#ffaf30]灵能[/color]能力取得胜利",
+    "sprite": "res://Ham_Sprite/Feats/psychic.png"
+  },
+  "life": {
+    "title": "life",
+    "name": "[color=#00a000]生命之道[/color]",
+    "description": "只使用[color=#00a000]生命[/color]能力取得胜利",
+    "sprite": "res://Ham_Sprite/Feats/life.png"
+  },
+  "blood": {
+    "title": "blood",
+    "name": "[color=#ff1010]鲜血之道[/color]",
+    "description": "只使用[color=#ff1010]鲜血[/color]能力取得胜利",
+    "sprite": "res://Ham_Sprite/Feats/blood.png"
+  },
+  "poison": {
+    "title": "poison",
+    "name": "[color=#70ff00]毒素之道[/color]",
+    "description": "只使用[color=#70ff00]毒素[/color]能力取得胜利",
+    "sprite": "res://Ham_Sprite/Feats/poison.png"
+  },
+  "powerless": {
+    "title": "powerless",
+    "name": "[color=#c0c0ff]无能之人[/color]",
+    "description": "不使用[color=#c0c0ff]任何能力[/color]取得胜利",
+    "sprite": "res://Ham_Sprite/Feats/powerless.png"
+  }
+}

@@ -7,7 +7,7 @@
 - 游戏版本基线：Path of Achra 1.4.4
 - Godot 版本：3.5.x
 - 字体：本地中文字体，统一命名为 `zh-CN.ttf`
-- 已汉化：主菜单、角色创建界面的一部分 UI、悬停说明和基础机制说明
+- 已汉化：主菜单、角色创建界面的一部分 UI、悬停说明、基础机制说明和事迹界面
 - 未汉化：种族、职业、神祇、物品、能力、状态、剧情文本
 
 ## 目录说明
@@ -114,11 +114,15 @@ ProjectSettings.load_resource_pack("poa_zh.pck", true)
 
 ```text
 res://Scenes/First_Menu.tscn
+res://Scenes/Feats.tscn
 res://Scenes/Start_Menu.tscn
 res://Scenes/First_Menu.gd.remap
 res://Scenes/First_Menu.gdc
+res://Scenes/Feats.gd.remap
+res://Scenes/Feats.gdc
 res://Scenes/Start_Menu.gd.remap
 res://Scenes/Start_Menu.gdc
+res://Data/Table_Feats.json
 res://Data/Table_InfoButtons.json
 ```
 
