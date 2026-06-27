@@ -1,0 +1,720 @@
+[gd_scene load_steps=69 format=2]
+
+[ext_resource path="res://button_inv_pressed.tres" type="StyleBox" id=1]
+[ext_resource path="res://button_inv_hovered.tres" type="StyleBox" id=2]
+[ext_resource path="res://Ham_Sprite/Enemies/BloodRevenant.png" type="Texture" id=3]
+[ext_resource path="res://Ham_Sprite/UI/bg.png" type="Texture" id=4]
+[ext_resource path="res://Ham_Sprite/EffectsAnimated/Enter_2.png" type="Texture" id=5]
+[ext_resource path="res://Ham_Sprite/Buttons/Button_UI_Corners_Pressed.png" type="Texture" id=6]
+[ext_resource path="res://Ham_Sprite/Buttons/Button_UI_Corners_Hovered.png" type="Texture" id=7]
+[ext_resource path="res://Ham_Sprite/UI/Menu.png" type="Texture" id=8]
+[ext_resource path="res://Ham_Sprite/EffectsAnimated/Enter_1.png" type="Texture" id=9]
+[ext_resource path="res://Ham_Sprite/EffectsAnimated/Enter_3.png" type="Texture" id=10]
+[ext_resource path="res://guy_alone.png" type="Texture" id=11]
+[ext_resource path="res://stars.png" type="Texture" id=12]
+[ext_resource path="res://Fonts/Pixolletta8px.ttf" type="DynamicFontData" id=13]
+[ext_resource path="res://Scenes/First_Menu.gd" type="Script" id=14]
+[ext_resource path="res://Ham_Sprite/UI/background_stars.png" type="Texture" id=15]
+[ext_resource path="res://Ham_Sprite/UI/logo.png" type="Texture" id=16]
+[ext_resource path="res://Scenes/Background.tscn" type="PackedScene" id=17]
+[ext_resource path="res://Ham_Sprite/Buttons/Button_UI.png" type="Texture" id=18]
+[ext_resource path="res://Ham_Sprite/Allies/Cadaver.png" type="Texture" id=19]
+[ext_resource path="res://Ham_Sprite/Buttons/Button_UI_Pressed.png" type="Texture" id=20]
+[ext_resource path="res://Ham_Sprite/UI/OnThePath.png" type="Texture" id=21]
+[ext_resource path="res://Ham_Sprite/UI/cuneiform.png" type="Texture" id=22]
+[ext_resource path="res://Ham_Sprite/UI/background_landscape.png" type="Texture" id=23]
+[ext_resource path="res://Gamepad.gd" type="Script" id=24]
+[ext_resource path="res://Ham_Sprite/UI/gamepad_x.png" type="Texture" id=25]
+[ext_resource path="res://Ham_Sprite/UI/gamepad_stick.png" type="Texture" id=26]
+[ext_resource path="res://Ham_Sprite/UI/gamepad_a.png" type="Texture" id=27]
+[ext_resource path="res://Ham_Sprite/UI/gamepad_b.png" type="Texture" id=28]
+[ext_resource path="res://Ham_Sprite/UI/gamepad_y.png" type="Texture" id=29]
+[ext_resource path="res://Ham_Sprite/UI/guy2.png" type="Texture" id=30]
+[ext_resource path="res://Ham_Sprite/UI/LibraryLogo.png" type="Texture" id=31]
+[ext_resource path="res://Ham_Sprite/Buttons/BigArrow_Pressed.png" type="Texture" id=32]
+[ext_resource path="res://Ham_Sprite/Buttons/BigArrow_Hovered.png" type="Texture" id=33]
+[ext_resource path="res://Ham_Sprite/UI/stars2.png" type="Texture" id=34]
+[ext_resource path="res://Ham_Sprite/UI/stars4.png" type="Texture" id=35]
+[ext_resource path="res://Ham_Sprite/UI/stars1.png" type="Texture" id=36]
+[ext_resource path="res://Ham_Sprite/UI/stars3.png" type="Texture" id=37]
+
+[sub_resource type="SpriteFrames" id=36]
+animations = [ {
+"frames": [ ExtResource( 36 ), ExtResource( 34 ), ExtResource( 37 ), ExtResource( 35 ) ],
+"loop": true,
+"name": "default",
+"speed": 1.0
+} ]
+
+[sub_resource type="StreamTexture" id=34]
+load_path = "res://.import/bg2.png-6cd6e7bf81300c2bde5dcd2ae13b542f.stex"
+
+[sub_resource type="StyleBoxTexture" id=41]
+texture = ExtResource( 18 )
+region_rect = Rect2( 0, 0, 32, 32 )
+modulate_color = Color( 0.466667, 0, 0.792157, 1 )
+
+[sub_resource type="StyleBoxTexture" id=42]
+texture = ExtResource( 20 )
+region_rect = Rect2( 0, 0, 32, 32 )
+modulate_color = Color( 0.466667, 0, 0.792157, 1 )
+
+[sub_resource type="StyleBoxEmpty" id=43]
+
+[sub_resource type="StyleBoxEmpty" id=44]
+
+[sub_resource type="DynamicFont" id=29]
+size = 40
+font_data = ExtResource( 13 )
+
+[sub_resource type="StyleBoxEmpty" id=3]
+
+[sub_resource type="StyleBoxEmpty" id=26]
+
+[sub_resource type="StreamTexture" id=15]
+load_path = "res://.import/EnterWorld.png-2657d7db391000ee6dff5926448ae723.stex"
+
+[sub_resource type="SpriteFrames" id=16]
+animations = [ {
+"frames": [ ExtResource( 9 ), ExtResource( 5 ), ExtResource( 10 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="SpriteFrames" id=35]
+animations = [ {
+"frames": [ ExtResource( 33 ), ExtResource( 32 ) ],
+"loop": true,
+"name": "default",
+"speed": 1.0
+} ]
+
+[sub_resource type="StyleBoxEmpty" id=23]
+
+[sub_resource type="StyleBoxEmpty" id=27]
+
+[sub_resource type="StyleBoxTexture" id=30]
+texture = ExtResource( 18 )
+region_rect = Rect2( 0, 0, 32, 32 )
+modulate_color = Color( 0.466667, 0, 0.792157, 1 )
+
+[sub_resource type="StyleBoxTexture" id=31]
+texture = ExtResource( 20 )
+region_rect = Rect2( 0, 0, 32, 32 )
+modulate_color = Color( 0.466667, 0, 0.792157, 1 )
+
+[sub_resource type="StyleBoxEmpty" id=32]
+
+[sub_resource type="StyleBoxEmpty" id=33]
+
+[sub_resource type="StyleBoxTexture" id=37]
+texture = ExtResource( 18 )
+region_rect = Rect2( 0, 0, 32, 32 )
+modulate_color = Color( 0.466667, 0, 0.792157, 1 )
+
+[sub_resource type="StyleBoxTexture" id=38]
+texture = ExtResource( 20 )
+region_rect = Rect2( 0, 0, 32, 32 )
+modulate_color = Color( 0.466667, 0, 0.792157, 1 )
+
+[sub_resource type="StyleBoxEmpty" id=39]
+
+[sub_resource type="StyleBoxEmpty" id=40]
+
+[sub_resource type="StyleBoxEmpty" id=7]
+
+[sub_resource type="StyleBoxEmpty" id=28]
+
+[sub_resource type="StyleBoxTexture" id=9]
+texture = ExtResource( 7 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxTexture" id=10]
+texture = ExtResource( 6 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxEmpty" id=11]
+
+[sub_resource type="StyleBoxEmpty" id=12]
+
+[sub_resource type="StyleBoxEmpty" id=13]
+
+[sub_resource type="GDScript" id=25]
+script/source = "extends Node2D
+
+
+var rng = RandomNumberGenerator.new()
+var rects = []
+var rects_faded = []
+
+func _ready():
+	rng.randomize()
+	var size = 65
+	for x in 20:
+		for y in 10:
+			var rect = ColorRect.new()
+			add_child(rect)
+			rect.color = Color(0,0,0,1)
+			rect.rect_size.x = size
+			rect.rect_size.y = size
+			rect.rect_position.x = x*size
+			rect.rect_position.y = y*size
+			rects.append(rect)
+
+func _process(_delta):
+	for n in 3:
+		if rects_faded.size()>0:
+			var r = rng.randi_range(0,rects_faded.size()-1)
+			var rect = rects_faded[r]
+			rects_faded.erase(rect)
+			rect.queue_free()
+
+	for n in 6:
+		if rects.size()>0:
+			var r = rng.randi_range(0,rects.size()-1)
+			var rect = rects[r]
+			rects.erase(rect)
+			rects_faded.append(rect)
+			rect.color = Color(0,0,0,.7)
+
+		else:
+			if rects_faded.size()<=0:
+				queue_free()
+"
+
+[sub_resource type="StreamTexture" id=20]
+load_path = "res://.import/Border.png-afa0f151e128ce50c9efe45877c39829.stex"
+
+[node name="First_Menu" type="Node2D"]
+script = ExtResource( 14 )
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_left = -57.0
+margin_top = -81.0
+margin_right = 718.0
+margin_bottom = 541.0
+color = Color( 0, 0, 0, 1 )
+
+[node name="Background" parent="." instance=ExtResource( 17 )]
+
+[node name="BackgroundStars" type="Sprite" parent="."]
+visible = false
+position = Vector2( 321, 265 )
+texture = ExtResource( 15 )
+
+[node name="OnThePath" type="Sprite" parent="."]
+visible = false
+position = Vector2( 320, 160 )
+scale = Vector2( 2, 2 )
+texture = ExtResource( 21 )
+
+[node name="LibraryLogo2" type="Sprite" parent="."]
+position = Vector2( 134, 100 )
+texture = ExtResource( 22 )
+
+[node name="LibraryLogo" type="Sprite" parent="."]
+position = Vector2( 133, 82 )
+texture = ExtResource( 31 )
+
+[node name="Stars" type="Sprite" parent="."]
+visible = false
+modulate = Color( 0.647059, 0.635294, 0.635294, 1 )
+position = Vector2( 330, 285 )
+scale = Vector2( 2, 2 )
+texture = ExtResource( 12 )
+
+[node name="Figure2" type="Sprite" parent="."]
+visible = false
+modulate = Color( 0.537255, 0.537255, 0.537255, 1 )
+position = Vector2( 320, 216 )
+scale = Vector2( 2, 2 )
+texture = ExtResource( 23 )
+
+[node name="Bg" type="Sprite" parent="."]
+position = Vector2( 336, 312 )
+texture = ExtResource( 4 )
+
+[node name="Stars2" type="AnimatedSprite" parent="."]
+position = Vector2( 311, 221 )
+frames = SubResource( 36 )
+playing = true
+
+[node name="GuyAlone2" type="Sprite" parent="."]
+modulate = Color( 0.819608, 0.819608, 0.819608, 1 )
+position = Vector2( 320, 240 )
+scale = Vector2( 2, 2 )
+texture = ExtResource( 30 )
+
+[node name="Figure" type="Sprite" parent="."]
+visible = false
+position = Vector2( 320, 160 )
+scale = Vector2( 2, 2 )
+
+[node name="Bg2" type="Sprite" parent="."]
+visible = false
+position = Vector2( 104, 336 )
+texture = SubResource( 34 )
+
+[node name="GuyAlone" type="Sprite" parent="."]
+visible = false
+position = Vector2( 366, 240 )
+scale = Vector2( 2, 2 )
+texture = ExtResource( 11 )
+
+[node name="hiddenbuttonslabel" type="Label" parent="."]
+modulate = Color( 0.356863, 0.356863, 0.356863, 1 )
+margin_left = 316.0
+margin_top = 457.0
+margin_right = 462.0
+margin_bottom = 467.0
+text = "按住 SHIFT 显示清除选项"
+
+[node name="hiddenbuttons" type="Control" parent="."]
+visible = false
+modulate = Color( 0.627451, 0.627451, 0.627451, 1 )
+margin_left = -29.0
+margin_top = 185.0
+margin_right = 603.0
+margin_bottom = 641.0
+mouse_filter = 2
+
+[node name="ButtonData" type="Button" parent="hiddenbuttons"]
+margin_left = 389.0
+margin_top = 269.0
+margin_right = 491.0
+margin_bottom = 285.0
+rect_pivot_offset = Vector2( 8, 112 )
+mouse_filter = 2
+custom_styles/hover = SubResource( 41 )
+custom_styles/pressed = SubResource( 42 )
+custom_styles/focus = SubResource( 43 )
+custom_styles/normal = SubResource( 44 )
+
+[node name="Label2" type="Label" parent="hiddenbuttons/ButtonData"]
+modulate = Color( 0.811765, 0.32549, 0.32549, 1 )
+margin_left = 5.0
+margin_top = 3.0
+margin_right = 69.0
+margin_bottom = 13.0
+text = "全部数据"
+
+[node name="ButtonCharacter" type="Button" parent="hiddenbuttons"]
+margin_left = 389.0
+margin_top = 253.0
+margin_right = 491.0
+margin_bottom = 269.0
+rect_pivot_offset = Vector2( 8, 112 )
+mouse_filter = 2
+custom_styles/hover = SubResource( 41 )
+custom_styles/pressed = SubResource( 42 )
+custom_styles/focus = SubResource( 43 )
+custom_styles/normal = SubResource( 44 )
+
+[node name="Label2" type="Label" parent="hiddenbuttons/ButtonCharacter"]
+modulate = Color( 0.32549, 0.811765, 0.537255, 1 )
+margin_left = 5.0
+margin_top = 3.0
+margin_right = 69.0
+margin_bottom = 13.0
+text = "当前角色"
+
+[node name="Label" type="Label" parent="hiddenbuttons"]
+modulate = Color( 0.94902, 0.94902, 0.94902, 1 )
+margin_left = 394.0
+margin_top = 227.0
+margin_right = 489.0
+margin_bottom = 266.0
+text = "*若游戏崩溃，可尝试删除："
+autowrap = true
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+margin_left = -117.0
+margin_top = 40.0
+margin_right = 523.0
+margin_bottom = 240.0
+size_flags_horizontal = 0
+size_flags_vertical = 0
+
+[node name="Label" type="Label" parent="CenterContainer"]
+visible = false
+modulate = Color( 0.388235, 0.388235, 0.388235, 1 )
+margin_left = 279.0
+margin_top = 95.0
+margin_right = 360.0
+margin_bottom = 105.0
+text = "游戏制作：Ulfsire"
+align = 1
+
+[node name="Sprite" type="Sprite" parent="."]
+visible = false
+position = Vector2( 163, 212 )
+scale = Vector2( 3, 3 )
+texture = ExtResource( 3 )
+
+[node name="TitleBig" type="Sprite" parent="."]
+visible = false
+position = Vector2( 209, 35 )
+scale = Vector2( 0.75, 0.75 )
+texture = ExtResource( 16 )
+
+[node name="Sprite2" type="Sprite" parent="TitleBig"]
+visible = false
+position = Vector2( -750, -25.0001 )
+scale = Vector2( -6, 6 )
+texture = ExtResource( 3 )
+
+[node name="TitleLabel" type="RichTextLabel" parent="."]
+visible = false
+margin_left = 17.0
+margin_top = 19.0
+margin_right = 231.0
+margin_bottom = 169.0
+custom_fonts/normal_font = SubResource( 29 )
+bbcode_enabled = true
+bbcode_text = "[color=#803030]Path of 
+[color=#ff0000]Achra[/color]"
+text = "Path of 
+Achra"
+
+[node name="RichTextLabel3" type="RichTextLabel" parent="."]
+visible = false
+margin_left = 261.0
+margin_top = 287.0
+margin_right = 381.0
+margin_bottom = 327.0
+bbcode_enabled = true
+bbcode_text = "[center][color=#808080][[/color] [color=#ffff00]enter[/color] [color=#808080]][/color]
+[color=#808080][[/color] [color=#ffff00]tab[/color] [color=#808080]][/color][/center]"
+text = "[ enter ]
+[ tab ]"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Proem" type="RichTextLabel" parent="."]
+visible = false
+modulate = Color( 0.678431, 0.313726, 0.403922, 1 )
+margin_left = 371.0
+margin_top = 344.0
+margin_right = 593.0
+margin_bottom = 451.0
+bbcode_enabled = true
+bbcode_text = "
+proem"
+text = "
+proem"
+
+[node name="Button" type="Button" parent="."]
+margin_left = 572.0
+margin_top = 395.0
+margin_right = 636.0
+margin_bottom = 411.0
+rect_pivot_offset = Vector2( 8, 112 )
+custom_styles/hover = ExtResource( 2 )
+custom_styles/pressed = ExtResource( 1 )
+custom_styles/focus = SubResource( 3 )
+custom_styles/normal = SubResource( 26 )
+
+[node name="Sprite11" type="Sprite" parent="Button"]
+visible = false
+show_behind_parent = true
+position = Vector2( 16, 16 )
+texture = SubResource( 15 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="Button"]
+visible = false
+show_behind_parent = true
+position = Vector2( 16, 16 )
+frames = SubResource( 16 )
+playing = true
+
+[node name="Label" type="Label" parent="Button"]
+visible = false
+modulate = Color( 0.643137, 0.643137, 0.643137, 1 )
+margin_left = -4.0
+margin_top = 35.0
+margin_right = 36.0
+margin_bottom = 45.0
+text = "Start"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label2" type="Label" parent="Button"]
+modulate = Color( 1, 0.764706, 0.203922, 1 )
+margin_left = 5.0
+margin_top = 3.0
+margin_right = 69.0
+margin_bottom = 13.0
+text = "踏上道路"
+
+[node name="PrestigeAlarm" type="AnimatedSprite" parent="Button"]
+modulate = Color( 0.901961, 0.768627, 0.313726, 1 )
+position = Vector2( -19, 7 )
+frames = SubResource( 35 )
+frame = 1
+playing = true
+
+[node name="Button3" type="Button" parent="."]
+modulate = Color( 0.803922, 0.541176, 0.890196, 1 )
+margin_left = 572.0
+margin_top = 411.0
+margin_right = 636.0
+margin_bottom = 427.0
+rect_pivot_offset = Vector2( 8, 96 )
+custom_styles/hover = ExtResource( 2 )
+custom_styles/pressed = ExtResource( 1 )
+custom_styles/focus = SubResource( 23 )
+custom_styles/normal = SubResource( 27 )
+
+[node name="Sprite11" type="Sprite" parent="Button3"]
+visible = false
+position = Vector2( 17, 16 )
+texture = ExtResource( 19 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="Button3"]
+visible = false
+show_behind_parent = true
+position = Vector2( 16, 16 )
+frames = SubResource( 16 )
+frame = 2
+playing = true
+
+[node name="Label" type="Label" parent="Button3"]
+modulate = Color( 0.643137, 0.643137, 0.643137, 1 )
+margin_left = 5.0
+margin_top = 3.0
+margin_right = 69.0
+margin_bottom = 13.0
+text = "陵墓"
+
+[node name="Button4" type="Button" parent="."]
+margin_left = 572.0
+margin_top = 427.0
+margin_right = 636.0
+margin_bottom = 443.0
+rect_pivot_offset = Vector2( 8, 80 )
+custom_styles/hover = SubResource( 30 )
+custom_styles/pressed = SubResource( 31 )
+custom_styles/focus = SubResource( 32 )
+custom_styles/normal = SubResource( 33 )
+
+[node name="Sprite11" type="Sprite" parent="Button4"]
+visible = false
+position = Vector2( 17, 16 )
+texture = ExtResource( 19 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="Button4"]
+visible = false
+show_behind_parent = true
+position = Vector2( 16, 16 )
+frames = SubResource( 16 )
+frame = 1
+playing = true
+
+[node name="Label" type="Label" parent="Button4"]
+modulate = Color( 0.905882, 0.513726, 0.862745, 1 )
+margin_left = 5.0
+margin_top = 3.0
+margin_right = 69.0
+margin_bottom = 13.0
+text = "传说"
+
+[node name="Button5" type="Button" parent="."]
+margin_left = 572.0
+margin_top = 443.0
+margin_right = 636.0
+margin_bottom = 459.0
+rect_pivot_offset = Vector2( 8, 80 )
+custom_styles/hover = SubResource( 37 )
+custom_styles/pressed = SubResource( 38 )
+custom_styles/focus = SubResource( 39 )
+custom_styles/normal = SubResource( 40 )
+
+[node name="Sprite11" type="Sprite" parent="Button5"]
+visible = false
+position = Vector2( 17, 16 )
+texture = ExtResource( 19 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="Button5"]
+visible = false
+show_behind_parent = true
+position = Vector2( 16, 16 )
+frames = SubResource( 16 )
+playing = true
+
+[node name="Label" type="Label" parent="Button5"]
+modulate = Color( 0.380392, 0.380392, 0.380392, 1 )
+margin_left = 5.0
+margin_top = 3.0
+margin_right = 69.0
+margin_bottom = 13.0
+text = "制作名单"
+
+[node name="Button2" type="Button" parent="."]
+margin_left = 572.0
+margin_top = 459.0
+margin_right = 636.0
+margin_bottom = 475.0
+rect_pivot_offset = Vector2( 8, 64 )
+custom_styles/hover = ExtResource( 2 )
+custom_styles/pressed = ExtResource( 1 )
+custom_styles/focus = SubResource( 7 )
+custom_styles/normal = SubResource( 28 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Button2"]
+visible = false
+margin_left = -2.0
+margin_top = 32.0
+margin_right = 80.0
+margin_bottom = 72.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[color=#808080][[/color] [color=#ffff00]esc[/color] [color=#808080]]"
+text = "[ esc ]"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label2" type="Label" parent="Button2"]
+modulate = Color( 0.796078, 0.192157, 0.192157, 1 )
+margin_left = 5.0
+margin_top = 3.0
+margin_right = 69.0
+margin_bottom = 13.0
+text = "退出"
+
+[node name="Menu" type="Button" parent="."]
+margin_left = 4.0
+margin_top = 444.0
+margin_right = 36.0
+margin_bottom = 476.0
+custom_styles/hover = SubResource( 9 )
+custom_styles/pressed = SubResource( 10 )
+custom_styles/focus = SubResource( 11 )
+custom_styles/disabled = SubResource( 12 )
+custom_styles/normal = SubResource( 13 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="Menu"]
+show_behind_parent = true
+position = Vector2( 16, 16 )
+texture = ExtResource( 8 )
+
+[node name="Label" type="Label" parent="Menu"]
+visible = false
+modulate = Color( 1, 0.443137, 0.878431, 1 )
+margin_left = 36.0
+margin_top = 12.0
+margin_right = 226.0
+margin_bottom = 23.0
+text = "< 选项"
+
+[node name="version" type="Label" parent="."]
+modulate = Color( 0.627451, 0.627451, 0.627451, 1 )
+margin_left = 40.0
+margin_top = 457.0
+margin_right = 672.0
+margin_bottom = 473.0
+text = "Path of Achra    中文测试补丁    desktop"
+
+[node name="FadeOut" type="Node2D" parent="."]
+script = SubResource( 25 )
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Border" type="Sprite" parent="CanvasLayer"]
+position = Vector2( 320, 240 )
+texture = SubResource( 20 )
+
+[node name="Gamepad_help" type="Node2D" parent="."]
+position = Vector2( 16, 272 )
+script = ExtResource( 24 )
+
+[node name="Sprite" type="Sprite" parent="Gamepad_help"]
+texture = ExtResource( 26 )
+
+[node name="Label" type="Label" parent="Gamepad_help/Sprite"]
+modulate = Color( 0.380392, 0.376471, 0.376471, 1 )
+margin_left = 10.0
+margin_top = -2.0
+margin_right = 50.0
+margin_bottom = 8.0
+text = "选择"
+
+[node name="Sprite2" type="Sprite" parent="Gamepad_help"]
+position = Vector2( 0, 20 )
+texture = ExtResource( 27 )
+
+[node name="Label2" type="Label" parent="Gamepad_help/Sprite2"]
+modulate = Color( 0.380392, 0.376471, 0.376471, 1 )
+margin_left = 10.0
+margin_top = -2.0
+margin_right = 50.0
+margin_bottom = 21.0
+text = "点击
+"
+
+[node name="Sprite3" type="Sprite" parent="Gamepad_help"]
+visible = false
+position = Vector2( 0, 40 )
+texture = ExtResource( 28 )
+
+[node name="Label2" type="Label" parent="Gamepad_help/Sprite3"]
+modulate = Color( 0.380392, 0.376471, 0.376471, 1 )
+margin_left = 10.0
+margin_top = -2.0
+margin_right = 50.0
+margin_bottom = 21.0
+text = "自动
+"
+
+[node name="Sprite5" type="Sprite" parent="Gamepad_help"]
+visible = false
+position = Vector2( 0, 60 )
+texture = ExtResource( 25 )
+
+[node name="Label2" type="Label" parent="Gamepad_help/Sprite5"]
+modulate = Color( 0.380392, 0.376471, 0.376471, 1 )
+margin_left = 10.0
+margin_top = -2.0
+margin_right = 50.0
+margin_bottom = 21.0
+text = "原地
+"
+
+[node name="Sprite4" type="Sprite" parent="Gamepad_help"]
+visible = false
+position = Vector2( 0, 80 )
+texture = ExtResource( 29 )
+
+[node name="Label2" type="Label" parent="Gamepad_help/Sprite4"]
+modulate = Color( 0.380392, 0.376471, 0.376471, 1 )
+margin_left = 10.0
+margin_top = -2.0
+margin_right = 50.0
+margin_bottom = 21.0
+text = "确认
+"
+
+[connection signal="mouse_entered" from="hiddenbuttons/ButtonData" to="." method="_on_Button_mouse_entered"]
+[connection signal="pressed" from="hiddenbuttons/ButtonData" to="." method="_on_ButtonData_pressed"]
+[connection signal="mouse_entered" from="hiddenbuttons/ButtonCharacter" to="." method="_on_Button_mouse_entered"]
+[connection signal="pressed" from="hiddenbuttons/ButtonCharacter" to="." method="_on_ButtonCharacter_pressed"]
+[connection signal="mouse_entered" from="Proem" to="." method="_on_Proem_mouse_entered"]
+[connection signal="mouse_entered" from="Button" to="." method="_on_Button_mouse_entered"]
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
+[connection signal="mouse_entered" from="Button3" to="." method="_on_Button3_mouse_entered"]
+[connection signal="pressed" from="Button3" to="." method="_on_Button3_pressed"]
+[connection signal="mouse_entered" from="Button4" to="." method="_on_Button3_mouse_entered"]
+[connection signal="pressed" from="Button4" to="." method="_on_Button4_pressed"]
+[connection signal="mouse_entered" from="Button5" to="." method="_on_Button5_mouse_entered"]
+[connection signal="pressed" from="Button5" to="." method="_on_Button5_pressed"]
+[connection signal="mouse_entered" from="Button2" to="." method="_on_Button2_mouse_entered"]
+[connection signal="pressed" from="Button2" to="." method="_on_Button2_pressed"]
+[connection signal="mouse_entered" from="Menu" to="." method="_on_Menu_mouse_entered"]
+[connection signal="pressed" from="Menu" to="." method="_on_Menu_pressed"]

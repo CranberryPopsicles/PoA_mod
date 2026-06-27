@@ -1,0 +1,33 @@
+# Build outputs
+build/
+compiled_loader/
+zh_patch_external/
+local_assets/
+
+# Recovered game project and inspection scratch dirs
+extracted/
+inspect_orig_global/
+
+# Game packages and large generated archives
+*.pck
+*.exe
+*.apk
+*.ttf
+
+# GDRETools logs / temporary files
+gdre_export.log
+*.tmp
+*.bak
+*.gdc
+*.gd.remap
+
+# Local Codex/agent state
+.codex/
+.agents/
+
+# OS/editor noise
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+*.swo
