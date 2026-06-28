@@ -1,0 +1,4564 @@
+{
+  "gorse": {
+    "title": "gorse",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "[color=#00a000]Plant[/color]"
+    ],
+    "family": "elemental",
+    "name": "Briarfolk",
+    "name_color": "[color=#20af20]Briarfolk[/color]",
+    "description": "从深林召来的藤蔓形斗士",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 10,
+    "lvl": 5,
+    "hp": 200,
+    "speed": 7,
+    "speedmin": 1,
+    "arm": 20,
+    "dodge": [
+      3,
+      10
+    ],
+    "deflect": [
+      3,
+      10,
+      30
+    ],
+    "accuracy": [
+      10,
+      10
+    ],
+    "damage": [
+      10,
+      10
+    ],
+    "dmgtype": "blunt",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/Briarfolk.png",
+    "abilities": [
+      "Force",
+      "EntangleHit"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpsePurp",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 90,
+    "resist_fire": -100,
+    "resist_ice": 0,
+    "resist_poison": 90,
+    "resist_blood": 90,
+    "resist_death": 0,
+    "resist_astral": 0,
+    "resist_psychic": 90,
+    "resist_lightning": 0
+  },
+  "Gisa": {
+    "title": "Gisa",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "[color=#00a000]Plant[/color]"
+    ],
+    "family": "elemental",
+    "name": "Gisa",
+    "name_color": "[color=#20af20]Gisa[/color]",
+    "description": "由灌木召出的奥术士兵",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 10,
+    "lvl": 5,
+    "hp": 200,
+    "speed": 5,
+    "speedmin": 1,
+    "arm": 50,
+    "dodge": [
+      3,
+      10
+    ],
+    "deflect": [
+      3,
+      10,
+      30
+    ],
+    "accuracy": [
+      10,
+      10
+    ],
+    "damage": [
+      10,
+      10
+    ],
+    "dmgtype": "pierce",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/Gisa.png",
+    "abilities": [
+      "Force",
+      "EntangleHit"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpsePurp",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 90,
+    "resist_fire": -100,
+    "resist_ice": 0,
+    "resist_poison": 90,
+    "resist_blood": 90,
+    "resist_death": 0,
+    "resist_astral": 0,
+    "resist_psychic": 90,
+    "resist_lightning": 0
+  },
+  "creeper": {
+    "title": "creeper",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "[color=#00a000]Plant[/color]"
+    ],
+    "family": "elemental",
+    "name": "Creeper",
+    "name_color": "[color=#20af20]Creeper[/color]",
+    "description": "一条活力惊人的附魔藤蔓",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 20,
+    "lvl": 10,
+    "hp": 300,
+    "speed": 5,
+    "speedmin": 1,
+    "arm": 20,
+    "dodge": [
+      1,
+      1
+    ],
+    "deflect": [
+      1,
+      10,
+      10
+    ],
+    "accuracy": [
+      20,
+      10
+    ],
+    "damage": [
+      20,
+      10
+    ],
+    "dmgtype": "pierce",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/Creeper.png",
+    "abilities": [
+      "Force",
+      "Vigilance",
+      "EntangleHit",
+      "stationary",
+      "Familiar"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpsePurp",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 90,
+    "resist_fire": -100,
+    "resist_ice": 0,
+    "resist_poison": 90,
+    "resist_blood": 90,
+    "resist_death": 0,
+    "resist_astral": 0,
+    "resist_psychic": 90,
+    "resist_lightning": 0
+  },
+  "vinespawn": {
+    "title": "vinespawn",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "[color=#00a000]Plant[/color]"
+    ],
+    "family": "elemental",
+    "name": "Vinespawn",
+    "name_color": "[color=#209f50]Vinespawn[/color]",
+    "description": "Arba 意志萌发出的微粒",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 10,
+    "lvl": 1,
+    "hp": 5,
+    "speed": 5,
+    "speedmin": 1,
+    "arm": 20,
+    "dodge": [
+      3,
+      10
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      10,
+      10
+    ],
+    "damage": [
+      5,
+      10
+    ],
+    "dmgtype": "pierce",
+    "range_attack": 4,
+    "proj_art": "res://Ham_Sprite/Proj/Proj_Vine.png",
+    "sprite": "res://Ham_Sprite/Allies/Vinespawn.png",
+    "abilities": [
+      "EntangleHit",
+      "stationary"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpsePurp",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": -100,
+    "resist_ice": 0,
+    "resist_poison": 90,
+    "resist_blood": 90,
+    "resist_death": 0,
+    "resist_astral": 0,
+    "resist_psychic": 90,
+    "resist_lightning": 0
+  },
+  "tentacle": {
+    "title": "tentacle",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "none"
+    ],
+    "family": "elemental",
+    "name": "Tentacle",
+    "name_color": "[color=#8040a0]Tentacle[/color]",
+    "description": "Oros 召来的肢体",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 10,
+    "lvl": 1,
+    "hp": 100,
+    "speed": 20,
+    "speedmin": 1,
+    "arm": 20,
+    "dodge": [
+      3,
+      10
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      10,
+      10
+    ],
+    "damage": [
+      5,
+      10
+    ],
+    "dmgtype": "blunt",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/Tentacle.png",
+    "abilities": [
+      "OrosAppendage",
+      "CorrosionHit",
+      "stationary"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpsePurp",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": 0,
+    "resist_ice": 0,
+    "resist_poison": 90,
+    "resist_blood": 90,
+    "resist_death": 90,
+    "resist_astral": 0,
+    "resist_psychic": 90,
+    "resist_lightning": 0
+  },
+  "Root": {
+    "title": "Root",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "[color=#00a000]Plant[/color]"
+    ],
+    "family": "elemental",
+    "name": "Root",
+    "name_color": "[color=#20af50]Root[/color]",
+    "description": "由转化生命力生出的活化根须",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 10,
+    "lvl": 1,
+    "hp": 50,
+    "speed": 5,
+    "speedmin": 1,
+    "arm": 20,
+    "dodge": [
+      1,
+      1
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      10,
+      10
+    ],
+    "damage": [
+      10,
+      10
+    ],
+    "dmgtype": "blunt",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/Root.png",
+    "abilities": [
+      "EntangleHit",
+      "stationary"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpsePurp",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 90,
+    "resist_fire": -100,
+    "resist_ice": 0,
+    "resist_poison": 90,
+    "resist_blood": 90,
+    "resist_death": 0,
+    "resist_astral": 0,
+    "resist_psychic": 90,
+    "resist_lightning": 0
+  },
+  "PearlMirror": {
+    "title": "PearlMirror",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "none"
+    ],
+    "family": "elemental",
+    "name": "Pearl Mirror",
+    "name_color": "[color=#9050ff]Pearl Mirror[/color]",
+    "description": "由珍珠与寒冰召出的魔法镜",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 10,
+    "lvl": 1,
+    "hp": 1,
+    "speed": 1,
+    "speedmin": 1,
+    "arm": 20,
+    "dodge": [
+      1,
+      1
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      10,
+      10
+    ],
+    "damage": [
+      10,
+      10
+    ],
+    "dmgtype": "ice",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/PearlMirror.png",
+    "abilities": [
+      "none",
+      "stationary"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpsePurp",
+    "resist_slash": 90,
+    "resist_pierce": 90,
+    "resist_blunt": 0,
+    "resist_fire": 0,
+    "resist_ice": 90,
+    "resist_poison": 90,
+    "resist_blood": 90,
+    "resist_death": 90,
+    "resist_astral": 90,
+    "resist_psychic": 90,
+    "resist_lightning": 0
+  },
+  "Mushroom": {
+    "title": "Mushroom",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "[color=#30f000]Fungus[/color]"
+    ],
+    "family": "elemental",
+    "name": "Mushroom",
+    "name_color": "[color=#30f000]Mushroom[/color]",
+    "description": "由庞大真菌源头生成的生长物",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 10,
+    "lvl": 1,
+    "hp": 10,
+    "speed": 5,
+    "speedmin": 1,
+    "arm": 1,
+    "dodge": [
+      1,
+      1
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      10,
+      10
+    ],
+    "damage": [
+      10,
+      10
+    ],
+    "dmgtype": "poison",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/Mushroom.png",
+    "abilities": [
+      "PoisonHit",
+      "Force",
+      "Vigilance",
+      "stationary"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpsePurp",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": -100,
+    "resist_ice": 0,
+    "resist_poison": 90,
+    "resist_blood": 90,
+    "resist_death": 90,
+    "resist_astral": 0,
+    "resist_psychic": 90,
+    "resist_lightning": 0
+  },
+  "livingice": {
+    "title": "livingice",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "none"
+    ],
+    "family": "elemental",
+    "name": "Living Ice",
+    "name_color": "[color=#5080ff]Living Ice[/color]",
+    "description": "由 Ice Shah 召来的有意识霜柱",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 10,
+    "lvl": 1,
+    "hp": 5,
+    "speed": 1,
+    "speedmin": 1,
+    "arm": 100,
+    "dodge": [
+      1,
+      10
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      10,
+      10
+    ],
+    "damage": [
+      10,
+      10
+    ],
+    "dmgtype": "ice",
+    "range_attack": 4,
+    "proj_art": "res://Ham_Sprite/Proj/Proj_Ice.png",
+    "sprite": "res://Ham_Sprite/Allies/LivingIce.png",
+    "abilities": [
+      "Force",
+      "Vigilance",
+      "ChillHit",
+      "stationary"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpsePurp",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": -100,
+    "resist_ice": 0,
+    "resist_poison": 90,
+    "resist_blood": 90,
+    "resist_death": 0,
+    "resist_astral": 0,
+    "resist_psychic": 90,
+    "resist_lightning": 0
+  },
+  "icedisc": {
+    "title": "icedisc",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "none"
+    ],
+    "family": "elemental",
+    "name": "Ice Disc",
+    "name_color": "[color=#5080ff]Ice Disc[/color]",
+    "description": "由高速旋转寒冰构成的小型元素体",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 10,
+    "lvl": 1,
+    "hp": 1,
+    "speed": 60,
+    "speedmin": 1,
+    "arm": 1,
+    "dodge": [
+      10,
+      10
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      20,
+      10
+    ],
+    "damage": [
+      15,
+      10
+    ],
+    "dmgtype": "ice",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/IceDisc.png",
+    "abilities": [
+      "ChillHit",
+      "none"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpsePurp",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": -100,
+    "resist_ice": 0,
+    "resist_poison": 0,
+    "resist_blood": 0,
+    "resist_death": 0,
+    "resist_astral": 0,
+    "resist_psychic": 0,
+    "resist_lightning": 0
+  },
+  "serpent": {
+    "title": "serpent",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "[color=#10df90]Reptile[/color]"
+    ],
+    "family": "beast",
+    "name": "Serpent",
+    "name_color": "[color=#10df90]Serpent[/color]",
+    "description": "被野性召唤者魅惑的剧毒爬行动物",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 10,
+    "lvl": 5,
+    "hp": 100,
+    "speed": 15,
+    "speedmin": 3,
+    "arm": 5,
+    "dodge": [
+      15,
+      10
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      20,
+      10
+    ],
+    "damage": [
+      6,
+      10
+    ],
+    "dmgtype": "pierce",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/Serpent.png",
+    "abilities": [
+      "PoisonHit",
+      "none"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpseRed",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": 0,
+    "resist_ice": 0,
+    "resist_poison": 90,
+    "resist_blood": 0,
+    "resist_death": 0,
+    "resist_astral": 0,
+    "resist_psychic": 0,
+    "resist_lightning": 0
+  },
+  "boar": {
+    "title": "boar",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "[color=#10df90]Reptile[/color]"
+    ],
+    "family": "beast",
+    "name": "Cobra",
+    "name_color": "[color=#10df90]Cobra[/color]",
+    "description": "一种傲慢的爬行动物，以盟友之死为食",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 25,
+    "lvl": 25,
+    "hp": 500,
+    "speed": 10,
+    "speedmin": 5,
+    "arm": 100,
+    "dodge": [
+      10,
+      10
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      20,
+      10
+    ],
+    "damage": [
+      10,
+      10
+    ],
+    "dmgtype": "pierce",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/Cobra.png",
+    "abilities": [
+      "PoisonHit",
+      "Bully",
+      "FeastCruel",
+      "Familiar"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpseRed",
+    "resist_slash": 25,
+    "resist_pierce": 25,
+    "resist_blunt": 25,
+    "resist_fire": 0,
+    "resist_ice": 0,
+    "resist_poison": 0,
+    "resist_blood": 0,
+    "resist_death": 0,
+    "resist_astral": 0,
+    "resist_psychic": 0,
+    "resist_lightning": 0
+  },
+  "AntPoison": {
+    "title": "AntPoison",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "none"
+    ],
+    "family": "beast",
+    "name": "Ant",
+    "name_color": "[color=#505050]Black Ant[/color]",
+    "description": "Formus 的爬行子嗣",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 10,
+    "lvl": 5,
+    "hp": 150,
+    "speed": 10,
+    "speedmin": 5,
+    "arm": 200,
+    "dodge": [
+      10,
+      10
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      10,
+      10
+    ],
+    "damage": [
+      5,
+      10
+    ],
+    "dmgtype": "poison",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/AntPoison.png",
+    "abilities": [
+      "PoisonHit",
+      "Force",
+      "Bully",
+      "Familiar"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpsePurp",
+    "resist_slash": 50,
+    "resist_pierce": 50,
+    "resist_blunt": 50,
+    "resist_fire": 0,
+    "resist_ice": 0,
+    "resist_poison": 90,
+    "resist_blood": 0,
+    "resist_death": 0,
+    "resist_astral": 0,
+    "resist_psychic": 0,
+    "resist_lightning": 0
+  },
+  "AntFire": {
+    "title": "AntFire",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "none"
+    ],
+    "family": "beast",
+    "name": "Ant",
+    "name_color": "[color=#ff7000]Red Ant[/color]",
+    "description": "Formus 的爬行子嗣",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 10,
+    "lvl": 5,
+    "hp": 150,
+    "speed": 20,
+    "speedmin": 5,
+    "arm": 75,
+    "dodge": [
+      10,
+      10
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      10,
+      10
+    ],
+    "damage": [
+      7,
+      10
+    ],
+    "dmgtype": "fire",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/AntFire.png",
+    "abilities": [
+      "BurnHit",
+      "Force",
+      "AOE",
+      "Familiar"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpsePurp",
+    "resist_slash": 50,
+    "resist_pierce": 50,
+    "resist_blunt": 50,
+    "resist_fire": 90,
+    "resist_ice": 0,
+    "resist_poison": 0,
+    "resist_blood": 0,
+    "resist_death": 0,
+    "resist_astral": 0,
+    "resist_psychic": 0,
+    "resist_lightning": 0
+  },
+  "AntBlood": {
+    "title": "AntBlood",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "none"
+    ],
+    "family": "beast",
+    "name": "Ant",
+    "name_color": "[color=#ffa0a0]White Ant[/color]",
+    "description": "Formus 的爬行子嗣",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 10,
+    "lvl": 5,
+    "hp": 250,
+    "speed": 10,
+    "speedmin": 5,
+    "arm": 50,
+    "dodge": [
+      10,
+      10
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      10,
+      10
+    ],
+    "damage": [
+      5,
+      10
+    ],
+    "dmgtype": "blood",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/AntBlood.png",
+    "abilities": [
+      "BleedHit",
+      "Force",
+      "AuraBleed",
+      "Familiar"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpsePurp",
+    "resist_slash": 50,
+    "resist_pierce": 50,
+    "resist_blunt": 50,
+    "resist_fire": 0,
+    "resist_ice": 0,
+    "resist_poison": 0,
+    "resist_blood": 90,
+    "resist_death": 0,
+    "resist_astral": 0,
+    "resist_psychic": 0,
+    "resist_lightning": 0
+  },
+  "AntAstral": {
+    "title": "AntAstral",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "none"
+    ],
+    "family": "beast",
+    "name": "Ant",
+    "name_color": "[color=#a030ff]Violet Ant[/color]",
+    "description": "Formus 的爬行子嗣",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 10,
+    "lvl": 5,
+    "hp": 100,
+    "speed": 5,
+    "speedmin": 5,
+    "arm": 50,
+    "dodge": [
+      10,
+      10
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      10,
+      10
+    ],
+    "damage": [
+      5,
+      10
+    ],
+    "dmgtype": "astral",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/AntAstral.png",
+    "abilities": [
+      "AbsorbTime",
+      "Castastra",
+      "Familiar"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpsePurp",
+    "resist_slash": 50,
+    "resist_pierce": 50,
+    "resist_blunt": 50,
+    "resist_fire": 0,
+    "resist_ice": 0,
+    "resist_poison": 0,
+    "resist_blood": 90,
+    "resist_death": 0,
+    "resist_astral": 0,
+    "resist_psychic": 0,
+    "resist_lightning": 0
+  },
+  "fleshfly": {
+    "title": "fleshfly",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "[color=#10df90]Reptile[/color]"
+    ],
+    "family": "beast",
+    "name": "Hatchling",
+    "name_color": "[color=#10df90]Hatchling[/color]",
+    "description": "一条刚刚孵化的蛇",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 10,
+    "lvl": 1,
+    "hp": 5,
+    "speed": 15,
+    "speedmin": 1,
+    "arm": 1,
+    "dodge": [
+      10,
+      10
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      10,
+      10
+    ],
+    "damage": [
+      10,
+      10
+    ],
+    "dmgtype": "poison",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/Hatchling.png",
+    "abilities": [
+      "none",
+      "none"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpsePurp",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": 0,
+    "resist_ice": 0,
+    "resist_poison": 0,
+    "resist_blood": 0,
+    "resist_death": 0,
+    "resist_astral": 0,
+    "resist_psychic": 0,
+    "resist_lightning": 0
+  },
+  "Crawler": {
+    "title": "Crawler",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "[color=#a0a000]Undead[/color]"
+    ],
+    "family": "undead",
+    "name": "Crawler",
+    "name_color": "[color=#50a000]Crawler[/color]",
+    "description": "由 Worm-born 生出的迅捷亡灵生物",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 10,
+    "lvl": 1,
+    "hp": 50,
+    "speed": 30,
+    "speedmin": 1,
+    "arm": 1,
+    "dodge": [
+      20,
+      10
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      20,
+      10
+    ],
+    "damage": [
+      10,
+      10
+    ],
+    "dmgtype": "poison",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/Crawler.png",
+    "abilities": [
+      "Force",
+      "DoomHit"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpseRed",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": 0,
+    "resist_ice": 0,
+    "resist_poison": 50,
+    "resist_blood": 50,
+    "resist_death": 90,
+    "resist_astral": 0,
+    "resist_psychic": 0,
+    "resist_lightning": 0
+  },
+  "JadeSoldier": {
+    "title": "JadeSoldier",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "none"
+    ],
+    "family": "elemental",
+    "name": "JadeSoldier",
+    "name_color": "[color=#50f080]Jade Soldier[/color]",
+    "description": "由翡翠微光召出的士兵",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 20,
+    "lvl": 10,
+    "hp": 400,
+    "speed": 5,
+    "speedmin": 5,
+    "arm": 100,
+    "dodge": [
+      10,
+      10
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      15,
+      10
+    ],
+    "damage": [
+      20,
+      10
+    ],
+    "dmgtype": "poison",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/JadeSoldier.png",
+    "abilities": [
+      "Bully",
+      "Vigilance",
+      "PoisonHit",
+      "Force"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpsePurp",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": 0,
+    "resist_ice": 0,
+    "resist_poison": 90,
+    "resist_blood": 90,
+    "resist_death": 90,
+    "resist_astral": 0,
+    "resist_psychic": 0,
+    "resist_lightning": -100
+  },
+  "skeleton": {
+    "title": "skeleton",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "[color=#a0a000]Undead[/color]"
+    ],
+    "family": "undead",
+    "name": "Skeleton",
+    "name_color": "[color=#a0a000]Skeleton Warrior[/color]",
+    "description": "受主人束缚的复生战士",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 20,
+    "lvl": 10,
+    "hp": 375,
+    "speed": 7,
+    "speedmin": 5,
+    "arm": 60,
+    "dodge": [
+      3,
+      10
+    ],
+    "deflect": [
+      3,
+      20,
+      30
+    ],
+    "accuracy": [
+      15,
+      10
+    ],
+    "damage": [
+      15,
+      10
+    ],
+    "dmgtype": "slash",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/Ally_Skeleton.png",
+    "abilities": [
+      "none",
+      "none"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpsePurp",
+    "resist_slash": 50,
+    "resist_pierce": 50,
+    "resist_blunt": 0,
+    "resist_fire": 0,
+    "resist_ice": 0,
+    "resist_poison": 90,
+    "resist_blood": 90,
+    "resist_death": 90,
+    "resist_astral": -100,
+    "resist_psychic": 90,
+    "resist_lightning": 0
+  },
+  "skeleton_archer": {
+    "title": "skeleton_archer",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "[color=#a0a000]Undead[/color]"
+    ],
+    "family": "undead",
+    "name": "Skeleton Archer",
+    "name_color": "[color=#a0a000]Skeleton Archer[/color]",
+    "description": "受主人束缚的复生射手",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 20,
+    "lvl": 10,
+    "hp": 150,
+    "speed": 7,
+    "speedmin": 5,
+    "arm": 20,
+    "dodge": [
+      3,
+      10
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      20,
+      10
+    ],
+    "damage": [
+      8,
+      10
+    ],
+    "dmgtype": "death",
+    "range_attack": 5,
+    "proj_art": "res://Ham_Sprite/Proj/Proj_Curse.png",
+    "sprite": "res://Ham_Sprite/Allies/SkeletonArcher.png",
+    "abilities": [
+      "none",
+      "none"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpsePurp",
+    "resist_slash": 50,
+    "resist_pierce": 50,
+    "resist_blunt": 0,
+    "resist_fire": 0,
+    "resist_ice": 0,
+    "resist_poison": 90,
+    "resist_blood": 90,
+    "resist_death": 90,
+    "resist_astral": -100,
+    "resist_psychic": 90,
+    "resist_lightning": 0
+  },
+  "SacredSkin": {
+    "title": "SacredSkin",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "[color=#a0a000]Undead[/color]"
+    ],
+    "family": "undead",
+    "name": "Sacred Skin",
+    "name_color": "[color=#70c0c0]Sacred Skin[/color]",
+    "description": "虔诚 Morlock 献上的一片扭动血肉",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 10,
+    "lvl": 1,
+    "hp": 500,
+    "speed": 10,
+    "speedmin": 1,
+    "arm": 1,
+    "dodge": [
+      10,
+      10
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      20,
+      10
+    ],
+    "damage": [
+      10,
+      10
+    ],
+    "dmgtype": "blood",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/SacredSkin.png",
+    "abilities": [
+      "SacredSkin",
+      "BleedHit",
+      "Force",
+      "Vigilance",
+      "Familiar"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpseRed",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": 0,
+    "resist_ice": 0,
+    "resist_poison": 90,
+    "resist_blood": 90,
+    "resist_death": 90,
+    "resist_astral": 0,
+    "resist_psychic": 0,
+    "resist_lightning": 0
+  },
+  "GraveIdol": {
+    "title": "GraveIdol",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "none"
+    ],
+    "family": "undead",
+    "name": "Grave Idol",
+    "name_color": "[color=#a0a000]Grave Idol[/color]",
+    "description": "一座吸收死亡、充满污秽能量的独石碑",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 50,
+    "lvl": 30,
+    "hp": 500,
+    "speed": 5,
+    "speedmin": 5,
+    "arm": 100,
+    "dodge": [
+      1,
+      1
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      20,
+      10
+    ],
+    "damage": [
+      5,
+      10
+    ],
+    "dmgtype": "death",
+    "range_attack": 15,
+    "proj_art": "res://Ham_Sprite/Proj/Proj_Curse.png",
+    "sprite": "res://Ham_Sprite/Allies/GraveIdol.png",
+    "abilities": [
+      "FeastCruel",
+      "AOE",
+      "Familiar",
+      "stationary"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpsePurp",
+    "resist_slash": 50,
+    "resist_pierce": 50,
+    "resist_blunt": 0,
+    "resist_fire": 0,
+    "resist_ice": 0,
+    "resist_poison": 90,
+    "resist_blood": 90,
+    "resist_death": 90,
+    "resist_astral": -100,
+    "resist_psychic": 90,
+    "resist_lightning": 0
+  },
+  "MawEresh": {
+    "title": "MawEresh",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "[color=#a0a000]Undead[/color]"
+    ],
+    "family": "undead",
+    "name": "Mouth of Eresh",
+    "name_color": "[color=#a0a000]Mouth of Eresh[/color]",
+    "description": "由 Eresh 的饥饿与悲伤形成的亡灵野兽",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 50,
+    "lvl": 30,
+    "hp": 500,
+    "speed": 20,
+    "speedmin": 5,
+    "arm": 100,
+    "dodge": [
+      1,
+      1
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      20,
+      10
+    ],
+    "damage": [
+      10,
+      10
+    ],
+    "dmgtype": "death",
+    "range_attack": 20,
+    "proj_art": "res://Ham_Sprite/Proj/Proj_Curse.png",
+    "sprite": "res://Ham_Sprite/Allies/MawEresh.png",
+    "abilities": [
+      "FeastCruel",
+      "AOE",
+      "Familiar"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpsePurp",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": 0,
+    "resist_ice": 0,
+    "resist_poison": 90,
+    "resist_blood": 90,
+    "resist_death": 90,
+    "resist_astral": -100,
+    "resist_psychic": 90,
+    "resist_lightning": 0
+  },
+  "TealPrisma": {
+    "title": "TealPrisma",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "none"
+    ],
+    "family": "construct",
+    "name": "Teal Prisma",
+    "name_color": "[color=#30ffaf]Teal Prisma[/color]",
+    "description": "一座闪光基座，内含色泽寒冷的石头",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 90,
+    "lvl": 30,
+    "hp": 25,
+    "speed": 10,
+    "speedmin": 10,
+    "arm": 50,
+    "dodge": [
+      1,
+      1
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      20,
+      10
+    ],
+    "damage": [
+      10,
+      10
+    ],
+    "dmgtype": "ice",
+    "range_attack": 20,
+    "proj_art": "res://Ham_Sprite/Proj/Proj_Ice.png",
+    "sprite": "res://Ham_Sprite/Allies/TealPrisma.png",
+    "abilities": [
+      "stationary",
+      "none"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpsePurp",
+    "resist_slash": 50,
+    "resist_pierce": 50,
+    "resist_blunt": 50,
+    "resist_fire": 0,
+    "resist_ice": 0,
+    "resist_poison": 90,
+    "resist_blood": 90,
+    "resist_death": 90,
+    "resist_astral": 0,
+    "resist_psychic": 0,
+    "resist_lightning": 0
+  },
+  "TopazPrisma": {
+    "title": "TopazPrisma",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "none"
+    ],
+    "family": "construct",
+    "name": "Topaz Prisma",
+    "name_color": "[color=#af9040]Topaz Prisma[/color]",
+    "description": "一座闪光基座，内含赤红色泽的石头",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 90,
+    "lvl": 30,
+    "hp": 100,
+    "speed": 10,
+    "speedmin": 10,
+    "arm": 200,
+    "dodge": [
+      1,
+      1
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      10,
+      10
+    ],
+    "damage": [
+      25,
+      10
+    ],
+    "dmgtype": "fire",
+    "range_attack": 20,
+    "proj_art": "res://Ham_Sprite/Proj/Proj_Fireball.png",
+    "sprite": "res://Ham_Sprite/Allies/TopazPrisma.png",
+    "abilities": [
+      "Vigilance",
+      "stationary",
+      "none"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpsePurp",
+    "resist_slash": 50,
+    "resist_pierce": 50,
+    "resist_blunt": 50,
+    "resist_fire": 0,
+    "resist_ice": 0,
+    "resist_poison": 90,
+    "resist_blood": 90,
+    "resist_death": 90,
+    "resist_astral": 0,
+    "resist_psychic": 0,
+    "resist_lightning": 0
+  },
+  "GarnetPrisma": {
+    "title": "GarnetPrisma",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "none"
+    ],
+    "family": "construct",
+    "name": "Garnet Prisma",
+    "name_color": "[color=#af30af]Garnet Prisma[/color]",
+    "description": "一座闪光基座，内含猛烈搏动的石头",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 90,
+    "lvl": 30,
+    "hp": 50,
+    "speed": 10,
+    "speedmin": 10,
+    "arm": 100,
+    "dodge": [
+      1,
+      1
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      20,
+      10
+    ],
+    "damage": [
+      40,
+      10
+    ],
+    "dmgtype": "astral",
+    "range_attack": 20,
+    "proj_art": "res://Ham_Sprite/Proj/Proj_Astral.png",
+    "sprite": "res://Ham_Sprite/Allies/GarnetPrisma.png",
+    "abilities": [
+      "AOE",
+      "stationary",
+      "none"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpsePurp",
+    "resist_slash": 50,
+    "resist_pierce": 50,
+    "resist_blunt": 50,
+    "resist_fire": 0,
+    "resist_ice": 0,
+    "resist_poison": 90,
+    "resist_blood": 90,
+    "resist_death": 90,
+    "resist_astral": 0,
+    "resist_psychic": 0,
+    "resist_lightning": 0
+  },
+  "blightpriest": {
+    "title": "blightpriest",
+    "object_type": "ally",
+    "tags": [
+      "[color=#8050f0]Priest[/color]",
+      "[color=#a0a000]Undead[/color]"
+    ],
+    "family": "humanoid",
+    "name": "Blight Priest",
+    "name_color": "[color=#a0a000]Blight Priest[/color]",
+    "description": "死亡的忠诚侍僧。憎恶生者",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 15,
+    "lvl": 15,
+    "hp": 125,
+    "speed": 10,
+    "speedmin": 5,
+    "arm": 0,
+    "dodge": [
+      1,
+      1
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      15,
+      10
+    ],
+    "damage": [
+      10,
+      10
+    ],
+    "dmgtype": "death",
+    "range_attack": 5,
+    "proj_art": "res://Ham_Sprite/Proj/Proj_Curse.png",
+    "sprite": "res://Ham_Sprite/Allies/DeathPriest.png",
+    "abilities": [
+      "Castcurse",
+      "Spite"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpseRed",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": 0,
+    "resist_ice": 0,
+    "resist_poison": 0,
+    "resist_blood": 0,
+    "resist_death": 90,
+    "resist_astral": 0,
+    "resist_psychic": 0,
+    "resist_lightning": 0
+  },
+  "StarPriest": {
+    "title": "StarPriest",
+    "object_type": "ally",
+    "tags": [
+      "[color=#8050f0]Priest[/color]",
+      "none"
+    ],
+    "family": "humanoid",
+    "name": "Star Priest",
+    "name_color": "[color=#8030af]Star Priest[/color]",
+    "description": "群星的忠诚侍僧。从远方高塔召来",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 15,
+    "lvl": 15,
+    "hp": 100,
+    "speed": 10,
+    "speedmin": 3,
+    "arm": 0,
+    "dodge": [
+      1,
+      1
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      20,
+      10
+    ],
+    "damage": [
+      10,
+      10
+    ],
+    "dmgtype": "astral",
+    "range_attack": 5,
+    "proj_art": "res://Ham_Sprite/Proj/Proj_Astral.png",
+    "sprite": "res://Ham_Sprite/Allies/StarPriest.png",
+    "abilities": [
+      "none",
+      "none"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpseRed",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": 0,
+    "resist_ice": 0,
+    "resist_poison": 0,
+    "resist_blood": 0,
+    "resist_death": 0,
+    "resist_astral": 90,
+    "resist_psychic": 0,
+    "resist_lightning": 0
+  },
+  "grovepriest": {
+    "title": "grovepriest",
+    "object_type": "ally",
+    "tags": [
+      "[color=#8050f0]Priest[/color]",
+      "none"
+    ],
+    "family": "humanoid",
+    "name": "Grove Priest",
+    "name_color": "[color=#00a000]Grove Priest[/color]",
+    "description": "生命的忠诚侍僧。从生机勃勃的林地召来",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 15,
+    "lvl": 15,
+    "hp": 275,
+    "speed": 10,
+    "speedmin": 3,
+    "arm": 0,
+    "dodge": [
+      1,
+      1
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      15,
+      10
+    ],
+    "damage": [
+      10,
+      10
+    ],
+    "dmgtype": "pierce",
+    "range_attack": 5,
+    "proj_art": "res://Ham_Sprite/Proj/Proj_Vine.png",
+    "sprite": "res://Ham_Sprite/Allies/LifePriest.png",
+    "abilities": [
+      "Castvenom",
+      "Mend25"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpseRed",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": 0,
+    "resist_ice": 0,
+    "resist_poison": 90,
+    "resist_blood": 50,
+    "resist_death": 50,
+    "resist_astral": 0,
+    "resist_psychic": 0,
+    "resist_lightning": 0
+  },
+  "flamepriest": {
+    "title": "flamepriest",
+    "object_type": "ally",
+    "tags": [
+      "[color=#8050f0]Priest[/color]",
+      "none"
+    ],
+    "family": "humanoid",
+    "name": "Flame Priest",
+    "name_color": "[color=#ff8000]Flame Priest[/color]",
+    "description": "火焰的忠诚侍僧。从火山神殿召来",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 15,
+    "lvl": 15,
+    "hp": 125,
+    "speed": 15,
+    "speedmin": 3,
+    "arm": 0,
+    "dodge": [
+      1,
+      1
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      10,
+      10
+    ],
+    "damage": [
+      15,
+      10
+    ],
+    "dmgtype": "fire",
+    "range_attack": 5,
+    "proj_art": "res://Ham_Sprite/Proj/Proj_Fireball.png",
+    "sprite": "res://Ham_Sprite/Allies/FirePriest.png",
+    "abilities": [
+      "BurnHit",
+      "none"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpseRed",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": 90,
+    "resist_ice": 0,
+    "resist_poison": 90,
+    "resist_blood": 0,
+    "resist_death": 0,
+    "resist_astral": 0,
+    "resist_psychic": 0,
+    "resist_lightning": 50
+  },
+  "cadaver": {
+    "title": "cadaver",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "[color=#a0a000]Undead[/color]"
+    ],
+    "family": "undead",
+    "name": "Cadaver",
+    "name_color": "[color=#a0a000]Cadaver[/color]",
+    "description": "阴森的仆从",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 10,
+    "lvl": 1,
+    "hp": 125,
+    "speed": 5,
+    "speedmin": 1,
+    "arm": 10,
+    "dodge": [
+      1,
+      1
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      5,
+      10
+    ],
+    "damage": [
+      7,
+      10
+    ],
+    "dmgtype": "death",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/Cadaver.png",
+    "abilities": [
+      "none",
+      "none"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpsePurp",
+    "resist_slash": 50,
+    "resist_pierce": 50,
+    "resist_blunt": 50,
+    "resist_fire": 0,
+    "resist_ice": 0,
+    "resist_poison": 90,
+    "resist_blood": 90,
+    "resist_death": 90,
+    "resist_astral": -100,
+    "resist_psychic": 90,
+    "resist_lightning": 0
+  },
+  "slouchingdead": {
+    "title": "slouchingdead",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "[color=#a0a000]Undead[/color]"
+    ],
+    "family": "undead",
+    "name": "Slouching Dead",
+    "name_color": "[color=#a0a000]Slouching Dead[/color]",
+    "description": "Eresh 的蹒跚亡灵仆从",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 10,
+    "lvl": 1,
+    "hp": 150,
+    "speed": 5,
+    "speedmin": 1,
+    "arm": 10,
+    "dodge": [
+      1,
+      1
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      3,
+      10
+    ],
+    "damage": [
+      10,
+      10
+    ],
+    "dmgtype": "death",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/SlouchingDead.png",
+    "abilities": [
+      "DoomHit",
+      "none"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpsePurp",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": 0,
+    "resist_ice": 0,
+    "resist_poison": 90,
+    "resist_blood": 90,
+    "resist_death": 90,
+    "resist_astral": -100,
+    "resist_psychic": 90,
+    "resist_lightning": 0
+  },
+  "bleedingdead": {
+    "title": "bleedingdead",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "[color=#a0a000]Undead[/color]"
+    ],
+    "family": "undead",
+    "name": "Bleeding Dead",
+    "name_color": "[color=#ff2020]Bleeding Dead[/color]",
+    "description": "由炽热血肉召出的亡灵仆从",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 10,
+    "lvl": 1,
+    "hp": 150,
+    "speed": 5,
+    "speedmin": 1,
+    "arm": 10,
+    "dodge": [
+      1,
+      1
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      3,
+      10
+    ],
+    "damage": [
+      10,
+      10
+    ],
+    "dmgtype": "blood",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/BleedingDead.png",
+    "abilities": [
+      "BleedHit",
+      "Force"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpsePurp",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": 0,
+    "resist_ice": 0,
+    "resist_poison": 90,
+    "resist_blood": 90,
+    "resist_death": 90,
+    "resist_astral": -100,
+    "resist_psychic": 90,
+    "resist_lightning": 0
+  },
+  "gilded_dead": {
+    "title": "gilded_dead",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "[color=#a0a000]Undead[/color]"
+    ],
+    "family": "undead",
+    "name": "Gilded Dead",
+    "name_color": "[color=#d09000]Gilded Dead[/color]",
+    "description": "从 Dumuzi 埋葬的随从中召来的神圣镀金战士",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 25,
+    "lvl": 25,
+    "hp": 425,
+    "speed": 8,
+    "speedmin": 5,
+    "arm": 1,
+    "dodge": [
+      2,
+      10
+    ],
+    "deflect": [
+      5,
+      10,
+      1
+    ],
+    "accuracy": [
+      15,
+      10
+    ],
+    "damage": [
+      20,
+      10
+    ],
+    "dmgtype": "slash",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/Gilded.png",
+    "abilities": [
+      "DumuziServant",
+      "Bully",
+      "Familiar"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpsePurp",
+    "resist_slash": 50,
+    "resist_pierce": 50,
+    "resist_blunt": 0,
+    "resist_fire": 50,
+    "resist_ice": 0,
+    "resist_poison": 90,
+    "resist_blood": 90,
+    "resist_death": 90,
+    "resist_astral": -100,
+    "resist_psychic": 90,
+    "resist_lightning": 0
+  },
+  "HonoredDead": {
+    "title": "HonoredDead",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "[color=#a0a000]Undead[/color]"
+    ],
+    "family": "undead",
+    "name": "HonoredDead",
+    "name_color": "[color=#a0a000]Honored Dead[/color]",
+    "description": "挥舞诅咒长枪的重甲骷髅",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 25,
+    "lvl": 25,
+    "hp": 500,
+    "speed": 8,
+    "speedmin": 5,
+    "arm": 80,
+    "dodge": [
+      2,
+      10
+    ],
+    "deflect": [
+      5,
+      1,
+      300
+    ],
+    "accuracy": [
+      15,
+      10
+    ],
+    "damage": [
+      20,
+      10
+    ],
+    "dmgtype": "death",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/HonoredDead.png",
+    "abilities": [
+      "Vigilance",
+      "Counter",
+      "Familiar"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpsePurp",
+    "resist_slash": 50,
+    "resist_pierce": 50,
+    "resist_blunt": 0,
+    "resist_fire": 0,
+    "resist_ice": 0,
+    "resist_poison": 90,
+    "resist_blood": 90,
+    "resist_death": 90,
+    "resist_astral": -100,
+    "resist_psychic": 90,
+    "resist_lightning": 0
+  },
+  "WarPriest": {
+    "title": "WarPriest",
+    "object_type": "ally",
+    "tags": [
+      "[color=#8050f0]Priest[/color]",
+      "none"
+    ],
+    "family": "humanoid",
+    "name": "War-Priest",
+    "name_color": "[color=#4080af]War-Priest[/color]",
+    "description": "受 Gala 权威吸引的武斗祭司。以排斥心灵的长枪攻击",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 15,
+    "lvl": 25,
+    "hp": 400,
+    "speed": 10,
+    "speedmin": 5,
+    "arm": 50,
+    "dodge": [
+      2,
+      10
+    ],
+    "deflect": [
+      5,
+      1,
+      100
+    ],
+    "accuracy": [
+      15,
+      10
+    ],
+    "damage": [
+      10,
+      10
+    ],
+    "dmgtype": "psychic",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/WarPriest.png",
+    "abilities": [
+      "Vigilance",
+      "Familiar"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpsePurp",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": 0,
+    "resist_ice": 0,
+    "resist_poison": 0,
+    "resist_blood": 0,
+    "resist_death": 0,
+    "resist_astral": 0,
+    "resist_psychic": 90,
+    "resist_lightning": 0
+  },
+  "tugar": {
+    "title": "tugar",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "none"
+    ],
+    "family": "beast",
+    "name": "Tugar",
+    "name_color": "[color=#bf9f40]Tugar[/color]",
+    "description": "来自起伏草原的忠诚野兽",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 30,
+    "lvl": 30,
+    "hp": 1500,
+    "speed": 15,
+    "speedmin": 10,
+    "arm": 100,
+    "dodge": [
+      1,
+      1
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      10,
+      10
+    ],
+    "damage": [
+      25,
+      10
+    ],
+    "dmgtype": "blunt",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/Ally_Tugar.png",
+    "abilities": [
+      "Tugar",
+      "Bully",
+      "Impact",
+      "AOE",
+      "Familiar"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpseRed",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": 75,
+    "resist_ice": 75,
+    "resist_poison": 0,
+    "resist_blood": 0,
+    "resist_death": 0,
+    "resist_astral": 0,
+    "resist_psychic": 0,
+    "resist_lightning": 75
+  },
+  "mardok": {
+    "title": "mardok",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "none"
+    ],
+    "family": "beast",
+    "name": "Beast of Mardok",
+    "name_color": "[color=#ff8030]Beast of Mardok[/color]",
+    "description": "由 Mardok 圣血赋予力量的华美野兽",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 30,
+    "lvl": 30,
+    "hp": 1200,
+    "speed": 20,
+    "speedmin": 10,
+    "arm": 100,
+    "dodge": [
+      1,
+      1
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      10,
+      10
+    ],
+    "damage": [
+      30,
+      10
+    ],
+    "dmgtype": "blunt",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/Mardok.png",
+    "abilities": [
+      "MardokBeast",
+      "Bully",
+      "Impact",
+      "AOE",
+      "Familiar"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpseRed",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": 50,
+    "resist_ice": 50,
+    "resist_poison": 0,
+    "resist_blood": 0,
+    "resist_death": 50,
+    "resist_astral": 0,
+    "resist_psychic": 0,
+    "resist_lightning": 50
+  },
+  "grika": {
+    "title": "grika",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "none"
+    ],
+    "family": "beast",
+    "name": "Grika",
+    "name_color": "[color=#5080ff]Grika[/color]",
+    "description": "从神圣冰川召来的冰生野兽",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 30,
+    "lvl": 30,
+    "hp": 1200,
+    "speed": 10,
+    "speedmin": 5,
+    "arm": 100,
+    "dodge": [
+      1,
+      1
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      10,
+      10
+    ],
+    "damage": [
+      20,
+      10
+    ],
+    "dmgtype": "blunt",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/Grika.png",
+    "abilities": [
+      "grika",
+      "Tikaarak",
+      "Bully",
+      "Impact",
+      "Familiar"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpseRed",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": -25,
+    "resist_ice": 90,
+    "resist_poison": 0,
+    "resist_blood": 0,
+    "resist_death": 0,
+    "resist_astral": 0,
+    "resist_psychic": 0,
+    "resist_lightning": 75
+  },
+  "Thrall": {
+    "title": "Thrall",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "none"
+    ],
+    "family": "humanoid",
+    "name": "Thrall",
+    "name_color": "[color=#af8f50]Thrall[/color]",
+    "description": "An honor-bound axefighter",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 20,
+    "lvl": 10,
+    "hp": 500,
+    "speed": 15,
+    "speedmin": 7,
+    "arm": 80,
+    "dodge": [
+      1,
+      1
+    ],
+    "deflect": [
+      1,
+      10,
+      100
+    ],
+    "accuracy": [
+      10,
+      20
+    ],
+    "damage": [
+      15,
+      10
+    ],
+    "dmgtype": "slash",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/Thrall.png",
+    "abilities": [
+      "AOE",
+      "none"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpseRed",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": 75,
+    "resist_ice": 75,
+    "resist_poison": 0,
+    "resist_blood": 0,
+    "resist_death": 0,
+    "resist_astral": 0,
+    "resist_psychic": 0,
+    "resist_lightning": 75
+  },
+  "fireknight": {
+    "title": "fireknight",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "none"
+    ],
+    "family": "humanoid",
+    "name": "Fire Knight",
+    "name_color": "[color=#ff8000]Fire Knight[/color]",
+    "description": "A corporeal warrior summoned from the elemental domain of Fire",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 10,
+    "lvl": 5,
+    "hp": 700,
+    "speed": 20,
+    "speedmin": 5,
+    "arm": 75,
+    "dodge": [
+      1,
+      1
+    ],
+    "deflect": [
+      10,
+      10,
+      150
+    ],
+    "accuracy": [
+      15,
+      10
+    ],
+    "damage": [
+      25,
+      10
+    ],
+    "dmgtype": "fire",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/KnightFire.png",
+    "abilities": [
+      "fireknight",
+      "Counter",
+      "AOE"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpseRed",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": 90,
+    "resist_ice": -50,
+    "resist_poison": 0,
+    "resist_blood": 0,
+    "resist_death": 0,
+    "resist_astral": 0,
+    "resist_psychic": 0,
+    "resist_lightning": 75
+  },
+  "iceknight": {
+    "title": "iceknight",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "none"
+    ],
+    "family": "humanoid",
+    "name": "Ice Knight",
+    "name_color": "[color=#5080ff]Ice Knight[/color]",
+    "description": "A corporeal warrior summoned from the elemental domain of Ice",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 10,
+    "lvl": 5,
+    "hp": 1200,
+    "speed": 10,
+    "speedmin": 5,
+    "arm": 100,
+    "dodge": [
+      1,
+      1
+    ],
+    "deflect": [
+      10,
+      10,
+      200
+    ],
+    "accuracy": [
+      15,
+      10
+    ],
+    "damage": [
+      20,
+      10
+    ],
+    "dmgtype": "ice",
+    "range_attack": 3,
+    "proj_art": "res://Ham_Sprite/Proj/Proj_IceSpear.png",
+    "sprite": "res://Ham_Sprite/Allies/KnightIce.png",
+    "abilities": [
+      "iceknight",
+      "Vigilance"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpseRed",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": -50,
+    "resist_ice": 90,
+    "resist_poison": 0,
+    "resist_blood": 0,
+    "resist_death": 75,
+    "resist_astral": 0,
+    "resist_psychic": 0,
+    "resist_lightning": 0
+  },
+  "astralknight": {
+    "title": "astralknight",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "none"
+    ],
+    "family": "humanoid",
+    "name": "Astral Knight",
+    "name_color": "[color=#8030af]Astral Knight[/color]",
+    "description": "A noble warrior pledged to stewardship of the Astral Wall",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 10,
+    "lvl": 5,
+    "hp": 600,
+    "speed": 10,
+    "speedmin": 5,
+    "arm": 100,
+    "dodge": [
+      1,
+      1
+    ],
+    "deflect": [
+      10,
+      10,
+      200
+    ],
+    "accuracy": [
+      20,
+      10
+    ],
+    "damage": [
+      20,
+      10
+    ],
+    "dmgtype": "astral",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/KnightAstral.png",
+    "abilities": [
+      "DisruptionHit",
+      "Counter",
+      "AOE"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpseRed",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": 0,
+    "resist_ice": 0,
+    "resist_poison": 0,
+    "resist_blood": 0,
+    "resist_death": 0,
+    "resist_astral": 90,
+    "resist_psychic": 75,
+    "resist_lightning": 0
+  },
+  "scout": {
+    "title": "scout",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "none"
+    ],
+    "family": "humanoid",
+    "name": "Scout",
+    "name_color": "[color=#bf9f40]Scout[/color]",
+    "description": "A hired archer",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 15,
+    "lvl": 10,
+    "hp": 275,
+    "speed": 10,
+    "speedmin": 5,
+    "arm": 10,
+    "dodge": [
+      6,
+      10
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      20,
+      10
+    ],
+    "damage": [
+      10,
+      10
+    ],
+    "dmgtype": "pierce",
+    "range_attack": 6,
+    "proj_art": "res://Ham_Sprite/Props/Object_Arrow.png",
+    "sprite": "res://Ham_Sprite/Allies/Ally_Scout.png",
+    "abilities": [
+      "none",
+      "none"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpseRed",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": 0,
+    "resist_ice": 0,
+    "resist_poison": 0,
+    "resist_blood": 0,
+    "resist_death": 0,
+    "resist_astral": 0,
+    "resist_psychic": 0,
+    "resist_lightning": 0
+  },
+  "pilgrim": {
+    "title": "pilgrim",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "none"
+    ],
+    "family": "humanoid",
+    "name": "Nomad",
+    "name_color": "[color=#bf9f40]Nomad[/color]",
+    "description": "A wanderer of the path",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 15,
+    "lvl": 10,
+    "hp": 375,
+    "speed": 10,
+    "speedmin": 3,
+    "arm": 10,
+    "dodge": [
+      6,
+      10
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      20,
+      10
+    ],
+    "damage": [
+      10,
+      10
+    ],
+    "dmgtype": "pierce",
+    "range_attack": 4,
+    "proj_art": "res://Ham_Sprite/Proj/Proj_Pilum.png",
+    "sprite": "res://Ham_Sprite/Allies/Pilgrim.png",
+    "abilities": [
+      "Familiar",
+      "none"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpseRed",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": 0,
+    "resist_ice": 0,
+    "resist_poison": 0,
+    "resist_blood": 0,
+    "resist_death": 0,
+    "resist_astral": 0,
+    "resist_psychic": 75,
+    "resist_lightning": 0
+  },
+  "BlueWyrm": {
+    "title": "BlueWyrm",
+    "object_type": "ally",
+    "tags": [
+      "[color=#10df90]Reptile[/color]",
+      "none"
+    ],
+    "family": "beast",
+    "name": "Blue Wyrm",
+    "name_color": "[color=#0060ff]Blue Wyrm[/color]",
+    "description": "A wingless beast that spits lightning",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 25,
+    "lvl": 10,
+    "hp": 700,
+    "speed": 20,
+    "speedmin": 3,
+    "arm": 0,
+    "dodge": [
+      5,
+      10
+    ],
+    "deflect": [
+      1,
+      10,
+      100
+    ],
+    "accuracy": [
+      20,
+      10
+    ],
+    "damage": [
+      20,
+      10
+    ],
+    "dmgtype": "lightning",
+    "range_attack": 4,
+    "proj_art": "res://Ham_Sprite/Proj/Proj_Zap.png",
+    "sprite": "res://Ham_Sprite/Allies/BlueWyrm.png",
+    "abilities": [
+      "Familiar",
+      "AuraCharge"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpseRed",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": 50,
+    "resist_ice": 0,
+    "resist_poison": 0,
+    "resist_blood": 0,
+    "resist_death": 0,
+    "resist_astral": 0,
+    "resist_psychic": 0,
+    "resist_lightning": 90
+  },
+  "fanatic": {
+    "title": "fanatic",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "none"
+    ],
+    "family": "humanoid",
+    "name": "Fanatic",
+    "name_color": "[color=#d04040]Fanatic[/color]",
+    "description": "A swordfigher devoted to a zealot",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 25,
+    "lvl": 10,
+    "hp": 475,
+    "speed": 20,
+    "speedmin": 3,
+    "arm": 10,
+    "dodge": [
+      6,
+      10
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      20,
+      10
+    ],
+    "damage": [
+      20,
+      10
+    ],
+    "dmgtype": "slash",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/Fanatic.png",
+    "abilities": [
+      "Familiar",
+      "none"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpseRed",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": 0,
+    "resist_ice": 0,
+    "resist_poison": 0,
+    "resist_blood": 75,
+    "resist_death": 0,
+    "resist_astral": 0,
+    "resist_psychic": 90,
+    "resist_lightning": 0
+  },
+  "worshipper": {
+    "title": "worshipper",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "none"
+    ],
+    "family": "humanoid",
+    "name": "Worshipper",
+    "name_color": "[color=#c0c060]Worshipper[/color]",
+    "description": "A common worshipper bound to the cult authority of a Liturgist",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 5,
+    "lvl": 10,
+    "hp": 50,
+    "speed": 10,
+    "speedmin": 3,
+    "arm": 0,
+    "dodge": [
+      5,
+      10
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      10,
+      10
+    ],
+    "damage": [
+      2,
+      10
+    ],
+    "dmgtype": "pierce",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/Worshipper.png",
+    "abilities": [
+      "Worshipper",
+      "Vigilance",
+      "Familiar"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpseRed",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": 0,
+    "resist_ice": 0,
+    "resist_poison": 0,
+    "resist_blood": 0,
+    "resist_death": 0,
+    "resist_astral": 0,
+    "resist_psychic": 0,
+    "resist_lightning": 0
+  },
+  "ratman_phalangite": {
+    "title": "ratman_phalangite",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "none"
+    ],
+    "family": "humanoid",
+    "name": "Rat-man Phalangite",
+    "name_color": "[color=#c0c040]Rat-man Phalangite[/color]",
+    "description": "A disciplined guardian of the rat-man colonies",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 20,
+    "lvl": 15,
+    "hp": 425,
+    "speed": 8,
+    "speedmin": 3,
+    "arm": 30,
+    "dodge": [
+      5,
+      10
+    ],
+    "deflect": [
+      10,
+      10,
+      50
+    ],
+    "accuracy": [
+      15,
+      10
+    ],
+    "damage": [
+      15,
+      10
+    ],
+    "dmgtype": "pierce",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/RatManPhalangiteAlly.png",
+    "abilities": [
+      "Vigilance",
+      "BleedHit"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpseRed",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": 0,
+    "resist_ice": 0,
+    "resist_poison": 0,
+    "resist_blood": 0,
+    "resist_death": 0,
+    "resist_astral": 0,
+    "resist_psychic": -100,
+    "resist_lightning": 0
+  },
+  "ratman_flourisher": {
+    "title": "ratman_flourisher",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "none"
+    ],
+    "family": "humanoid",
+    "name": "Rat-man Flourisher",
+    "name_color": "[color=#c0c040]Rat-man Flourisher[/color]",
+    "description": "A zealous patriot of the rat-man colonies",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 20,
+    "lvl": 15,
+    "hp": 125,
+    "speed": 12,
+    "speedmin": 3,
+    "arm": 10,
+    "dodge": [
+      10,
+      10
+    ],
+    "deflect": [
+      10,
+      10,
+      1
+    ],
+    "accuracy": [
+      15,
+      10
+    ],
+    "damage": [
+      15,
+      10
+    ],
+    "dmgtype": "slash",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/RatManFlourisher.png",
+    "abilities": [
+      "RatManFlourisher",
+      "none"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpseRed",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": 0,
+    "resist_ice": 0,
+    "resist_poison": 0,
+    "resist_blood": 0,
+    "resist_death": 0,
+    "resist_astral": 0,
+    "resist_psychic": -100,
+    "resist_lightning": 0
+  },
+  "ratman_peltast": {
+    "title": "ratman_peltast",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "none"
+    ],
+    "family": "humanoid",
+    "name": "Rat-man Peltast",
+    "name_color": "[color=#c0c040]Rat-man Peltast[/color]",
+    "description": "A humanoid rodent that lives in swarming colonies",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 10,
+    "lvl": 10,
+    "hp": 90,
+    "speed": 8,
+    "speedmin": 3,
+    "arm": 0,
+    "dodge": [
+      5,
+      10
+    ],
+    "deflect": [
+      10,
+      10,
+      1
+    ],
+    "accuracy": [
+      8,
+      10
+    ],
+    "damage": [
+      8,
+      10
+    ],
+    "dmgtype": "pierce",
+    "range_attack": 5,
+    "proj_art": "res://Ham_Sprite/Props/Object_Arrow.png",
+    "sprite": "res://Ham_Sprite/Allies/RatManPeltast.png",
+    "abilities": [
+      "none",
+      "none"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpseRed",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": 0,
+    "resist_ice": 0,
+    "resist_poison": 0,
+    "resist_blood": 0,
+    "resist_death": 0,
+    "resist_astral": 0,
+    "resist_psychic": -100,
+    "resist_lightning": 0
+  },
+  "okko": {
+    "title": "okko",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "none"
+    ],
+    "family": "elemental",
+    "name": "Okko",
+    "name_color": "[color=#0060ff]Okko[/color]",
+    "description": "A human-shaped sliver of lightning",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 10,
+    "lvl": 1,
+    "hp": 50,
+    "speed": 75,
+    "speedmin": 5,
+    "arm": 0,
+    "dodge": [
+      10,
+      10
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      30,
+      10
+    ],
+    "damage": [
+      4,
+      10
+    ],
+    "dmgtype": "lightning",
+    "range_attack": 3,
+    "proj_art": "res://Ham_Sprite/Proj/Proj_Zap.png",
+    "sprite": "res://Ham_Sprite/Allies/Okko.png",
+    "abilities": [
+      "none",
+      "none"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpsePurp",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": 75,
+    "resist_ice": 0,
+    "resist_poison": 0,
+    "resist_blood": 0,
+    "resist_death": 0,
+    "resist_astral": -100,
+    "resist_psychic": 0,
+    "resist_lightning": 90
+  },
+  "BallLightning": {
+    "title": "BallLightning",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "none"
+    ],
+    "family": "elemental",
+    "name": "Ball Lightning",
+    "name_color": "[color=#0060ff]Ball Lightning[/color]",
+    "description": "A fragile burst of elemental intention",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 10,
+    "lvl": 1,
+    "hp": 1,
+    "speed": 80,
+    "speedmin": 1,
+    "arm": 0,
+    "dodge": [
+      10,
+      10
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      30,
+      10
+    ],
+    "damage": [
+      5,
+      10
+    ],
+    "dmgtype": "lightning",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/BallLightning.png",
+    "abilities": [
+      "none",
+      "none"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpsePurp",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": 75,
+    "resist_ice": 0,
+    "resist_poison": 0,
+    "resist_blood": 0,
+    "resist_death": 0,
+    "resist_astral": -100,
+    "resist_psychic": 0,
+    "resist_lightning": 90
+  },
+  "GlintingBlade": {
+    "title": "GlintingBlade",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "none"
+    ],
+    "family": "elemental",
+    "name": "Glinting Blade",
+    "name_color": "[color=#ffaf30]Glinting Blade[/color]",
+    "description": "A flying sword conjured from the mind-warren",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 10,
+    "lvl": 1,
+    "hp": 1,
+    "speed": 100,
+    "speedmin": 1,
+    "arm": 0,
+    "dodge": [
+      10,
+      10
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      30,
+      10
+    ],
+    "damage": [
+      5,
+      10
+    ],
+    "dmgtype": "psychic",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/GlintingBlade.png",
+    "abilities": [
+      "none",
+      "none"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpsePurp",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": 0,
+    "resist_ice": 0,
+    "resist_poison": 0,
+    "resist_blood": 0,
+    "resist_death": 0,
+    "resist_astral": -100,
+    "resist_psychic": 90,
+    "resist_lightning": 0
+  },
+  "BurningBlade": {
+    "title": "BurningBlade",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "none"
+    ],
+    "family": "elemental",
+    "name": "Burning Blade",
+    "name_color": "[color=#ff7000]Burning Blade[/color]",
+    "description": "A flying sword conjured from elemental flame",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 10,
+    "lvl": 1,
+    "hp": 1,
+    "speed": 50,
+    "speedmin": 1,
+    "arm": 0,
+    "dodge": [
+      10,
+      10
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      30,
+      10
+    ],
+    "damage": [
+      5,
+      10
+    ],
+    "dmgtype": "fire",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/BurningBlade.png",
+    "abilities": [
+      "none",
+      "none"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpsePurp",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": 90,
+    "resist_ice": 0,
+    "resist_poison": 0,
+    "resist_blood": 0,
+    "resist_death": 0,
+    "resist_astral": -100,
+    "resist_psychic": 0,
+    "resist_lightning": 0
+  },
+  "kotka": {
+    "title": "kotka",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "none"
+    ],
+    "family": "elemental",
+    "name": "Kotka",
+    "name_color": "[color=#0060ff]Kotka[/color]",
+    "description": "A storm-bird summoned by thunder magic",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 10,
+    "lvl": 1,
+    "hp": 250,
+    "speed": 25,
+    "speedmin": 4,
+    "arm": 0,
+    "dodge": [
+      10,
+      10
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      30,
+      10
+    ],
+    "damage": [
+      7,
+      10
+    ],
+    "dmgtype": "lightning",
+    "range_attack": 6,
+    "proj_art": "res://Ham_Sprite/Proj/Proj_Zap.png",
+    "sprite": "res://Ham_Sprite/Allies/Kotka.png",
+    "abilities": [
+      "none",
+      "none"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpsePurp",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": 75,
+    "resist_ice": 0,
+    "resist_poison": 0,
+    "resist_blood": 0,
+    "resist_death": 0,
+    "resist_astral": -100,
+    "resist_psychic": 0,
+    "resist_lightning": 90
+  },
+  "fulminantpriest": {
+    "title": "fulminantpriest",
+    "object_type": "ally",
+    "tags": [
+      "[color=#8050f0]Priest[/color]",
+      "none"
+    ],
+    "family": "humanoid",
+    "name": "Fulminant Priest",
+    "name_color": "[color=#0060ff]Fulminant Priest[/color]",
+    "description": "A loyal acolyte of storm-born power. Summoned from a mountain shrine",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 15,
+    "lvl": 15,
+    "hp": 200,
+    "speed": 15,
+    "speedmin": 5,
+    "arm": 0,
+    "dodge": [
+      1,
+      1
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      15,
+      10
+    ],
+    "damage": [
+      10,
+      10
+    ],
+    "dmgtype": "lightning",
+    "range_attack": 7,
+    "proj_art": "res://Ham_Sprite/Proj/Proj_Zap.png",
+    "sprite": "res://Ham_Sprite/Allies/ThunderPriest.png",
+    "abilities": [
+      "none",
+      "none"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpseRed",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": 50,
+    "resist_ice": 0,
+    "resist_poison": 0,
+    "resist_blood": 0,
+    "resist_death": 0,
+    "resist_astral": 0,
+    "resist_psychic": 0,
+    "resist_lightning": 90
+  },
+  "musmahu": {
+    "title": "musmahu",
+    "object_type": "ally",
+    "tags": [
+      "[color=#10df90]Reptile[/color]",
+      "[color=#00a000]Plant[/color]"
+    ],
+    "family": "beast",
+    "name": "Musmahu",
+    "name_color": "[color=#20af70]Musmahu[/color]",
+    "description": "An exalted plant-serpent of Ninhurs",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 30,
+    "lvl": 30,
+    "hp": 2000,
+    "speed": 10,
+    "speedmin": 5,
+    "arm": 30,
+    "dodge": [
+      4,
+      10
+    ],
+    "deflect": [
+      10,
+      10,
+      100
+    ],
+    "accuracy": [
+      20,
+      10
+    ],
+    "damage": [
+      30,
+      10
+    ],
+    "dmgtype": "poison",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/NinhursSnake.png",
+    "abilities": [
+      "NinhursServant",
+      "PoisonHit",
+      "AOE",
+      "Familiar"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpseRed",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": 0,
+    "resist_ice": -50,
+    "resist_poison": 90,
+    "resist_blood": 0,
+    "resist_death": 90,
+    "resist_astral": 0,
+    "resist_psychic": 0,
+    "resist_lightning": 0
+  },
+  "janin": {
+    "title": "janin",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "none"
+    ],
+    "family": "elemental",
+    "name": "Janin",
+    "name_color": "[color=#a070ff]Janin[/color]",
+    "description": "A billowing spirit composed of astral flame",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 20,
+    "lvl": 20,
+    "hp": 500,
+    "speed": 20,
+    "speedmin": 10,
+    "arm": 30,
+    "dodge": [
+      10,
+      10
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      20,
+      10
+    ],
+    "damage": [
+      20,
+      10
+    ],
+    "dmgtype": "astral",
+    "range_attack": 2,
+    "proj_art": "res://Ham_Sprite/Proj/Proj_Astral.png",
+    "sprite": "res://Ham_Sprite/Allies/Janin.png",
+    "abilities": [
+      "AOE",
+      "Familiar"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpsePurp",
+    "resist_slash": 50,
+    "resist_pierce": 50,
+    "resist_blunt": 50,
+    "resist_fire": 0,
+    "resist_ice": 0,
+    "resist_poison": 50,
+    "resist_blood": 50,
+    "resist_death": 0,
+    "resist_astral": 0,
+    "resist_psychic": 0,
+    "resist_lightning": -50
+  },
+  "fireworm": {
+    "title": "fireworm",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "none"
+    ],
+    "family": "elemental",
+    "name": "Afrit",
+    "name_color": "[color=#ff7000]Afrit[/color]",
+    "description": "An elemental of pure cosmic flame",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 15,
+    "lvl": 15,
+    "hp": 175,
+    "speed": 20,
+    "speedmin": 10,
+    "arm": 0,
+    "dodge": [
+      6,
+      10
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      10,
+      10
+    ],
+    "damage": [
+      6,
+      10
+    ],
+    "dmgtype": "fire",
+    "range_attack": 6,
+    "proj_art": "res://Ham_Sprite/Proj/Proj_Fireball.png",
+    "sprite": "res://Ham_Sprite/Allies/Afrit.png",
+    "abilities": [
+      "AuraScorch",
+      "none"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpsePurp",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": 90,
+    "resist_ice": -100,
+    "resist_poison": 0,
+    "resist_blood": 0,
+    "resist_death": 0,
+    "resist_astral": 90,
+    "resist_psychic": 0,
+    "resist_lightning": 0
+  },
+  "ooze": {
+    "title": "ooze",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "none"
+    ],
+    "family": "elemental",
+    "name": "Ooze",
+    "name_color": "[color=#70ff00]Ooze[/color]",
+    "description": "A roiling mass of elemental poison",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 25,
+    "lvl": 10,
+    "hp": 275,
+    "speed": 5,
+    "speedmin": 5,
+    "arm": 80,
+    "dodge": [
+      1,
+      1
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      15,
+      10
+    ],
+    "damage": [
+      8,
+      10
+    ],
+    "dmgtype": "poison",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/Ooze.png",
+    "abilities": [
+      "CorrosionHit",
+      "PoisonHit",
+      "Force",
+      "AOE"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpsePurp",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": 50,
+    "resist_ice": -50,
+    "resist_poison": 90,
+    "resist_blood": 90,
+    "resist_death": 90,
+    "resist_astral": -50,
+    "resist_psychic": 0,
+    "resist_lightning": 0
+  },
+  "phantasm": {
+    "title": "phantasm",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "none"
+    ],
+    "family": "elemental",
+    "name": "Phantasm",
+    "name_color": "[color=#60b0ff]Phantasm[/color]",
+    "description": "An ethereal servant of Mehtar's freezing dreamscape",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 10,
+    "lvl": 1,
+    "hp": 1,
+    "speed": 20,
+    "speedmin": 1,
+    "arm": 0,
+    "dodge": [
+      30,
+      10
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      30,
+      10
+    ],
+    "damage": [
+      5,
+      10
+    ],
+    "dmgtype": "psychic",
+    "range_attack": 2,
+    "proj_art": "res://Ham_Sprite/Proj/Proj_Psychic.png",
+    "sprite": "res://Ham_Sprite/Allies/PhantasmNew.png",
+    "abilities": [
+      "ChillHit",
+      "none"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpsePurp",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": 0,
+    "resist_ice": 90,
+    "resist_poison": 90,
+    "resist_blood": 90,
+    "resist_death": 0,
+    "resist_astral": -100,
+    "resist_psychic": 90,
+    "resist_lightning": 0
+  },
+  "Wisp": {
+    "title": "Wisp",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "none"
+    ],
+    "family": "elemental",
+    "name": "Wisp",
+    "name_color": "[color=#9060ff]Wisp[/color]",
+    "description": "An ethereal orb hatched from a pink star",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 10,
+    "lvl": 1,
+    "hp": 10,
+    "speed": 20,
+    "speedmin": 1,
+    "arm": 0,
+    "dodge": [
+      30,
+      10
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      30,
+      10
+    ],
+    "damage": [
+      10,
+      10
+    ],
+    "dmgtype": "astral",
+    "range_attack": 3,
+    "proj_art": "res://Ham_Sprite/Proj/Proj_Astral.png",
+    "sprite": "res://Ham_Sprite/Allies/Wisp.png",
+    "abilities": [
+      "Force",
+      "DisruptionHit",
+      "Autoblink"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpsePurp",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": -100,
+    "resist_ice": 90,
+    "resist_poison": 90,
+    "resist_blood": 90,
+    "resist_death": 0,
+    "resist_astral": 0,
+    "resist_psychic": 90,
+    "resist_lightning": 0
+  },
+  "psychomorph": {
+    "title": "psychomorph",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "none"
+    ],
+    "family": "elemental",
+    "name": "Psychomorph",
+    "name_color": "[color=#ffaf30]Psychomorph[/color]",
+    "description": "An ethereal projection of your weapon",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 10,
+    "lvl": 1,
+    "hp": 10,
+    "speed": 30,
+    "speedmin": 1,
+    "arm": 10,
+    "dodge": [
+      20,
+      10
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      1,
+      10
+    ],
+    "damage": [
+      1,
+      10
+    ],
+    "dmgtype": "psychic",
+    "range_attack": 3,
+    "proj_art": "res://Ham_Sprite/Proj/Proj_Psychic.png",
+    "sprite": "res://Ham_Sprite/Allies/Psychomorph.png",
+    "abilities": [
+      "Psychomorph",
+      "none"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpsePurp",
+    "resist_slash": 50,
+    "resist_pierce": 50,
+    "resist_blunt": 50,
+    "resist_fire": 0,
+    "resist_ice": 0,
+    "resist_poison": 0,
+    "resist_blood": 0,
+    "resist_death": 0,
+    "resist_astral": -100,
+    "resist_psychic": 90,
+    "resist_lightning": 0
+  },
+  "bloodacolyte": {
+    "title": "bloodacolyte",
+    "object_type": "ally",
+    "tags": [
+      "[color=#8050f0]Priest[/color]",
+      "none"
+    ],
+    "family": "humanoid",
+    "name": "Gore Priest",
+    "name_color": "[color=#ff1010]Gore Priest[/color]",
+    "description": "A loyal acolyte of sacrifical blood. Summoned from a hidden temple of bone",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 15,
+    "lvl": 10,
+    "hp": 450,
+    "speed": 15,
+    "speedmin": 3,
+    "arm": 20,
+    "dodge": [
+      10,
+      10
+    ],
+    "deflect": [
+      10,
+      10,
+      40
+    ],
+    "accuracy": [
+      15,
+      10
+    ],
+    "damage": [
+      15,
+      10
+    ],
+    "dmgtype": "blood",
+    "range_attack": 6,
+    "proj_art": "res://Ham_Sprite/Proj/Proj_Blood.png",
+    "sprite": "res://Ham_Sprite/Allies/GorePriest.png",
+    "abilities": [
+      "Castblood",
+      "none"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpseRed",
+    "resist_slash": 50,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": 0,
+    "resist_ice": 0,
+    "resist_poison": 0,
+    "resist_blood": 90,
+    "resist_death": 0,
+    "resist_astral": 0,
+    "resist_psychic": 0,
+    "resist_lightning": 0
+  },
+  "Hemogoblin": {
+    "title": "Hemogoblin",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "none"
+    ],
+    "family": "humanoid",
+    "name": "Hemogoblin",
+    "name_color": "[color=#ff1010]Hemogoblin[/color]",
+    "description": "A vigorous waddling creature of blood",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 50,
+    "lvl": 20,
+    "hp": 800,
+    "speed": 25,
+    "speedmin": 1,
+    "arm": 10,
+    "dodge": [
+      20,
+      10
+    ],
+    "deflect": [
+      10,
+      10,
+      100
+    ],
+    "accuracy": [
+      20,
+      10
+    ],
+    "damage": [
+      10,
+      10
+    ],
+    "dmgtype": "blood",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/Hemogoblin2.png",
+    "abilities": [
+      "Vigilance",
+      "Impact",
+      "AOE",
+      "Familiar"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpseRed",
+    "resist_slash": 50,
+    "resist_pierce": 50,
+    "resist_blunt": 50,
+    "resist_fire": 0,
+    "resist_ice": 0,
+    "resist_poison": 50,
+    "resist_blood": 90,
+    "resist_death": -25,
+    "resist_astral": 0,
+    "resist_psychic": 0,
+    "resist_lightning": 0
+  },
+  "Tsuchigumo": {
+    "title": "Tsuchigumo",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "none"
+    ],
+    "family": "beast",
+    "name": "Tsuchigumo",
+    "name_color": "[color=#70ff00]Tsuchigumo[/color]",
+    "description": "A cunning spider summoned from a nest beneath the dawn marshes",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 25,
+    "lvl": 20,
+    "hp": 600,
+    "speed": 30,
+    "speedmin": 1,
+    "arm": 10,
+    "dodge": [
+      30,
+      10
+    ],
+    "deflect": [
+      10,
+      10,
+      100
+    ],
+    "accuracy": [
+      30,
+      10
+    ],
+    "damage": [
+      10,
+      10
+    ],
+    "dmgtype": "pierce",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/Tsuchigumo.png",
+    "abilities": [
+      "Vigilance",
+      "Force",
+      "PoisonHit",
+      "Familiar"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpseRed",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": 90,
+    "resist_ice": 0,
+    "resist_poison": 90,
+    "resist_blood": 0,
+    "resist_death": 0,
+    "resist_astral": 0,
+    "resist_psychic": 0,
+    "resist_lightning": 0
+  },
+  "Tsuchigumo2": {
+    "title": "Tsuchigumo2",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "none"
+    ],
+    "family": "beast",
+    "name": "Garnet Spider",
+    "name_color": "[color=#9050cf]Garnet Spider[/color]",
+    "description": "A glimmering beast born in a chasm past the edge of Achra",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 25,
+    "lvl": 20,
+    "hp": 800,
+    "speed": 60,
+    "speedmin": 1,
+    "arm": 10,
+    "dodge": [
+      60,
+      10
+    ],
+    "deflect": [
+      10,
+      10,
+      100
+    ],
+    "accuracy": [
+      30,
+      10
+    ],
+    "damage": [
+      30,
+      10
+    ],
+    "dmgtype": "astral",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/Tsuchigumo2.png",
+    "abilities": [
+      "Vigilance",
+      "Force",
+      "ChillHit",
+      "PoisonHit",
+      "AOE",
+      "Familiar"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpsePurp",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": 90,
+    "resist_ice": 50,
+    "resist_poison": 90,
+    "resist_blood": 0,
+    "resist_death": -50,
+    "resist_astral": 50,
+    "resist_psychic": 50,
+    "resist_lightning": 50
+  },
+  "RedDragon2": {
+    "title": "RedDragon2",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "[color=#10df90]Reptile[/color]"
+    ],
+    "family": "Beast",
+    "name": "Brass Dragon",
+    "name_color": "[color=#af7020]Brass Dragon[/color]",
+    "description": "A rare beast of living brass born in the mountains of Achra",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 30,
+    "lvl": 30,
+    "hp": 1500,
+    "speed": 15,
+    "speedmin": 10,
+    "arm": 100,
+    "dodge": [
+      1,
+      1
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      10,
+      10
+    ],
+    "damage": [
+      30,
+      10
+    ],
+    "dmgtype": "fire",
+    "range_attack": 2,
+    "proj_art": "res://Ham_Sprite/Proj/Proj_Fireball.png",
+    "sprite": "res://Ham_Sprite/Allies/RedDragon2.png",
+    "abilities": [
+      "FireBreath",
+      "FeastCruel",
+      "CorrosionSkin",
+      "Familiar"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpsePurp",
+    "resist_slash": 50,
+    "resist_pierce": 50,
+    "resist_blunt": 50,
+    "resist_fire": 90,
+    "resist_ice": -25,
+    "resist_poison": 50,
+    "resist_blood": 50,
+    "resist_death": 50,
+    "resist_astral": 0,
+    "resist_psychic": 0,
+    "resist_lightning": -25
+  },
+  "Grika2": {
+    "title": "Grika2",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "none"
+    ],
+    "family": "beast",
+    "name": "Quartz Tortoise",
+    "name_color": "[color=#50ff80]Quartz Tortoise[/color]",
+    "description": "A dread beast born in the crystal tunnels beneath the frozen waste of Achra",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 30,
+    "lvl": 30,
+    "hp": 2000,
+    "speed": 15,
+    "speedmin": 15,
+    "arm": 200,
+    "dodge": [
+      1,
+      1
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      10,
+      10
+    ],
+    "damage": [
+      50,
+      10
+    ],
+    "dmgtype": "blunt",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/Grika2.png",
+    "abilities": [
+      "Bully",
+      "Impact",
+      "DeathBreath",
+      "AOE",
+      "Familiar"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpsePurp",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": -25,
+    "resist_ice": 90,
+    "resist_poison": 0,
+    "resist_blood": 0,
+    "resist_death": 90,
+    "resist_astral": 0,
+    "resist_psychic": 0,
+    "resist_lightning": 75
+  },
+  "Astrophyte": {
+    "title": "Astrophyte",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "none"
+    ],
+    "family": "Astrophyte",
+    "name": "Astrophyte",
+    "name_color": "[color=#8030af]Astrophyte[/color]",
+    "description": "A blurred warrior conjured from starlight",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 10,
+    "lvl": 5,
+    "hp": 50,
+    "speed": 30,
+    "speedmin": 1,
+    "arm": 0,
+    "dodge": [
+      25,
+      10
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      20,
+      10
+    ],
+    "damage": [
+      5,
+      10
+    ],
+    "dmgtype": "astral",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/Astrophyte.png",
+    "abilities": [
+      "Castastra",
+      "none"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpseRed",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": 0,
+    "resist_ice": 0,
+    "resist_poison": 0,
+    "resist_blood": 0,
+    "resist_death": 0,
+    "resist_astral": 90,
+    "resist_psychic": 0,
+    "resist_lightning": 0
+  },
+  "Blinksnake": {
+    "title": "Blinksnake",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "[color=#10df90]Reptile[/color]"
+    ],
+    "family": "reptile",
+    "name": "Blinksnake",
+    "name_color": "[color=#8030af]Blinksnake[/color]",
+    "description": "A blurred reptile conjured from starlight",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 10,
+    "lvl": 5,
+    "hp": 50,
+    "speed": 30,
+    "speedmin": 1,
+    "arm": 0,
+    "dodge": [
+      25,
+      10
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      20,
+      10
+    ],
+    "damage": [
+      5,
+      10
+    ],
+    "dmgtype": "astral",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/Blinksnake.png",
+    "abilities": [
+      "DisruptionHit",
+      "Autoblink"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpsePurp",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": 0,
+    "resist_ice": 0,
+    "resist_poison": 0,
+    "resist_blood": 0,
+    "resist_death": 0,
+    "resist_astral": 90,
+    "resist_psychic": 0,
+    "resist_lightning": 0
+  },
+  "RedDragon": {
+    "title": "RedDragon",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "[color=#10df90]Reptile[/color]"
+    ],
+    "family": "Beast",
+    "name": "Red Dragon",
+    "name_color": "[color=#cf3000]Red Dragon[/color]",
+    "description": "A magnificent beast of elemental flame",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 30,
+    "lvl": 30,
+    "hp": 1000,
+    "speed": 15,
+    "speedmin": 5,
+    "arm": 50,
+    "dodge": [
+      1,
+      1
+    ],
+    "deflect": [
+      1,
+      10,
+      1
+    ],
+    "accuracy": [
+      10,
+      10
+    ],
+    "damage": [
+      20,
+      10
+    ],
+    "dmgtype": "fire",
+    "range_attack": 2,
+    "proj_art": "res://Ham_Sprite/Proj/Proj_Fireball.png",
+    "sprite": "res://Ham_Sprite/Allies/RedDragon.png",
+    "abilities": [
+      "FireBreath",
+      "Familiar"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpseRed",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": 90,
+    "resist_ice": -25,
+    "resist_poison": 50,
+    "resist_blood": 50,
+    "resist_death": 50,
+    "resist_astral": 0,
+    "resist_psychic": 0,
+    "resist_lightning": 0
+  },
+  "Bukavac": {
+    "title": "Bukavac",
+    "object_type": "ally",
+    "tags": [
+      "none",
+      "none"
+    ],
+    "family": "Beast",
+    "name": "Bukavac",
+    "name_color": "[color=#00ff70]Bukavac[/color]",
+    "description": "A paralyzing beast from the ancient earth. Now a companion-demon of an Uspori",
+    "quant": [
+      1,
+      1
+    ],
+    "size": 50,
+    "lvl": 20,
+    "hp": 1500,
+    "speed": 40,
+    "speedmin": 1,
+    "arm": 10,
+    "dodge": [
+      40,
+      10
+    ],
+    "deflect": [
+      10,
+      10,
+      100
+    ],
+    "accuracy": [
+      20,
+      10
+    ],
+    "damage": [
+      20,
+      10
+    ],
+    "dmgtype": "poison",
+    "range_attack": 1,
+    "proj_art": "none",
+    "sprite": "res://Ham_Sprite/Allies/Bukavac.png",
+    "abilities": [
+      "HitParalysis",
+      "SicknessSkin",
+      "Vigilance",
+      "AOE",
+      "Familiar"
+    ],
+    "taunt": "\"How could you do this?\"...",
+    "sprite_corpse": "CorpsePurp",
+    "resist_slash": 0,
+    "resist_pierce": 0,
+    "resist_blunt": 0,
+    "resist_fire": 0,
+    "resist_ice": 90,
+    "resist_poison": 90,
+    "resist_blood": 0,
+    "resist_death": 0,
+    "resist_astral": 0,
+    "resist_psychic": 0,
+    "resist_lightning": 0
+  }
+}
