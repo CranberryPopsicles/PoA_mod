@@ -110,6 +110,7 @@
 | Mark | 标记 | 提高目标受到物理伤害的有害效果。 |
 | Berserk | 狂暴 | 额外攻击和速度相关增益。 |
 | Evasion | 闪避 | 状态名与属性名同译，按上下文区分。 |
+| Immune | 免疫 | 不受对应伤害或效果影响。 |
 | Charge | 蓄势 | 伤害增益状态，和 Prayer charge 的“充能”区分。 |
 | Stasis | 停滞 | 阻止传送的状态。 |
 | Anoint | 受膏 | 星界相关命中/闪避增益。 |
@@ -138,6 +139,7 @@
 | Kinesis | 念动 | 一组元素/心灵驱动能力标签。 |
 | Endure | 忍受 | 将一次伤害压低为 1 的承伤机制。 |
 | Death | 死亡 | 伤害类型。 |
+| Martial Effect | 武艺效果 | Poise、Evasion、Anoint、Inflame 等效果集合。 |
 
 ## 暂时保留原文
 
