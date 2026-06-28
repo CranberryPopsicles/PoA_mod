@@ -110,6 +110,7 @@ $sceneScripts = @(
     'Bestiary.gd',
     'Feats.gd',
     'First_Menu.gd',
+    'InfoButtons.gd',
     'Start_Menu.gd',
     'UI_Inv.gd',
     'UI_Level_Up.gd',
