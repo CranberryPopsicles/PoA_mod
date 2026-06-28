@@ -1484,14 +1484,14 @@ func describe_weapon(weapon):
 		stringa += "\n[color=#ffa050]" + str(weapon.acc * 10) + " [color=#a0a0a0]精准[/color][/color]"
 		stringa += "\n[color=#ff8030]" + str(weapon.dmg * 10) + " [color=#a0a0a0]命中[/color][/color]"
 		stringa += " " + translate.damage_type(weapon["dmgtype"])
-		stringa = stringa + "\n[color=#5050ff]" + str(weapon.arm) + " [color=#a0a0a0]Block[/color][/color]"
+		stringa = stringa + "\n[color=#5050ff]" + str(weapon.arm) + " [color=#a0a0a0]格挡[/color][/color]"
 	
 	
 	
 		stringa += "\n"
 		var range_string = ""
 		range_string = str(int(weapon.range))
-		stringa = stringa + "\n[color=#ffff50]" + range_string + "[/color] [color=#a0a0a0]Range[/color] "
+		stringa = stringa + "\n[color=#ffff50]" + range_string + "[/color] [color=#a0a0a0]射程[/color] "
 	
 	
 	
@@ -1499,8 +1499,8 @@ func describe_weapon(weapon):
 	
 	
 		
-		stringa = stringa + "\n[color=#ff0000]" + str(weapon.weight) + " [/color][color=#a0a0a0]Encumbrance[/color]"
-		stringa = stringa + "\n[color=#ff0000]" + str(weapon.size) + " [/color][color=#a0a0a0]Weapon Size[/color]"
+		stringa = stringa + "\n[color=#ff0000]" + str(weapon.weight) + " [/color][color=#a0a0a0]负重[/color]"
+		stringa = stringa + "\n[color=#ff0000]" + str(weapon.size) + " [/color][color=#a0a0a0]武器尺寸[/color]"
 	
 
 		stringa += "\n"
@@ -1563,8 +1563,8 @@ func describe_armor(armor):
 		
 		stringa = armor.name + stringa
 		
-		stringa = stringa + "\n\n[color=#5050ff]" + "+" + str(armor.arm) + " [color=#a0a0a0]Armor[/color][/color]\n"
-		stringa = stringa + "\n[color=#ff0000]" + "+" + str(armor.weight) + " [color=#a0a0a0]Encumbrance[/color][/color]"
+		stringa = stringa + "\n\n[color=#5050ff]" + "+" + str(armor.arm) + " [color=#a0a0a0]护甲[/color][/color]\n"
+		stringa = stringa + "\n[color=#ff0000]" + "+" + str(armor.weight) + " [color=#a0a0a0]负重[/color][/color]"
 		
 		
 		
