@@ -677,7 +677,7 @@ func write_description():
 func write_description_summary():
 	var stringa = "[color=#c0c0c0]"
 	
-	stringa += StatePlayerSheet.title_class + " of " + StatePlayerSheet.God.name
+	stringa += StatePlayerSheet.title_class + "，信奉 " + StatePlayerSheet.God.name
 	stringa = stringa + "\n\n"
 	
 	

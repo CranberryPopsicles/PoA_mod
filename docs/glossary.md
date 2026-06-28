@@ -85,6 +85,17 @@
 | Start | 开始 | 开始新游戏。 |
 | Continue | 继续 | 继续已载入角色。 |
 | Return | 返回 | 返回主菜单。 |
+| Bloodrage | 血怒 | Humbaba 相关增益效果。 |
+| Bleed | 流血 | 鲜血伤害相关有害效果。 |
+| Sickness | 疾病 | 毒素伤害相关有害效果。 |
+| Entangle | 缠绕 | Ninhurs/神圣草地相关控制效果。 |
+| Grace | 恩典 | Ashem 相关减伤/反击效果。 |
+| Dream | 梦境 | Mehtar 相关效果。 |
+| Divine grass | 神圣草地 | Ninhurs 相关地形。 |
+| Prayer charge | 祈祷充能 | 祈祷可用次数/充能机制。 |
+| Stand still | 站立不动 | 原地等待/不移动触发条件。 |
+| Entrance | 进入区域 | 进入新区域时触发。 |
+| Familiar | 魔宠 | 召唤单位类型，角色/神祇说明沿用。 |
 
 ## 暂时保留原文
 
@@ -95,7 +106,8 @@
 | Sitra Achra | 保留 | 专有名，暂不硬译。 |
 | Obelisk | 方尖碑 | 普通语境可译，标题语境暂保留英文。 |
 | STR / DEX / WIL | 保留 | 核心属性缩写，先保留以免 UI 过宽。 |
-| Race / class / god names | 保留 | 数据表尚未翻译，后续统一处理。 |
+| Culture / god names | 保留 | 世界观专有名保留原文，只翻简介和机制文本。 |
+| Class names | 混合处理 | 通用职业名翻译，世界观专名保留原文。 |
 | Item / trait / buff names | 保留 | 需要结合数据表建立术语后再翻译。 |
 
 ## 待确认
