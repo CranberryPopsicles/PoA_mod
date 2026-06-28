@@ -128,7 +128,8 @@ foreach ($script in $sceneScripts) {
 }
 
 $topLevelScripts = @(
-    'translate.gd'
+    'translate.gd',
+    'ToolMessageCreator.gd'
 )
 foreach ($script in $topLevelScripts) {
     $scriptPath = Join-Path $patchSrc $script
