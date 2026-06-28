@@ -45,7 +45,7 @@
       "Force",
       "EntangleHit"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -105,7 +105,7 @@
       "Force",
       "EntangleHit"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -168,7 +168,7 @@
       "stationary",
       "Familiar"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -228,7 +228,7 @@
       "EntangleHit",
       "stationary"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -289,7 +289,7 @@
       "CorrosionHit",
       "stationary"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -349,7 +349,7 @@
       "EntangleHit",
       "stationary"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -409,7 +409,7 @@
       "none",
       "stationary"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 90,
     "resist_pierce": 90,
@@ -471,7 +471,7 @@
       "Vigilance",
       "stationary"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -533,7 +533,7 @@
       "ChillHit",
       "stationary"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -593,7 +593,7 @@
       "ChillHit",
       "none"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -653,7 +653,7 @@
       "PoisonHit",
       "none"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpseRed",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -715,7 +715,7 @@
       "FeastCruel",
       "Familiar"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpseRed",
     "resist_slash": 25,
     "resist_pierce": 25,
@@ -777,7 +777,7 @@
       "Bully",
       "Familiar"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 50,
     "resist_pierce": 50,
@@ -839,7 +839,7 @@
       "AOE",
       "Familiar"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 50,
     "resist_pierce": 50,
@@ -901,7 +901,7 @@
       "AuraBleed",
       "Familiar"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 50,
     "resist_pierce": 50,
@@ -962,7 +962,7 @@
       "Castastra",
       "Familiar"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 50,
     "resist_pierce": 50,
@@ -1022,7 +1022,7 @@
       "none",
       "none"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -1082,7 +1082,7 @@
       "Force",
       "DoomHit"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpseRed",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -1144,7 +1144,7 @@
       "PoisonHit",
       "Force"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -1204,7 +1204,7 @@
       "none",
       "none"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 50,
     "resist_pierce": 50,
@@ -1264,7 +1264,7 @@
       "none",
       "none"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 50,
     "resist_pierce": 50,
@@ -1327,7 +1327,7 @@
       "Vigilance",
       "Familiar"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpseRed",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -1389,7 +1389,7 @@
       "Familiar",
       "stationary"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 50,
     "resist_pierce": 50,
@@ -1450,7 +1450,7 @@
       "AOE",
       "Familiar"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -1510,7 +1510,7 @@
       "stationary",
       "none"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 50,
     "resist_pierce": 50,
@@ -1571,7 +1571,7 @@
       "stationary",
       "none"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 50,
     "resist_pierce": 50,
@@ -1632,7 +1632,7 @@
       "stationary",
       "none"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 50,
     "resist_pierce": 50,
@@ -1692,7 +1692,7 @@
       "Castcurse",
       "Spite"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpseRed",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -1752,7 +1752,7 @@
       "none",
       "none"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpseRed",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -1812,7 +1812,7 @@
       "Castvenom",
       "Mend25"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpseRed",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -1872,7 +1872,7 @@
       "BurnHit",
       "none"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpseRed",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -1932,7 +1932,7 @@
       "none",
       "none"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 50,
     "resist_pierce": 50,
@@ -1992,7 +1992,7 @@
       "DoomHit",
       "none"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -2052,7 +2052,7 @@
       "BleedHit",
       "Force"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -2113,7 +2113,7 @@
       "Bully",
       "Familiar"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 50,
     "resist_pierce": 50,
@@ -2174,7 +2174,7 @@
       "Counter",
       "Familiar"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 50,
     "resist_pierce": 50,
@@ -2234,7 +2234,7 @@
       "Vigilance",
       "Familiar"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -2297,7 +2297,7 @@
       "AOE",
       "Familiar"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpseRed",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -2360,7 +2360,7 @@
       "AOE",
       "Familiar"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpseRed",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -2423,7 +2423,7 @@
       "Impact",
       "Familiar"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpseRed",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -2483,7 +2483,7 @@
       "AOE",
       "none"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpseRed",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -2544,7 +2544,7 @@
       "Counter",
       "AOE"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpseRed",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -2604,7 +2604,7 @@
       "iceknight",
       "Vigilance"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpseRed",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -2665,7 +2665,7 @@
       "Counter",
       "AOE"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpseRed",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -2725,7 +2725,7 @@
       "none",
       "none"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpseRed",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -2785,7 +2785,7 @@
       "Familiar",
       "none"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpseRed",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -2845,7 +2845,7 @@
       "Familiar",
       "AuraCharge"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpseRed",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -2905,7 +2905,7 @@
       "Familiar",
       "none"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpseRed",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -2966,7 +2966,7 @@
       "Vigilance",
       "Familiar"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpseRed",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -3026,7 +3026,7 @@
       "Vigilance",
       "BleedHit"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpseRed",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -3086,7 +3086,7 @@
       "RatManFlourisher",
       "none"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpseRed",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -3146,7 +3146,7 @@
       "none",
       "none"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpseRed",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -3206,7 +3206,7 @@
       "none",
       "none"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -3266,7 +3266,7 @@
       "none",
       "none"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -3326,7 +3326,7 @@
       "none",
       "none"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -3386,7 +3386,7 @@
       "none",
       "none"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -3446,7 +3446,7 @@
       "none",
       "none"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -3506,7 +3506,7 @@
       "none",
       "none"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpseRed",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -3568,7 +3568,7 @@
       "AOE",
       "Familiar"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpseRed",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -3628,7 +3628,7 @@
       "AOE",
       "Familiar"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 50,
     "resist_pierce": 50,
@@ -3688,7 +3688,7 @@
       "AuraScorch",
       "none"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -3750,7 +3750,7 @@
       "Force",
       "AOE"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -3810,7 +3810,7 @@
       "ChillHit",
       "none"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -3871,7 +3871,7 @@
       "DisruptionHit",
       "Autoblink"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -3931,7 +3931,7 @@
       "Psychomorph",
       "none"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 50,
     "resist_pierce": 50,
@@ -3991,7 +3991,7 @@
       "Castblood",
       "none"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpseRed",
     "resist_slash": 50,
     "resist_pierce": 0,
@@ -4053,7 +4053,7 @@
       "AOE",
       "Familiar"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpseRed",
     "resist_slash": 50,
     "resist_pierce": 50,
@@ -4115,7 +4115,7 @@
       "PoisonHit",
       "Familiar"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpseRed",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -4179,7 +4179,7 @@
       "AOE",
       "Familiar"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -4241,7 +4241,7 @@
       "CorrosionSkin",
       "Familiar"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 50,
     "resist_pierce": 50,
@@ -4304,7 +4304,7 @@
       "AOE",
       "Familiar"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -4364,7 +4364,7 @@
       "Castastra",
       "none"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpseRed",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -4424,7 +4424,7 @@
       "DisruptionHit",
       "Autoblink"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -4484,7 +4484,7 @@
       "FireBreath",
       "Familiar"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpseRed",
     "resist_slash": 0,
     "resist_pierce": 0,
@@ -4547,7 +4547,7 @@
       "AOE",
       "Familiar"
     ],
-    "taunt": "\"How could you do this?\"...",
+    "taunt": "“你怎么能这样做？”……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 0,
     "resist_pierce": 0,
