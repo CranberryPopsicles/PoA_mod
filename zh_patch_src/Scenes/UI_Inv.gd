@@ -1038,7 +1038,7 @@ func get_info_string(info, player):
 					color = "[color=#ff0000]"
 				if int(game.Player.get_total_weight()) <= int(game.Player.get_total_STR()):
 					color = "[color=#00ff00]"
-				stringa = color + stringa + "[/color]" + " [color=#707070]" + str(player.get_total_STR()) + " STR"
+				stringa = color + stringa + "[/color]" + " [color=#707070]" + str(player.get_total_STR()) + " 力量"
 				
 				
 			"inflex":
@@ -1135,9 +1135,9 @@ func write_info_top():
 	
 	
 	var stringa = ""
-	stringa = stringa + "[color=#c0c0c0]STR[/color] " + str(Global.Player.get_total_STR())
-	stringa = stringa + " [color=#c0c0c0]DEX[/color] " + str(Global.Player.get_total_DEX())
-	stringa = stringa + " [color=#c0c0c0]WIL[/color] " + str(Global.Player.get_total_WIL())
+	stringa = stringa + "[color=#c0c0c0]力量[/color] " + str(Global.Player.get_total_STR())
+	stringa = stringa + " [color=#c0c0c0]敏捷[/color] " + str(Global.Player.get_total_DEX())
+	stringa = stringa + " [color=#c0c0c0]意志[/color] " + str(Global.Player.get_total_WIL())
 	
 	$Info.bbcode_text = stringa
 

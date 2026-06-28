@@ -79,7 +79,7 @@
   },
   "speed": {
     "title": "speed",
-    "description": "[color=#20ff20]速度[/color]\n\n你行动的速度\n\n     [color=#ff7050]力量[/color]以上每点[color=#ff0000]负重[/color]使速度 [color=#ff5050]-2[/color]\n\n     会被总[color=#ff0000]僵硬度[/color][color=#ff5050]除算[/color]\n\n     [color=#50ff50]不会低于[/color]最低值 [color=#707070]由力量或基础值（DEX * 2 + 初始速度）决定，取较低者[/color]\n\n[color=#707070]这会确立你的基础速度，其他增幅都以此为基准计算[/color]\n\n每个[color=#ffff50]游戏回合[/color]在速度 5 时发生 [color=#707070]这是“每个游戏回合”触发器生效、流血等效果到期的速度[/color]\n\n速度接近 100 时会开始[color=#ff3030]收益递减[/color]\n\n速度超过 100 后，每点速度都会加入你的[color=#ff8030]命中[/color]",
+    "description": "[color=#20ff20]速度[/color]\n\n你行动的速度\n\n     [color=#ff7050]力量[/color]以上每点[color=#ff0000]负重[/color]使速度 [color=#ff5050]-2[/color]\n\n     会被总[color=#ff0000]僵硬度[/color][color=#ff5050]除算[/color]\n\n     [color=#50ff50]不会低于[/color]最低值 [color=#707070]由力量或基础值（敏捷 * 2 + 初始速度）决定，取较低者[/color]\n\n[color=#707070]这会确立你的基础速度，其他增幅都以此为基准计算[/color]\n\n每个[color=#ffff50]游戏回合[/color]在速度 5 时发生 [color=#707070]这是“每个游戏回合”触发器生效、流血等效果到期的速度[/color]\n\n速度接近 100 时会开始[color=#ff3030]收益递减[/color]\n\n速度超过 100 后，每点速度都会加入你的[color=#ff8030]命中[/color]",
     "text_icon": "[color=#20ff20]速度[/color]",
     "description_small": "你行动的速度。如果敌人比你[color=#ffff50]更慢[/color]，他们会采取[color=#ffff50]更少行动[/color]。每个[color=#ffff50]游戏回合[/color]在速度 10 时发生。如果你的速度[color=#ffff50]低于一个游戏回合[/color]，你每回合行动一次；如果[color=#ffff50]高于一个游戏回合[/color]，你可以比游戏回合效果更频繁地行动。[color=#ff0000]会受到负重和僵硬度惩罚[/color]",
     "name": "SPD",
@@ -222,9 +222,9 @@
   },
   "STR": {
     "title": "STR",
-    "description": "[color=#ff7050]力量[/color]，每点提供：\n\n     [color=#ff8080]+25 生命[/color]\n     [color=#5050ff]+15 护甲[/color]\n     [color=#ffff50]+1%[/color] [color=#70ff00]毒素[/color] / [color=#a0a000]死亡[/color] / [color=#ff1010]鲜血[/color]抗性\n\n     [color=#707070]按已装备护甲 / 武器缩放：[/color]\n     [color=#5050ff]+10% 格挡[/color]\n     [color=#5050ff]+10% 护甲[/color]\n     [color=#ff8030]+10% 命中[/color] [color=#c0c0c0]双手持握时 +20%[/color]\n\n     抵消[color=#ff0000]负重[/color]\n    \n     提高最低[color=#20ff20]速度[/color] [color=#707070]最高到 DEX + 初始速度[/color]",
+    "description": "[color=#ff7050]力量[/color]，每点提供：\n\n     [color=#ff8080]+25 生命[/color]\n     [color=#5050ff]+15 护甲[/color]\n     [color=#ffff50]+1%[/color] [color=#70ff00]毒素[/color] / [color=#a0a000]死亡[/color] / [color=#ff1010]鲜血[/color]抗性\n\n     [color=#707070]按已装备护甲 / 武器缩放：[/color]\n     [color=#5050ff]+10% 格挡[/color]\n     [color=#5050ff]+10% 护甲[/color]\n     [color=#ff8030]+10% 命中[/color] [color=#c0c0c0]双手持握时 +20%[/color]\n\n     抵消[color=#ff0000]负重[/color]\n    \n     提高最低[color=#20ff20]速度[/color] [color=#707070]最高到敏捷 + 初始速度[/color]",
     "text_icon": "[color=#ff7050]力量[/color]",
-    "description_small": "[center][color=#ff7050]力量[/color][color=#ffc0c0c0]\n\n[color=#ff8080]+25 生命[/color]\n[color=#5050ff]+15 护甲[/color]\n[color=#ffff50]+1%[/color] [color=#70ff00]毒素[/color] / [color=#a0a000]死亡[/color] / [color=#ff1010]鲜血[/color]抗性\n\n\n[color=#707070]按已装备护甲 / 武器缩放：[/color] \n[color=#5050ff]+10% 格挡[/color]\n[color=#5050ff]+10% 护甲[/color]\n[color=#ff8030]+10% 命中[/color] [color=#c0c0c0]双手持握时 +20%[/color]\n\n\n抵消[color=#ff0000]负重[/color]\n    \n提高最低[color=#20ff20]速度[/color] [color=#707070]最高到 DEX + 初始速度[/color]",
+    "description_small": "[center][color=#ff7050]力量[/color][color=#ffc0c0c0]\n\n[color=#ff8080]+25 生命[/color]\n[color=#5050ff]+15 护甲[/color]\n[color=#ffff50]+1%[/color] [color=#70ff00]毒素[/color] / [color=#a0a000]死亡[/color] / [color=#ff1010]鲜血[/color]抗性\n\n\n[color=#707070]按已装备护甲 / 武器缩放：[/color] \n[color=#5050ff]+10% 格挡[/color]\n[color=#5050ff]+10% 护甲[/color]\n[color=#ff8030]+10% 命中[/color] [color=#c0c0c0]双手持握时 +20%[/color]\n\n\n抵消[color=#ff0000]负重[/color]\n    \n提高最低[color=#20ff20]速度[/color] [color=#707070]最高到敏捷 + 初始速度[/color]",
     "name": "STR",
     "sprite": "none",
     "icon": "STR3",

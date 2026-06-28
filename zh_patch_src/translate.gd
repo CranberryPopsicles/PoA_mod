@@ -206,9 +206,9 @@ static func weapon_type_to_scaling(type, stat):
 	
 
 	
-	var STR = "[color=#a0a0a0]STR[/color]"
-	var DEX = "[color=#a0a0a0]DEX[/color]"
-	var WIL = "[color=#a0a0a0]WIL[/color]"
+	var STR = "[color=#a0a0a0]力量[/color]"
+	var DEX = "[color=#a0a0a0]敏捷[/color]"
+	var WIL = "[color=#a0a0a0]意志[/color]"
 	
 	match type:
 		"light":

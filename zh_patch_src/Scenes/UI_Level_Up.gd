@@ -43,9 +43,9 @@ func _ready():
 	rng.randomize()
 	update_info()
 	write_hero()
-	STR.bbcode_text = "[color=#a0a0a0][[color=#ffff50]1[/color]] [color=#ff7050]STR[/color] [color=#ffff50]" + str(Global.Player.get_total_STR())
-	DEX.bbcode_text = "[color=#a0a0a0][[color=#ffff50]2[/color]] [color=#50ff70]DEX[/color] [color=#ffff50]" + str(Global.Player.get_total_DEX())
-	WIL.bbcode_text = "[color=#a0a0a0][[color=#ffff50]3[/color]] [color=#c050ff]WIL[/color] [color=#ffff50]" + str(Global.Player.get_total_WIL())
+	STR.bbcode_text = "[color=#a0a0a0][[color=#ffff50]1[/color]] [color=#ff7050]力量[/color] [color=#ffff50]" + str(Global.Player.get_total_STR())
+	DEX.bbcode_text = "[color=#a0a0a0][[color=#ffff50]2[/color]] [color=#50ff70]敏捷[/color] [color=#ffff50]" + str(Global.Player.get_total_DEX())
+	WIL.bbcode_text = "[color=#a0a0a0][[color=#ffff50]3[/color]] [color=#c050ff]意志[/color] [color=#ffff50]" + str(Global.Player.get_total_WIL())
 	setup_deckbuttons()
 	Global.game.leveling_up = true
 	
@@ -73,7 +73,7 @@ func write_big_buttons():
 	if speed_min == "STR":
 		stringa += "\n\n[color=#70a070]*会提高最低速度"
 	elif speed_min == "none":
-		stringa += "\n\n[color=#707070]*最低速度持平，STR / DEX 都不会提高它"
+		stringa += "\n\n[color=#707070]*最低速度持平，力量 / 敏捷都不会提高它"
 	
 	$Choices / STR / Label.bbcode_text = stringa
 	
@@ -107,9 +107,9 @@ func write_hero():
 	
 	var stringa = "[color=#909090][center]"
 	
-	stringa += "[color=#ff7050]STR[/color] [color=#ffff50]" + str(Global.Player.get_total_STR())
-	stringa += "     [color=#50ff70]DEX[/color] [color=#ffff50]" + str(Global.Player.get_total_DEX())
-	stringa += "     [color=#c050ff]WIL[/color] [color=#ffff50]" + str(Global.Player.get_total_WIL())
+	stringa += "[color=#ff7050]力量[/color] [color=#ffff50]" + str(Global.Player.get_total_STR())
+	stringa += "     [color=#50ff70]敏捷[/color] [color=#ffff50]" + str(Global.Player.get_total_DEX())
+	stringa += "     [color=#c050ff]意志[/color] [color=#ffff50]" + str(Global.Player.get_total_WIL())
 	
 	
 	
@@ -177,7 +177,7 @@ func reward_str():
 	var life = 25
 	reward_text = "\n获得 "
 	reward_text += "[color=#ffff50]+" + str(life) + "[/color] [color=#ff8080]生命[/color]"
-	reward_text += "，因为 [color=#ff7050]STR[/color] 是你的最高属性"
+	reward_text += "，因为 [color=#ff7050]力量[/color] 是你的最高属性"
 	Global.Player.HP_max += life
 	Global.Player.HP += life
 	
@@ -191,7 +191,7 @@ func reward_dex():
 	
 	reward_text = "\n获得 "
 	reward_text += "[color=#ffff50]+1[/color] 基础[color=#20ff20]速度[/color]"
-	reward_text += "，因为 [color=#50ff70]DEX[/color] 是你的最高属性"
+	reward_text += "，因为 [color=#50ff70]敏捷[/color] 是你的最高属性"
 	
 	$Rewards / Label.bbcode_text = "[color=#dfdf50]+1[/color]"
 	$Rewards / Sprite.texture = load("res://Ham_Sprite/UI/Info/speed.png")
@@ -212,7 +212,7 @@ func reward_wil():
 	
 	reward_text = "\n获得 "
 	reward_text += "[color=#ffff50]+1[/color] [color=#ff90af]赋能[/color]"
-	reward_text += "，因为 [color=#c050ff]WIL[/color] 是你的最高属性"
+	reward_text += "，因为 [color=#c050ff]意志[/color] 是你的最高属性"
 	
 	$Rewards / Label.bbcode_text = "[color=#ff90af]+1[/color]"
 	$Rewards / Sprite.texture = load("res://Ham_Sprite/TraitIcons/Empowered.png")
@@ -318,9 +318,9 @@ func update_info():
 
 func fade_out():
 	disabled = true
-	STR.bbcode_text = "[color=#a0a0a0][[color=#ffff50]1[/color]] [color=#ff7050]STR[/color] [color=#ffff50]" + str(Global.Player.get_total_STR())
-	DEX.bbcode_text = "[color=#a0a0a0][[color=#ffff50]2[/color]] [color=#50ff70]DEX[/color] [color=#ffff50]" + str(Global.Player.get_total_DEX())
-	WIL.bbcode_text = "[color=#a0a0a0][[color=#ffff50]3[/color]] [color=#c050ff]WIL[/color] [color=#ffff50]" + str(Global.Player.get_total_WIL())
+	STR.bbcode_text = "[color=#a0a0a0][[color=#ffff50]1[/color]] [color=#ff7050]力量[/color] [color=#ffff50]" + str(Global.Player.get_total_STR())
+	DEX.bbcode_text = "[color=#a0a0a0][[color=#ffff50]2[/color]] [color=#50ff70]敏捷[/color] [color=#ffff50]" + str(Global.Player.get_total_DEX())
+	WIL.bbcode_text = "[color=#a0a0a0][[color=#ffff50]3[/color]] [color=#c050ff]意志[/color] [color=#ffff50]" + str(Global.Player.get_total_WIL())
 	write_hero()
 	$ColorRect.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	$Choices.mouse_filter = Control.MOUSE_FILTER_IGNORE

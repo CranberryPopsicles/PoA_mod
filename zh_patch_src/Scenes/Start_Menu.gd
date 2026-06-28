@@ -591,11 +591,11 @@ func write_description():
 				if trait.dex + trait.str + trait.wil > 0:
 					stringa += "\n\n"
 				if trait.str > 0:
-					stringa = stringa + "[color=#ff7050]STR[/color] " + "[color=#ffff50]+" + str(int(trait.str)) + "[/color]  "
+					stringa = stringa + "[color=#ff7050]力量[/color] " + "[color=#ffff50]+" + str(int(trait.str)) + "[/color]  "
 				if trait.dex > 0:
-					stringa = stringa + "[color=#50ff70]DEX[/color] " + "[color=#ffff50]+" + str(int(trait.dex)) + "[/color]  "
+					stringa = stringa + "[color=#50ff70]敏捷[/color] " + "[color=#ffff50]+" + str(int(trait.dex)) + "[/color]  "
 				if trait.wil > 0:
-					stringa = stringa + "[color=#c050ff]WIL[/color] " + "[color=#ffff50]+" + str(int(trait.wil)) + "[/color]"
+					stringa = stringa + "[color=#c050ff]意志[/color] " + "[color=#ffff50]+" + str(int(trait.wil)) + "[/color]"
 				stringa += "\n\n"
 				stringa += "[color=#707070]" + trait.description_start + "[/color]"
 				stringa += "\n\n"
@@ -624,11 +624,11 @@ func write_description():
 				if trait.dex + trait.str + trait.wil > 0:
 					stringa += "\n\n"
 				if trait.str > 0:
-					stringa = stringa + "[color=#ff7050]STR[/color] " + "[color=#ffff50]+" + str(int(trait.str)) + "[/color]  "
+					stringa = stringa + "[color=#ff7050]力量[/color] " + "[color=#ffff50]+" + str(int(trait.str)) + "[/color]  "
 				if trait.dex > 0:
-					stringa = stringa + "[color=#50ff70]DEX[/color] " + "[color=#ffff50]+" + str(int(trait.dex)) + "[/color]  "
+					stringa = stringa + "[color=#50ff70]敏捷[/color] " + "[color=#ffff50]+" + str(int(trait.dex)) + "[/color]  "
 				if trait.wil > 0:
-					stringa = stringa + "[color=#c050ff]WIL[/color] " + "[color=#ffff50]+" + str(int(trait.wil)) + "[/color]"
+					stringa = stringa + "[color=#c050ff]意志[/color] " + "[color=#ffff50]+" + str(int(trait.wil)) + "[/color]"
 				
 				stringa += "\n\n"
 				var typelist = ["slash", "blunt", "pierce", "fire", "ice", "poison", "lightning", "death", "psychic", "astral", "blood"]
@@ -684,9 +684,9 @@ func write_description_summary():
 	
 	stringa = stringa + "[color=#ff8080]生命[/color] " + "[color=#ffff50]" + str(int(StatePlayerSheet.HP)) + "[/color]"
 	stringa = stringa + "  [color=#20ff20]速度[/color] " + "[color=#ffff50]" + str(int(StatePlayerSheet.SPEED + (StatePlayerSheet.DEX * 2))) + "[/color]"
-	stringa = stringa + "\n\n[color=#ff7050]STR[/color] " + "[color=#ffff50]" + str(int(StatePlayerSheet.STR)) + "[/color]"
-	stringa = stringa + "  [color=#50ff70]DEX[/color] " + "[color=#ffff50]" + str(int(StatePlayerSheet.DEX)) + "[/color]"
-	stringa = stringa + "  [color=#c050ff]WIL[/color] " + "[color=#ffff50]" + str(int(StatePlayerSheet.WIL)) + "[/color]"
+	stringa = stringa + "\n\n[color=#ff7050]力量[/color] " + "[color=#ffff50]" + str(int(StatePlayerSheet.STR)) + "[/color]"
+	stringa = stringa + "  [color=#50ff70]敏捷[/color] " + "[color=#ffff50]" + str(int(StatePlayerSheet.DEX)) + "[/color]"
+	stringa = stringa + "  [color=#c050ff]意志[/color] " + "[color=#ffff50]" + str(int(StatePlayerSheet.WIL)) + "[/color]"
 	
 	stringa += "\n\n"
 	stringa += write_equipment()
@@ -734,11 +734,11 @@ func write_description_hovered():
 	if hovered_button.trait.dex + hovered_button.trait.str + hovered_button.trait.wil > 0:
 		stringa += "\n\n"
 	if hovered_button.trait.str > 0:
-		stringa = stringa + "[color=#ff7050]STR[/color] " + "[color=#ffff50]+" + str(int(hovered_button.trait.str)) + "[/color]  "
+		stringa = stringa + "[color=#ff7050]力量[/color] " + "[color=#ffff50]+" + str(int(hovered_button.trait.str)) + "[/color]  "
 	if hovered_button.trait.dex > 0:
-		stringa = stringa + "[color=#50ff70]DEX[/color] " + "[color=#ffff50]+" + str(int(hovered_button.trait.dex)) + "[/color]  "
+		stringa = stringa + "[color=#50ff70]敏捷[/color] " + "[color=#ffff50]+" + str(int(hovered_button.trait.dex)) + "[/color]  "
 	if hovered_button.trait.wil > 0:
-		stringa = stringa + "[color=#c050ff]WIL[/color] " + "[color=#ffff50]+" + str(int(hovered_button.trait.wil)) + "[/color]"
+		stringa = stringa + "[color=#c050ff]意志[/color] " + "[color=#ffff50]+" + str(int(hovered_button.trait.wil)) + "[/color]"
 	
 	if hovered_button.type == "class":
 		stringa += "\n\n"
