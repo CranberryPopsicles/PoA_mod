@@ -162,7 +162,9 @@ $topLevelScripts = @(
     'RouterEvents_OnHeal.gd',
     'RouterEvents_OnApplyBuff.gd',
     'RouterEvents_OnRemoveBuff.gd',
-    'RouterEvents_OnTeleport.gd'
+    'RouterEvents_OnTeleport.gd',
+    'RouterEvents_Summon.gd',
+    'ToolLevelUp.gd'
 )
 foreach ($script in $topLevelScripts) {
     $scriptPath = Join-Path $patchSrc $script
