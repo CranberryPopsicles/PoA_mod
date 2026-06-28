@@ -118,6 +118,9 @@
 | Corrosion | 腐蚀 | 护甲/格挡惩罚和火焰反伤效果。 |
 | Doom | 厄运 | 死亡伤害相关有害效果。 |
 | Divine grass | 神圣草地 | Ninhurs 相关地形。 |
+| Acid terrain | 酸液地形 | Hazar/腐蚀相关地形。 |
+| Frozen vines | 冰藤 | Ice Shah 相关地形。 |
+| Strange tint | 异色 | Ill Prophet 相关地形。 |
 | Plant | 植物 | 生命系召唤/盟友类别。 |
 | Skill level | 技能等级 | 能力说明中的 level 计数。 |
 | Learn | 学习 | 获得能力时的触发条件。 |
@@ -125,6 +128,8 @@
 | Prayer charge | 祈祷充能 | 祈祷可用次数/充能机制。 |
 | Teleport | 传送 | 位移机制。 |
 | Transformation | 变身 | form 类状态说明统一用语。 |
+| Treeform | Treeform | 变身状态名暂保留原文，只翻机制说明。 |
+| Horrorform | Horrorform | 变身状态名暂保留原文，只翻机制说明。 |
 | Stand still | 站立不动 | 原地等待/不移动触发条件。 |
 | Entrance | 进入区域 | 进入新区域时触发。 |
 | Familiar | 魔宠 | 召唤单位类型，角色/神祇说明沿用。 |
