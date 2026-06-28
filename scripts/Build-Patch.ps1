@@ -135,7 +135,8 @@ $topLevelScripts = @(
     'ToolInvokes.gd',
     'RouterEvents_OnInvoke.gd',
     'RouterEvents_OnDeath.gd',
-    'RouterEvents_OnPickup.gd'
+    'RouterEvents_OnPickup.gd',
+    'RouterEvents_OnAttack.gd'
 )
 foreach ($script in $topLevelScripts) {
     $scriptPath = Join-Path $patchSrc $script
