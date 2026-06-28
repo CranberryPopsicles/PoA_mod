@@ -206,7 +206,7 @@ func write_middle(data):
 		
 		stringa += "\n\n"
 		if data.highest_stack_effect > 0:
-			stringa += "最高已施加效果 [color=#ffff00]" + translate.add_commas(str(data.highest_stack_effect)) + "[/color] " + str(data.highest_stack_effect_label)
+			stringa += "最高已施加效果 [color=#ffff00]" + translate.add_commas(str(data.highest_stack_effect)) + "[/color] " + translate.visible_text(data.highest_stack_effect_label)
 		else:
 			stringa += "[color=#ff5050]没有施加效果[/color]"
 		

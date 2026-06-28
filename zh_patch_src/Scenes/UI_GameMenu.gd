@@ -124,7 +124,7 @@ func write_menu(label):
 				$Button_QuitGame / Sprite.texture = load("res://Ham_Sprite/UI/Icon_Class_Firedancer2.png")
 				$Button_QuitGame / Sprite.modulate = Color(1, 0, 0, 1)
 				stringa = "  [color=#ff4000]放弃[/color]"
-				stringa += "     [color=#707070]Path of Dust 中无法保存[/color]"
+				stringa += "     [color=#707070]尘土之路中无法保存[/color]"
 	
 			if Global.Player.is_dead() == true or StateWorld.victorious == true:
 				$Button_QuitGame / Sprite.texture = load("res://Ham_Sprite/UI/Icon_Class_Firedancer2.png")

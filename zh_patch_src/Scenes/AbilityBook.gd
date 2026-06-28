@@ -113,7 +113,7 @@ func write_button(button):
 		stringa += "\n\n" + translate.prestige_requirement_text(data)
 
 	
-	stringa += "\n\n" + data.Description
+	stringa += "\n\n" + translate.visible_text(data.Description)
 	
 	if data.reference != "none":
 		stringa += "\n\n"

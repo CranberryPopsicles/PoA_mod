@@ -171,12 +171,12 @@ func write_weapon(data):
 				
 				stringa = stringa + "\n[img]" + traitreal.sprite + "[/img]"
 			
-				stringa = stringa + "\n[color=#c0c0c0]" + traitreal.Description
+				stringa = stringa + "\n[color=#c0c0c0]" + translate.visible_text(traitreal.Description)
 				
 				if traitreal.reference != "none":
 					stringa += "\n\n"
 					var abuff = LBuffs.buff_data[traitreal.reference]
-					stringa += "[color=#707070]效果[/color]\n" + abuff.color + abuff.name + ": [/color]" + abuff.description
+					stringa += "[color=#707070]效果[/color]\n" + abuff.color + translate.visible_text(abuff.name) + ": [/color]" + translate.visible_text(abuff.description)
 				
 				
 				
@@ -239,12 +239,12 @@ func write_armor(data):
 				
 				stringa = stringa + "\n[img]" + traitreal.sprite + "[/img]"
 				
-				stringa = stringa + "\n" + traitreal.Description
+				stringa = stringa + "\n" + translate.visible_text(traitreal.Description)
 				
 				if traitreal.reference != "none":
 					stringa += "\n\n"
 					var abuff = LBuffs.buff_data[traitreal.reference]
-					stringa += "[color=#707070]效果[/color]\n" + abuff.color + abuff.name + ": [/color]" + abuff.description
+					stringa += "[color=#707070]效果[/color]\n" + abuff.color + translate.visible_text(abuff.name) + ": [/color]" + translate.visible_text(abuff.description)
 			
 			stringa = stringa + "\n"
 				

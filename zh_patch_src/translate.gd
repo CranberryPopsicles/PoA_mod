@@ -351,6 +351,16 @@ static func visible_text(text):
 	}
 	for key in replacements:
 		stringa = stringa.replace(key, replacements[key])
+	stringa = stringa.replace("Two-handing", "双手持握")
+	stringa = stringa.replace("Two-handed", "双手")
+	stringa = stringa.replace("Not overloaded", "未超重")
+	stringa = stringa.replace("Overloaded", "超重")
+	stringa = stringa.replace("Main-hand", "主手")
+	stringa = stringa.replace("Off-hand", "副手")
+	stringa = stringa.replace("On kill", "击杀时")
+	stringa = stringa.replace("on kill", "击杀时")
+	stringa = stringa.replace("on hit", "命中时")
+	stringa = stringa.replace("Kill", "击杀")
 	var power_names = ["Heavyweight", "Mindfighter", "Gore Cleave", "Aim", "Bheith Nocht"]
 	for key in power_names:
 		stringa = stringa.replace(key, trait_name_plain(key))
