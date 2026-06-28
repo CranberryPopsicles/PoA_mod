@@ -1,7 +1,7 @@
 {
   "Amir": {
     "title": "Amir",
-    "description": "你是方尖碑的[color=#bf9f40]探索者[/color]，由可靠的[color=#bf9f40]斥候[/color]协助。你 持有 一把[color=#a0ffa0]弓[/color]。",
+    "description": "你是方尖碑的[color=#bf9f40]探索者[/color]，由可靠的[color=#bf9f40]斥候[/color]协助。你持有一把[color=#a0ffa0]弓[/color]。",
     "brief": "东方沙漠的战酋。率领虔诚信徒踏上 Achra 之路",
     "name": "[color=#bf9f40]Amir[/color]",
     "trait": "Amir",
@@ -22,7 +22,7 @@
   },
   "Warrior": {
     "title": "Warrior",
-    "description": "你是一名华饰而自负的[color=#f0205f]战士[/color]。你的攻击训练有素且精准。你 持有 一把[color=#a0ffa0]弯刀[/color]。",
+    "description": "你是一名华饰而自负的[color=#f0205f]战士[/color]。你的攻击训练有素且精准。你持有一把[color=#a0ffa0]弯刀[/color]。",
     "brief": "傲慢的雇佣兵。受训以失落 Shuppurak 的古法维持防御",
     "name": "[color=#ffaf50]Warrior[/color]",
     "trait": "Warrior",
