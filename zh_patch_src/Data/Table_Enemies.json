@@ -5331,7 +5331,7 @@
     "boss": true,
     "summoned": false,
     "rumor": "据说“饥饿之神”住在这里",
-    "intro": "The [color=#af7020]Ogre[/color] raises its blood-drenched club!\n\nThere is an incredible stench of gore...",
+    "intro": "[color=#af7020]Ogre[/color] 举起浸满鲜血的棍棒！\n\n骇人的血肉恶臭扑面而来……",
     "taunt": "[color=#af7020]Ogre[/color] 将你举向它流涎的大口……",
     "sprite_corpse": "CorpseRed",
     "resist_slash": 75,
@@ -5347,8 +5347,8 @@
     "resist_lightning": 0,
     "speech": false,
     "phrase": [
-      "God hungers!",
-      "The feast is nigh!"
+      "神饥饿了！",
+      "盛宴近了！"
     ],
     "speechtype": "cries"
   },
@@ -5414,7 +5414,7 @@
     "boss": true,
     "summoned": false,
     "rumor": "你看见一座龙形雕像，上面装饰着金色宝珠",
-    "intro": "The [color=#009000]Hierophant[/color] grimaces...\n\n\"Little pilgrim...In the hour of flood...\"",
+    "intro": "[color=#009000]Hierophant[/color] 面露狞色……\n\n“小朝圣者……洪水之时……”",
     "taunt": "[color=#009000]Hierophant[/color] 举起它的金杖……",
     "sprite_corpse": "CorpseRed",
     "resist_slash": 0,
@@ -5430,8 +5430,8 @@
     "resist_lightning": 75,
     "speech": false,
     "phrase": [
-      "O golden staff..",
-      "O sacred knife..."
+      "哦，黄金杖……",
+      "哦，圣刀……"
     ],
     "speechtype": "cries"
   },
@@ -5496,7 +5496,7 @@
     "boss": true,
     "summoned": false,
     "rumor": "天空中充满怪异的闪烁光芒",
-    "intro": "The [color=#8030af]Metalith[/color] ripples...\n\nStrange violet light...",
+    "intro": "[color=#8030af]Metalith[/color] 泛起涟漪……\n\n怪异的紫罗兰光……",
     "taunt": "[color=#8030af]Metalith[/color] 吞噬了你……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 0,
@@ -5512,8 +5512,8 @@
     "resist_lightning": -100,
     "speech": false,
     "phrase": [
-      "O glimmering shadow...",
-      "O shapeless conqueror..."
+      "哦，微光暗影……",
+      "哦，无形征服者……"
     ],
     "speechtype": "cries"
   },
@@ -5579,7 +5579,7 @@
     "boss": true,
     "summoned": false,
     "rumor": "地面被盘绕的枯萎痕迹破坏",
-    "intro": "The [color=#a0a000]Basilisk[/color] hisses...\n\nO withered earth...",
+    "intro": "[color=#a0a000]Basilisk[/color] 嘶鸣……\n\n哦，枯萎的大地……",
     "taunt": "[color=#a0a000]Basilisk[/color] 凝视着你……",
     "sprite_corpse": "CorpseRed",
     "resist_slash": 0,
@@ -5595,8 +5595,8 @@
     "resist_lightning": 0,
     "speech": false,
     "phrase": [
-      "Pilgrim! Wretchedness awaits!",
-      "O cursed egg..."
+      "朝圣者！苦难正等着你！",
+      "哦，受诅咒的卵……"
     ],
     "speechtype": "cries"
   },
@@ -5661,7 +5661,7 @@
     "boss": true,
     "summoned": false,
     "rumor": "高塔上结满非自然的旋涡状冰壳",
-    "intro": "The [color=#109090]Tupilaq[/color] moans!\r\n\r\nSharp smell of ice...",
+    "intro": "[color=#109090]Tupilaq[/color] 发出呻吟！\r\n\r\n刺鼻的冰霜气味……",
     "taunt": "[color=#109090]Tupilaq[/color] 用附魔寒冰碾碎了你……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 0,
@@ -5677,8 +5677,8 @@
     "resist_lightning": 0,
     "speech": false,
     "phrase": [
-      "O antlered lord...",
-      "Ice take the world..."
+      "哦，鹿角之主……",
+      "愿寒冰吞没世界……"
     ],
     "speechtype": "cries"
   },
@@ -5741,7 +5741,7 @@
     "boss": true,
     "summoned": false,
     "rumor": "潮湿的风拂过你。空气中有刺鼻的爬行动物臭味",
-    "intro": "The [color=#609010]Keliot[/color] emerges from the shadows!\r\n\r\n\"O hunted one...\"",
+    "intro": "[color=#609010]Keliot[/color] 从阴影中现身！\r\n\r\n“哦，被猎者……”",
     "taunt": "[color=#609010]Keliot[/color] 劈开了你的脖颈……",
     "sprite_corpse": "CorpseRed",
     "resist_slash": 0,
@@ -5757,8 +5757,8 @@
     "resist_lightning": 0,
     "speech": false,
     "phrase": [
-      "O sacred prey...",
-      "The hunt is nigh!"
+      "哦，神圣猎物……",
+      "狩猎近了！"
     ],
     "speechtype": "cries"
   },
@@ -5822,7 +5822,7 @@
     "boss": true,
     "summoned": false,
     "rumor": "据说此地被一位“众口之主”萦绕",
-    "intro": "The [color=#5040a0]Tethic Knight[/color] gestures at you!\r\n\r\n\"O friendly teeth...beloved consumption...\"",
+    "intro": "[color=#5040a0]Tethic Knight[/color] 向你作出手势！\r\n\r\n“哦，友善的牙齿……挚爱的吞食……”",
     "taunt": "[color=#5040a0]Tethic Knight[/color] 分开了你的血肉……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 0,
@@ -5838,8 +5838,8 @@
     "resist_lightning": 0,
     "speech": false,
     "phrase": [
-      "O consumption!",
-      "O endless mouth..."
+      "哦，吞食！",
+      "哦，无尽之口……"
     ],
     "speechtype": "cries"
   },
@@ -5903,7 +5903,7 @@
     "boss": true,
     "summoned": false,
     "rumor": "巨大的模糊真菌丝缠绕着高塔表面",
-    "intro": "The [color=#904060]Agarithum[/color] squeals!\r\n\r\nBlurred figures march...",
+    "intro": "[color=#904060]Agarithum[/color] 尖叫！\r\n\r\n模糊身影列队行进……",
     "taunt": "[color=#904060]Agarithum[/color] 用颤动的粉色孢子覆盖了你……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 0,
@@ -5919,8 +5919,8 @@
     "resist_lightning": 0,
     "speech": false,
     "phrase": [
-      "O paralyzed mind...",
-      "Blessed agaric!"
+      "哦，麻痹之心智……",
+      "受祝福的伞菌！"
     ],
     "speechtype": "cries"
   },
