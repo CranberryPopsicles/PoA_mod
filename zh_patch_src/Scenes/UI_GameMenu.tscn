@@ -733,8 +733,8 @@ margin_right = 88.0
 margin_bottom = 72.0
 mouse_filter = 2
 bbcode_enabled = true
-bbcode_text = "[center]none"
-text = "none"
+bbcode_text = "[center]无"
+text = "无"
 
 [node name="ButtonGamepad" type="Button" parent="."]
 margin_left = 376.0
@@ -771,8 +771,8 @@ margin_right = 152.0
 margin_bottom = 82.0
 mouse_filter = 2
 bbcode_enabled = true
-bbcode_text = "[center]none"
-text = "none"
+bbcode_text = "[center]无"
+text = "无"
 
 [node name="RichTextLabel2" type="RichTextLabel" parent="ButtonGamepad"]
 margin_left = -16.0
@@ -941,8 +941,8 @@ margin_right = 41.0
 margin_bottom = 50.0
 mouse_filter = 2
 bbcode_enabled = true
-bbcode_text = "[center]true"
-text = "true"
+bbcode_text = "[center]开"
+text = "开"
 
 [node name="ButtonSpeedBars" type="Button" parent="."]
 margin_left = 205.0
@@ -979,8 +979,8 @@ margin_right = 41.0
 margin_bottom = 50.0
 mouse_filter = 2
 bbcode_enabled = true
-bbcode_text = "[center]true"
-text = "true"
+bbcode_text = "[center]开"
+text = "开"
 
 [node name="ButtonWinners" type="Button" parent="."]
 margin_left = 51.0
@@ -1017,8 +1017,8 @@ margin_right = 41.0
 margin_bottom = 50.0
 mouse_filter = 2
 bbcode_enabled = true
-bbcode_text = "[center]true"
-text = "true"
+bbcode_text = "[center]开"
+text = "开"
 
 [node name="ButtonAnimations" type="Button" parent="."]
 margin_left = 205.0
@@ -1055,8 +1055,8 @@ margin_right = 41.0
 margin_bottom = 50.0
 mouse_filter = 2
 bbcode_enabled = true
-bbcode_text = "[center]true"
-text = "true"
+bbcode_text = "[center]开"
+text = "开"
 
 [node name="ButtonFPS" type="Button" parent="."]
 margin_left = 205.0
@@ -1093,8 +1093,8 @@ margin_right = 41.0
 margin_bottom = 50.0
 mouse_filter = 2
 bbcode_enabled = true
-bbcode_text = "[center]true"
-text = "true"
+bbcode_text = "[center]开"
+text = "开"
 
 [node name="ButtonVSYNC" type="Button" parent="."]
 margin_left = 205.0
@@ -1131,8 +1131,8 @@ margin_right = 41.0
 margin_bottom = 50.0
 mouse_filter = 2
 bbcode_enabled = true
-bbcode_text = "[center]true"
-text = "true"
+bbcode_text = "[center]开"
+text = "开"
 
 [node name="ButtonLog" type="Button" parent="."]
 margin_left = 51.0
@@ -1169,8 +1169,8 @@ margin_right = 41.0
 margin_bottom = 50.0
 mouse_filter = 2
 bbcode_enabled = true
-bbcode_text = "[center]true"
-text = "true"
+bbcode_text = "[center]开"
+text = "开"
 
 [node name="ButtonDetail" type="Button" parent="."]
 margin_left = 51.0
@@ -1207,8 +1207,8 @@ margin_right = 41.0
 margin_bottom = 50.0
 mouse_filter = 2
 bbcode_enabled = true
-bbcode_text = "[center]true"
-text = "true"
+bbcode_text = "[center]开"
+text = "开"
 
 [node name="ButtonLog2" type="Button" parent="."]
 margin_left = 51.0
@@ -1245,8 +1245,8 @@ margin_right = 41.0
 margin_bottom = 50.0
 mouse_filter = 2
 bbcode_enabled = true
-bbcode_text = "[center]true"
-text = "true"
+bbcode_text = "[center]开"
+text = "开"
 
 [node name="ButtonVictoryMarkers" type="Button" parent="."]
 margin_left = 51.0
@@ -1283,8 +1283,8 @@ margin_right = 41.0
 margin_bottom = 50.0
 mouse_filter = 2
 bbcode_enabled = true
-bbcode_text = "[center]true"
-text = "true"
+bbcode_text = "[center]开"
+text = "开"
 
 [node name="ButtonCharges" type="Button" parent="."]
 margin_left = 415.0
@@ -1321,8 +1321,8 @@ margin_right = 41.0
 margin_bottom = 50.0
 mouse_filter = 2
 bbcode_enabled = true
-bbcode_text = "[center]true"
-text = "true"
+bbcode_text = "[center]开"
+text = "开"
 
 [node name="Windows" type="Control" parent="."]
 margin_left = -101.0

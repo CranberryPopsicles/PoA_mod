@@ -64,7 +64,7 @@ func update_highlight():
 					pass
 				elif $TextEdit.text in textstrip.strip_bbcode(abuff.description).to_lower() and abuff.description != "":
 					pass
-				elif $TextEdit.text in textstrip.strip_bbcode(button.data.Name).to_lower():
+				elif $TextEdit.text in textstrip.strip_bbcode(translate.trait_name(button.data)).to_lower():
 					pass
 				elif $TextEdit.text in textstrip.strip_bbcode(translate.element(button.data.Element)).to_lower():
 					pass
@@ -85,9 +85,9 @@ func update_highlight():
 					pass
 				elif $TextEdit.text in textstrip.strip_bbcode(abuff.description).to_lower() and abuff.description != "":
 					pass
-				elif $TextEdit.text in textstrip.strip_bbcode(button.data.Name).to_lower():
+				elif $TextEdit.text in textstrip.strip_bbcode(translate.trait_name(button.data)).to_lower():
 					pass
-				elif $TextEdit.text in textstrip.strip_bbcode(prestige.trans_prestige_to_requirement_text(button.data)).to_lower():
+				elif $TextEdit.text in textstrip.strip_bbcode(translate.prestige_requirement_text(button.data)).to_lower():
 					pass
 				else:
 					button.modulate = Color(0.2, 0.1, 0.1, 1)
@@ -97,7 +97,7 @@ func update_highlight():
 func write_button(button):
 	var data = button.data
 	
-	var stringa = "[color=#c0c0c0]" + data.Name
+	var stringa = "[color=#c0c0c0]" + translate.trait_name(data)
 	if ToolSettings.settings_data.feats.has(data.title):
 			stringa += "   "
 			stringa += "[color=#707070]~已胜利~[/color]"
@@ -110,7 +110,7 @@ func write_button(button):
 		stringa += "\n\n消耗 [color=#ffff50]" + str(data.cost) + "[/color]，"
 		stringa += translate.element(data.Element)
 	else:
-		stringa += "\n\n" + prestige.trans_prestige_to_requirement_text(data)
+		stringa += "\n\n" + translate.prestige_requirement_text(data)
 
 	
 	stringa += "\n\n" + data.Description
@@ -118,7 +118,7 @@ func write_button(button):
 	if data.reference != "none":
 		stringa += "\n\n"
 		var abuff = LBuffs.buff_data[data.reference]
-		stringa += "[color=#707070]效果[/color]\n" + abuff.color + abuff.name + ": [/color]" + abuff.description
+		stringa += "[color=#707070]效果[/color]\n" + abuff.color + translate.visible_text(abuff.name) + ": [/color]" + translate.visible_text(abuff.description)
 	
 	
 	

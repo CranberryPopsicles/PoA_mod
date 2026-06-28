@@ -159,61 +159,61 @@ func write_volumes():
 
 func write_options():
 	if ToolSettings.settings_data.show_range == true:
-		$ButtonRange / boolo.bbcode_text = "[center][color=#80a080]true[/color]"
+		$ButtonRange / boolo.bbcode_text = on_text()
 	else:
-		$ButtonRange / boolo.bbcode_text = "[center][color=#a08080]false[/color]"
+		$ButtonRange / boolo.bbcode_text = off_text()
 	
 	if ToolSettings.settings_data.short_animation == true:
-		$ButtonAnimations / boolo.bbcode_text = "[center][color=#80a080]true[/color]"
+		$ButtonAnimations / boolo.bbcode_text = on_text()
 	else:
-		$ButtonAnimations / boolo.bbcode_text = "[center][color=#a08080]false[/color]"
+		$ButtonAnimations / boolo.bbcode_text = off_text()
 	
 	if ToolSettings.settings_data.long_log == true:
-		$ButtonLog / boolo.bbcode_text = "[center][color=#80a080]true[/color]"
+		$ButtonLog / boolo.bbcode_text = on_text()
 	else:
-		$ButtonLog / boolo.bbcode_text = "[center][color=#a08080]false[/color]"
+		$ButtonLog / boolo.bbcode_text = off_text()
 	
 	if ToolSettings.settings_data.floating_text == true:
-		$ButtonLog2 / boolo.bbcode_text = "[center][color=#80a080]true[/color]"
+		$ButtonLog2 / boolo.bbcode_text = on_text()
 	else:
-		$ButtonLog2 / boolo.bbcode_text = "[center][color=#a08080]false[/color]"
+		$ButtonLog2 / boolo.bbcode_text = off_text()
 		
 	if ToolSettings.settings_data.speed_bar == true:
-		$ButtonSpeedBars / boolo.bbcode_text = "[center][color=#80a080]true[/color]"
+		$ButtonSpeedBars / boolo.bbcode_text = on_text()
 	else:
-		$ButtonSpeedBars / boolo.bbcode_text = "[center][color=#a08080]false[/color]"
+		$ButtonSpeedBars / boolo.bbcode_text = off_text()
 	
 	if ToolSettings.settings_data.hide_big_bar == true:
-		$ButtonCharges / boolo.bbcode_text = "[center][color=#80a080]true[/color]"
+		$ButtonCharges / boolo.bbcode_text = on_text()
 	else:
-		$ButtonCharges / boolo.bbcode_text = "[center][color=#a08080]false[/color]"
+		$ButtonCharges / boolo.bbcode_text = off_text()
 	
 	if ToolSettings.settings_data.winners_only == true:
-		$ButtonWinners / boolo.bbcode_text = "[center][color=#80a080]true[/color]"
+		$ButtonWinners / boolo.bbcode_text = on_text()
 	else:
-		$ButtonWinners / boolo.bbcode_text = "[center][color=#a08080]false[/color]"
+		$ButtonWinners / boolo.bbcode_text = off_text()
 		
 	if ToolSettings.settings_data.log_detail == true:
-		$ButtonDetail / boolo.bbcode_text = "[center][color=#80a080]true[/color]"
+		$ButtonDetail / boolo.bbcode_text = on_text()
 	else:
-		$ButtonDetail / boolo.bbcode_text = "[center][color=#a08080]false[/color]"
+		$ButtonDetail / boolo.bbcode_text = off_text()
 	
 	if ToolSettings.settings_data.victory_markers == true:
-		$ButtonVictoryMarkers / boolo.bbcode_text = "[center][color=#80a080]true[/color]"
+		$ButtonVictoryMarkers / boolo.bbcode_text = on_text()
 	else:
-		$ButtonVictoryMarkers / boolo.bbcode_text = "[center][color=#a08080]false[/color]"
+		$ButtonVictoryMarkers / boolo.bbcode_text = off_text()
 	
 	if ToolSettings.settings_data.vsync == true:
-		$ButtonVSYNC / boolo.bbcode_text = "[center][color=#80a080]true[/color]"
+		$ButtonVSYNC / boolo.bbcode_text = on_text()
 	else:
-		$ButtonVSYNC / boolo.bbcode_text = "[center][color=#a08080]false[/color]"
+		$ButtonVSYNC / boolo.bbcode_text = off_text()
 	
 	if ToolSettings.settings_data.gamepad_mode == "full":
 		$ButtonGamepad / boolo.bbcode_text = "[center][color=#50ff50]启用"
 	else:
 		$ButtonGamepad / boolo.bbcode_text = "[center][color=#ff5050]关闭"
 	
-	var list = ["[center][color=#808080]none[/color]", 
+	var list = ["[center][color=#808080]无[/color]",
 	"[center][color=#ff7050]力量[/color]", 
 	"[center][color=#50ff70]敏捷[/color]", 
 	"[center][color=#c050ff]意志[/color]", 
@@ -221,7 +221,7 @@ func write_options():
 	"[center][color=#ff2090]随机[/color]"]
 	$ButtonAutoLevel / boolo.bbcode_text = list[ToolSettings.settings_data.auto_level]
 	
-	list = ["[center][color=#808080]none[/color]", 
+	list = ["[center][color=#808080]不限[/color]",
 	"[center][color=#ffff50]30[/color]", 
 	"[center][color=#ffff50]60[/color]", 
 	"[center][color=#ffff50]90[/color]", 
@@ -232,6 +232,12 @@ func write_options():
 	
 	Global.universal.get_node("ButtonAutoLevel").update_text()
 		
+func on_text():
+	return "[center][color=#80a080]开[/color]"
+
+func off_text():
+	return "[center][color=#a08080]关[/color]"
+
 
 func _on_Down_pressed():
 	Global.sound.new_sound("Hover")
@@ -605,5 +611,3 @@ func _on_ButtonGamepad_pressed():
 		ToolSettings.settings_data.gamepad_mode = "none"
 		ToolSettings.apply_settings()
 		write_options()
-
-

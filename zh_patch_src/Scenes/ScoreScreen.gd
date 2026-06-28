@@ -10,6 +10,8 @@ func _ready():
 	
 	
 	setup_deckbuttons()
+	$Button2 / Label.bbcode_text = "[center]返回"
+	$Button3 / Label.bbcode_text = "[center]统计"
 	write_screen(Global.last_score_data)
 
 func _process(_delta):
@@ -62,7 +64,7 @@ func write_screen(data):
 	stringa += "\n\n[color=#707070]已学习[/color]"
 	
 	for power in data.powers:
-		stringa += "\n" + power.Name + " " + str(int(power.Level))
+		stringa += "\n" + translate.trait_name(power) + " " + str(int(power.Level))
 	
 	stringa += "\n\n[color=#707070]事迹"
 	
@@ -149,7 +151,33 @@ func write_screen(data):
 func write_middle(data):
 	
 	if more_info == false:
-		$poem.bbcode_text = proem.compose_end_poem(data)
+		var stringa = "[center][color=#a0a0a0]"
+		stringa += "本次道路持续了 [color=#ff5050]" + str(data.game_turns) + "[/color] 个游戏回合"
+		stringa += "\n\n"
+		stringa += "攻击 [color=#ffff00]" + translate.add_commas(str(data.times_attack)) + "[/color] 次"
+		stringa += "\n"
+		stringa += "站立不动 [color=#ffff00]" + translate.add_commas(str(data.times_stood)) + "[/color] 次"
+		stringa += "\n"
+		stringa += "祈祷 [color=#ffff00]" + translate.add_commas(str(data.times_pray)) + "[/color] 次"
+		stringa += "\n"
+		stringa += "神圣干预 [color=#ffff00]" + translate.add_commas(str(data.times_intervention)) + "[/color] 次"
+		stringa += "\n\n"
+		stringa += "总伤害 [color=#ffff00]" + translate.add_commas(str(data.damage_dealt)) + "[/color]"
+		stringa += "\n"
+		stringa += "最高伤害 [color=#ffff00]" + translate.add_commas(str(data.highest_damage)) + "[/color]"
+		if str(data.highest_damage_type) != "0":
+				stringa += " " + translate.damage_type(data.highest_damage_type)
+		stringa += "\n"
+		stringa += "承受伤害 [color=#ffff00]" + translate.add_commas(str(data.damage_taken)) + "[/color]"
+		stringa += "\n"
+		stringa += "治疗量 [color=#ffff00]" + translate.add_commas(str(data.amount_healed)) + "[/color]"
+		stringa += "\n\n"
+		stringa += "击杀敌人 [color=#ffff00]" + translate.add_commas(str(data.enemies_killed)) + "[/color]"
+		stringa += "\n"
+		stringa += "召唤盟友 [color=#ffff00]" + translate.add_commas(str(data.allies_summoned)) + "[/color]"
+		stringa += "\n"
+		stringa += "盟友击杀 [color=#ffff00]" + translate.add_commas(str(data.enemies_killed_by_allies)) + "[/color]"
+		$poem.bbcode_text = stringa
 	
 	
 	else:
@@ -170,7 +198,7 @@ func write_middle(data):
 		stringa += "\n"
 		stringa += "最高伤害为 [color=#ffff00]" + translate.add_commas(str(data.highest_damage)) + "[/color]"
 		if str(data.highest_damage_type) != "0":
-				stringa += " " + str(data.highest_damage_type)
+				stringa += " " + translate.damage_type(data.highest_damage_type)
 		stringa += "\n"
 		stringa += "承受 [color=#ffff00]" + translate.add_commas(str(data.damage_taken)) + "[/color] 总伤害"
 		stringa += "\n"

@@ -57,6 +57,8 @@
 | Powerless | 无能之人 | 不使用能力取得胜利的事迹名称。 |
 | Empowered | 赋能 | 升级奖励中可能获得的通用效果。 |
 | Ability Book | 能力书 | 查看能力与进阶职业的界面。 |
+| Heavyweight | 重量级 | 武艺能力名，提供护甲。 |
+| Kinesis | 念动 | 元素驱动能力名后缀，如 Pyrokinesis/Telekinesis 类能力。 |
 | Armory | 军械库 | 查看装备的界面。 |
 | Bestiary | 图鉴 | 查看敌人的界面。 |
 | Bare Fist | 空手 | 无武器或特定武器视作的攻击类型。 |

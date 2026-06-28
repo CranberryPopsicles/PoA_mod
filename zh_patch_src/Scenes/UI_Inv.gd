@@ -604,7 +604,7 @@ func write_descriptions():
 	
 	for button in buttons_trait:
 		if hovered_button == button.trait.title:
-			stringa = button.trait.Name
+			stringa = translate.trait_name(button.trait)
 			stringa += "\n\n"
 			if button.trait.generic == true:
 				if button.trait.organize == "racial":
@@ -625,12 +625,12 @@ func write_descriptions():
 				
 				
 			stringa += "\n\n"
-			stringa += button.trait.Description
+			stringa += translate.visible_text(button.trait.Description)
 			
 			if button.trait.reference != "none":
 				stringa += "\n\n"
 				var abuff = LBuffs.buff_data[button.trait.reference]
-				stringa += "[color=#707070]效果[/color]\n" + abuff.color + abuff.name + ": [/color]" + abuff.description
+				stringa += "[color=#707070]效果[/color]\n" + abuff.color + translate.visible_text(abuff.name) + ": [/color]" + translate.visible_text(abuff.description)
 			
 			if button.trait.generic == false:
 				stringa += "\n\n\n\n\n" + translate.element_to_resist_description(button.trait.Element)
@@ -664,11 +664,11 @@ func write_descriptions():
 	
 	for button in buttons_buffs:
 		if hovered_button == button.buff.title + "buff":
-			stringa += button.buff.color + button.buff.name + "[/color]"
+			stringa += button.buff.color + translate.visible_text(button.buff.name) + "[/color]"
 			stringa += "\n\n"
 			stringa += "[color=#808080]效果[/color]"
 			stringa += "\n\n"
-			stringa += button.buff.description
+			stringa += translate.visible_text(button.buff.description)
 			
 			
 			$Focus / Sprite_Focus.visible = false
@@ -782,12 +782,12 @@ func describe_weapon(weapon):
 				
 				stringa = stringa + "\n[img]" + traitreal.sprite + "[/img]"
 			
-				stringa = stringa + "\n[color=#c0c0c0]" + traitreal.Description
+				stringa = stringa + "\n[color=#c0c0c0]" + translate.visible_text(traitreal.Description)
 				
 				if traitreal.reference != "none":
 					stringa += "\n\n"
 					var abuff = LBuffs.buff_data[traitreal.reference]
-					stringa += "[color=#707070]效果[/color]\n" + abuff.color + abuff.name + ": [/color]" + abuff.description
+					stringa += "[color=#707070]效果[/color]\n" + abuff.color + translate.visible_text(abuff.name) + ": [/color]" + translate.visible_text(abuff.description)
 				
 				if check_duplicate_traits(trait) == true:
 					stringa = stringa + "\n" + "[color=#c07070]*重复[/color]"
@@ -855,12 +855,12 @@ func describe_armor(armor):
 				
 				stringa = stringa + "\n[img]" + traitreal.sprite + "[/img]"
 				
-				stringa = stringa + "\n" + traitreal.Description
+				stringa = stringa + "\n" + translate.visible_text(traitreal.Description)
 				
 				if traitreal.reference != "none":
 					stringa += "\n\n"
 					var abuff = LBuffs.buff_data[traitreal.reference]
-					stringa += "[color=#707070]效果[/color]\n" + abuff.color + abuff.name + ": [/color]" + abuff.description
+					stringa += "[color=#707070]效果[/color]\n" + abuff.color + translate.visible_text(abuff.name) + ": [/color]" + translate.visible_text(abuff.description)
 				
 				if check_duplicate_traits(trait) == true:
 					stringa = stringa + "\n" + "[color=#c07070]你从多个物品获得了此特性，但效果只会生效一次。[/color]"
@@ -1091,7 +1091,7 @@ func describe_item_traits(item):
 			if trait != "none":
 				if trait_list.has(trait) == false:
 					trait_list.append(trait)
-					stringa = stringa + LTraitsGeneric.trait_data[trait].Name
+					stringa = stringa + translate.trait_name(LTraitsGeneric.trait_data[trait])
 					stringa = stringa + "\n"
 	return stringa
 

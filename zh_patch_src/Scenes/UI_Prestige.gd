@@ -146,7 +146,7 @@ func highlight_typed_buttons():
 				pass
 			elif $TextEdit.text in textstrip.strip_bbcode(abuff.description).to_lower() and abuff.description != "":
 				pass
-			elif $TextEdit.text in textstrip.strip_bbcode(prestige.trans_prestige_to_requirement_text(button.trait)).to_lower():
+			elif $TextEdit.text in textstrip.strip_bbcode(translate.prestige_requirement_text(button.trait)).to_lower():
 				pass
 			elif $TextEdit.text in textstrip.strip_bbcode(button.trait.Name).to_lower():
 				pass
@@ -170,7 +170,7 @@ func write_description(trait, _button):
 	if trait != null:
 		
 		
-		stringa += "- " + prestige.trans_prestige_to_requirement_text(trait)
+		stringa += "- " + translate.prestige_requirement_text(trait)
 		
 		
 		
@@ -183,12 +183,12 @@ func write_description(trait, _button):
 		stringa += ""
 		stringa += "\n\n[img]" + str(trait.sprite) + "[/img]"
 		stringa += "\n\n"
-		stringa += trait.Description
+		stringa += translate.visible_text(trait.Description)
 
 		if trait.reference != "none":
 			stringa += "\n\n"
 			var abuff = LBuffs.buff_data[trait.reference]
-			stringa += "[color=#707070]效果[/color]\n" + abuff.color + abuff.name + ": [/color]" + abuff.description
+			stringa += "[color=#707070]效果[/color]\n" + abuff.color + translate.visible_text(abuff.name) + ": [/color]" + translate.visible_text(abuff.description)
 
 	
 

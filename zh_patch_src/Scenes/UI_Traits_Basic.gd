@@ -299,7 +299,7 @@ func gain_prestige(trait):
 	Global.sound.new_sound("Invoke")
 	var stringa = ""
 	stringa += "[color=#c0c0c0]进阶职业已解锁！\n\n你成为了 "
-	stringa += trait.Name
+	stringa += translate.trait_name(trait)
 	$PopupLayer / Popup2 / Label.bbcode_text = stringa
 	$PopupLayer / Popup2 / Sprite.texture = load(trait.sprite)
 	$PopupLayer / Popup2 / AnimationPlayer.play("FadeIn")
@@ -492,7 +492,7 @@ func show_popup(button):
 	$PopupLayer / CancelLoc.position = button_position
 	
 	var stringa = "[center]"
-	stringa += button.trait.Name
+	stringa += translate.trait_name(button.trait)
 	
 	
 	
@@ -510,7 +510,7 @@ func write_description(trait, button):
 	var stringa = ""
 	if trait != null:
 		
-		stringa += trait.Name
+		stringa += translate.trait_name(trait)
 		
 		
 		if trait.generic == false:
@@ -546,7 +546,7 @@ func write_description(trait, button):
 					stringa += "[color=#c0c0c0]职业"
 			stringa += "\n"
 		stringa += "\n\n"
-		stringa += trait.Description
+		stringa += translate.visible_text(trait.Description)
 	
 		
 	
@@ -560,7 +560,7 @@ func write_description(trait, button):
 	if trait.reference != "none":
 		stringa += "\n\n"
 		var abuff = LBuffs.buff_data[trait.reference]
-		stringa += "[color=#707070]效果[/color]\n" + abuff.color + abuff.name + ": [/color]" + abuff.description
+		stringa += "[color=#707070]效果[/color]\n" + abuff.color + translate.visible_text(abuff.name) + ": [/color]" + translate.visible_text(abuff.description)
 	
 	
 	if trait.generic == false:
