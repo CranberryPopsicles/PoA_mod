@@ -2,10 +2,21 @@ param(
     [string]$GameDir = 'C:\Programs\Steam\steamapps\common\Path of Achra',
     [string]$GDRETools = 'C:\Dev\GDRE_tools\gdre_tools.exe',
     [string]$ProjectRoot = (Resolve-Path (Join-Path $PSScriptRoot '..')).Path,
-    [switch]$Deploy
+    [switch]$Deploy,
+    [switch]$ListFiles
 )
 
 $ErrorActionPreference = 'Stop'
+$buildStopwatch = [System.Diagnostics.Stopwatch]::StartNew()
+
+function Write-Step {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$Message
+    )
+
+    Write-Host ("[{0:hh\:mm\:ss}] {1}" -f $buildStopwatch.Elapsed, $Message)
+}
 
 function Wait-Path {
     param(
@@ -96,14 +107,14 @@ if (-not (Test-Path $fontPath)) {
 
 New-Item -ItemType Directory -Path $buildDir, $loaderBuildDir, $externalScenes -Force | Out-Null
 
-Write-Host "Compiling loader..."
+Write-Step "Compiling loader..."
 $loaderGdc = Join-Path $loaderBuildDir 'global.gdc'
 Remove-Item -LiteralPath $loaderGdc -Force -ErrorAction SilentlyContinue
 & $GDRETools --headless "--compile=$((Join-Path $loaderSrc 'global.gd'))" --bytecode='3.5.0-stable' "--output=$loaderBuildDir"
 Wait-StableFile -Path $loaderGdc
 Set-Content -Path (Join-Path $loaderBuildDir 'global.gd.remap') -Value "[remap]`n`npath=`"res://global.gdc`"" -Encoding utf8NoBOM
 
-Write-Host "Compiling translated scripts..."
+Write-Step "Compiling translated scripts..."
 $sceneScripts = @(
     'AbilityBook.gd',
     'Armory.gd',
@@ -179,7 +190,7 @@ foreach ($script in $topLevelScripts) {
     Set-Content -Path (Join-Path $patchSrc "$script.remap") -Value "[remap]`n`npath=`"res://$compiledName`"" -Encoding utf8NoBOM
 }
 
-Write-Host "Preparing external patch source..."
+Write-Step "Preparing external patch source..."
 if (Test-Path $externalSrc) {
     Remove-Item -Path $externalSrc -Recurse -Force
 }
@@ -220,7 +231,7 @@ $loaderPck = Join-Path $buildDir 'PathofAchra.loader.pck'
 $zhPck = Join-Path $buildDir 'poa_zh.pck'
 Remove-Item -Path $loaderPck, $zhPck -Force -ErrorAction SilentlyContinue
 
-Write-Host "Building loader PCK..."
+Write-Step "Building loader PCK..."
 & $GDRETools --headless "--pck-patch=$originalPck" "--output=$loaderPck" `
     --patch-file="$((Join-Path $loaderBuildDir 'global.gd.remap'))=res://global.gd.remap" `
     --patch-file="$((Join-Path $loaderBuildDir 'global.gdc'))=res://global.gdc" `
@@ -229,19 +240,22 @@ Write-Host "Building loader PCK..."
     --patch-file="$((Join-Path $patchSrc 'MyFont3t.tres'))=res://MyFont3t.tres" `
     --patch-file="$fontPath=res://Fonts/zh-CN.ttf"
 
-Write-Host "Building external Chinese patch PCK..."
+Write-Step "Building external Chinese patch PCK..."
 & $GDRETools --headless "--pck-create=$externalSrc" "--output=$zhPck" --pck-version=1 --pck-engine-version=3.5.2
 
-Write-Host "Verifying outputs..."
+Write-Step "Verifying outputs..."
 Wait-StableFile -Path $loaderPck
 Wait-StableFile -Path $zhPck
 
-& $GDRETools --headless "--list-files=$zhPck"
+if ($ListFiles) {
+    Write-Step "Listing external Chinese patch PCK files..."
+    & $GDRETools --headless "--list-files=$zhPck"
+}
 
 if ($Deploy) {
-    Write-Host "Deploying to game directory..."
+    Write-Step "Deploying to game directory..."
     Copy-Verified -Source $loaderPck -Destination $gamePck
     Copy-Verified -Source $zhPck -Destination (Join-Path $GameDir 'poa_zh.pck')
 }
 
-Write-Host "Done."
+Write-Step "Done."

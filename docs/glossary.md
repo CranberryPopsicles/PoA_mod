@@ -55,7 +55,7 @@
 | Psychic | 灵能 | 元素/能力系别。 |
 | Power | 能力 | 游戏内 power 概念，先统一译为“能力”。 |
 | Powerless | 无能之人 | 不使用能力取得胜利的事迹名称。 |
-| Empowered | 赋能 | 升级奖励中可能获得的通用效果。 |
+| Empowered | 强化 | 物品特性/效果名。 |
 | Ability Book | 能力书 | 查看能力与进阶职业的界面。 |
 | Heavyweight | 重量级 | 武艺能力名，提供护甲。 |
 | Kinesis | 念动 | 元素驱动能力名后缀，如 Pyrokinesis/Telekinesis 类能力。 |
@@ -136,7 +136,7 @@
 | Prayer charge | 祈祷充能 | 祈祷可用次数/充能机制。 |
 | Teleport | 传送 | 位移机制。 |
 | Transformation | 变身 | form 类状态说明统一用语。 |
-| Treeform | Treeform | 变身状态名暂保留原文，只翻机制说明。 |
+| Treeform | 树形 | 变身状态名。 |
 | Horrorform | Horrorform | 变身状态名暂保留原文，只翻机制说明。 |
 | Stand still | 站立不动 | 原地等待/不移动触发条件。 |
 | Entrance | 进入区域 | 进入新区域时触发。 |
@@ -145,6 +145,8 @@
 | Endure | 忍受 | 将一次伤害压低为 1 的承伤机制。 |
 | Death | 死亡 | 伤害类型。 |
 | Martial Effect | 武艺效果 | Poise、Evasion、Anoint、Inflame 等效果集合。 |
+| Item trait | 物品特性 | 装备附带的通用能力，优先通过显示层翻译。 |
+| Prestige class | 进阶职业 | 能力书和进阶界面使用。 |
 
 ## 暂时保留原文
 
@@ -156,13 +158,12 @@
 | Obelisk | 方尖碑 | 普通语境可译，标题语境暂保留英文。 |
 | STR / DEX / WIL | 保留 | 核心属性缩写，先保留以免 UI 过宽。 |
 | Culture / class / god names | 保留 | 角色创建中的文化、职业、信仰/神祇名称保留原文，只翻说明。 |
-| Item / trait / buff names | 保留 | 需要结合数据表建立术语后再翻译。 |
+| Buff internal names | 保留 | `Table_Buffs.json` 的 `title/name` 可能被逻辑依赖，优先通过显示层翻译。 |
 
 ## 待确认
 
 | 原文 | 候选译文 | 备注 |
 | --- | --- | --- |
-| Prestige class | 进阶职业 / 威望职业 | 当前 UI 采用“进阶职业”。 |
 | Amplification | 增幅 / 强化 | 当前 UI 采用“增幅”。 |
 | applied effects | 已施加效果 / 附加效果 | 当前 UI 采用“已施加效果”。 |
 | Two-Handing | 双手持握 / 双持 | 当前 UI 采用“双手持握”，避免与 dual wield 混淆。 |
