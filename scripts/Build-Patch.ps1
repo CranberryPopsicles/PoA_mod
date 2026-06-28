@@ -110,6 +110,7 @@ $sceneScripts = @(
     'Bestiary.gd',
     'Feats.gd',
     'First_Menu.gd',
+    'ButtonAutoLevel.gd',
     'InfoButtons.gd',
     'SummonButton.gd',
     'Start_Menu.gd',
@@ -164,7 +165,9 @@ $topLevelScripts = @(
     'RouterEvents_OnRemoveBuff.gd',
     'RouterEvents_OnTeleport.gd',
     'RouterEvents_Summon.gd',
-    'ToolLevelUp.gd'
+    'ToolLevelUp.gd',
+    'ToolCycler.gd',
+    'ToolScoreMaker.gd'
 )
 foreach ($script in $topLevelScripts) {
     $scriptPath = Join-Path $patchSrc $script
