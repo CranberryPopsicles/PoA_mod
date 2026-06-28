@@ -116,6 +116,9 @@
 | Corrosion | 腐蚀 | 护甲/格挡惩罚和火焰反伤效果。 |
 | Doom | 厄运 | 死亡伤害相关有害效果。 |
 | Divine grass | 神圣草地 | Ninhurs 相关地形。 |
+| Plant | 植物 | 生命系召唤/盟友类别。 |
+| Skill level | 技能等级 | 能力说明中的 level 计数。 |
+| Learn | 学习 | 获得能力时的触发条件。 |
 | Prayer charge | 祈祷充能 | 祈祷可用次数/充能机制。 |
 | Teleport | 传送 | 位移机制。 |
 | Transformation | 变身 | form 类状态说明统一用语。 |
@@ -132,8 +135,7 @@
 | Sitra Achra | 保留 | 专有名，暂不硬译。 |
 | Obelisk | 方尖碑 | 普通语境可译，标题语境暂保留英文。 |
 | STR / DEX / WIL | 保留 | 核心属性缩写，先保留以免 UI 过宽。 |
-| Culture / god names | 保留 | 世界观专有名保留原文，只翻简介和机制文本。 |
-| Class names | 混合处理 | 通用职业名翻译，世界观专名保留原文。 |
+| Culture / class / god names | 保留 | 角色创建中的文化、职业、信仰/神祇名称保留原文，只翻说明。 |
 | Item / trait / buff names | 保留 | 需要结合数据表建立术语后再翻译。 |
 
 ## 待确认
