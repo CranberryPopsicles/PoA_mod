@@ -7,8 +7,8 @@
 - 游戏版本基线：Path of Achra 1.4.4
 - Godot 版本：3.5.x
 - 字体：本地中文字体，统一命名为 `zh-CN.ttf`
-- 已汉化：主菜单、角色创建界面的一部分 UI、悬停说明、基础机制说明、事迹界面、能力书、军械库、图鉴、背包/装备界面、能力学习界面、升级界面、进阶职业界面的一部分 UI、文化/职业/神祇说明、祈祷说明、状态说明和部分能力说明
-- 未汉化：物品、敌人、剧情文本、进阶职业条件文本、大部分能力说明
+- 已汉化：主菜单、角色创建界面的一部分 UI、悬停说明、基础机制说明、事迹界面、能力书、军械库、图鉴、背包/装备界面、能力学习界面、升级界面、进阶职业界面的一部分 UI、文化/职业/神祇说明、祈祷说明、状态说明、基础能力说明和部分通用/进阶能力说明
+- 未汉化：物品、敌人、剧情文本、进阶职业条件文本、大部分通用/进阶能力说明
 - 翻译规则：文化、职业、信仰/神祇名称保留原文，只翻简介、描述和机制说明。
 
 ## 目录说明
@@ -148,6 +148,13 @@ res://translate.gd.remap
 res://translate.gdc
 res://Data/Table_Feats.json
 res://Data/Table_InfoButtons.json
+res://Data/Table_Invokes.json
+res://Data/Table_Buffs.json
+res://Data/Table_Classes.json
+res://Data/Table_Gods.json
+res://Data/Table_Races.json
+res://Data/Table_Traits.json
+res://Data/Table_TraitsGeneric.json
 ```
 
 ## 翻译流程
