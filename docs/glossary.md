@@ -117,6 +117,7 @@
 | Protection | 守护 | 将受伤限制为 1 的防护效果。 |
 | Corrosion | 腐蚀 | 护甲/格挡惩罚和火焰反伤效果。 |
 | Doom | 厄运 | 死亡伤害相关有害效果。 |
+| Revenge | 复仇 | 盟友死亡时触发额外攻击的效果。 |
 | Divine grass | 神圣草地 | Ninhurs 相关地形。 |
 | Acid terrain | 酸液地形 | Hazar/腐蚀相关地形。 |
 | Frozen vines | 冰藤 | Ice Shah 相关地形。 |
@@ -134,6 +135,9 @@
 | Stand still | 站立不动 | 原地等待/不移动触发条件。 |
 | Entrance | 进入区域 | 进入新区域时触发。 |
 | Familiar | 魔宠 | 召唤单位类型，角色/神祇说明沿用。 |
+| Kinesis | 念动 | 一组元素/心灵驱动能力标签。 |
+| Endure | 忍受 | 将一次伤害压低为 1 的承伤机制。 |
+| Death | 死亡 | 伤害类型。 |
 
 ## 暂时保留原文
 
