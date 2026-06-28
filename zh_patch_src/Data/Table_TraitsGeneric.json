@@ -1315,7 +1315,7 @@
     "title": "Morlock",
     "Name": "[color=#70c0c0]Med-Mora[/color]",
     "Level": 1,
-    "Description": "在[color=#ffff50]进入区域[/color]时，每个[color=#ffff50]空护甲槽[/color]：\n\n     为每个已知[color=#78bca4]祈祷[/color]提供 1 次充能\n     对自身造成[color=#ff2020]鲜血[/color]伤害\n     召唤一个[color=#70c0c0]Sacred Skin[/color][color=#c050ff]魔宠[/color]\n\n[color=#a0a0a0]伤害 = 你最大生命的 20%\n\n自伤不受抗性 / 伤害提高影响\n\nSacred Skins 是爬行的血肉薄片，会撕裂敌人并继承你 20% 的生命\n\n召唤的魔宠不受你的意志限制[/color]",
+    "Description": "在[color=#ffff50]进入区域[/color]时，每个[color=#ffff50]空护甲槽[/color]：\n\n     为每个已知[color=#78bca4]祈祷[/color]提供 1 次充能\n     对自身造成[color=#ff2020]鲜血[/color]伤害\n     召唤一个[color=#70c0c0]Sacred Skin[/color][color=#c050ff]魔宠[/color]\n\n[color=#a0a0a0]伤害 = 你最大生命的 20%\n\n自伤不受抗性 / 伤害提高影响\n\nSacred Skin 是爬行的血肉薄片，会撕裂敌人并继承你 20% 的生命\n\n召唤的魔宠不受你的意志限制[/color]",
     "Description_Unit": "在[color=#ffff50]进入区域[/color]时：\n\n     为每个已知[color=#78bca4]祈祷[/color]提供 1 次充能\n\n在[color=#78bca4]祈祷[/color]时：\n    \n     对 2 格范围内 1 个敌人造成伤害\n\n伤害 = 主手命中，主手伤害类型",
     "Element": "None",
     "sprite": "res://Ham_Sprite/Player/Morlock_Icon.png",
