@@ -36,6 +36,8 @@
 | Vigor | 活力 | 升级界面中的生命恢复选项。 |
 | Divine intervention | 神圣干预 | 神祇阻止死亡的机制。 |
 | Game turn | 游戏回合 | 触发部分回合效果和状态到期的时间单位。 |
+| Initial attack | 初始攻击 | 一次攻击动作开始时的首次攻击。 |
+| Extra attack | 额外攻击 | 由状态/能力追加的攻击，不一定计为初始攻击。 |
 | Familiar | 魔宠 | 召唤相关单位类型。 |
 | Summoned allies | 召唤盟友 | 意志决定上限的召唤单位。 |
 | Physical | 物理 | 斩击、钝击、穿刺伤害总类。 |
@@ -119,6 +121,7 @@
 | Plant | 植物 | 生命系召唤/盟友类别。 |
 | Skill level | 技能等级 | 能力说明中的 level 计数。 |
 | Learn | 学习 | 获得能力时的触发条件。 |
+| Self-damage | 自伤 | 自身对自身造成的伤害。 |
 | Prayer charge | 祈祷充能 | 祈祷可用次数/充能机制。 |
 | Teleport | 传送 | 位移机制。 |
 | Transformation | 变身 | form 类状态说明统一用语。 |
