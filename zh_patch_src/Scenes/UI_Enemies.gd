@@ -95,7 +95,7 @@ func load_info(object_info):
 	var checked_tags = []
 	for tag in object_info.tags:
 		if tag != "none" and checked_tags.has(tag) == false:
-			stringa += " " + tag
+			stringa += " " + translate.unit_tag(tag)
 			checked_tags.append(tag)
 	
 	stringa += "\n\n"

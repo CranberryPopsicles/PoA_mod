@@ -266,7 +266,7 @@ func write_unit(unit):
 		for tag in unit.type.tags:
 			if tag != "none" and checked_tags.has(tag) == false:
 				checked_tags.append(tag)
-				stringa += "  " + tag
+				stringa += "  " + translate.unit_tag(tag)
 	
 	stringa += "  [color=#ff8080]" + str(int(unit.HP)) + "[/color] /" + str(int(unit.HP_max))
 	var weapon_text = null

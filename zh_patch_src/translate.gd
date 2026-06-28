@@ -31,6 +31,20 @@ static func damage_type(label):
 
 	return stringa
 
+static func unit_tag(tag):
+	var stringa = tag
+	if "Fungus" in tag:
+		stringa = tag.replace("Fungus", "真菌")
+	elif "Plant" in tag:
+		stringa = tag.replace("Plant", "植物")
+	elif "Priest" in tag:
+		stringa = tag.replace("Priest", "祭司")
+	elif "Reptile" in tag:
+		stringa = tag.replace("Reptile", "爬行动物")
+	elif "Undead" in tag:
+		stringa = tag.replace("Undead", "亡灵")
+	return stringa
+
 static func element_to_resist_description(element):
 	var stringa = ""
 	stringa += "[color=#707070]每投入 1 点" + element(element) + "，获得"
