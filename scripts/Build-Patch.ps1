@@ -129,7 +129,9 @@ foreach ($script in $sceneScripts) {
 
 $topLevelScripts = @(
     'translate.gd',
-    'ToolMessageCreator.gd'
+    'ToolMessageCreator.gd',
+    'RouterEvents_GameTurn.gd',
+    'RouterEvents_OnMove.gd'
 )
 foreach ($script in $topLevelScripts) {
     $scriptPath = Join-Path $patchSrc $script
