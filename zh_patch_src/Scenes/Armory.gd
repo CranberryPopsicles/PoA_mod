@@ -95,7 +95,7 @@ func write_button(button):
 		write_armor(button.data)
 
 func write_weapon(data):
-	var stringa = data.name
+	var stringa = translate.item_name(data.name)
 	var weapon = data
 	stringa += "\n\n"
 	stringa += "[color=#707070]"
@@ -191,7 +191,7 @@ func write_weapon(data):
 	
 
 func write_armor(data):
-	var stringa = data.name
+	var stringa = translate.item_name(data.name)
 	var armor = data
 
 	stringa += "\n\n"

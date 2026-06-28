@@ -59,7 +59,7 @@ func write_screen(data):
 	stringa += "\n\n[color=#707070]已装备[/color]"
 	
 	for item in data.inventory:
-		stringa += "\n" + item.name
+		stringa += "\n" + translate.item_name(item.name)
 	
 	stringa += "\n\n[color=#707070]已学习[/color]"
 	

@@ -324,35 +324,177 @@ static func trait_name_by_title(title, fallback):
 			return "重量级"
 	return fallback
 
+static func item_name(text):
+	var stringa = str(text)
+	var replacements = [
+		["Dull-Gold Greatsword", "暗金巨剑"],
+		["Grey Buckler", "灰色小圆盾"],
+		["Jade Gladius", "翡翠短剑"],
+		["Pelte", "佩尔塔盾"],
+		["Dread Hoplon", "恐惧重盾"],
+		["Ivory Lance", "象牙长枪"],
+		["Kilij", "基利杰弯刀"],
+		["Varichakram", "瓦里轮刃"],
+		["Spatha", "斯帕塔剑"],
+		["Club", "棍棒"],
+		["Flail", "连枷"],
+		["Tikaani Crook", "提卡尼曲杖"],
+		["Blight Moplah", "枯萎莫普拉剑"],
+		["Serpent Idol", "毒蛇神像"],
+		["Opal Chakram", "蛋白石轮刃"],
+		["Transal Chakram", "星移轮刃"],
+		["Cursed Skull", "诅咒颅骨"],
+		["Micruris Idol", "珊瑚蛇神像"],
+		["Tomahawk", "战斧"],
+		["Crystal Hand", "水晶之手"],
+		["Crimson Staff", "猩红法杖"],
+		["Scepter", "权杖"],
+		["Bow", "弓"],
+		["Pilum", "重标枪"],
+		["Javelins", "标枪束"],
+		["Sling", "投石索"],
+		["Fire Knife", "火焰短刀"],
+		["Scroll", "卷轴"],
+		["Rat Banner", "鼠群旗帜"],
+		["Scimitar", "弯刀"],
+		["Transal Spear", "星移长矛"],
+		["Swift Blade", "迅捷之刃"],
+		["Tachi", "太刀"],
+		["Bone Knife", "骨刀"],
+		["Dread Axe", "恐惧斧"],
+		["Red Axe", "赤斧"],
+		["Berserker Axe", "狂战斧"],
+		["Bone Shield", "骨盾"],
+		["Storm Lance", "风暴长枪"],
+		["Astra Blade", "星界之刃"],
+		["Mind Mace", "心灵钉锤"],
+		["Pine Cleaver", "松木砍刀"],
+		["Vine Scythe", "藤蔓镰"],
+		["Bracelets", "手镯"],
+		["Cloth Gloves", "布手套"],
+		["Bronze Armguards", "青铜臂甲"],
+		["Stella Manica", "星辰臂甲"],
+		["Brass Bracers", "黄铜护腕"],
+		["Vestment", "法衣"],
+		["Vest", "背心"],
+		["Cloth Shirt", "布衫"],
+		["Emerald Cuirass", "翡翠胸甲"],
+		["Bronze Chestplate", "青铜胸甲"],
+		["Kaffiyeh", "头巾"],
+		["Pale Mask", "苍白面具"],
+		["Sigil-skirt", "符印裙甲"],
+		["White Horns", "白角"],
+		["Ivory Legplates", "象牙腿甲"],
+		["Grey Helm", "灰色头盔"],
+		["Chestplate", "胸甲"],
+		["Subligaculum", "缠腰布"],
+		["Manica", "臂甲"],
+		["Gilt-cloth Trabea", "镀金礼袍"],
+		["Gilt-cloth Glove", "镀金手套"],
+		["Yellow Mask", "黄色面具"],
+		["Dull-Gold Mantle", "暗金披肩"],
+		["Dull-Gold Circlet", "暗金头环"],
+		["Dull-Gold Breechcloth", "暗金短裤"],
+		["Painted Loincloth", "彩绘缠腰布"],
+		["Turban", "头巾"],
+		["Jeweled Wrap", "宝石裹带"],
+		["Vital Crest", "活力冠饰"],
+		["Headdress", "头饰"],
+		["Brass Visage", "黄铜面甲"],
+		["Green Crown", "绿冠"],
+		["Leather Helmet", "皮盔"],
+		["Bronze Helm", "青铜头盔"],
+		["Rat Crown", "鼠王冠"],
+		["Sirwal", "西尔瓦裤"],
+		["Pants", "长裤"],
+		["Bronze Girdle", "青铜束腰"],
+		["Brass Greaves", "黄铜胫甲"],
+		["Ruddy Fist", "赤红拳套"],
+		["Boulder Fist", "巨石拳套"],
+		["Fire Gloves", "火焰手套"],
+		["Lightning Gloves", "闪电手套"],
+		["Ice Gloves", "寒冰手套"],
+		["Psi Gloves", "灵能手套"],
+		["Bracers of Command", "统御护腕"],
+		["Jade Bracers", "翡翠护腕"],
+		["Aura Manica", "灵光臂甲"],
+		["Emerald Gauntlets", "翡翠护手"],
+		["Blight Gauntlets", "枯萎护手"],
+		["Garnet Necklace", "石榴石项链"],
+		["Cosmic Trabea", "宇宙礼袍"],
+		["Marsh Trabea", "沼泽礼袍"],
+		["Robe of Vigor", "活力长袍"],
+		["Robe of the Wind", "风之长袍"],
+		["Robe of Gore", "血污长袍"],
+		["Robe of Light", "光明长袍"],
+		["Onyx Necklace", "缟玛瑙项链"],
+		["Ice Necklace", "寒冰项链"],
+		["Hamid Pendant", "哈米德坠饰"],
+		["Agni Mantle", "阿耆尼披肩"],
+		["Jade Discplate", "翡翠盘甲"],
+		["Brute Plating", "蛮力甲片"],
+		["Crimson Plating", "猩红甲片"],
+		["Blight Cuirass", "枯萎胸甲"],
+		["Null Cuirass", "虚无胸甲"],
+		["Crystal Plating", "水晶甲片"],
+		["Gold Plating", "黄金甲片"],
+		["Mind Diamond", "心灵钻石"],
+		["Buckler", "小圆盾"],
+		["Shield", "盾"],
+		["Lance", "长枪"],
+		["Dagger", "匕首"],
+		["Blade", "剑刃"],
+		["Axe", "斧"],
+		["Staff", "法杖"],
+		["Robe", "长袍"],
+		["Helmet", "头盔"],
+		["Helm", "头盔"],
+		["Bracer", "护腕"],
+		["Hood", "兜帽"],
+		["Mask", "面具"],
+		["Skirt", "裙甲"],
+		["Cloth", "布带"],
+		["Sash", "腰带"]
+	]
+	for pair in replacements:
+		stringa = stringa.replace(pair[0], pair[1])
+	return stringa
+
 static func visible_text(text):
 	var stringa = str(text)
-	var replacements = {
-		"Gain +50% Block chance unique": "获得 +50% 格挡概率（唯一）",
-		"Block chance": "格挡概率",
-		"unique": "唯一",
-		"Pierce": "穿刺",
-		"Slash": "斩击",
-		"Blunt": "钝击",
-		"Psychic": "灵能",
-		"Astral": "星界",
-		"Lightning": "闪电",
-		"Poison": "毒素",
-		"Death": "死亡",
-		"Blood": "鲜血",
-		"Fire": "火焰",
-		"Ice": "寒冰",
-		"Martial": "武艺",
-		"Life": "生命",
-		"Armor": "护甲",
-		"Hit": "命中",
-		"Glory": "荣耀",
-		"self-damage": "自伤",
-		"anything": "任意能力",
-		"Jin-bu": "进步",
-		"Anqarak": "安卡拉克"
-	}
-	for key in replacements:
-		stringa = stringa.replace(key, replacements[key])
+	var replacements = [
+		["Gain +50% Block chance unique", "获得 +50% 格挡概率（唯一）"],
+		["Block chance", "格挡概率"],
+		["self-damage", "自伤"],
+		["Heavyweight", "重量级"],
+		["Mindfighter", "心灵斗士"],
+		["Gore Cleave", "血肉劈斩"],
+		["Bheith Nocht", "贝赫诺赫特"],
+		["Treeform", "树形"],
+		["Jin-bu", "进步"],
+		["Anqarak", "安卡拉克"],
+		["Wisp", "幽光"],
+		["Lightning", "闪电"],
+		["Psychic", "灵能"],
+		["Astral", "星界"],
+		["Poison", "毒素"],
+		["Pierce", "穿刺"],
+		["Slash", "斩击"],
+		["Blunt", "钝击"],
+		["Death", "死亡"],
+		["Blood", "鲜血"],
+		["Fire", "火焰"],
+		["Ice", "寒冰"],
+		["Martial", "武艺"],
+		["Life", "生命"],
+		["Armor", "护甲"],
+		["Hit", "命中"],
+		["Glory", "荣耀"],
+		["unique", "唯一"],
+		["anything", "任意能力"]
+	]
+	for pair in replacements:
+		stringa = stringa.replace(pair[0], pair[1])
 	stringa = stringa.replace("Two-handing", "双手持握")
 	stringa = stringa.replace("Two-handed", "双手")
 	stringa = stringa.replace("Not overloaded", "未超重")
@@ -363,7 +505,7 @@ static func visible_text(text):
 	stringa = stringa.replace("on kill", "击杀时")
 	stringa = stringa.replace("on hit", "命中时")
 	stringa = stringa.replace("Kill", "击杀")
-	var power_names = ["Heavyweight", "Mindfighter", "Gore Cleave", "Aim", "Bheith Nocht"]
+	var power_names = ["Aim"]
 	for key in power_names:
 		stringa = stringa.replace(key, trait_name_plain(key))
 	return stringa
@@ -373,8 +515,11 @@ static func prestige_requirement_text(trait):
 	stringa = visible_text(stringa)
 	stringa = stringa.replace("Requires ", "需要 ")
 	stringa = stringa.replace(" points between ", " 点，分配于 ")
+	stringa = stringa.replace(" point between ", " 点，分配于 ")
 	stringa = stringa.replace(" points in any ", " 点，投入任意")
 	stringa = stringa.replace(" points in ", " 点，投入 ")
+	stringa = stringa.replace(" point in ", " 点，投入 ")
+	stringa = stringa.replace(" and ", " 与 ")
 	stringa = stringa.replace(" with ", "，且拥有 ")
 	stringa = stringa.replace(" while in ", "，且位于 ")
 	stringa = stringa.replace("no powers", "没有能力")

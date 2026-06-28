@@ -699,7 +699,7 @@ func describe_weapon(weapon):
 	var stringa = ""
 
 	if weapon != null:
-		$PopupLayer / Popup / RichTextLabel.bbcode_text = "[center]" + weapon.name
+		$PopupLayer / Popup / RichTextLabel.bbcode_text = "[center]" + translate.item_name(weapon.name)
 	else:
 		$PopupLayer / Popup / RichTextLabel.bbcode_text = "[center][color=#ffff50]空手[/color]"
 
@@ -796,7 +796,7 @@ func describe_weapon(weapon):
 		
 		
 		
-		stringa = weapon["name"] + "\n" + stringa
+		stringa = translate.item_name(weapon["name"]) + "\n" + stringa
 	else:
 		stringa = "[color=#ffff50]空手[/color]" + "\n" + stringa
 
@@ -808,17 +808,17 @@ func describe_armor(armor):
 	var stringa = ""
 	
 	if armor != null:
-		$PopupLayer / Popup / RichTextLabel.bbcode_text = "[center]" + armor.name
+		$PopupLayer / Popup / RichTextLabel.bbcode_text = "[center]" + translate.item_name(armor.name)
 	else:
 		$PopupLayer / Popup / RichTextLabel.bbcode_text = "[center][color=#a0a0a0]空"
 	
 	
 	if armor != null:
 		
-		$PopupLayer / Popup / RichTextLabel.bbcode_text = "[center]" + armor.name
+		$PopupLayer / Popup / RichTextLabel.bbcode_text = "[center]" + translate.item_name(armor.name)
 		
 		$Focus / Sprite_Equip_Focused.texture = load(armor.sprite)
-		stringa = armor.name + stringa
+		stringa = translate.item_name(armor.name) + stringa
 		
 		stringa = stringa + "\n\n[color=#5050ff]" + "+" + str(armor.arm) + " [color=#a0a0a0]护甲[/color][/color]\n"
 		stringa = stringa + "\n[color=#ff0000]" + "+" + str(armor.weight) + " [color=#a0a0a0]负重[/color][/color]"
@@ -1790,11 +1790,11 @@ func write_destroy():
 	if dict != null: is_equipped = true
 	
 	stringa = "[color=#a0a0a0][color=#ff4000]献祭[/color] "
-	stringa += item.name
+	stringa += translate.item_name(item.name)
 	
 	if is_equipped == true:
 		stringa += "\n\n用于强化：\n\n"
-		stringa += dict.name
+		stringa += translate.item_name(dict.name)
 		
 		var multi = 0.25
 		
@@ -1901,7 +1901,7 @@ func sacrifice_compose_upgrades(item):
 	
 	if is_equipped == true:
 		stringa += "强化了"
-		stringa += dict.name
+		stringa += translate.item_name(dict.name)
 		stringa += ""
 		
 		var multi = 0.25
