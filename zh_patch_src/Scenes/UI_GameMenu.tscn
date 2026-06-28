@@ -1,0 +1,1573 @@
+[gd_scene load_steps=119 format=2]
+
+[ext_resource path="res://Ham_Sprite/Buttons/Button_UI_Spirals.png" type="Texture" id=1]
+[ext_resource path="res://Ham_Sprite/Buttons/Button_UI_Corners_Hovered.png" type="Texture" id=2]
+[ext_resource path="res://Ham_Sprite/Buttons/Button_UI_Corners_Pressed.png" type="Texture" id=3]
+[ext_resource path="res://Scenes/UI_GameMenu.gd" type="Script" id=4]
+[ext_resource path="res://Ham_Sprite/UI/Title.png" type="Texture" id=5]
+[ext_resource path="res://Ham_Sprite/UI/Icon_Trait_Pyroclasm.png" type="Texture" id=6]
+[ext_resource path="res://Ham_Sprite/UI/UI_Box_Sideways.png" type="Texture" id=7]
+[ext_resource path="res://Ham_Sprite/World/Eye.png" type="Texture" id=8]
+[ext_resource path="res://Ham_Sprite/Player/Player_Skeleton.png" type="Texture" id=9]
+[ext_resource path="res://Ham_Sprite/Armor/GoldenGreaves.png" type="Texture" id=10]
+[ext_resource path="res://Ham_Sprite/Weapons/GoldenAxe.png" type="Texture" id=11]
+[ext_resource path="res://Ham_Sprite/Armor/GoldenHelm.png" type="Texture" id=12]
+[ext_resource path="res://Ham_Sprite/UI/Border.png" type="Texture" id=13]
+[ext_resource path="res://Ham_Sprite/UI/Menu.png" type="Texture" id=14]
+[ext_resource path="res://Scenes/Background.tscn" type="PackedScene" id=15]
+[ext_resource path="res://Ham_Sprite/Buttons/Button_UI.png" type="Texture" id=16]
+[ext_resource path="res://Ham_Sprite/Buttons/Button_UI_Hovered.png" type="Texture" id=17]
+[ext_resource path="res://Ham_Sprite/Buttons/Button_UI_Pressed.png" type="Texture" id=18]
+[ext_resource path="res://button_inv_pressed.tres" type="StyleBox" id=19]
+[ext_resource path="res://button_inv_hovered.tres" type="StyleBox" id=20]
+[ext_resource path="res://Ham_Sprite/UI/check.png" type="Texture" id=21]
+[ext_resource path="res://Ham_Sprite/Buttons/BigArrow_Pressed.png" type="Texture" id=22]
+[ext_resource path="res://Ham_Sprite/Buttons/BigArrow_Hovered.png" type="Texture" id=23]
+[ext_resource path="res://guy_alone.png" type="Texture" id=24]
+[ext_resource path="res://Ham_Sprite/UI/guy2.png" type="Texture" id=25]
+
+[sub_resource type="StyleBoxTexture" id=43]
+texture = ExtResource( 17 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxTexture" id=44]
+texture = ExtResource( 18 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxTexture" id=45]
+texture = ExtResource( 16 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxTexture" id=46]
+texture = ExtResource( 17 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxTexture" id=47]
+texture = ExtResource( 18 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxTexture" id=48]
+texture = ExtResource( 16 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxTexture" id=49]
+texture = ExtResource( 17 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxTexture" id=50]
+texture = ExtResource( 18 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxTexture" id=51]
+texture = ExtResource( 16 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxTexture" id=52]
+texture = ExtResource( 17 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxTexture" id=53]
+texture = ExtResource( 18 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxTexture" id=54]
+texture = ExtResource( 16 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxTexture" id=55]
+texture = ExtResource( 17 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxTexture" id=56]
+texture = ExtResource( 18 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxTexture" id=57]
+texture = ExtResource( 16 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxTexture" id=58]
+texture = ExtResource( 17 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxTexture" id=59]
+texture = ExtResource( 18 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxTexture" id=60]
+texture = ExtResource( 16 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxTexture" id=85]
+texture = ExtResource( 17 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxTexture" id=86]
+texture = ExtResource( 18 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxTexture" id=87]
+texture = ExtResource( 16 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxTexture" id=88]
+texture = ExtResource( 17 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxTexture" id=89]
+texture = ExtResource( 18 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxTexture" id=90]
+texture = ExtResource( 16 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxEmpty" id=7]
+
+[sub_resource type="StyleBoxEmpty" id=61]
+
+[sub_resource type="SpriteFrames" id=80]
+animations = [ {
+"frames": [ ExtResource( 23 ), ExtResource( 22 ) ],
+"loop": true,
+"name": "default",
+"speed": 1.0
+} ]
+
+[sub_resource type="StyleBoxEmpty" id=64]
+
+[sub_resource type="StyleBoxEmpty" id=65]
+
+[sub_resource type="StyleBoxTexture" id=67]
+texture = ExtResource( 16 )
+region_rect = Rect2( 0, 0, 32, 32 )
+modulate_color = Color( 0.466667, 0, 0.792157, 1 )
+
+[sub_resource type="StyleBoxTexture" id=68]
+texture = ExtResource( 18 )
+region_rect = Rect2( 0, 0, 32, 32 )
+modulate_color = Color( 0.466667, 0, 0.792157, 1 )
+
+[sub_resource type="StyleBoxEmpty" id=69]
+
+[sub_resource type="StyleBoxEmpty" id=70]
+
+[sub_resource type="StyleBoxEmpty" id=27]
+
+[sub_resource type="StyleBoxEmpty" id=62]
+
+[sub_resource type="StyleBoxEmpty" id=36]
+
+[sub_resource type="StyleBoxEmpty" id=63]
+
+[sub_resource type="StreamTexture" id=38]
+load_path = "res://.import/Icon_Class_Survivor.png-3fbf04a3cb501548a0f4816cc27048a6.stex"
+
+[sub_resource type="StyleBoxTexture" id=95]
+texture = ExtResource( 16 )
+region_rect = Rect2( 0, 0, 32, 32 )
+modulate_color = Color( 0.466667, 0, 0.792157, 1 )
+
+[sub_resource type="StyleBoxTexture" id=96]
+texture = ExtResource( 18 )
+region_rect = Rect2( 0, 0, 32, 32 )
+modulate_color = Color( 0.466667, 0, 0.792157, 1 )
+
+[sub_resource type="StyleBoxEmpty" id=97]
+
+[sub_resource type="StyleBoxEmpty" id=98]
+
+[sub_resource type="StyleBoxTexture" id=111]
+texture = ExtResource( 16 )
+region_rect = Rect2( 0, 0, 32, 32 )
+modulate_color = Color( 0.466667, 0, 0.792157, 1 )
+
+[sub_resource type="StyleBoxTexture" id=112]
+texture = ExtResource( 18 )
+region_rect = Rect2( 0, 0, 32, 32 )
+modulate_color = Color( 0.466667, 0, 0.792157, 1 )
+
+[sub_resource type="StyleBoxEmpty" id=113]
+
+[sub_resource type="StyleBoxEmpty" id=114]
+
+[sub_resource type="StyleBoxTexture" id=9]
+texture = ExtResource( 2 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxTexture" id=10]
+texture = ExtResource( 3 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxEmpty" id=11]
+
+[sub_resource type="StyleBoxTexture" id=30]
+
+[sub_resource type="StyleBoxTexture" id=13]
+texture = ExtResource( 2 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxTexture" id=14]
+texture = ExtResource( 3 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxEmpty" id=15]
+
+[sub_resource type="StyleBoxTexture" id=31]
+
+[sub_resource type="StyleBoxTexture" id=17]
+texture = ExtResource( 2 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxTexture" id=18]
+texture = ExtResource( 3 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxEmpty" id=19]
+
+[sub_resource type="StyleBoxTexture" id=32]
+
+[sub_resource type="StyleBoxTexture" id=21]
+texture = ExtResource( 2 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxTexture" id=22]
+texture = ExtResource( 3 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxEmpty" id=23]
+
+[sub_resource type="StyleBoxTexture" id=33]
+
+[sub_resource type="StyleBoxEmpty" id=73]
+
+[sub_resource type="StyleBoxEmpty" id=78]
+
+[sub_resource type="StyleBoxTexture" id=103]
+texture = ExtResource( 16 )
+region_rect = Rect2( 0, 0, 32, 32 )
+modulate_color = Color( 0.466667, 0, 0.792157, 1 )
+
+[sub_resource type="StyleBoxTexture" id=104]
+texture = ExtResource( 18 )
+region_rect = Rect2( 0, 0, 32, 32 )
+modulate_color = Color( 0.466667, 0, 0.792157, 1 )
+
+[sub_resource type="StyleBoxEmpty" id=105]
+
+[sub_resource type="StyleBoxEmpty" id=106]
+
+[sub_resource type="StyleBoxEmpty" id=77]
+
+[sub_resource type="StyleBoxEmpty" id=79]
+
+[sub_resource type="StyleBoxTexture" id=115]
+texture = ExtResource( 16 )
+region_rect = Rect2( 0, 0, 32, 32 )
+modulate_color = Color( 0.466667, 0, 0.792157, 1 )
+
+[sub_resource type="StyleBoxTexture" id=116]
+texture = ExtResource( 18 )
+region_rect = Rect2( 0, 0, 32, 32 )
+modulate_color = Color( 0.466667, 0, 0.792157, 1 )
+
+[sub_resource type="StyleBoxEmpty" id=117]
+
+[sub_resource type="StyleBoxEmpty" id=118]
+
+[sub_resource type="StyleBoxEmpty" id=83]
+
+[sub_resource type="StyleBoxEmpty" id=84]
+
+[sub_resource type="StyleBoxTexture" id=107]
+texture = ExtResource( 16 )
+region_rect = Rect2( 0, 0, 32, 32 )
+modulate_color = Color( 0.466667, 0, 0.792157, 1 )
+
+[sub_resource type="StyleBoxTexture" id=108]
+texture = ExtResource( 18 )
+region_rect = Rect2( 0, 0, 32, 32 )
+modulate_color = Color( 0.466667, 0, 0.792157, 1 )
+
+[sub_resource type="StyleBoxEmpty" id=109]
+
+[sub_resource type="StyleBoxEmpty" id=110]
+
+[sub_resource type="StyleBoxTexture" id=91]
+texture = ExtResource( 16 )
+region_rect = Rect2( 0, 0, 32, 32 )
+modulate_color = Color( 0.466667, 0, 0.792157, 1 )
+
+[sub_resource type="StyleBoxTexture" id=92]
+texture = ExtResource( 18 )
+region_rect = Rect2( 0, 0, 32, 32 )
+modulate_color = Color( 0.466667, 0, 0.792157, 1 )
+
+[sub_resource type="StyleBoxEmpty" id=93]
+
+[sub_resource type="StyleBoxEmpty" id=94]
+
+[sub_resource type="StyleBoxTexture" id=99]
+texture = ExtResource( 16 )
+region_rect = Rect2( 0, 0, 32, 32 )
+modulate_color = Color( 0.466667, 0, 0.792157, 1 )
+
+[sub_resource type="StyleBoxTexture" id=100]
+texture = ExtResource( 18 )
+region_rect = Rect2( 0, 0, 32, 32 )
+modulate_color = Color( 0.466667, 0, 0.792157, 1 )
+
+[sub_resource type="StyleBoxEmpty" id=101]
+
+[sub_resource type="StyleBoxEmpty" id=102]
+
+[sub_resource type="GDScript" id=66]
+script/source = "extends ColorRect
+
+
+func _process(delta):
+	if ToolSettings.settings_data.has(\"background_color\"):
+		match ToolSettings.settings_data.background_color:
+			\"black\":
+				color = Color(0,0,0,1)
+				#color = Color(.1,.05,0,1)
+			\"brown\":
+				color = Color(.1,.05,0,1)
+			\"green\":
+				color = Color(0,.1,.05,1)
+			\"blue\":
+				color = Color(.05,0,.1,1)
+			\"grey\":
+				color = Color(.15,.15,.15,1)
+			\"red\":
+				color = Color(.15,.05,.05,1)
+"
+
+[sub_resource type="StyleBoxTexture" id=1]
+texture = ExtResource( 2 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxTexture" id=2]
+texture = ExtResource( 3 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxEmpty" id=3]
+
+[sub_resource type="StyleBoxTexture" id=4]
+texture = ExtResource( 1 )
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="UI_GameMenu" type="CanvasLayer"]
+script = ExtResource( 4 )
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_left = -16.0
+margin_top = -16.0
+margin_right = 664.0
+margin_bottom = 496.0
+color = Color( 0, 0, 0, 1 )
+
+[node name="Background" parent="." instance=ExtResource( 15 )]
+
+[node name="GuyAlone2" type="Sprite" parent="."]
+modulate = Color( 0.301961, 0.301961, 0.301961, 1 )
+position = Vector2( 320, 240 )
+scale = Vector2( 2, 2 )
+texture = ExtResource( 25 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 20, 460 )
+texture = ExtResource( 14 )
+
+[node name="GuyAlone" type="Sprite" parent="."]
+visible = false
+modulate = Color( 0.388235, 0.380392, 0.380392, 1 )
+position = Vector2( 366, 241 )
+scale = Vector2( 2, 2 )
+texture = ExtResource( 24 )
+
+[node name="Colors" type="Control" parent="."]
+margin_left = -154.0
+margin_top = 1154.0
+margin_right = -114.0
+margin_bottom = 1194.0
+rect_rotation = 270.0
+
+[node name="Button_Black" type="Button" parent="Colors" groups=["Colors"]]
+margin_left = 702.0
+margin_top = 330.0
+margin_right = 734.0
+margin_bottom = 362.0
+custom_styles/hover = SubResource( 43 )
+custom_styles/pressed = SubResource( 44 )
+custom_styles/normal = SubResource( 45 )
+
+[node name="ColorRect" type="ColorRect" parent="Colors/Button_Black"]
+margin_left = 3.0
+margin_top = 3.0
+margin_right = 29.0
+margin_bottom = 29.0
+mouse_filter = 2
+color = Color( 0, 0, 0, 1 )
+
+[node name="Button_Brown" type="Button" parent="Colors" groups=["Colors"]]
+margin_left = 702.0
+margin_top = 362.0
+margin_right = 734.0
+margin_bottom = 394.0
+custom_styles/hover = SubResource( 46 )
+custom_styles/pressed = SubResource( 47 )
+custom_styles/normal = SubResource( 48 )
+
+[node name="ColorRect" type="ColorRect" parent="Colors/Button_Brown"]
+margin_left = 3.0
+margin_top = 3.0
+margin_right = 29.0
+margin_bottom = 29.0
+mouse_filter = 2
+color = Color( 0.137255, 0.0784314, 0, 1 )
+
+[node name="Button_Green" type="Button" parent="Colors" groups=["Colors"]]
+margin_left = 702.0
+margin_top = 394.0
+margin_right = 734.0
+margin_bottom = 426.0
+custom_styles/hover = SubResource( 49 )
+custom_styles/pressed = SubResource( 50 )
+custom_styles/normal = SubResource( 51 )
+
+[node name="ColorRect" type="ColorRect" parent="Colors/Button_Green"]
+margin_left = 3.0
+margin_top = 3.0
+margin_right = 29.0
+margin_bottom = 29.0
+mouse_filter = 2
+color = Color( 0, 0.137255, 0.054902, 1 )
+
+[node name="Button_Blue" type="Button" parent="Colors" groups=["Colors"]]
+margin_left = 702.0
+margin_top = 426.0
+margin_right = 734.0
+margin_bottom = 458.0
+custom_styles/hover = SubResource( 52 )
+custom_styles/pressed = SubResource( 53 )
+custom_styles/normal = SubResource( 54 )
+
+[node name="ColorRect" type="ColorRect" parent="Colors/Button_Blue"]
+margin_left = 3.0
+margin_top = 3.0
+margin_right = 29.0
+margin_bottom = 29.0
+mouse_filter = 2
+color = Color( 0.113725, 0, 0.113725, 1 )
+
+[node name="Button_Grey" type="Button" parent="Colors" groups=["Colors"]]
+margin_left = 702.0
+margin_top = 458.0
+margin_right = 734.0
+margin_bottom = 490.0
+custom_styles/hover = SubResource( 55 )
+custom_styles/pressed = SubResource( 56 )
+custom_styles/normal = SubResource( 57 )
+
+[node name="ColorRect" type="ColorRect" parent="Colors/Button_Grey"]
+margin_left = 3.0
+margin_top = 3.0
+margin_right = 29.0
+margin_bottom = 29.0
+mouse_filter = 2
+color = Color( 0.184314, 0.184314, 0.184314, 1 )
+
+[node name="Button_Red" type="Button" parent="Colors" groups=["Colors"]]
+margin_left = 702.0
+margin_top = 490.0
+margin_right = 734.0
+margin_bottom = 522.0
+custom_styles/hover = SubResource( 58 )
+custom_styles/pressed = SubResource( 59 )
+custom_styles/normal = SubResource( 60 )
+
+[node name="ColorRect" type="ColorRect" parent="Colors/Button_Red"]
+margin_left = 3.0
+margin_top = 3.0
+margin_right = 29.0
+margin_bottom = 29.0
+mouse_filter = 2
+color = Color( 0.184314, 0, 0, 1 )
+
+[node name="Button_Tan" type="Button" parent="Colors" groups=["Colors"]]
+margin_left = 702.0
+margin_top = 522.0
+margin_right = 734.0
+margin_bottom = 554.0
+custom_styles/hover = SubResource( 85 )
+custom_styles/pressed = SubResource( 86 )
+custom_styles/normal = SubResource( 87 )
+
+[node name="ColorRect" type="ColorRect" parent="Colors/Button_Tan"]
+margin_left = 3.0
+margin_top = 3.0
+margin_right = 29.0
+margin_bottom = 29.0
+mouse_filter = 2
+color = Color( 0.27451, 0.145098, 0.00392157, 1 )
+
+[node name="Button_Tan2" type="Button" parent="Colors" groups=["Colors"]]
+margin_left = 702.0
+margin_top = 554.0
+margin_right = 734.0
+margin_bottom = 586.0
+custom_styles/hover = SubResource( 85 )
+custom_styles/pressed = SubResource( 86 )
+custom_styles/normal = SubResource( 87 )
+
+[node name="ColorRect" type="ColorRect" parent="Colors/Button_Tan2"]
+margin_left = 3.0
+margin_top = 3.0
+margin_right = 29.0
+margin_bottom = 29.0
+mouse_filter = 2
+color = Color( 0.27451, 0.145098, 0.00392157, 1 )
+
+[node name="Button_Tan3" type="Button" parent="Colors" groups=["Colors"]]
+margin_left = 702.0
+margin_top = 586.0
+margin_right = 734.0
+margin_bottom = 618.0
+custom_styles/hover = SubResource( 88 )
+custom_styles/pressed = SubResource( 89 )
+custom_styles/normal = SubResource( 90 )
+
+[node name="ColorRect" type="ColorRect" parent="Colors/Button_Tan3"]
+margin_left = 3.0
+margin_top = 3.0
+margin_right = 29.0
+margin_bottom = 29.0
+mouse_filter = 2
+color = Color( 0.27451, 0.145098, 0.00392157, 1 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Colors"]
+margin_left = 699.0
+margin_top = 430.0
+margin_right = 987.0
+margin_bottom = 470.0
+rect_rotation = 90.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[color=#707070]背景颜色[/color]"
+text = "背景颜色"
+
+[node name="Label" type="Label" parent="Colors"]
+margin_right = 40.0
+margin_bottom = 10.0
+
+[node name="Button_QuitGame" type="Button" parent="."]
+margin_left = 51.0
+margin_top = 383.0
+margin_right = 124.0
+margin_bottom = 399.0
+custom_styles/hover = ExtResource( 20 )
+custom_styles/pressed = ExtResource( 19 )
+custom_styles/focus = SubResource( 7 )
+custom_styles/normal = SubResource( 61 )
+
+[node name="Label_Quit" type="RichTextLabel" parent="Button_QuitGame"]
+margin_left = 5.0
+margin_top = 3.0
+margin_right = 405.0
+margin_bottom = 43.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[color=#ffff00]退出游戏[/color] -[color=#ff0000]会删除[/color]此角色 - 要[color=#00ff00]保存[/color]，请从[color=#ffff00]世界地图[/color]退出"
+text = "退出游戏 - 会删除此角色 - 要保存，请从世界地图退出"
+
+[node name="Sprite" type="Sprite" parent="Button_QuitGame"]
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+show_behind_parent = true
+position = Vector2( 16, 16 )
+texture = ExtResource( 6 )
+
+[node name="PrestigeAlarm" type="AnimatedSprite" parent="Button_QuitGame"]
+modulate = Color( 0.823529, 0.8, 0.333333, 1 )
+position = Vector2( -19, 7 )
+frames = SubResource( 80 )
+playing = true
+
+[node name="Button_Controls" type="Button" parent="."]
+margin_left = 51.0
+margin_top = 47.0
+margin_right = 115.0
+margin_bottom = 63.0
+custom_styles/hover = ExtResource( 20 )
+custom_styles/pressed = ExtResource( 19 )
+custom_styles/focus = SubResource( 64 )
+custom_styles/normal = SubResource( 65 )
+
+[node name="Label_Quit" type="RichTextLabel" parent="Button_Controls"]
+margin_left = 5.0
+margin_top = 3.0
+margin_right = 405.0
+margin_bottom = 43.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[color=#ffff50]?: [/color][color=#c0c0c0]控制[/color]"
+text = "?: 控制"
+
+[node name="Sprite" type="Sprite" parent="Button_Controls"]
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+show_behind_parent = true
+position = Vector2( 16, 16 )
+texture = ExtResource( 6 )
+
+[node name="Button_Guide" type="Button" parent="."]
+margin_left = 51.0
+margin_top = 63.0
+margin_right = 115.0
+margin_bottom = 79.0
+custom_styles/hover = SubResource( 67 )
+custom_styles/pressed = SubResource( 68 )
+custom_styles/focus = SubResource( 69 )
+custom_styles/normal = SubResource( 70 )
+
+[node name="Label_Quit" type="RichTextLabel" parent="Button_Guide"]
+margin_left = 5.0
+margin_top = 3.0
+margin_right = 405.0
+margin_bottom = 43.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[color=#ffff50]g: [/color][color=#c0c0c0]指南[/color]"
+text = "g: 指南"
+
+[node name="Fullscreen" type="Button" parent="."]
+margin_left = 51.0
+margin_top = 79.0
+margin_right = 211.0
+margin_bottom = 95.0
+custom_styles/hover = ExtResource( 20 )
+custom_styles/pressed = ExtResource( 19 )
+custom_styles/focus = SubResource( 27 )
+custom_styles/normal = SubResource( 62 )
+
+[node name="Label" type="RichTextLabel" parent="Fullscreen"]
+margin_left = 5.0
+margin_top = 3.0
+margin_right = 405.0
+margin_bottom = 43.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[color=#ffff50]ctrl-f: [color=#c0c0c0]全屏 / 窗口[/color]"
+text = "ctrl-f: 全屏 / 窗口"
+
+[node name="Eye" type="Sprite" parent="Fullscreen"]
+visible = false
+position = Vector2( 16, 24 )
+texture = ExtResource( 8 )
+
+[node name="Restore" type="Button" parent="."]
+visible = false
+margin_left = 152.0
+margin_top = 280.0
+margin_right = 245.0
+margin_bottom = 296.0
+mouse_filter = 2
+custom_styles/hover = ExtResource( 20 )
+custom_styles/pressed = ExtResource( 19 )
+custom_styles/focus = SubResource( 36 )
+custom_styles/normal = SubResource( 63 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="RichTextLabel" parent="Restore"]
+margin_left = 5.0
+margin_top = 3.0
+margin_right = 405.0
+margin_bottom = 43.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[color=#c0c0c0]恢复默认[/color]"
+text = "恢复默认"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Eye" type="Sprite" parent="Restore"]
+visible = false
+modulate = Color( 0.545098, 0.262745, 1, 1 )
+position = Vector2( 16, 16 )
+texture = SubResource( 38 )
+
+[node name="ButtonAutoLevel" type="Button" parent="."]
+margin_left = 240.0
+margin_top = 72.0
+margin_right = 336.0
+margin_bottom = 120.0
+custom_styles/hover = SubResource( 95 )
+custom_styles/pressed = SubResource( 96 )
+custom_styles/focus = SubResource( 97 )
+custom_styles/normal = SubResource( 98 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="ButtonAutoLevel"]
+margin_top = 4.0
+margin_right = 96.0
+margin_bottom = 44.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[center][color=#c0c0c0]自动加点
+[color=#707070]荣耀提升时"
+text = "自动加点
+荣耀提升时"
+
+[node name="Sprite" type="Sprite" parent="ButtonAutoLevel"]
+visible = false
+show_behind_parent = true
+position = Vector2( 16, 16 )
+texture = ExtResource( 21 )
+
+[node name="boolo" type="RichTextLabel" parent="ButtonAutoLevel"]
+margin_top = 32.0
+margin_right = 88.0
+margin_bottom = 72.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[center]none"
+text = "none"
+
+[node name="ButtonGamepad" type="Button" parent="."]
+margin_left = 376.0
+margin_top = 248.0
+margin_right = 600.0
+margin_bottom = 336.0
+custom_styles/hover = SubResource( 111 )
+custom_styles/pressed = SubResource( 112 )
+custom_styles/focus = SubResource( 113 )
+custom_styles/normal = SubResource( 114 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="ButtonGamepad"]
+margin_left = 64.0
+margin_top = 10.0
+margin_right = 160.0
+margin_bottom = 50.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[center][color=#c0c0c0]手柄支持
+[color=#707070]实验性"
+text = "手柄支持
+实验性"
+
+[node name="Sprite" type="Sprite" parent="ButtonGamepad"]
+visible = false
+show_behind_parent = true
+position = Vector2( 16, 16 )
+texture = ExtResource( 21 )
+
+[node name="boolo" type="RichTextLabel" parent="ButtonGamepad"]
+margin_left = 64.0
+margin_top = 42.0
+margin_right = 152.0
+margin_bottom = 82.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[center]none"
+text = "none"
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="ButtonGamepad"]
+margin_left = -16.0
+margin_top = 58.0
+margin_right = 240.0
+margin_bottom = 90.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[center][color=#707070]使用 [img]res://Ham_Sprite/UI/gamepad_stick.png[/img][img]res://Ham_Sprite/UI/gamepad_a.png[/img][img]res://Ham_Sprite/UI/gamepad_b.png[/img][img]res://Ham_Sprite/UI/gamepad_y.png[/img][img]res://Ham_Sprite/UI/gamepad_x.png[/img]"
+text = "使用 "
+
+[node name="Volume_Sound" type="Control" parent="."]
+margin_left = -56.0
+margin_top = -63.0
+margin_right = -16.0
+margin_bottom = -23.0
+
+[node name="Up_sound" type="Button" parent="Volume_Sound"]
+margin_left = 272.0
+margin_top = 208.0
+margin_right = 304.0
+margin_bottom = 240.0
+custom_styles/hover = SubResource( 9 )
+custom_styles/pressed = SubResource( 10 )
+custom_styles/focus = SubResource( 11 )
+custom_styles/normal = SubResource( 30 )
+text = ">"
+
+[node name="Down_sound" type="Button" parent="Volume_Sound"]
+margin_left = 152.0
+margin_top = 208.0
+margin_right = 184.0
+margin_bottom = 240.0
+custom_styles/hover = SubResource( 13 )
+custom_styles/pressed = SubResource( 14 )
+custom_styles/focus = SubResource( 15 )
+custom_styles/normal = SubResource( 31 )
+text = "<"
+
+[node name="Label" type="RichTextLabel" parent="Volume_Sound/Down_sound"]
+margin_left = 40.0
+margin_top = 11.0
+margin_right = 120.0
+margin_bottom = 51.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[color=#50af50]音效[/color] | | | | |"
+text = "音效 | | | | |"
+
+[node name="Volume_Music" type="Control" parent="."]
+margin_left = -56.0
+margin_top = -93.0
+margin_right = -16.0
+margin_bottom = -53.0
+
+[node name="Up" type="Button" parent="Volume_Music"]
+margin_left = 272.0
+margin_top = 208.0
+margin_right = 304.0
+margin_bottom = 240.0
+custom_styles/hover = SubResource( 17 )
+custom_styles/pressed = SubResource( 18 )
+custom_styles/focus = SubResource( 19 )
+custom_styles/normal = SubResource( 32 )
+text = ">"
+
+[node name="Down" type="Button" parent="Volume_Music"]
+margin_left = 152.0
+margin_top = 208.0
+margin_right = 184.0
+margin_bottom = 240.0
+custom_styles/hover = SubResource( 21 )
+custom_styles/pressed = SubResource( 22 )
+custom_styles/focus = SubResource( 23 )
+custom_styles/normal = SubResource( 33 )
+text = "<"
+
+[node name="Label" type="RichTextLabel" parent="Volume_Music/Down"]
+margin_left = 40.0
+margin_top = 11.0
+margin_right = 120.0
+margin_bottom = 51.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[color=#5050af]音乐[/color]  | | | | |"
+text = "音乐  | | | | |"
+
+[node name="Title" type="Sprite" parent="."]
+visible = false
+position = Vector2( 333, 46 )
+texture = ExtResource( 5 )
+
+[node name="Description" type="RichTextLabel" parent="."]
+margin_left = 144.0
+margin_top = 432.0
+margin_right = 544.0
+margin_bottom = 648.0
+mouse_filter = 2
+bbcode_enabled = true
+
+[node name="AllySkeleton" type="Sprite" parent="."]
+visible = false
+position = Vector2( 275, 231 )
+scale = Vector2( 4, 4 )
+texture = ExtResource( 9 )
+
+[node name="GoldenAxe" type="Sprite" parent="AllySkeleton"]
+texture = ExtResource( 11 )
+
+[node name="GoldenHelm" type="Sprite" parent="AllySkeleton"]
+texture = ExtResource( 12 )
+
+[node name="GoldenGreaves" type="Sprite" parent="AllySkeleton"]
+visible = false
+texture = ExtResource( 10 )
+
+[node name="UiBoxSideways" type="Sprite" parent="."]
+visible = false
+position = Vector2( 440, 216 )
+scale = Vector2( 0.634615, 1.01 )
+texture = ExtResource( 7 )
+
+[node name="Border" type="Sprite" parent="."]
+position = Vector2( 320, 240 )
+texture = ExtResource( 13 )
+
+[node name="version" type="Label" parent="."]
+modulate = Color( 0.627451, 0.627451, 0.627451, 1 )
+margin_left = 40.0
+margin_top = 458.0
+margin_right = 672.0
+margin_bottom = 474.0
+
+[node name="ButtonRange" type="Button" parent="."]
+margin_left = 205.0
+margin_top = 220.0
+margin_right = 349.0
+margin_bottom = 252.0
+custom_styles/hover = ExtResource( 20 )
+custom_styles/pressed = ExtResource( 19 )
+custom_styles/focus = SubResource( 73 )
+custom_styles/normal = SubResource( 78 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="ButtonRange"]
+margin_left = 40.0
+margin_top = 5.0
+margin_right = 274.0
+margin_bottom = 45.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[color=#c0c0c0]显示攻击范围
+[color=#707070]鼠标悬停时"
+text = "显示攻击范围
+鼠标悬停时"
+
+[node name="Sprite" type="Sprite" parent="ButtonRange"]
+visible = false
+show_behind_parent = true
+position = Vector2( 16, 16 )
+texture = ExtResource( 21 )
+
+[node name="boolo" type="RichTextLabel" parent="ButtonRange"]
+margin_left = -8.0
+margin_top = 10.0
+margin_right = 41.0
+margin_bottom = 50.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[center]true"
+text = "true"
+
+[node name="ButtonSpeedBars" type="Button" parent="."]
+margin_left = 205.0
+margin_top = 180.0
+margin_right = 349.0
+margin_bottom = 212.0
+custom_styles/hover = SubResource( 95 )
+custom_styles/pressed = SubResource( 96 )
+custom_styles/focus = SubResource( 97 )
+custom_styles/normal = SubResource( 98 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="ButtonSpeedBars"]
+margin_left = 40.0
+margin_top = 10.0
+margin_right = 274.0
+margin_bottom = 50.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[color=#c0c0c0]单位速度条
+[color=#707070]"
+text = "单位速度条
+"
+
+[node name="Sprite" type="Sprite" parent="ButtonSpeedBars"]
+visible = false
+show_behind_parent = true
+position = Vector2( 16, 16 )
+texture = ExtResource( 21 )
+
+[node name="boolo" type="RichTextLabel" parent="ButtonSpeedBars"]
+margin_left = -8.0
+margin_top = 10.0
+margin_right = 41.0
+margin_bottom = 50.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[center]true"
+text = "true"
+
+[node name="ButtonWinners" type="Button" parent="."]
+margin_left = 51.0
+margin_top = 300.0
+margin_right = 195.0
+margin_bottom = 332.0
+custom_styles/hover = SubResource( 103 )
+custom_styles/pressed = SubResource( 104 )
+custom_styles/focus = SubResource( 105 )
+custom_styles/normal = SubResource( 106 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="ButtonWinners"]
+margin_left = 40.0
+margin_top = 5.0
+margin_right = 274.0
+margin_bottom = 45.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[color=#c0c0c0]仅保存胜利者
+[color=#707070]到 Maqbara"
+text = "仅保存胜利者
+到 Maqbara"
+
+[node name="Sprite" type="Sprite" parent="ButtonWinners"]
+visible = false
+show_behind_parent = true
+position = Vector2( 16, 16 )
+texture = ExtResource( 21 )
+
+[node name="boolo" type="RichTextLabel" parent="ButtonWinners"]
+margin_left = -8.0
+margin_top = 10.0
+margin_right = 41.0
+margin_bottom = 50.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[center]true"
+text = "true"
+
+[node name="ButtonAnimations" type="Button" parent="."]
+margin_left = 205.0
+margin_top = 260.0
+margin_right = 349.0
+margin_bottom = 292.0
+custom_styles/hover = ExtResource( 20 )
+custom_styles/pressed = ExtResource( 19 )
+custom_styles/focus = SubResource( 77 )
+custom_styles/normal = SubResource( 79 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="ButtonAnimations"]
+margin_left = 40.0
+margin_top = 11.0
+margin_right = 185.0
+margin_bottom = 51.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[color=#c0c0c0]快速模式
+[color=#707070]"
+text = "快速模式
+"
+
+[node name="Sprite" type="Sprite" parent="ButtonAnimations"]
+visible = false
+show_behind_parent = true
+position = Vector2( 16, 16 )
+texture = ExtResource( 21 )
+
+[node name="boolo" type="RichTextLabel" parent="ButtonAnimations"]
+margin_left = -8.0
+margin_top = 10.0
+margin_right = 41.0
+margin_bottom = 50.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[center]true"
+text = "true"
+
+[node name="ButtonFPS" type="Button" parent="."]
+margin_left = 205.0
+margin_top = 336.0
+margin_right = 349.0
+margin_bottom = 368.0
+custom_styles/hover = SubResource( 115 )
+custom_styles/pressed = SubResource( 116 )
+custom_styles/focus = SubResource( 117 )
+custom_styles/normal = SubResource( 118 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="ButtonFPS"]
+margin_left = 40.0
+margin_top = 11.0
+margin_right = 185.0
+margin_bottom = 51.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[color=#c0c0c0]FPS 上限
+[color=#707070]"
+text = "FPS 上限
+"
+
+[node name="Sprite" type="Sprite" parent="ButtonFPS"]
+visible = false
+show_behind_parent = true
+position = Vector2( 16, 16 )
+texture = ExtResource( 21 )
+
+[node name="boolo" type="RichTextLabel" parent="ButtonFPS"]
+margin_left = -8.0
+margin_top = 10.0
+margin_right = 41.0
+margin_bottom = 50.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[center]true"
+text = "true"
+
+[node name="ButtonVSYNC" type="Button" parent="."]
+margin_left = 205.0
+margin_top = 300.0
+margin_right = 349.0
+margin_bottom = 332.0
+custom_styles/hover = SubResource( 115 )
+custom_styles/pressed = SubResource( 116 )
+custom_styles/focus = SubResource( 117 )
+custom_styles/normal = SubResource( 118 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="ButtonVSYNC"]
+margin_left = 40.0
+margin_top = 5.0
+margin_right = 185.0
+margin_bottom = 45.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[color=#c0c0c0]垂直同步
+[color=#707070]关闭可极限加速"
+text = "垂直同步
+关闭可极限加速"
+
+[node name="Sprite" type="Sprite" parent="ButtonVSYNC"]
+visible = false
+show_behind_parent = true
+position = Vector2( 16, 16 )
+texture = ExtResource( 21 )
+
+[node name="boolo" type="RichTextLabel" parent="ButtonVSYNC"]
+margin_left = -8.0
+margin_top = 10.0
+margin_right = 41.0
+margin_bottom = 50.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[center]true"
+text = "true"
+
+[node name="ButtonLog" type="Button" parent="."]
+margin_left = 51.0
+margin_top = 220.0
+margin_right = 195.0
+margin_bottom = 252.0
+custom_styles/hover = ExtResource( 20 )
+custom_styles/pressed = ExtResource( 19 )
+custom_styles/focus = SubResource( 83 )
+custom_styles/normal = SubResource( 84 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="ButtonLog"]
+margin_left = 40.0
+margin_top = 10.0
+margin_right = 185.0
+margin_bottom = 50.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[color=#c0c0c0]宽消息日志
+[color=#707070]"
+text = "宽消息日志
+"
+
+[node name="Sprite" type="Sprite" parent="ButtonLog"]
+visible = false
+show_behind_parent = true
+position = Vector2( 16, 16 )
+texture = ExtResource( 21 )
+
+[node name="boolo" type="RichTextLabel" parent="ButtonLog"]
+margin_left = -8.0
+margin_top = 10.0
+margin_right = 41.0
+margin_bottom = 50.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[center]true"
+text = "true"
+
+[node name="ButtonDetail" type="Button" parent="."]
+margin_left = 51.0
+margin_top = 260.0
+margin_right = 195.0
+margin_bottom = 292.0
+custom_styles/hover = SubResource( 107 )
+custom_styles/pressed = SubResource( 108 )
+custom_styles/focus = SubResource( 109 )
+custom_styles/normal = SubResource( 110 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="ButtonDetail"]
+margin_left = 40.0
+margin_top = 5.0
+margin_right = 185.0
+margin_bottom = 45.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[color=#c0c0c0]详细数值
+[color=#707070]显示在日志中"
+text = "详细数值
+显示在日志中"
+
+[node name="Sprite" type="Sprite" parent="ButtonDetail"]
+visible = false
+show_behind_parent = true
+position = Vector2( 16, 16 )
+texture = ExtResource( 21 )
+
+[node name="boolo" type="RichTextLabel" parent="ButtonDetail"]
+margin_left = -8.0
+margin_top = 10.0
+margin_right = 41.0
+margin_bottom = 50.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[center]true"
+text = "true"
+
+[node name="ButtonLog2" type="Button" parent="."]
+margin_left = 51.0
+margin_top = 180.0
+margin_right = 195.0
+margin_bottom = 212.0
+custom_styles/hover = SubResource( 91 )
+custom_styles/pressed = SubResource( 92 )
+custom_styles/focus = SubResource( 93 )
+custom_styles/normal = SubResource( 94 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="ButtonLog2"]
+margin_left = 40.0
+margin_top = 10.0
+margin_right = 185.0
+margin_bottom = 50.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[color=#c0c0c0]浮动文字
+[color=#707070]"
+text = "浮动文字
+"
+
+[node name="Sprite" type="Sprite" parent="ButtonLog2"]
+visible = false
+show_behind_parent = true
+position = Vector2( 16, 16 )
+texture = ExtResource( 21 )
+
+[node name="boolo" type="RichTextLabel" parent="ButtonLog2"]
+margin_left = -8.0
+margin_top = 10.0
+margin_right = 41.0
+margin_bottom = 50.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[center]true"
+text = "true"
+
+[node name="ButtonVictoryMarkers" type="Button" parent="."]
+margin_left = 51.0
+margin_top = 336.0
+margin_right = 195.0
+margin_bottom = 368.0
+custom_styles/hover = SubResource( 91 )
+custom_styles/pressed = SubResource( 92 )
+custom_styles/focus = SubResource( 93 )
+custom_styles/normal = SubResource( 94 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="ButtonVictoryMarkers"]
+margin_left = 40.0
+margin_top = 10.0
+margin_right = 185.0
+margin_bottom = 50.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[color=#c0c0c0]胜利标记
+[color=#707070]"
+text = "胜利标记
+"
+
+[node name="Sprite" type="Sprite" parent="ButtonVictoryMarkers"]
+visible = false
+show_behind_parent = true
+position = Vector2( 16, 16 )
+texture = ExtResource( 21 )
+
+[node name="boolo" type="RichTextLabel" parent="ButtonVictoryMarkers"]
+margin_left = -8.0
+margin_top = 10.0
+margin_right = 41.0
+margin_bottom = 50.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[center]true"
+text = "true"
+
+[node name="ButtonCharges" type="Button" parent="."]
+margin_left = 415.0
+margin_top = 180.0
+margin_right = 559.0
+margin_bottom = 212.0
+custom_styles/hover = SubResource( 99 )
+custom_styles/pressed = SubResource( 100 )
+custom_styles/focus = SubResource( 101 )
+custom_styles/normal = SubResource( 102 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="ButtonCharges"]
+margin_left = 40.0
+margin_top = 5.0
+margin_right = 274.0
+margin_bottom = 45.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[color=#c0c0c0]隐藏大生命条
+[color=#707070]荣耀与游戏回合"
+text = "隐藏大生命条
+荣耀与游戏回合"
+
+[node name="Sprite" type="Sprite" parent="ButtonCharges"]
+visible = false
+show_behind_parent = true
+position = Vector2( 16, 16 )
+texture = ExtResource( 21 )
+
+[node name="boolo" type="RichTextLabel" parent="ButtonCharges"]
+margin_left = -8.0
+margin_top = 10.0
+margin_right = 41.0
+margin_bottom = 50.0
+mouse_filter = 2
+bbcode_enabled = true
+bbcode_text = "[center]true"
+text = "true"
+
+[node name="Windows" type="Control" parent="."]
+margin_left = -101.0
+margin_top = 23.0
+margin_right = -61.0
+margin_bottom = 63.0
+
+[node name="Controls" type="ColorRect" parent="Windows"]
+visible = false
+margin_left = 108.0
+margin_top = -28.0
+margin_right = 739.0
+margin_bottom = 445.0
+color = Color( 0, 0, 0, 1 )
+
+[node name="Background" parent="Windows/Controls" instance=ExtResource( 15 )]
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Windows/Controls"]
+margin_left = 89.0
+margin_top = 38.0
+margin_right = 554.0
+margin_bottom = 503.0
+bbcode_enabled = true
+bbcode_text = "[color=#c0c0c0][center]控制
+
+
+[color=#ffff00]tab[/color] / [color=#ffff00]右键[/color] / [color=#ffff00]小键盘 0[/color]
+\"自动行动\"
+自动攻击已选目标，向范围内最近的敌人移动，拾取最近物品，前往出口，穿过出口
+也可在多数菜单中循环选择，或随机生成角色
+
+[color=#ffff00]alt[/color]
+切换目标，目标必须在攻击范围内
+
+
+[color=#ffff00]空格[/color] / [color=#ffff00]鼠标中键[/color]
+原地等待
+
+
+[color=#ffff00]enter[/color]
+穿过出口，进入新地域，确认死亡，开始游戏
+
+[color=#ffff00]1, 2 and 3[/color]
+诵念第 1、第 2 或第 3 个祈祷，若可用
+
+
+[color=#ffff00]小键盘
+7/q/y   8/w/k   9/e/u
+
+4/a/h   5/s/.   6/d/l
+
+1/z/b   2/x/j   3/c/n[/color]
+向对应方向移动，或对相邻方向的敌人发动初始攻击
+[color=#ffff00]5[/color] 或 [color=#ffff00]s[/color]（\"中间方向\"）原地等待[/center]
+
+"
+text = "控制
+
+
+tab / 右键 / 小键盘 0
+\"自动行动\"
+自动攻击已选目标，向范围内最近的敌人移动，拾取最近物品，前往出口，穿过出口
+也可在多数菜单中循环选择，或随机生成角色
+
+alt
+切换目标，目标必须在攻击范围内
+
+
+空格 / 鼠标中键
+原地等待
+
+
+enter
+穿过出口，进入新地域，确认死亡，开始游戏
+
+1, 2 和 3
+诵念第 1、第 2 或第 3 个祈祷，若可用
+
+
+小键盘
+7/q/y   8/w/k   9/e/u
+
+4/a/h   5/s/.   6/d/l
+
+1/z/b   2/x/j   3/c/n
+向对应方向移动，或对相邻方向的敌人发动初始攻击
+5 或 s（\"中间方向\"）原地等待
+
+"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Guide" type="ColorRect" parent="Windows"]
+visible = false
+margin_left = 105.0
+margin_top = -22.0
+margin_right = 736.0
+margin_bottom = 451.0
+color = Color( 0, 0, 0, 1 )
+
+[node name="Background" parent="Windows/Guide" instance=ExtResource( 15 )]
+script = SubResource( 66 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Windows/Guide"]
+margin_left = 60.0
+margin_top = 5.0
+margin_right = 621.0
+margin_bottom = 533.0
+bbcode_enabled = true
+bbcode_text = "[color=#c0c0c0][center]指南[/center]
+
+
+[color=#a0a0a0]目标是抵达每层的出口。你可以攻击并杀死敌人，但这不是必需的。击杀敌人和进入新楼层会获得[color=#ffff50]荣耀[/color]。每个区域的最后一层会出现一件或多件[color=#ffff50]物品[/color]，它们能大幅提升你的能力
+
+点击 [img]res://Ham_Sprite/UI/Powers.png[/img] 消耗点数学习新能力 -- 每次荣耀提升都会获得 +1 点
+点击 [img]res://Ham_Sprite/UI/Inventory.png[/img] 查看背包并装备新物品。这里也会显示你的属性，并说明它们的机制。[color=#50ff50]速度[/color]非常重要 -- 它决定你相对敌人的行动频率 -- 也会被物品的负重与僵硬降低
+
+
+要构建强力角色，尽量选择能彼此配合的能力和装备。除了[color=#78bca4]祈祷[/color]之外，没有主动技能 -- 一切都会由特定事件触发 -- 例如\"移动时\"、\"造成火焰伤害时\"等
+
+
+\"[color=#ffff50]攻击时[/color]\"：当你发动任何形式的攻击。\"初始攻击\"特指每件武器执行的第一次基础攻击，有时会生成\"额外攻击\"，例如 Swift Blade
+
+\"[color=#ffff50]命中时[/color]\"：攻击命中并造成伤害。某些能力也会生成免费命中，例如 Guard 和 Projection
+
+\"[color=#ffff50]造成伤害时[/color]\"：指你以任意方式造成的伤害
+
+\"[color=#ffff50]进入时[/color]\"：当你首次进入新楼层
+
+\"[color=#ffff50]祈祷时[/color]\"：当你点击屏幕顶部的[color=#78bca4]祈祷[/color]之一。随着荣耀提升会出现新的祈祷，其充能恢复方式取决于祈祷本身和你的信仰
+
+\"[color=#ffff50]卸开时[/color]\"：当你用护甲阻止一次命中
+
+
+这些是构建角色时需要注意的一部分触发条件，还有更多机制可供尝试，并且可以形成复杂的连锁反应。祝你玩得开心！
+
+
+"
+text = "指南
+
+
+目标是抵达每层的出口。你可以攻击并杀死敌人，但这不是必需的。击杀敌人和进入新楼层会获得荣耀。每个区域的最后一层会出现一件或多件物品，它们能大幅提升你的能力
+
+点击  消耗点数学习新能力 -- 每次荣耀提升都会获得 +1 点
+点击  查看背包并装备新物品。这里也会显示你的属性，并说明它们的机制。速度非常重要 -- 它决定你相对敌人的行动频率 -- 也会被物品的负重与僵硬降低
+
+
+要构建强力角色，尽量选择能彼此配合的能力和装备。除了祈祷之外，没有主动技能 -- 一切都会由特定事件触发 -- 例如\"移动时\"、\"造成火焰伤害时\"等
+
+
+\"攻击时\"：当你发动任何形式的攻击。\"初始攻击\"特指每件武器执行的第一次基础攻击，有时会生成\"额外攻击\"，例如 Swift Blade
+
+\"命中时\"：攻击命中并造成伤害。某些能力也会生成免费命中，例如 Guard 和 Projection
+
+\"造成伤害时\"：指你以任意方式造成的伤害
+
+\"进入时\"：当你首次进入新楼层
+
+\"祈祷时\"：当你点击屏幕顶部的祈祷之一。随着荣耀提升会出现新的祈祷，其充能恢复方式取决于祈祷本身和你的信仰
+
+\"卸开时\"：当你用护甲阻止一次命中
+
+
+这些是构建角色时需要注意的一部分触发条件，还有更多机制可供尝试，并且可以形成复杂的连锁反应。祝你玩得开心！
+
+
+"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button_Close" type="Button" parent="."]
+modulate = Color( 1, 0, 0, 1 )
+margin_left = 4.0
+margin_top = 444.0
+margin_right = 36.0
+margin_bottom = 476.0
+custom_styles/hover = SubResource( 1 )
+custom_styles/pressed = SubResource( 2 )
+custom_styles/focus = SubResource( 3 )
+custom_styles/normal = SubResource( 4 )
+text = "X"
+
+[connection signal="mouse_entered" from="Colors/Button_Black" to="." method="_on_Button_Black_mouse_entered"]
+[connection signal="pressed" from="Colors/Button_Black" to="." method="_on_Button_Black_pressed"]
+[connection signal="mouse_entered" from="Colors/Button_Brown" to="." method="_on_Button_Brown_mouse_entered"]
+[connection signal="pressed" from="Colors/Button_Brown" to="." method="_on_Button_Brown_pressed"]
+[connection signal="mouse_entered" from="Colors/Button_Green" to="." method="_on_Button_Green_mouse_entered"]
+[connection signal="pressed" from="Colors/Button_Green" to="." method="_on_Button_Green_pressed"]
+[connection signal="mouse_entered" from="Colors/Button_Blue" to="." method="_on_Button_Blue_mouse_entered"]
+[connection signal="pressed" from="Colors/Button_Blue" to="." method="_on_Button_Blue_pressed"]
+[connection signal="mouse_entered" from="Colors/Button_Grey" to="." method="_on_Button_Grey_mouse_entered"]
+[connection signal="pressed" from="Colors/Button_Grey" to="." method="_on_Button_Grey_pressed"]
+[connection signal="mouse_entered" from="Colors/Button_Red" to="." method="_on_Button_Red_mouse_entered"]
+[connection signal="pressed" from="Colors/Button_Red" to="." method="_on_Button_Red_pressed"]
+[connection signal="mouse_entered" from="Colors/Button_Tan" to="." method="_on_Button_Red_mouse_entered"]
+[connection signal="pressed" from="Colors/Button_Tan" to="." method="_on_Button_Tan_pressed"]
+[connection signal="mouse_entered" from="Colors/Button_Tan2" to="." method="_on_Button_Red_mouse_entered"]
+[connection signal="pressed" from="Colors/Button_Tan2" to="." method="_on_Button_Tan2_pressed"]
+[connection signal="mouse_entered" from="Colors/Button_Tan3" to="." method="_on_Button_Red_mouse_entered"]
+[connection signal="pressed" from="Colors/Button_Tan3" to="." method="_on_Button_Tan3_pressed"]
+[connection signal="mouse_entered" from="Button_QuitGame" to="." method="_on_Button_QuitGame_mouse_entered"]
+[connection signal="pressed" from="Button_QuitGame" to="." method="_on_Button_QuitGame_pressed"]
+[connection signal="mouse_entered" from="Button_Controls" to="." method="_on_Button_Controls_mouse_entered"]
+[connection signal="pressed" from="Button_Controls" to="." method="_on_Button_Controls_pressed"]
+[connection signal="mouse_entered" from="Button_Guide" to="." method="_on_Button_Controls_mouse_entered"]
+[connection signal="pressed" from="Button_Guide" to="." method="_on_Button_Guide_pressed"]
+[connection signal="mouse_entered" from="Fullscreen" to="." method="_on_Button_QuitGame_mouse_entered"]
+[connection signal="pressed" from="Fullscreen" to="." method="_on_Fullscreen_pressed"]
+[connection signal="mouse_entered" from="Restore" to="." method="_on_Button_QuitGame_mouse_entered"]
+[connection signal="pressed" from="Restore" to="." method="_on_Restore_pressed"]
+[connection signal="mouse_entered" from="ButtonAutoLevel" to="." method="_on_ButtonRange_mouse_entered"]
+[connection signal="pressed" from="ButtonAutoLevel" to="." method="_on_ButtonAutoLevel_pressed"]
+[connection signal="mouse_entered" from="ButtonGamepad" to="." method="_on_ButtonRange_mouse_entered"]
+[connection signal="pressed" from="ButtonGamepad" to="." method="_on_ButtonGamepad_pressed"]
+[connection signal="mouse_entered" from="Volume_Sound/Up_sound" to="." method="_on_Up_sound_mouse_entered"]
+[connection signal="pressed" from="Volume_Sound/Up_sound" to="." method="_on_Up_sound_pressed"]
+[connection signal="mouse_entered" from="Volume_Sound/Down_sound" to="." method="_on_Down_sound_mouse_entered"]
+[connection signal="pressed" from="Volume_Sound/Down_sound" to="." method="_on_Down_sound_pressed"]
+[connection signal="mouse_entered" from="Volume_Music/Up" to="." method="_on_Up_mouse_entered"]
+[connection signal="pressed" from="Volume_Music/Up" to="." method="_on_Up_pressed"]
+[connection signal="mouse_entered" from="Volume_Music/Down" to="." method="_on_Down_mouse_entered"]
+[connection signal="pressed" from="Volume_Music/Down" to="." method="_on_Down_pressed"]
+[connection signal="mouse_entered" from="ButtonRange" to="." method="_on_ButtonRange_mouse_entered"]
+[connection signal="pressed" from="ButtonRange" to="." method="_on_ButtonRange_pressed"]
+[connection signal="mouse_entered" from="ButtonSpeedBars" to="." method="_on_ButtonRange_mouse_entered"]
+[connection signal="pressed" from="ButtonSpeedBars" to="." method="_on_ButtonSpeedBars_pressed"]
+[connection signal="mouse_entered" from="ButtonWinners" to="." method="_on_ButtonRange_mouse_entered"]
+[connection signal="pressed" from="ButtonWinners" to="." method="_on_ButtonWinners_pressed"]
+[connection signal="mouse_entered" from="ButtonAnimations" to="." method="_on_ButtonAnimations_mouse_entered"]
+[connection signal="pressed" from="ButtonAnimations" to="." method="_on_ButtonAnimations_pressed"]
+[connection signal="mouse_entered" from="ButtonFPS" to="." method="_on_ButtonAnimations_mouse_entered"]
+[connection signal="pressed" from="ButtonFPS" to="." method="_on_ButtonFPS_pressed"]
+[connection signal="mouse_entered" from="ButtonVSYNC" to="." method="_on_ButtonAnimations_mouse_entered"]
+[connection signal="pressed" from="ButtonVSYNC" to="." method="_on_ButtonVSYNC_pressed"]
+[connection signal="mouse_entered" from="ButtonLog" to="." method="_on_ButtonAnimations_mouse_entered"]
+[connection signal="pressed" from="ButtonLog" to="." method="_on_ButtonLog_pressed"]
+[connection signal="mouse_entered" from="ButtonDetail" to="." method="_on_ButtonAnimations_mouse_entered"]
+[connection signal="pressed" from="ButtonDetail" to="." method="_on_ButtonDetail_pressed"]
+[connection signal="mouse_entered" from="ButtonLog2" to="." method="_on_ButtonAnimations_mouse_entered"]
+[connection signal="pressed" from="ButtonLog2" to="." method="_on_ButtonLog2_pressed"]
+[connection signal="mouse_entered" from="ButtonVictoryMarkers" to="." method="_on_ButtonAnimations_mouse_entered"]
+[connection signal="pressed" from="ButtonVictoryMarkers" to="." method="_on_ButtonVictoryMarkers_pressed"]
+[connection signal="mouse_entered" from="ButtonCharges" to="." method="_on_ButtonCharges_mouse_entered"]
+[connection signal="pressed" from="ButtonCharges" to="." method="_on_ButtonCharges_pressed"]
+[connection signal="mouse_entered" from="Button_Close" to="." method="_on_Button_Close_mouse_entered"]
+[connection signal="pressed" from="Button_Close" to="." method="_on_Button_Close_pressed"]
