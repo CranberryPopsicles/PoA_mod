@@ -47,7 +47,7 @@
 | `zh_patch_src/Scenes/First_Menu.gd` | 首屏标题/版本提示。 |
 | `zh_patch_src/Scenes/Start_Menu.gd` | 主菜单、角色创建、文化/职业/信仰说明、轮回提示。 |
 | `zh_patch_src/Scenes/UI_GameMenu.gd` | ESC 暂停菜单动态选项、保存退出、音量/设置状态。 |
-| `zh_patch_src/Scenes/UI_Inv.gd` | 背包、装备详情、状态说明、献祭说明、装备名显示层翻译。 |
+| `zh_patch_src/Scenes/UI_Inv.gd` | 背包、装备详情、状态说明、献祭说明、装备名显示层翻译。包含背包内抗性名和状态名的本地显示翻译。 |
 | `zh_patch_src/Scenes/UI_Traits_Basic.gd` | 学习能力界面、能力名、元素、能力说明、元素抗性说明。 |
 | `zh_patch_src/Scenes/UI_Prestige.gd` | 进阶职业界面、要求文本、效果说明。 |
 | `zh_patch_src/Scenes/UI_Level_Up.gd` | 升级界面、属性和升级说明。 |
@@ -123,7 +123,7 @@
 | `zh_patch_src/Data/Table_InfoButtons.json` | 属性/机制说明。 | 低。 |
 | `zh_patch_src/Data/Table_Feats.json` | 事迹说明。 | 中，注意 title/key。 |
 | `zh_patch_src/Data/Table_Invokes.json` | 祈祷说明。 | 中，注意 title/key。 |
-| `zh_patch_src/Data/Table_Buffs.json` | 状态说明。 | 高，不要改 `title` 和被逻辑依赖的 `name`。 |
+| `zh_patch_src/Data/Table_Buffs.json` | 状态说明。 | 高，不要改 `title` 和 `name`。两者都会被战斗逻辑按英文匹配，只翻 `description`、`message` 等显示文本。 |
 | `zh_patch_src/Data/Table_Traits.json` | 基础能力说明。 | 高，不要改 `title`；能力名优先走 `translate.trait_name()`。 |
 | `zh_patch_src/Data/Table_TraitsGeneric.json` | 进阶职业、文化/职业/神祇说明、物品特性说明。 | 高，不要改 `title`；文化、基础职业、神祇名称保留原文。 |
 | `zh_patch_src/Data/Table_Weapons.json` | 部分装备显示名。 | 中，优先只改 `name`，不要改 `title`、sprite、abilities。 |
@@ -144,7 +144,8 @@
 - 能力名、进阶职业名、物品特性名优先用 `translate.trait_name()` 显示层翻译。
 - 装备名优先用 `translate.item_name()` 显示层翻译；少量已直接改 `Table_Weapons.json` / `Table_Armor.json` 的 `name`。
 - 不直接改 `title`、数据表 key、sprite、icon、abilities、reference 等逻辑字段。
-- `Table_Buffs.json` 的 `title/name` 可能被逻辑依赖，状态显示优先通过 `translate.visible_text()`。
+- `Table_Buffs.json` 的 `title/name` 是逻辑字段，必须保持英文；状态显示名走场景脚本的显示层函数，例如 `UI_Inv.gd` 的 `buff_name_text()`。
+- `translate.gd` 是 Godot 全局类，外部 PCK 不一定能覆盖早期已注册版本；若某个已覆盖场景必须立即显示中文，可在该场景脚本内做局部显示翻译，例如 `UI_Inv.gd` 的 `damage_type_text()`。
 
 ## 游戏更新后的重定位步骤
 

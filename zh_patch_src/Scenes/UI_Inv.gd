@@ -38,6 +38,137 @@ onready var b_equip2 = $PopupLayer / Popup / Equip2
 
 onready var preset_buttons = [$Buttons_Equipped / Button_ArmorChest, $Buttons_Equipped / Button_ArmorHand, $Buttons_Equipped / Button_ArmorHead, $Buttons_Equipped / Button_ArmorLeg, $Buttons_Equipped / Button_WeaponMain, $Buttons_Equipped / Button_WeaponOff]
 
+func damage_type_text(label):
+	match str(label).to_lower():
+		"pierce":
+			return "[color=#af8f50]穿刺[/color]"
+		"slash":
+			return "[color=#af8f50]斩击[/color]"
+		"blunt":
+			return "[color=#af8f50]钝击[/color]"
+		"blood":
+			return "[color=#ff1010]鲜血[/color]"
+		"fire":
+			return "[color=#ff7000]火焰[/color]"
+		"lightning":
+			return "[color=#0060ff]闪电[/color]"
+		"astral":
+			return "[color=#8030af]星界[/color]"
+		"poison":
+			return "[color=#70ff00]毒素[/color]"
+		"psychic":
+			return "[color=#ffaf30]灵能[/color]"
+		"death":
+			return "[color=#a0a000]死亡[/color]"
+		"ice":
+			return "[color=#5080ff]寒冰[/color]"
+	return str(label)
+
+func buff_button_label(buff):
+	return str(buff.title) + "buff"
+
+func buff_name_text(label):
+	match str(label):
+		"Bloodrage":
+			return "血怒"
+		"Bleed":
+			return "流血"
+		"Agony":
+			return "苦痛"
+		"Scorch":
+			return "灼烧"
+		"Poison":
+			return "中毒"
+		"Sickness":
+			return "疾病"
+		"Plague":
+			return "瘟疫"
+		"Freeze":
+			return "冻结"
+		"Paralysis":
+			return "麻痹"
+		"Jin-bu":
+			return "进步"
+		"Poise":
+			return "沉着"
+		"Repulsion":
+			return "斥力"
+		"Refraction":
+			return "折射"
+		"Grace":
+			return "恩典"
+		"Inflame":
+			return "炽燃"
+		"Attune":
+			return "调谐"
+		"Meditate":
+			return "冥想"
+		"Entangle":
+			return "缠绕"
+		"Blind":
+			return "致盲"
+		"Dream":
+			return "梦境"
+		"Windstrike":
+			return "风击"
+		"Mark":
+			return "标记"
+		"Berserk":
+			return "狂暴"
+		"Evasion":
+			return "闪避"
+		"Charge":
+			return "蓄势"
+		"Stasis":
+			return "停滞"
+		"Anoint":
+			return "受膏"
+		"Gust":
+			return "阵风"
+		"Protection":
+			return "守护"
+		"Corrosion":
+			return "腐蚀"
+		"Doom":
+			return "厄运"
+		"Batform":
+			return "蝠形"
+		"Snakeform":
+			return "蛇形"
+		"Wormform":
+			return "蠕虫形"
+		"Flameform":
+			return "焰形"
+		"Sparkform":
+			return "闪电形"
+		"Drakeform":
+			return "龙形"
+		"Lizardform":
+			return "蜥蜴形"
+		"Horrorform":
+			return "恐怖形"
+		"Treeform":
+			return "树形"
+		"Vineform":
+			return "藤蔓形"
+		"Geistform":
+			return "幽魂形"
+		"Beastform":
+			return "野兽形"
+		"Crowform":
+			return "鸦形"
+		"Wildform":
+			return "野性形"
+		"Anqarak":
+			return "安卡拉克"
+		"Newtform":
+			return "蝾螈形"
+		"Jackalform":
+			return "胡狼形"
+		"Crystalform":
+			return "水晶形"
+	return str(label)
+
 func initiate():
 	for window in ui.get_open_windows():
 		window.close()
@@ -630,7 +761,7 @@ func write_descriptions():
 			if button.trait.reference != "none":
 				stringa += "\n\n"
 				var abuff = LBuffs.buff_data[button.trait.reference]
-				stringa += "[color=#707070]效果[/color]\n" + abuff.color + translate.visible_text(abuff.name) + ": [/color]" + translate.visible_text(abuff.description)
+				stringa += "[color=#707070]效果[/color]\n" + abuff.color + buff_name_text(abuff.name) + ": [/color]" + translate.visible_text(abuff.description)
 			
 			if button.trait.generic == false:
 				stringa += "\n\n\n\n\n" + translate.element_to_resist_description(button.trait.Element)
@@ -656,15 +787,15 @@ func write_descriptions():
 						
 						
 						
-						stringa += translate.damage_type(label)
+						stringa += damage_type_text(label)
 						stringa += translate.value_to_color(resist)
 						stringa += " " + str(resist) + "%"
 						stringa += "[/color]"
 	
 	
 	for button in buttons_buffs:
-		if hovered_button == button.buff.title + "buff":
-			stringa += button.buff.color + translate.visible_text(button.buff.name) + "[/color]"
+		if hovered_button == buff_button_label(button.buff):
+			stringa += button.buff.color + buff_name_text(button.buff.name) + "[/color]"
 			stringa += "\n\n"
 			stringa += "[color=#808080]效果[/color]"
 			stringa += "\n\n"
@@ -708,7 +839,7 @@ func describe_weapon(weapon):
 		$Focus / Sprite_Equip_Focused.texture = load(weapon.sprite)
 		stringa += "\n[color=#ffa050]" + str(weapon.acc * 10) + " [color=#a0a0a0]精准[/color][/color]"
 		stringa += "\n[color=#ff8030]" + str(weapon.dmg * 10) + " [color=#a0a0a0]命中[/color][/color]"
-		stringa += " " + translate.damage_type(weapon["dmgtype"])
+		stringa += " " + damage_type_text(weapon["dmgtype"])
 		stringa = stringa + "\n[color=#5050ff]" + str(weapon.arm) + " [color=#a0a0a0]格挡[/color][/color]"
 	
 	else:
@@ -752,7 +883,7 @@ func describe_weapon(weapon):
 				stringa += translate.damage_type_to_color(label)
 				stringa += "抗性 "
 				stringa += "[/color]"
-				stringa += translate.damage_type(label)
+				stringa += damage_type_text(label)
 				stringa += translate.value_to_color(resist)
 				stringa += " " + str(resist) + "%"
 				stringa += "[/color]"
@@ -787,7 +918,7 @@ func describe_weapon(weapon):
 				if traitreal.reference != "none":
 					stringa += "\n\n"
 					var abuff = LBuffs.buff_data[traitreal.reference]
-					stringa += "[color=#707070]效果[/color]\n" + abuff.color + translate.visible_text(abuff.name) + ": [/color]" + translate.visible_text(abuff.description)
+					stringa += "[color=#707070]效果[/color]\n" + abuff.color + buff_name_text(abuff.name) + ": [/color]" + translate.visible_text(abuff.description)
 				
 				if check_duplicate_traits(trait) == true:
 					stringa = stringa + "\n" + "[color=#c07070]*重复[/color]"
@@ -841,7 +972,7 @@ func describe_armor(armor):
 				stringa += translate.damage_type_to_color(label)
 				stringa += "抗性 "
 				stringa += "[/color]"
-				stringa += translate.damage_type(label)
+				stringa += damage_type_text(label)
 				stringa += translate.value_to_color(resist)
 				stringa += " " + str(resist) + "%"
 				stringa += "[/color]"
@@ -860,7 +991,7 @@ func describe_armor(armor):
 				if traitreal.reference != "none":
 					stringa += "\n\n"
 					var abuff = LBuffs.buff_data[traitreal.reference]
-					stringa += "[color=#707070]效果[/color]\n" + abuff.color + translate.visible_text(abuff.name) + ": [/color]" + translate.visible_text(abuff.description)
+					stringa += "[color=#707070]效果[/color]\n" + abuff.color + buff_name_text(abuff.name) + ": [/color]" + translate.visible_text(abuff.description)
 				
 				if check_duplicate_traits(trait) == true:
 					stringa = stringa + "\n" + "[color=#c07070]你从多个物品获得了此特性，但效果只会生效一次。[/color]"

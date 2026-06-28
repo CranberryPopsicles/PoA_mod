@@ -110,7 +110,7 @@ func open_inventory():
 							u.initiate()
 
 func open_prestige():
-	var u = Global.UIPrestige.instance()
+	var u = load("res://Scenes/UI_Prestige.tscn").instance()
 	Global.sound.new_sound("Hover")
 	add_child(u)
 	u.initiate()

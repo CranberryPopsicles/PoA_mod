@@ -1,7 +1,7 @@
 {
   "Bloodrage": {
-    "title": "血怒",
-    "name": "血怒",
+    "title": "Bloodrage",
+    "name": "Bloodrage",
     "description": "每层：在[color=#ff8030]命中[/color]时[color=#50ff50]治疗[/color] 5",
     "color": "[color=#a03030]",
     "message": "Humbaba！见证我！",
@@ -15,8 +15,8 @@
     "harmful": false
   },
   "Bleed": {
-    "title": "流血",
-    "name": "流血",
+    "title": "Bleed",
+    "name": "Bleed",
     "description": "每层：在[color=#ffff50]移动[/color] / [color=#ff8030]攻击[/color]时受到 5 [color=#ff1010]鲜血[/color]伤害",
     "color": "[color=#ff1010]",
     "message": "流血！",
@@ -30,8 +30,8 @@
     "harmful": true
   },
   "Agony": {
-    "title": "苦痛",
-    "name": "苦痛",
+    "title": "Agony",
+    "name": "Agony",
     "description": "在[color=#ffff50]受到伤害[/color]时：在其他加成后，将其提高到最大生命的[color=#ff5050]2%[/color]",
     "color": "[color=#ff70b0]",
     "message": "苦痛！",
@@ -45,8 +45,8 @@
     "harmful": true
   },
   "Scorch": {
-    "title": "灼烧",
-    "name": "灼烧",
+    "title": "Scorch",
+    "name": "Scorch",
     "description": "每层：在[color=#ffff50]游戏回合[/color]时受到 10 [color=#ff7000]火焰[/color]伤害[color=#707070]每 20 层重复一次[/color]",
     "color": "[color=#ff7000]",
     "message": "燃烧！",
@@ -60,8 +60,8 @@
     "harmful": true
   },
   "Poison": {
-    "title": "中毒",
-    "name": "中毒",
+    "title": "Poison",
+    "name": "Poison",
     "description": "你中毒了。每回合受到等同于最大生命 10% 的毒素伤害。",
     "color": "[color=#70ff00]",
     "message": "中毒！",
@@ -75,8 +75,8 @@
     "harmful": true
   },
   "Sickness": {
-    "title": "疾病",
-    "name": "疾病",
+    "title": "Sickness",
+    "name": "Sickness",
     "description": "每层：[color=#ff3030]-10[/color] [color=#ff8030]命中[/color]，在[color=#ffff50]游戏回合[/color]时受到 5 [color=#70ff00]毒素[/color]伤害",
     "color": "[color=#70ff00]",
     "message": "疾病！",
@@ -90,8 +90,8 @@
     "harmful": true
   },
   "Plague": {
-    "title": "瘟疫",
-    "name": "瘟疫",
+    "title": "Plague",
+    "name": "Plague",
     "description": "每层：[color=#ff3030]-1%[/color] [color=#ffff50]所有抗性[/color][color=#a0a0a0]最多降至 0%[/color]；在[color=#ffff50]游戏回合[/color]时受到 10 [color=#70ff00]毒素[/color] / [color=#a0a000]死亡[/color]伤害，并将层数传播给相邻盟友",
     "color": "[color=#80af00]",
     "message": "瘟疫！",
@@ -105,8 +105,8 @@
     "harmful": true
   },
   "Freeze": {
-    "title": "冻结",
-    "name": "冻结",
+    "title": "Freeze",
+    "name": "Freeze",
     "description": "每层：[color=#ff3030]-10 [/color][color=#50ffff]闪避[/color]，[color=#ff3030]-1 [/color][color=#20ff20]速度[/color]；在[color=#ffff50]站立不动[/color]时受到 5 [color=#5080ff]寒冰[/color]伤害；在[color=#ffff50]被攻击[/color]时受到 1 [color=#af8f50]钝击[/color]伤害",
     "color": "[color=#5080ff]",
     "message": "寒冷！",
@@ -120,8 +120,8 @@
     "harmful": true
   },
   "Paralysis": {
-    "title": "麻痹",
-    "name": "麻痹",
+    "title": "Paralysis",
+    "name": "Paralysis",
     "description": "[color=#20ff20]速度[/color]限制为[color=#ff3030]最低值[/color]，[color=#50ffff]闪避[/color]设为[color=#ff3030]1[/color]",
     "color": "[color=#00ff70]",
     "message": "麻痹！",
@@ -150,8 +150,8 @@
     "harmful": false
   },
   "Poise": {
-    "title": "沉着",
-    "name": "沉着",
+    "title": "Poise",
+    "name": "Poise",
     "description": "每层：[color=#5050ff]+5 护甲[/color]，[color=#5050ff]+5 格挡[/color]，[color=#ffa050]+10 精准[/color]\n\n在[color=#ffff50]移动[/color]时[color=#ff5050]移除 25%[/color]",
     "color": "[color=#dfaf50]",
     "message": "沉着！",
@@ -165,8 +165,8 @@
     "harmful": false
   },
   "Repulsion": {
-    "title": "斥力",
-    "name": "斥力",
+    "title": "Repulsion",
+    "name": "Repulsion",
     "description": "每层：在[color=#ffff50]被攻击[/color]时对攻击者造成 1 [color=#ffaf30]灵能[/color]伤害",
     "color": "[color=#ffaf30]",
     "message": "斥力！",
@@ -180,8 +180,8 @@
     "harmful": false
   },
   "Refraction": {
-    "title": "折射",
-    "name": "折射",
+    "title": "Refraction",
+    "name": "Refraction",
     "description": "每层：[color=#5050ff]+1 护甲[/color]；在[color=#ffff50]被攻击[/color]时对攻击者造成 10 [color=#70ff00]毒素[/color]伤害",
     "color": "[color=#50f080]",
     "message": "折射！",
@@ -195,8 +195,8 @@
     "harmful": false
   },
   "Grace": {
-    "title": "恩典",
-    "name": "恩典",
+    "title": "Grace",
+    "name": "Grace",
     "description": "每层：受到的伤害[color=#ffff50]-5[/color]；在[color=#ffff50]被攻击[/color]时对攻击者造成 5 [color=#8030af]星界[/color]伤害",
     "color": "[color=#80a0f0]",
     "message": "恩典！",
@@ -210,8 +210,8 @@
     "harmful": false
   },
   "Inflame": {
-    "title": "炽燃",
-    "name": "炽燃",
+    "title": "Inflame",
+    "name": "Inflame",
     "description": "每层：[color=#ffa050]+10 精准[/color]，[color=#ff8030]+20 命中[/color]\n\n在[color=#ffff50]被命中[/color]时[color=#ff5050]移除 50%[/color]",
     "color": "[color=#ff7000]",
     "message": "炽燃！",
@@ -225,8 +225,8 @@
     "harmful": false
   },
   "Attune": {
-    "title": "调谐",
-    "name": "调谐",
+    "title": "Attune",
+    "name": "Attune",
     "description": "每层：[color=#ff8030]+10 命中[/color]，[color=#5050ff]+20 护甲[/color]，[color=#ffff50]+1%[/color] 造成伤害",
     "color": "[color=#ff9020]",
     "message": "调谐！",
@@ -240,8 +240,8 @@
     "harmful": false
   },
   "Meditate": {
-    "title": "冥想",
-    "name": "冥想",
+    "title": "Meditate",
+    "name": "Meditate",
     "description": "每层：[color=#ffff50]+10[/color] 造成伤害\n\n在[color=#ffff50]移动[/color]时[color=#ff5050]移除 50%[/color]",
     "color": "[color=#8020a0]",
     "message": "专注！",
@@ -255,8 +255,8 @@
     "harmful": false
   },
   "Entangle": {
-    "title": "缠绕",
-    "name": "缠绕",
+    "title": "Entangle",
+    "name": "Entangle",
     "description": "每层：[color=#ff3030]-10 [/color][color=#50ffff]闪避[/color]，[color=#ff3030]-1 [/color][color=#20ff20]速度[/color]；在[color=#ffff50]移动[/color]时受到 5 [color=#af8f50]穿刺[/color]伤害",
     "color": "[color=#60af20]",
     "message": "缠绕！",
@@ -270,8 +270,8 @@
     "harmful": true
   },
   "Blind": {
-    "title": "致盲",
-    "name": "致盲",
+    "title": "Blind",
+    "name": "Blind",
     "description": "每层：[color=#ff3030]-20 [/color][color=#50ffff]闪避[/color]，[color=#ff3030]-20[/color] [color=#ffa050]精准[/color]",
     "color": "[color=#ffa070]",
     "message": "致盲！",
@@ -285,8 +285,8 @@
     "harmful": true
   },
   "Dream": {
-    "title": "梦境",
-    "name": "梦境",
+    "title": "Dream",
+    "name": "Dream",
     "description": "每层：[color=#ff3030]-10 [/color][color=#50ffff]闪避[/color]，[color=#ff3030]-2 [/color][color=#20ff20]速度[/color]；在[color=#ffff50]游戏回合[/color] / [color=#ffff50]站立不动[/color]时，对最近的敌人造成 10 [color=#5080ff]寒冰[/color] / [color=#ffaf30]灵能[/color]伤害\n\n在[color=#ffff50]移动[/color]或[color=#ff8030]攻击[/color]时[color=#ff5050]移除[/color]",
     "color": "[color=#60b0ff]",
     "message": "梦境！",
@@ -300,8 +300,8 @@
     "harmful": false
   },
   "Windstrike": {
-    "title": "风击",
-    "name": "风击",
+    "title": "Windstrike",
+    "name": "Windstrike",
     "description": "[color=#50ffff]+300 闪避[/color]，[color=#20ff20]+100 速度[/color]\n\n每层[color=#80ff80]重复[/color]：在[color=#ff8030]攻击[/color]时，对目标造成等同于主手命中的[color=#af8f50]斩击[/color]伤害；然后[color=#ff5050]移除[/color]",
     "color": "[color=#90c0ff]",
     "message": "风击！",
@@ -315,8 +315,8 @@
     "harmful": false
   },
   "Mark": {
-    "title": "标记",
-    "name": "标记",
+    "title": "Mark",
+    "name": "Mark",
     "description": "每层：受到的所有[color=#af8f50]物理[/color]伤害提高[color=#ffff50]10%[/color]\n\n[color=#a0a0a0]“物理”伤害包括斩击、钝击和穿刺[/color]",
     "color": "[color=#ffaf50]",
     "message": "标记！",
@@ -330,8 +330,8 @@
     "harmful": true
   },
   "Berserk": {
-    "title": "狂暴",
-    "name": "狂暴",
+    "title": "Berserk",
+    "name": "Berserk",
     "description": "在[color=#707070]初始攻击[/color]时获得一次[color=#ff8030]额外攻击[/color]\n\n每层：[color=#20ff20]+1 速度[/color]，[color=#ff3030]-10 [/color][color=#50ffff]闪避[/color]，[color=#ff3030]-10 [/color][color=#5050ff]格挡[/color]",
     "color": "[color=#ff5020]",
     "message": "狂暴！",
@@ -345,8 +345,8 @@
     "harmful": false
   },
   "Evasion": {
-    "title": "闪避",
-    "name": "闪避",
+    "title": "Evasion",
+    "name": "Evasion",
     "description": "每层：[color=#50ffff]+20 闪避[/color]\n\n在[color=#ffff50]站立不动[/color]时[color=#ff5050]移除 50%[/color]",
     "color": "[color=#7f206f]",
     "message": "闪避！",
@@ -360,8 +360,8 @@
     "harmful": false
   },
   "Charge": {
-    "title": "蓄势",
-    "name": "蓄势",
+    "title": "Charge",
+    "name": "Charge",
     "description": "每层：[color=#ffff50]+5[/color] 造成伤害\n\n在[color=#ffff50]站立不动[/color]时[color=#ff5050]移除 50%[/color]",
     "color": "[color=#0060ff]",
     "message": "蓄势！",
@@ -375,8 +375,8 @@
     "harmful": false
   },
   "Stasis": {
-    "title": "停滞",
-    "name": "停滞",
+    "title": "Stasis",
+    "name": "Stasis",
     "description": "[color=#ff5050]阻止[/color]传送\n\n在[color=#ffff50]被攻击[/color]时[color=#ff5050]移除 1 层[/color]",
     "color": "[color=#a030b0]",
     "message": "停滞！",
@@ -390,8 +390,8 @@
     "harmful": false
   },
   "Anoint": {
-    "title": "受膏",
-    "name": "受膏",
+    "title": "Anoint",
+    "name": "Anoint",
     "description": "每层：[color=#ff8030]+20 命中[/color]，[color=#50ffff]+10 闪避[/color]",
     "color": "[color=#40a0ff]",
     "message": "受膏！",
@@ -405,8 +405,8 @@
     "harmful": false
   },
   "Gust": {
-    "title": "阵风",
-    "name": "阵风",
+    "title": "Gust",
+    "name": "Gust",
     "description": "每层[color=#80ff80]重复[/color]：在[color=#ff8030]攻击[/color]时，沿路径对任意距离的 1 个敌人造成 50 + 敏捷 的[color=#af8f50]斩击[/color]伤害；然后[color=#ff5050]移除[/color]",
     "color": "[color=#90c0ff]",
     "message": "阵风！",
@@ -420,8 +420,8 @@
     "harmful": false
   },
   "Protection": {
-    "title": "守护",
-    "name": "守护",
+    "title": "Protection",
+    "name": "Protection",
     "description": "在[color=#ffff50]受到其他单位造成的伤害[/color]时：将其限制为[color=#ffff50]1[/color]；在[color=#ffff50]被攻击[/color] / [color=#ffff50]受到伤害[/color]时有[color=#ff5050]20% 概率移除[/color]\n\n该效果[color=#ff5050]永远不能超过 1 层[/color]",
     "color": "[color=#ffff90]",
     "message": "守护！",
@@ -435,8 +435,8 @@
     "harmful": false
   },
   "Corrosion": {
-    "title": "腐蚀",
-    "name": "腐蚀",
+    "title": "Corrosion",
+    "name": "Corrosion",
     "description": "每层：[color=#ff3030]-20 [/color][color=#5050ff]格挡[/color]，[color=#ff3030]-10 [/color][color=#5050ff]护甲[/color]；在[color=#ffff50]被攻击[/color]时受到 1 [color=#ff7000]火焰[/color]伤害",
     "color": "[color=#ffd000]",
     "message": "腐蚀！",
@@ -450,8 +450,8 @@
     "harmful": true
   },
   "Doom": {
-    "title": "厄运",
-    "name": "厄运",
+    "title": "Doom",
+    "name": "Doom",
     "description": "每层：在[color=#ffff50]被攻击[/color]时受到 5 [color=#a0a000]死亡[/color]伤害",
     "color": "[color=#a0a000]",
     "message": "厄运！",
@@ -465,8 +465,8 @@
     "harmful": true
   },
   "Batform": {
-    "title": "蝠形",
-    "name": "蝠形",
+    "title": "Batform",
+    "name": "Batform",
     "description": "变身：[color=#ffff50]攻击范围[/color]设为[color=#ff3030]1[/color]，[color=#5050ff]护甲[/color] / [color=#5050ff]格挡[/color]设为[color=#ff3030]1[/color]\n\n每层：[color=#20ff20]+1 速度[/color]，在[color=#ff8030]命中[/color]时[color=#50ff50]治疗[/color] 5",
     "color": "[color=#a0a000]",
     "message": "蝠形！",
@@ -480,8 +480,8 @@
     "harmful": false
   },
   "Snakeform": {
-    "title": "蛇形",
-    "name": "蛇形",
+    "title": "Snakeform",
+    "name": "Snakeform",
     "description": "变身：[color=#ffff50]攻击范围[/color]设为[color=#ff3030]1[/color]\n\n每层：[color=#50ffff]+10 闪避[/color]，在[color=#78bca4]神圣干预[/color]时[color=#50ff50]治疗[/color] 10",
     "color": "[color=#40af00]",
     "message": "蛇形！",
@@ -495,8 +495,8 @@
     "harmful": false
   },
   "Wormform": {
-    "title": "蠕虫形",
-    "name": "蠕虫形",
+    "title": "Wormform",
+    "name": "Wormform",
     "description": "变身：[color=#ffff50]攻击范围[/color]设为[color=#ff3030]1[/color]\n\n每层：在[color=#ff8030]攻击[/color]时，对 3 格范围内所有敌人施加 2 层[color=#ff7000]灼烧[/color]",
     "color": "[color=#ff7000]",
     "message": "蠕虫形！",
@@ -510,8 +510,8 @@
     "harmful": false
   },
   "Flameform": {
-    "title": "焰形",
-    "name": "焰形",
+    "title": "Flameform",
+    "name": "Flameform",
     "description": "变身：[color=#ffff50]攻击范围[/color]设为[color=#ff3030]1[/color]\n\n每层：在[color=#ff8030]攻击[/color]时，对 3 格范围内所有敌人施加 2 层[color=#ff7000]灼烧[/color]",
     "color": "[color=#ff7000]",
     "message": "焰形！",
@@ -525,8 +525,8 @@
     "harmful": false
   },
   "Sparkform": {
-    "title": "闪电形",
-    "name": "闪电形",
+    "title": "Sparkform",
+    "name": "Sparkform",
     "description": "变身：[color=#20ff20]+30 速度[/color]，[color=#ffff50]攻击范围[/color]设为[color=#ff3030]1[/color]，[color=#5050ff]格挡[/color] / [color=#5050ff]护甲[/color]设为[color=#ff3030]1[/color]\n\n每层：在[color=#ff8030]攻击[/color]时，对 2 格范围内所有单位造成 10 [color=#0060ff]闪电[/color]伤害",
     "color": "[color=#0060ff]",
     "message": "闪电形！",
@@ -540,8 +540,8 @@
     "harmful": false
   },
   "Drakeform": {
-    "title": "龙形",
-    "name": "龙形",
+    "title": "Drakeform",
+    "name": "Drakeform",
     "description": "变身：[color=#ffff50]攻击范围[/color]设为[color=#ff3030]1[/color]；在[color=#ff8030]攻击[/color]时，对相邻敌人进行一次 50 伤害的[color=#ff8030]命中[/color]\n\n每层：[color=#5050ff]+10 护甲[/color]，[color=#5050ff]+20 格挡[/color]；在[color=#ff8030]攻击[/color]时，对 2 格范围内所有单位造成 25 [color=#ff7000]火焰[/color]伤害",
     "color": "[color=#ff5000]",
     "message": "龙形！",
@@ -555,8 +555,8 @@
     "harmful": false
   },
   "Lizardform": {
-    "title": "蜥蜴形",
-    "name": "蜥蜴形",
+    "title": "Lizardform",
+    "name": "Lizardform",
     "description": "变身：[color=#20ff20]速度[/color]限制为[color=#ff3030]15[/color]，[color=#ffff50]攻击范围[/color]设为[color=#ff3030]1[/color]；在[color=#ffff50]被攻击[/color]时，对攻击者造成等同于你[color=#5050ff]护甲[/color]的[color=#70ff00]毒素[/color]伤害\n\n每层：在[color=#ff8030]攻击[/color]时[color=#50ff50]治疗[/color] 10，并对目标施加 5 层[color=#70ff00]疾病[/color] / [color=#ffd000]腐蚀[/color] / [color=#ff7000]灼烧[/color]",
     "color": "[color=#40a000]",
     "message": "蜥蜴形！",
@@ -570,8 +570,8 @@
     "harmful": false
   },
   "Horrorform": {
-    "title": "恐怖形",
-    "name": "恐怖形",
+    "title": "Horrorform",
+    "name": "Horrorform",
     "description": "变身：[color=#20ff20]+50 速度[/color]，[color=#5050ff]护甲[/color] / [color=#5050ff]格挡[/color]设为[color=#ff3030]1[/color]\n\n每层：在[color=#ff8030]攻击[/color]时，对敌人施加 10 层[color=#ff1010]流血[/color]并造成 1 [color=#8030af]星界[/color]伤害",
     "color": "[color=#ff20b0]",
     "message": "恐怖形！",
@@ -585,8 +585,8 @@
     "harmful": false
   },
   "Treeform": {
-    "title": "树形",
-    "name": "树形",
+    "title": "Treeform",
+    "name": "Treeform",
     "description": "变身：[color=#20ff20]速度[/color]限制为[color=#ff3030]1[/color]，除[color=#ff7000]火焰[/color]外[color=#ffff50]+75% 所有抗性[/color]\n\n在[color=#ffff50]移动[/color]或[color=#ff8030]攻击[/color]时[color=#ff5050]移除[/color]",
     "color": "[color=#00af00]",
     "message": "树形！",
@@ -600,8 +600,8 @@
     "harmful": false
   },
   "Vineform": {
-    "title": "藤蔓形",
-    "name": "藤蔓形",
+    "title": "Vineform",
+    "name": "Vineform",
     "description": "变身：[color=#ff3030]-50%[/color] [color=#ff7000]火焰抗性[/color]；在[color=#ff8030]攻击[/color]时召唤一个[color=#20af50]根须[/color]；在[color=#ffff50]移动[/color]时对相邻敌人进行一次[color=#ff8030]额外攻击[/color]\n\n每层：在[color=#ff8030]攻击[/color]时，为所有盟友[color=#50ff50]治疗[/color] 5，并给予友方[color=#00a000]植物[/color][color=#ff8030]+10 命中[/color]",
     "color": "[color=#60af20]",
     "message": "藤蔓形！",
@@ -615,8 +615,8 @@
     "harmful": false
   },
   "Geistform": {
-    "title": "幽魂形",
-    "name": "幽魂形",
+    "title": "Geistform",
+    "name": "Geistform",
     "description": "变身：[color=#20ff20]速度[/color]限制为[color=#ff3030]10[/color]，[color=#ff8030]命中[/color]设为[color=#ff3030]1[/color]；若仍有敌人存活，在[color=#ffff50]站立不动[/color]时执行你所有“[color=#ffff50]游戏回合[/color]”动作[color=#707070]不会推进效果倒计时[/color]\n\n每层：若仍有敌人存活，在[color=#ffff50]游戏回合[/color]时[color=#50ff50]治疗[/color] 1，并对所有敌人施加 1 层[color=#5080ff]冻结[/color]",
     "color": "[color=#5080ff]",
     "message": "幽魂形！",
@@ -630,8 +630,8 @@
     "harmful": false
   },
   "Beastform": {
-    "title": "野兽形",
-    "name": "野兽形",
+    "title": "Beastform",
+    "name": "Beastform",
     "description": "变身：[color=#ffff50]攻击范围[/color]设为[color=#ff3030]1[/color]；执行非[color=#ff8030]攻击[/color]行动时[color=#ff3030]-1[/color]层[color=#707070]站立不动 / 移动 / 祈祷[/color]\n\n每层：在[color=#ffff50]被攻击[/color]时，对相邻敌人进行一次[color=#ff8030]额外攻击[/color]",
     "color": "[color=#a07040]",
     "message": "野兽形！",
@@ -645,8 +645,8 @@
     "harmful": false
   },
   "Crowform": {
-    "title": "鸦形",
-    "name": "鸦形",
+    "title": "Crowform",
+    "name": "Crowform",
     "description": "变身：[color=#5050ff]格挡[/color] / [color=#5050ff]护甲[/color]设为[color=#ff3030]1[/color]\n\n每层：[color=#ffff50]+1%[/color] 造成伤害",
     "color": "[color=#7050a0]",
     "message": "鸦形！",
@@ -660,8 +660,8 @@
     "harmful": false
   },
   "Wildform": {
-    "title": "野性形",
-    "name": "野性形",
+    "title": "Wildform",
+    "name": "Wildform",
     "description": "变身：[color=#ffff50]攻击范围[/color]设为[color=#ff3030]1[/color]\n\n每层：在[color=#ff8030]攻击[/color]时，沿路径对 3 格范围内 1 个敌人造成 10 [color=#70ff00]毒素[/color]伤害，并以[color=#ff7000]火焰[/color] / [color=#0060ff]闪电[/color]伤害重复",
     "color": "[color=#50ff50]",
     "message": "野性形！",
@@ -690,8 +690,8 @@
     "harmful": false
   },
   "Newtform": {
-    "title": "蝾螈形",
-    "name": "蝾螈形",
+    "title": "Newtform",
+    "name": "Newtform",
     "description": "变身：[color=#ffff50]攻击范围[/color]设为[color=#ff3030]1[/color]\n\n每层：在[color=#ff8030]攻击[/color] / [color=#ffff50]被攻击[/color]时，对 3 格范围内所有敌人施加 2 层[color=#ffd000]腐蚀[/color]\n\n[color=#ffd000]腐蚀[/color]每层：[color=#ff3030]-20 [/color][color=#5050ff]格挡[/color]，[color=#ff3030]-10 [/color][color=#5050ff]护甲[/color]；在[color=#ffff50]被攻击[/color]时受到 1 [color=#ff7000]火焰[/color]伤害",
     "color": "[color=#ff7000]",
     "message": "蝾螈形！",
@@ -705,8 +705,8 @@
     "harmful": false
   },
   "Jackalform": {
-    "title": "胡狼形",
-    "name": "胡狼形",
+    "title": "Jackalform",
+    "name": "Jackalform",
     "description": "变身：[color=#ffff50]攻击范围[/color]设为[color=#ff3030]1[/color]，[color=#5050ff]护甲[/color]设为[color=#ff3030]1[/color]\n\n每层：[color=#20ff20]+1 速度[/color]，[color=#ff8030]+10 命中[/color]，在[color=#ffff50]击杀[/color]时[color=#50ff50]治疗[/color] 5",
     "color": "[color=#c02020]",
     "message": "胡狼形！",
@@ -720,8 +720,8 @@
     "harmful": false
   },
   "Crystalform": {
-    "title": "水晶形",
-    "name": "水晶形",
+    "title": "Crystalform",
+    "name": "Crystalform",
     "description": "变身：[color=#ff8030]命中[/color]设为[color=#ff3030]1[/color]，[color=#ff0000]僵硬度翻倍[/color]；若仍有敌人存活，在[color=#ffff50]站立不动[/color]时执行你所有“[color=#ffff50]游戏回合[/color]”动作[color=#707070]不会推进效果倒计时[/color]\n\n每层：若仍有敌人存活，在[color=#ffff50]游戏回合[/color]时[color=#50ff50]治疗[/color] 1，并对所有敌人施加 1 层[color=#5080ff]冻结[/color]",
     "color": "[color=#FFC0CB]",
     "message": "水晶形！",

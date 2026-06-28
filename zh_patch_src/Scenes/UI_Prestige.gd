@@ -165,7 +165,9 @@ func highlight_typed_buttons():
 			button.modulate = Color(1, 1, 1, 1)
 
 func write_description(trait, _button):
-	$Description / Trait_Info_Pic.texture = load(trait.sprite)
+	$Description / Trait_Info_Pic.visible = trait != null
+	if trait != null:
+		$Description / Trait_Info_Pic.texture = load(trait.sprite)
 	var stringa = ""
 	if trait != null:
 		
@@ -181,7 +183,6 @@ func write_description(trait, _button):
 			stringa += "[color=#707070]~已胜利~[/color]"
 		
 		stringa += ""
-		stringa += "\n\n[img]" + str(trait.sprite) + "[/img]"
 		stringa += "\n\n"
 		stringa += translate.visible_text(trait.Description)
 
@@ -193,6 +194,9 @@ func write_description(trait, _button):
 	
 
 	stringa = "[color=#c0c0c0]" + stringa
+	if trait != null:
+		stringa = stringa.replace("[img]" + str(trait.sprite) + "[/img]", "")
+		stringa = stringa.replace(str(trait.sprite), "")
 	
 	
 	

@@ -26,6 +26,12 @@ zh_patch_external/   外部 PCK 临时源目录，已被 .gitignore 忽略
 extracted/           GDRETools 解包结果，已被 .gitignore 忽略
 ```
 
+## to Human
+
+```text
+如果汉化失效（比如游戏更新了），告诉 AI（桌面 AI 工具，如 codex、claude code 或其他 Agent）：请阅读项目中的文档，游戏更新了，帮我重新进行翻译工作。
+```
+
 ## 依赖
 
 需要本机准备：

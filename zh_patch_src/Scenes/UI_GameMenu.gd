@@ -12,6 +12,7 @@ func _ready():
 	Global.options_menu_open = true
 	Global.options_menu_open = true
 	$version.text = str(Global.version)
+	write_static_text()
 	$Colors / Button_Blue / ColorRect.color = Color(0.05, 0, 0.1, 1)
 	$Colors / Button_Brown / ColorRect.color = Color(0.1, 0.05, 0, 1)
 	$Colors / Button_Green / ColorRect.color = Color(0, 0.1, 0.05, 1)
@@ -21,6 +22,27 @@ func _ready():
 	$Colors / Button_Tan2 / ColorRect.color = Color(0.2, 0.15, 0.05, 1)
 	$Colors / Button_Tan3 / ColorRect.color = Color(0.15, 0.05, 0.2, 1)
 	setup_deckbuttons("normal")
+
+func write_static_text():
+	$Button_Controls / Label_Quit.bbcode_text = "[color=#ffff50]?: [/color][color=#c0c0c0]控制[/color]"
+	$Button_Guide / Label_Quit.bbcode_text = "[color=#ffff50]g: [/color][color=#c0c0c0]指南[/color]"
+	$Fullscreen / Label.bbcode_text = "[color=#ffff50]ctrl-f: [color=#c0c0c0]全屏 / 窗口[/color]"
+	$Restore / Label.bbcode_text = "[color=#c0c0c0]恢复默认[/color]"
+	$ButtonAutoLevel / RichTextLabel.bbcode_text = "[center][color=#c0c0c0]自动加点\n[color=#707070]荣耀提升时"
+	$ButtonGamepad / RichTextLabel.bbcode_text = "[center][color=#c0c0c0]手柄支持\n[color=#707070]实验性"
+	$ButtonGamepad / RichTextLabel2.bbcode_text = "[center][color=#707070]使用 [img]res://Ham_Sprite/UI/gamepad_stick.png[/img][img]res://Ham_Sprite/UI/gamepad_a.png[/img][img]res://Ham_Sprite/UI/gamepad_b.png[/img][img]res://Ham_Sprite/UI/gamepad_y.png[/img][img]res://Ham_Sprite/UI/gamepad_x.png[/img]"
+	$ButtonRange / RichTextLabel.bbcode_text = "[color=#c0c0c0]显示攻击范围\n[color=#707070]鼠标悬停时"
+	$ButtonSpeedBars / RichTextLabel.bbcode_text = "[color=#c0c0c0]单位速度条\n[color=#707070]"
+	$ButtonWinners / RichTextLabel.bbcode_text = "[color=#c0c0c0]仅保存胜利者\n[color=#707070]到 Maqbara"
+	$ButtonAnimations / RichTextLabel.bbcode_text = "[color=#c0c0c0]快速模式\n[color=#707070]"
+	$ButtonFPS / RichTextLabel.bbcode_text = "[color=#c0c0c0]FPS 上限\n[color=#707070]"
+	$ButtonVSYNC / RichTextLabel.bbcode_text = "[color=#c0c0c0]垂直同步\n[color=#707070]关闭可极限加速"
+	$ButtonLog / RichTextLabel.bbcode_text = "[color=#c0c0c0]宽消息日志\n[color=#707070]"
+	$ButtonDetail / RichTextLabel.bbcode_text = "[color=#c0c0c0]详细数值\n[color=#707070]显示在日志中"
+	$ButtonLog2 / RichTextLabel.bbcode_text = "[color=#c0c0c0]浮动文字\n[color=#707070]"
+	$ButtonVictoryMarkers / RichTextLabel.bbcode_text = "[color=#c0c0c0]胜利标记\n[color=#707070]"
+	$ButtonCharges / RichTextLabel.bbcode_text = "[color=#c0c0c0]隐藏大生命条\n[color=#707070]荣耀与游戏回合"
+	$Colors / RichTextLabel.bbcode_text = "[color=#707070]背景颜色[/color]"
 
 func quit():
 	Global.options_menu_open = false

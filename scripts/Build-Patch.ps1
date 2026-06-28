@@ -235,6 +235,14 @@ Write-Step "Building loader PCK..."
 & $GDRETools --headless "--pck-patch=$originalPck" "--output=$loaderPck" `
     --patch-file="$((Join-Path $loaderBuildDir 'global.gd.remap'))=res://global.gd.remap" `
     --patch-file="$((Join-Path $loaderBuildDir 'global.gdc'))=res://global.gdc" `
+    --patch-file="$((Join-Path $patchScenes 'UI.gd.remap'))=res://Scenes/UI.gd.remap" `
+    --patch-file="$((Join-Path $patchScenes 'UI.gdc'))=res://Scenes/UI.gdc" `
+    --patch-file="$((Join-Path $patchScenes 'UI_Prestige.gd.remap'))=res://Scenes/UI_Prestige.gd.remap" `
+    --patch-file="$((Join-Path $patchScenes 'UI_Prestige.gdc'))=res://Scenes/UI_Prestige.gdc" `
+    --patch-file="$((Join-Path $patchScenes 'UI_Traits_Basic.gd.remap'))=res://Scenes/UI_Traits_Basic.gd.remap" `
+    --patch-file="$((Join-Path $patchScenes 'UI_Traits_Basic.gdc'))=res://Scenes/UI_Traits_Basic.gdc" `
+    --patch-file="$((Join-Path $patchSrc 'translate.gd.remap'))=res://translate.gd.remap" `
+    --patch-file="$((Join-Path $patchSrc 'translate.gdc'))=res://translate.gdc" `
     --patch-file="$((Join-Path $patchSrc 'MyFont.tres'))=res://MyFont.tres" `
     --patch-file="$((Join-Path $patchSrc 'MyFont2.tres'))=res://MyFont2.tres" `
     --patch-file="$((Join-Path $patchSrc 'MyFont3t.tres'))=res://MyFont3t.tres" `

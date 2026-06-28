@@ -570,6 +570,8 @@ func write_description(trait, button):
 	
 	
 	stringa = "[color=#c0c0c0]" + stringa
+	stringa = stringa.replace("[img]" + str(trait.sprite) + "[/img]", "")
+	stringa = stringa.replace(str(trait.sprite), "")
 	$Description / RichTextLabel.bbcode_text = stringa
 	
 	stringa = "[color=#a0a0a0][[color=#ffff50]1[/color]][/color] "
