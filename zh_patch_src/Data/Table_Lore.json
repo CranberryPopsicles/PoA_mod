@@ -1,0 +1,362 @@
+{
+  "Champion": {
+    "title": "Champion",
+    "text": "Champions 是追求武艺巅峰之人\n\n传说终结 Achra 牛巨人的，正是海岸平原上一位无名 Champion\n\n她拾起巨人那柄著名巨斧，向东方漫游而去，远远越过那片终结世界之海"
+  },
+  "BloodMage": {
+    "title": "BloodMage",
+    "text": "Blood Mages 的魔法源自 Irga 节庆；那节庆举行在隧道之地深处，位于地狱位面上方的裂隙之中\n\n他们呼唤“内在之血”，那是隐匿于无尽黑暗中的力量源泉\n\n他们说，一切皮肤，一切血肉，都是满溢的罐，都是等待开启之物"
+  },
+  "FlameKnight": {
+    "title": "FlameKnight",
+    "text": "传说在那场点燃燃烧之地的远古战争中，一位 Flame Knight 挥舞着由龙息锻成的巨剑\n\n他是 Azar 的追随者，却在战争女王统治期间被处决\n\n他那柄炽燃之剑为一个苍白无形的恶魔所觊觎，最终失落于群星之间"
+  },
+  "Shantih": {
+    "title": "Shantih",
+    "text": "第一位 Shantih 是一名 Kull 孤儿，在 Achra 的风暴神殿中长大\n\n她精通“闪电之舞”，成为游历海岸平原、聚集追随者的传奇决斗者\n\n她死于一位非自然的无声骑士之手；那骑士身披紫罗兰色铠甲，自群星中的道路坠落而来"
+  },
+  "FrostKnight": {
+    "title": "FrostKnight",
+    "text": "高冰川的 Inuga Frost Knights 曾抵抗 Surtmir 军队，以寒冽的盾牌魔法将他们击退至下方的裂隙之地\n\n这项传统被保存下来，成为对寒冰的赞颂，也象征劫掠的终结"
+  },
+  "Samnite": {
+    "title": "Samnite",
+    "text": "最初的 Samnites 是深林中赤裸上身的斗士，以一种魔法藤蔓为食\n\n他们之中最强者前往失落 Shuppurak 的宏大搏斗会，并在那里赢得声名，因为几乎无人能抵挡他们不可遏制的旺盛斗志"
+  },
+  "Sahasi": {
+    "title": "Sahasi",
+    "text": "Sahasi 是山中神殿之地的神圣战士，守护着质朴的入门者与寻求传承之人；他们渴望奥秘带来的庇护\n\n在神殿石仍然年轻的时代，一位预言性的 Ur-Magus 曾谈及一场湮灭群星的大战；Sahasi 教团正是围绕这份隐秘恐惧而形成\n\n随着力量增长，Sahasi 常会朝圣至星界之墙，在那里立誓守护 Achra，抵御闪烁黑暗中未知的恐怖"
+  },
+  "DeathKnight": {
+    "title": "DeathKnight",
+    "text": "Death Knights 曾是某位枯萎王子的骷髅奴仆，为死亡之门征战\n\n在一次横跨 Achra 的远征袭掠中，Death Knights 来到众神的沙漠；传说 Ashem 在那里露出微笑，并恢复了他们的意志\n\nDeath Knights 随即反叛，以沉重而无休止的打击压倒他们的王子，直到他的尸体最终被遗弃在旋卷沙尘之中"
+  },
+  "Dianmai": {
+    "title": "Dianmai",
+    "text": "Dianmai 在失落 Shuppurak 的搏斗会中声名鹊起，他们在那里学会了以秘传空手技法令敌人染病\n\n如今他们作为决斗者与刺客游荡于 Achra，尽管仍有许多人崇拜那座 doomed 城市的“毒石” Yu；这些 Dianmai 会朝圣至黎明沼泽下方的隧道之地，寻找传说中的 Yu 之翡翠城邦，那里藏有无数祝福，以及散发幽微绿光的遗物棱晶"
+  },
+  "Executioner": {
+    "title": "Executioner",
+    "text": "Executioners 在地下接受训练，与一座秘密隧道教堂中的红面具民众为伍\n\n燃烧之地的战争女王迷恋自己大理石宫殿的威仪，常派 Executioners 猎杀逃入群山的 Azar 祭司\n\n自那以后，Executioners 被视为染血的压迫者而令人畏惧，尽管他们并不效忠任何统治者，只服从自己的秘教信条：“屠戮之仪”，以此救赎大地的一切扭曲"
+  },
+  "MindKnightPrestige": {
+    "title": "MindKnightPrestige",
+    "text": "Mind Knights 是黄色教会的高贵战士，由主仆们训练，将自身意志导入武艺之中\n\n当 heliots 包围教会并威胁要毁灭它时，一位 Mind Knight 向 arch-heliot 发起仪式决斗\n\n传说白色太阳在她弧形挥出的刀刃上闪耀；当他们的首领在盐原上被完美地一分为二时，heliots 惊恐逃散"
+  },
+  "Pyromaniac": {
+    "title": "Pyromaniac",
+    "text": "第一位 Pyromaniac 是山中神殿之地的火焰祭司，他发现了火的秘密音节，并被赐予无尽的“升扬”\n\nPyromaniacs 追寻这道隐秘之音，通过仪式性的焚烧行为点燃自身；正是一位 Pyromaniac 冒然从圣山内部召来了第一头未驯服的 Red Dragon\n\n传说他被吞噬，而那头满溢着吞下之魔力的巨兽，则一路肆虐进终结世界之海"
+  },
+  "Tamasa": {
+    "title": "Tamasa",
+    "text": "当一位 Agni 的流浪祭司在风暴神殿避难时，他抛弃了毁灭之神，转而崇拜 Rabal，这位年轻的灾变风暴神\n\nRabal 会把力量赐给所有执行其焚身仪式的人；追求这门危险技艺者后来被称为 Tamasas\n\n这名祭司和他的 Tamasa 追随者很快因鲁莽触犯禁忌、行亵渎性的自我焚烧之举，而被风暴神殿放逐"
+  },
+  "Exultite": {
+    "title": "Exultite",
+    "text": "Exultites 源自 excorites，也就是燃烧之地的审判刽子手；战争女王死后，他们漫无目的地游荡进 Achra 群山\n\n传说他们发现了一座秘密隧道教堂；excorites 在那里避难，并从当地的红面具民众手中领受鲜血魔法的圣礼\n\n他们重获力量，以 Exultites 的身份现身，成为一个神秘的战斗秘教，聚集献祭性的追随者，只为有朝一日向终结世界之海“施行审判”"
+  },
+  "Topheth": {
+    "title": "Topheth",
+    "text": "在燃烧之地，当战争女王的统治崩塌时，一个秘密巫师集会逃离大理石宫殿，向南行至深林边界\n\n在 Lochra 之中，他们被称为 Topheths，以仪式性焚烧追随者而闻名，并拥有将生命力转化为死亡波浪的力量；久而久之，Tophethic 技艺被 Lochra 祭司团中的骷髅佩戴者所接纳\n\n然而，仍有一些祭司拒绝接受 Topheths，因为他们在燃烧之地的历史，以及他们在大理石宫殿中的真实角色，都已神秘失落"
+  },
+  "Arsonist": {
+    "title": "Arsonist",
+    "text": "Arsonists 最初是一支林地祭司的叛道教派，宣扬以仪式焚烧生命，为新的生长腾出空间\n\n当西方森林受到一头狂暴火龙威胁时，一个 Arsonists 集会将那头野兽诱入群山，并在那里凭热烈祈祷召出焦黑涌动的根须，熄灭了它的火焰\n\n如今 Arsonists 已是林地教团备受尊敬的盟友，以振奋性的热力修复 Achra 的森林"
+  },
+  "Surtmir": {
+    "title": "Surtmir",
+    "text": "成为 Surtmir 曾意味着追求火与冰的崇高融合，正如冰封荒原死神 Ragna 所教导的那样\n\n一场权力斗争后，许多 Surtmir 氏族沉醉于寒冰魔法，变成骇人的战士巨人，组成一支可怖军队\n\n守持旧道者仍会呼唤 Ragna 的远古之心，那是一枚赤红余烬，在闪耀寒冰之下颤动"
+  },
+  "Hazar": {
+    "title": "Hazar",
+    "text": "当一名被放逐的盐原 heliot 来到 Naqui 的神殿时，她被接纳进他们的调谐文化，并成为著名贤者\n\n随着时间推移，她将神殿之地的火焰魔法与自己的腐蚀仪式融为一体，最初的 Hazars 由此诞生；这些酸液大地的主人巡行西部群山，抵御深林中的怪物"
+  },
+  "Kashra": {
+    "title": "Kashra",
+    "text": "Kashra 是英勇的星辰战士，旅居星界之墙外，与 Pentot 的斗士交战；Pentot 是星界黑暗中的紫面具恶魔\n\n尽管 Pentot 数量众多且力量强大，只要仍有 Kashra 存活，他们便拒绝入侵 Achra，而更偏爱决斗节，那是受人尊崇的力量竞赛，在夜色闪烁的拱门间辉煌展开"
+  },
+  "Frenzied": {
+    "title": "Frenzied",
+    "text": "Frenzied Ones 将自己的秘教源头追溯到燃烧之地的一位王夫，他曾深受战争女王宠爱\n\n在大理石宫殿深处，王子发现了一副红面具，那是 Phoenix 的遗物，将他的精神点燃到超越一切束缚\n\n传说戴上面具后，王子举起金斧，抛下战争女王，向 Achra 的高塔发动战争，并在尖叫中诉说群星中一条伟大道路"
+  },
+  "Gothi": {
+    "title": "Gothi",
+    "text": "Gothi 是风暴神殿虔诚的战士祭司，被称为“精妙者”；他们体现着雷霆的“细密之光”，而这雷霆为 Hadad 所神圣\n\n据说风暴神殿是 Achra 的最高处；当终结世界之海上涨时，Gothi 立誓回到蓝色立柱之间，展现他们闪耀的技艺，成为大地最后的美，映照着坠入湮灭的一刻"
+  },
+  "Stormbringer": {
+    "title": "Stormbringer",
+    "text": "When a wide-ranging Arjana came to the storm temples of Achra, on a trade journey south, he was initiated into the blue-pillared hall, and learned the ways of Hadad, the storm-god at the beginning of the world\n\nHe became the first Stormbringer, famous among his folk; countless Granga, crawling up from the crevasse-lands, seeking to pillage Arjana wealth, were annihilated by his magic gale"
+  },
+  "Alizeh": {
+    "title": "Alizeh",
+    "text": "The Alizeh arose from a sect within the storm temples, Tengu priests of Auzom, the star-wind, child of Agara\n\nThough Auzom's name was lost, the Alizeh tradition persevered, and in time was brought to the Qamar of the astral wall, who welcomed the cursed bird-forms of the Tengu\n\nThe Alizeh now serve as rangers of the void, dancing swiftly along paths of blue-violet light"
+  },
+  "Bolga": {
+    "title": "Bolga",
+    "text": "When an Albaz traveler made pilgrimage to the storm temples, passing first through the gate of death, she was outcast for bearing the touch of blight\n\nIn the ravine-lands far below the temples, she founded the dreaded cult of Bolga, the unending black-clouded storm that revels in death"
+  },
+  "Shazuza": {
+    "title": "Shazuza",
+    "text": "The Shazuza are disciples of a forgotten calamity, the \"sickening thunder\" that once swept the Eastern desert\n\nThe first Shazuza was a sublime Ihra, who, defying the limits of flesh, learned to beckon lightning to smite the poisoned blood of her enemies\n\nShe became a terrible destroyer of rat-men, who, in those days, still swarmed up through the festering, many-tunneled dark"
+  },
+  "Samsi": {
+    "title": "Samsi",
+    "text": "When a storm-monk made pilgrimage to the yellow church, to learn from the master-servants there, she founded Samsi, the way of brilliance\n\nFor many years, her \"yellow lightning\" would persist as an overwhelming weapon against mindhunters and heliots of the salt waste"
+  },
+  "Damunja": {
+    "title": "Damunja",
+    "text": "The Damunja are assassins who trace their art to a wandering night-serpent that escaped a red-hued vortex in the stars\n\nWhen the serpent came to Achra, it taught the secrets of blood to the Damunja, along with the horror of the thunder-curse, which became their mark\n\nIn time, the serpent lost its power of speech and flight, and withdrew into the tunnel-lands, where it was sacrificed in an Irga festival of blood\n\nIt is said a red mist still presides in the deep chasms of the earth"
+  },
+  "Ormjarl": {
+    "title": "Ormjarl",
+    "text": "As the Lochra priesthood rose to power in the deep forest, they sent a contingent to the storm temples to learn the secrets of thunder-magic\n\nThey returned with a thunderdrake whelp, which in the dim closeness of the forest grew white horns instead of wings, and became the first Blue Wyrm\n\nOrmjarls are masters of Blue Wyrms, though in time many of the beasts would be stolen and raised as mounts for the rapacious Storm Knights, who covet the authority of the towers"
+  },
+  "Angiok": {
+    "title": "Angiok",
+    "text": "The Angioks are blessed priests of the Inuga, sworn enemies of the monstrous Tupilaq\n\nBy Inuga creed, the title of Angiok is available to all wanderers, provided they submit to the ordeal of spirit, the sacred emptying of heat\n\nThe outskirts of Inuga villages often contain the frozen bodies of failed Angioks, crouched like shrines, lost to the swirling earth"
+  },
+  "IceShah": {
+    "title": "IceShah",
+    "text": "The Ice Shahs are an Arba-founded cult of the northern waste, who perfect their magic of animate-ice at the foot of the high glaciers\n\nAll around their hidden temple, it is said, spreads an enchanted tundra of cold, green-blue vines, that guards them against the bronze-masked Granga, exiles of the blue tower, who pillage from their dwelling-palaces deep in the crevasse-lands"
+  },
+  "Mura": {
+    "title": "Mura",
+    "text": "The crystalline warren, secret burrow-temple of sorcerers and knights, who covet their inward-facing meditative arts, sometimes dispatches pilgrims to the surface lands of Achra\n\nThese are known as the Mura, mirror-summoners, who by arcane edict seek to reflect the world back upon itself, to redeem the warren's unknown mission beneath the earth"
+  },
+  "Dreamer": {
+    "title": "Dreamer",
+    "text": "Most Dreamers serve the goddess Mehtar, who slumbers deep within the high glaciers, guarding the world's edge with phantasms of ice\n\nSome, however, abstain from Mehtar's gift, choosing instead to wander Achra\n\nIt is said a Dreamer once came to the yellow church, to challenge the psychic art of the master-servants\n\nA battle ensued, a great spiral of blue light, it is said, and in the fading dusk a gentle rain fell on the salt waste"
+  },
+  "Uspori": {
+    "title": "Uspori",
+    "text": "It is said that the northern filth-valleys were disgorged by the green mother, after the first lowering of the waters, in disgust at the sudden brilliance of the stars\n\nIn that place of wild sickness, the Uspori are those who craft a unique paralyzing poison, through a secret ritual performed in hidden caves\n\nAccompanied by monstrous Bukavac, the Uspori are feared skirmishers, and often stand against blight-raiders from the gate of death"
+  },
+  "Berserker": {
+    "title": "Berserker",
+    "text": "The Berserkers are brutal fighters who roam the cold foothills of the deep forest\n\nIn combat, they mar themselves with ice, blood and deathly curses, known as the \"three kings of violence\"\n\nBerserkers are held sacred by the Lochra priesthood, where they are anointed as living offerings to the triumphant mysteries of pain"
+  },
+  "Anqarak": {
+    "title": "Anqarak",
+    "text": "Anqaraks are feral spirits from \"the land beyond the skin\"\n\nAmong the Inuga, the aspect of the Anqarak is often invoked when their territories are threatened by Ice Priests or Surtmir fanatics\n\nAfter a ritual burning of beast-fat, an anointed fighter takes on the Anqarak's long-clawed shape, and begins the sacred gathering of blood"
+  },
+  "VoidMage": {
+    "title": "VoidMage",
+    "text": "It was an Inuqqa of the Arjana who first stood against the Surtmir onslaught, as they poured blue-furred and monstrous from their volcano\n\nThe Inuqqa entered a trance; in a pillar of cold blue light, death rained down on the invaders\n\nThough a Surtmir war-king finally trumphed, beheading the Inuqqa, a great mound of his comrades lay withered and slain upon the frozen waste"
+  },
+  "ArchMagus": {
+    "title": "ArchMagus",
+    "text": "When hobgoblins, coveting the secrets of gold, made war upon the mountain temple-lands, it was a lone Arch-Magus who defended the pillared gate\n\nIt is said the Arch-Magus sank into a deep trance; within moments, the hobgoblins were destroyed in a hiss of astral flame, reduced to shapeless lights, that swayed like a field of transparent violet flowers"
+  },
+  "Arborus": {
+    "title": "Arborus",
+    "text": "Those who pursue meditation past the body's own life-limits, it is said, receive a new form, that draws from the root of life, the first grove whose worldly presence was destroyed long ago\n\nPractitioners take on the shape of an ancient, divine star-tree, called the tree of Arborus, glittering with flocks of cosmic wisps, hatched from the pink stars of the night"
+  },
+  "IllProphet": {
+    "title": "IllProphet",
+    "text": "When the green mother perished, Brud legend speaks of  an \"ill star\" that appeared in the sky\n\nIll Prophets are disciples of this star, and are said to themselves emit a strange light that warps the land itself into a glimmering, poisonous waste\n\nAbove the filth-valleys, there is a purple-hued mountain, whose slopes were long ago lost to the work of the Prophets, who prepare for the day when their star falls to Achra, and the spirit of the green mother is revived"
+  },
+  "Destroyer": {
+    "title": "Destroyer",
+    "text": "Destroyers begin their service as powerful mages of the gate of death, standing sentry upon the dark-violet ramparts\n\nWhen a Destroyer gains too much magic, enough to challenge the blight-princes, he is dressed in feathers and rags, fitted with a strange mask, and cast into the mountains above the crevasse-lands, to wage war against the Granga, who wield bronze chakrams and fear no violence"
+  },
+  "Psychonaut": {
+    "title": "Psychonaut",
+    "text": "When a Qamar sojourner came to the yellow church, she founded the cult of the Psychonauts, a hidden path by which priests could enter the stars\n\nThis path is studied in secret, for adept Psychonauts rarely return to Achra, preferring to flit through the passages of cosmic light, fearing the encumbrance of the earth"
+  },
+  "Horror": {
+    "title": "Horror",
+    "text": "Among the Koszmar, who writhe in their nameless chasm, to become a Horror is a triumph against suffering, a whirling, shapeless power\n\nThose who take on the aspect of Horror are scorned by the deities of Achra, who, it is said, fear and reject all gifts from \"beyond the stars\""
+  },
+  "Venite": {
+    "title": "Venite",
+    "text": "The Venites are fighters trained in the way of poison, the \"shimmering middle\" that overcomes both life and death\n\nThough they often defend the northern filth-valleys against blight priests and wandering monsters from the frozen waste, many Venites travel the lands of Achra, teaching their discipline\n\nDancing on the edge of decay, remembering the green mother, who died long ago, they sing \"O cusp! O shimmering emerald cusp!\""
+  },
+  "SnakeCharmer": {
+    "title": "SnakeCharmer",
+    "text": "Authority over serpents is renowned in the dawn marshes, where monstrous Acroserpents are bent to the will of Keliots\n\nLegend tells of a reptilian wanderer who once passed through the marshes, strangely colored, from the ancient Saurian clan, whose step mesmerized the serpents underfoot\n\nIt is said the serpents followed the wanderer out of the marshes in a great slithering mass, and the Snakedancer tradition remains, coveted by the brutal Keliots that rule the whispering reeds"
+  },
+  "Merzot": {
+    "title": "Merzot",
+    "text": "Those who poison their own blood to \"seek abomination\" are called Merzot\n\nWhen the Surtmirs sought to invade the filth-valleys, it was the Merzot who drove them back, with waves of foul-smelling gore"
+  },
+  "Vengati": {
+    "title": "Vengati",
+    "text": "The Vengati are a sect of Mesmers from the yellow church who took up residence in lost Shuppurak, where they were inspired by Yu, a goddess contained in a jade sculpture, known as the \"poisoned stone\"\n\nThrough the proliferation of sickness, the Vengati amplified their psychic art, though it is often said these practices sped the downfall of that great city"
+  },
+  "Plaguemancer": {
+    "title": "Plaguemancer",
+    "text": "It is said that Achra was once a world of cities, strung with wide-stone paths, until the coming of plague, the destroyer of delights\n\nPlaguemancers, in somber covens, keep dim remembrance of this devastation\n\nAmong the Brud of the filth-valleys, Plaguemancers are well-known as prophets and terrible, nation-destoying mystics, reaching far beyond the natural indignities of death"
+  },
+  "Doomsayer": {
+    "title": "Doomsayer",
+    "text": "Doomsayers are dreaded monks of the wilderness, empowered by an imprisoned cave-god of death\n\nScorned by the folk of Achra, Doomsayers are said to perform their gathering-rites in a secret canyon deep below the temple-lands, among the skulls of gigantic beasts from the ancient earth, that protrude mask-like from the stone"
+  },
+  "WormMonk": {
+    "title": "WormMonk",
+    "text": "The Worm-Born follow in the ways of an exiled grove priest\n\nUpon facing starvation in the deep forest of the West, the priest performed a desperate life-beckoning ritual\n\nHis body was fused with a multitude of emerald-hued worms, the swarming corpse-eaters of that wild place"
+  },
+  "Acolyte": {
+    "title": "Acolyte",
+    "text": "The Acolytes were once a sect of the Alhaja, who seek the highest piety\n\nNow, all Acolytes gather in a sacred yurt-city, in the desert of the gods, where they fast and burn incense, kneeling beneath plumes of dark-violet smoke\n\nIt is said their minds are filled with death and sacrifice, pleasing to divinity, which soars above every indulgence"
+  },
+  "PainCleric": {
+    "title": "PainCleric",
+    "text": "Pain Clerics are clergymen of the secret tunnel-church, teaching scriptures of blood beneath Achra\n\nTheir followers are themselves devoted to pain, which the Clerics channel into a terrible curse, often inflicted on doomed wanderers who breach the church's border-passages"
+  },
+  "EarthMage": {
+    "title": "EarthMage",
+    "text": "Briar Mages are friends of the Briarfolk, who dwell in the secret corners of the deep forest\n\nThey stand opposed to Bramble Priests, who hunt the Briarfolk, coveting their everliving vines\n\nOne day, according to the Briarfolk, the first grove will return, the forest will retake the world, vines will cover the mountains, and the terrible ocean will soften into clear, nourishing pools"
+  },
+  "Gliva": {
+    "title": "Gliva",
+    "text": "The first Gliva was a wandering druid who, during a pilgrimage into the tunnel-lands, discovered the \"hidden song\" of the mushrooms, a powerful psychic communion\n\nSeeking to spread their faith, Glivas now wander the deep forest of the West, where they are persecuted by the Lochra priesthood, who above all worship the redemptive possibilities of violence\n\nThe Glivas claim that one day the mushrooms will overtake the surface of Achra, and the first grove of the child-gods will be reborn in an image of fungal splendor"
+  },
+  "BloodDrinker": {
+    "title": "BloodDrinker",
+    "text": "The Blood-Drinkers began as a sect of Morlocks, devoting their bodies to sacred life-thirst\n\nLegends still remain of their emergence, where in one howling night they glutted themselves on the vitrea of cave-folk, in the hills below the Naqui temples\n\nThough the sect was annihilated by a Naqui Flame Knight, their cursed, invigorating desire entered the magic of Achra, waiting for those who choose to grasp it, deep in the pull of blood"
+  },
+  "Mesmer": {
+    "title": "Mesmer",
+    "text": "In the hierarchy of the yellow church, those master-servants who choose to venture into Achra are called Mesmers\n\nA Mesmer, seeking the wide lore of the earth, was traveling through lost Shuppurak when rat-men emerged from the plain and assaulted the ruined walls; there was a strange bell-sound, and, it is said, the entire force of rat-men lay down, their minds emptied, yellow-green eyes bulging in the dust"
+  },
+  "Mindbreaker": {
+    "title": "Mindbreaker",
+    "text": "The first Mindhunter was an initiate of the yellow church who questioned the wisdom of the master-servants, fearing the intoxication of psychic power\n\nExiled to the salt waste, he was abducted by Heliots and subjected to their terrible rites of dissolution\n\nAgainst this suffering, in the furious revolt of his spirit, it is said, the exile gained the secrets of blood-magic, and thereby became a deadly assassin, the first Mindhunter, eternal enemy and brutal mirror of the disciplined Mind Knights of the yellow church"
+  },
+  "Paragon": {
+    "title": "Paragon",
+    "text": "The Paragons were founded by the first, ancient king of lost Shuppurak\n\nIt is said the Paragon-anointed army of those days was unconquerable, turquoise-armored, bristling with immaculate lances; they famously slayed a Cave Worm of the deep earth, in a battle that flattened the coastal plains"
+  },
+  "Gallus": {
+    "title": "Gallus",
+    "text": "The Gallic order was born from the death of the Bull-Giant\n\nDesiring the power of earth-shaking, the first Gallus wore armor crafted from the giant's dense bones"
+  },
+  "Strijela": {
+    "title": "Strijela",
+    "text": "There was once a nameless Stran of the Eastern desert, whose companion animal was slain by a Torch Priest\n\nThe Stran descended on the tents of the torch-coven, her furious javelins flying in every direction; an Amir found her kneeling, grief-stricken among the impaled priests\n\nThe name he granted her, Strijela, has since become a title of great renown"
+  },
+  "Windblade": {
+    "title": "Windblade",
+    "text": "Windblades once roamed the Eastern desert as fighter-mystics, lending their skill to warring Amirs\n\nIn their tradition, it is said, \"No law, no heart's distemper, surpasses the nobility of thy flashing blade\""
+  },
+  "BheithNochti": {
+    "title": "BheithNochti",
+    "text": "The Bheith Nochti are sacred bare-chested fighters that once roamed the desert of the gods\n\nIn the purity of the desert, it is said, they found a secret place of absolute piety; in the hissing sand, a smooth terrace of white otherworldly stone"
+  },
+  "Aqliyya": {
+    "title": "Aqliyya",
+    "text": "The Aqliyya are a rebel sect of the yellow church \n\nDevoted to mind-fighting, they wander the salt waste and the desolate western mountains as sages and bringers of justice, often battling fanatic Brungle clans that seek to raid Achra from their worm-pits"
+  },
+  "Suwag": {
+    "title": "Suwag",
+    "text": "The Suwag are wandering fighters who enchant their weapons with animate gore\n\nIt is said the first Suwag was an Albaz warrior who explored deep into the tunnel-lands where she discovered a secret church of blood; hoping to purify the weaknesses of her blade, she embraced the church's painful, transforming mysteries"
+  },
+  "Starjumper": {
+    "title": "Starjumper",
+    "text": "The folk of Achra who pass into the stars are said to feel a joyous emancipation\n\nTo the Qamar of the astral wall, this freedom is cautioned as a spiritual ailment, a fall to edgelessness\n\nThe most ailed, the most joyful, are called Starjumpers, of those who wander the violet paths, who leap the widening dark"
+  },
+  "Uhrata": {
+    "title": "Uhrata",
+    "text": "The Uhratas of Achra are master prayer-singers, consigning their bodies to divine judgement\n\nIt was a sect of ecstatic Uhratas who first made pilgrimage to the shores of the path, rowing magnificent ribbon-hung ships from the ruined cove of lost Shuppurak; it is said their pious song was the first offering to the shadows of the towers"
+  },
+  "Oozemancer": {
+    "title": "Oozemancer",
+    "text": "When the green mother lived, the filth-valleys were a land of oozes, shimmering emerald creatures of elemental poison\n\nIn time, those who made pacts with the oozes became Oozemancers, and took up rulership of the filth-valleys \n\nWith the rise of the gate of death, the power of the oozes faded, though rare Oozemancers still wander the dim, poison mists"
+  },
+  "Necromancer": {
+    "title": "Necromancer",
+    "text": "Necromancers are those committed to the lore of reanimation, of death-from-life\n\nDesiring power, or striving for their own ends, they often stand opposed to edicts passed by the gate of death, and for generations have been hunted by its blight-princes"
+  },
+  "Liturgist": {
+    "title": "Liturgist",
+    "text": "In the mountain temple-lands of Achra, Liturgists are those who lead and combine the element-cults\n\nThey are followed by great crowds of zealots, who yearn to one day gather in the sacred pillars, streaked with violet, astral light"
+  },
+  "Elementalist": {
+    "title": "Elementalist",
+    "text": "It was an Elementalist who conjured the first temple of Achra, fabricating it from the young mountains and dedicating it to Spectra, the vanished goddess of rainbows, birth and the once-living sea. The temple is now considered nameless and lost, buried by the new deities of the temple-lands or, according to certain sages of the wilderness, hidden under the towers of the path\n\nIn the distortion of the ages, it has become increasingly rare for a true Elementalist to rise from the kinetic arts, though aspirant cultists often claim this title"
+  },
+  "Torturer": {
+    "title": "Torturer",
+    "text": "Torturers, it is said, first learned their art of the \"sacred agony\" from an exiled Slagh priest, who fled the deep forest for the safety of the winding mountains\n\nThough Torturers are often shunned in the temple-lands, they remain unmatched in subduing the giant Obars that rampage from the tunnels, who obey nothing but pain"
+  },
+  "Beastmaster": {
+    "title": "Beastmaster",
+    "text": "Beastmasters are trainers of rare beast-familiars who once served as arch-priests within the walls of Mardok's stone city\n\nIn lost Shuppurak, the Beastmasters gathered for a tournament of might, but were attacked by fire-pledged assassins from the burning lands, who coveted their Brass Dragons\n\nThe Beastmasters have since abandoned civilization, wandering the mountains and wild-places as duelists"
+  },
+  "Shapeshifter": {
+    "title": "Shapeshifter",
+    "text": "Long ago, a priest of lost Shuppurak made pilgrimage to the dawn marshes, and learned of a marsh-cleric who could take on serpent-shape\n\nCoveting this power, the priest stole the scroll of changing, but was instead cursed by the cleric, warped into a monstrous, chimeric form; he became the first Shapeshifter, whose green-hued blood craves transformation"
+  },
+  "LizardLord": {
+    "title": "LizardLord",
+    "text": "The Arch-Lizards are a sect of \"pure\" shapeshifters who trace their origin to the lost temples of the dawn marshes\n\nBeneath the mountains, where an underground river fans out into the coastal plains, the marshes were once ruled by serpent-kings in noble splendor\n\nNow it is a place of brutality, the endless hunting-ground of keliots and their servant-beasts"
+  },
+  "UrBeast": {
+    "title": "UrBeast",
+    "text": "The Ur-Beast is a spirit of the deep forest, whose aspect is often invoked by battle-crazed fighters of the berserkergang\n\nWithin the Lochra priesthood, the Ur-Beast's intense fury is viewed as both a miracle and a deep wretchedness, a violence that both preserves and consumes the world\n\nIt is the fate of many who invoke the Ur-Beast to finally degrade into Gora, yelping hounds of mindless bloodlust, banished to the astral dark, howling ever-hungry above the lands of Achra"
+  },
+  "NightCrow": {
+    "title": "NightCrow",
+    "text": "The Night-Crows began as a sect of sorcerers who were cast out from the gate of death\n\nDressed in humiliating feathered garments, they wandered the bleak northern mountains until they came upon the corpse of a giant, iridescent crow; the sorcerers ate of its magic, decaying flesh, forever gaining its power and shape\n\nThe Night-Crows are now called the \"wild path\" for aspiring mystics, who wish to pursue the glory of the stars"
+  },
+  "Anroth": {
+    "title": "Anroth",
+    "text": "Before the first distortions of the earth, Anroth was a fighter raised to divinity. It was Anroth alone who struggled upon the crumbling wheel of light, the descending rainbow of creation, for nameless years, vanquishing demons of the fecund dark \n\nThose who walk the path of Anroth abstain from glory-given powers, immensely raising their natural abilities and strengthening their weapons. Their emblem is a shield bearing the first rainbow, that whirls in every direction"
+  },
+  "Ogham": {
+    "title": "Ogham",
+    "text": "A rebel sect that began among Lochra skull-wearers, the mute Ogham follow a strict orthodoxy that forbids the utterance of divine language. To pray is instead to partake in the mystery of violence, the splling of gore\n\nThe Ogham refuse the favor of their deities, seeking redemption chaotically in the roar of battle\n\n\"Mutter no prayer, for war is thy invocation\""
+  },
+  "Struggler": {
+    "title": "Struggler",
+    "text": "Sometimes, from the contortions of history, a lone wanderer will emerge to challenge the nameless, shapeless beings that swarm from gulfs beyond the void\n\nDriven by revenge or sheer tenacity, they are often hunted to brutal annihilation, erased from the memory of the earth, but for those washed in the utmost purity of violence, striding glorious through the howling wastelands of the path"
+  },
+  "victory": {
+    "title": "victory",
+    "text": "The Path of Achra, island of towers, is said to be at the spiritual center\n\nThose who rule the towers claim dominion over Achra\n\nWhen the Obelisk rose, last from the dune sea, history became another distortion of light\n\nThe astral wall was pierced\n\nBeyond the star-path, against the surpassing dark, a final dominion was claimed\n\nSo began the great night of Achra, of the roiling, world-ending sea\n\nHere, pilgrims seek their glory, as a terrible wind howls, at the edges of all things..."
+  },
+  "martial": {
+    "title": "martial",
+    "text": "In the unending battles of Achra, the violence of the path, there are many forms of martial excellence\n\nChampions and duelists roam the coastal plains, teaching the disciplined fighter-lore of lost Shuppurak\n\nIn the deep forest, the mountains and wild places, bare-chested wanderers attain brutal might, while assassins perfect their subtle art\n\nThe way of \"Martial Purity\" was taught by a nameless Strijela of the eastern desert; in her words, \"Nothing is greater in life; all are welcome to the contest of force\""
+  },
+  "fire": {
+    "title": "fire",
+    "text": "It is said fire was once the domain of Phoenix, a star-goddess of Achra, before it was stolen by Azar, who carried it to the lands below to revive Agni, his divine twin\n\nIn the burning lands, the last followers of Azar were slaughtered by excorites of the war-queen upon her violent ascension, while priests of Agni fled into the wilderness\n\nBeyond, to the many cults of Achra, fire magic is a symbol of both destruction and vitality\n\nThe \"Path of Fire\" is taught by flame priests, who worship in the mountain temple-lands, among pillars of orange stone"
+  },
+  "lightning": {
+    "title": "lightning",
+    "text": "In the southern reaches of the mountain temple-lands, the storm temples stand apart, blessed by Hadad himself, it is said, in the first lowering of the waters\n\nIt was a sorcerer of the storm temples who called the first thunderdrakes down to Achra\n\nBeasts of sparkling power, their blood was coveted by those who became known as the thunder priests, who abandoned their temples for the hubris of the towers\n\nThe \"Path of Lightning\" is taught by those who remain, who contemplate the storm, how the world may end, a final perfection of wind and light"
+  },
+  "astral": {
+    "title": "astral",
+    "text": "When the divine gaze first rained light through the void, the stars lay upon Achra as glittering forests\n\nIn the blooming of the dark, the gaze recoiled from its own radiance; all was drawn upward, the stars like beads on a string\n\nThus, the star-path was formed, as written in the tract of Ikshana\n\nAccordingly, those who seek \"Astral Purity\" yearn continually upward, from the wilds of Achra to the temple-lands, to the towers of the path and the astral wall, that guards against beasts of the star-wind, and beyond...\n\nAspirant archi-magi, questing knights of the crystalline warren, Psychonauts, the \"wandering king\" himself, all have pursued their art toward the legendary star-path, often to their doom, where Pentots, brutal violet-armored knights and great demons of nameless stature roam the passages of light"
+  },
+  "ice": {
+    "title": "ice",
+    "text": "There are vast lands of Achra where ice rules all; the frozen waste, the ice caves of the Albaz, the crevasse-lands\n\nGreatest are the high glaciers, world-spanning, final edge of the divine gaze, border of chaos, birthplace of the Siku, where none have passed\n\nThose who seek the \"Path of Ice,\" Angioks, priests, often suffer its intoxication, and in a frenzy make war upon the middle lands of Achra, as annihilators of decay, heat, formlessness itself\n\nAccording to Inuga sages, this frenzy is what drove the Surtmir army to its final, gruesome invasion of the infernal plane"
+  },
+  "death2": {
+    "title": "death2",
+    "text": "In the gate of death, fortress of the blight-princes, goddess-corpse, where Eresh squats in dim grief, death magic reigns supreme\n\nThose who truly walk the \"Path of Death\" are therefore said to have gazed \"between the teeth of Eresh\"\n\nIn the expanses of Achra, there are many who carry death's mantle; the ancient, imprisoned cave-god of death, sullen beneath the world; apostate Skin Priests, their crowds of Gehen, with pilgrim Death knights, who seek freedom from the cosmic struggle; wandering Basilisks and Withered Imps, spreading blight-paths; wild Deathdrakes, enraged beneath their decaying curse; skull-wearers of the Lochra priesthood, who seek power through violent rites \n\nTo the sages of the temple-lands, death is the final element, a vitalizing blot in the admixture of the earth"
+  },
+  "psychic": {
+    "title": "psychic",
+    "text": "The way of \"Psychic Purity\" is embodied by master-servants of the yellow church\n\nThe church contains powerful relics of the ancient earth, and is defended by a militant priesthood against mindhunters and pale heliots of the salt waste\n\nMany of these priests, seduced by the boundlessness of their ability, are themselves driven into exile\n\nBy \"dreaming beyond the stars,\" it is said, they sojourn through the gate of horn, to the terrible mind-warren of the astral dark, where they form a pact with a gold demon by drinking its ichor\n\nThese intoxicated priests, still adorned in the bright robes of the yellow church, seek to cross the astral wall and discover the \"room at the end of the mind,\" where a great truth awaits them, shut past all thought"
+  },
+  "life": {
+    "title": "life",
+    "text": "The \"Path of Life,\" all magic of growth, springs from the first grove, divine forest of the ancient earth\n\nPride of the green mother, her children dwelled there in splendor until it was destroyed by a warrior-king, who, seeking glory, felled the giant life-giving pines with a legendary cleaver\n\nThis, it is said, is how the divine siblings Ninhurs and Humbaba, filled with poison and rage, became king-haters, enemies of the Obelisk until the last rising of the waters\n\nFerods and other monsters, vengeance-blind fragments of the grove's magic, now wander the deep forest of the West, while the hidden nation of Briarfolk prays for its final, apocalyptic return"
+  },
+  "blood": {
+    "title": "blood",
+    "text": "Though the \"Path of Blood\" is widely preached by gore cults who roam the mountains and deserts of Achra, blood-magic is traced to stranger realms\n\nDeep in the tunnel-lands, above the infernal plane, the red-furred Irga congregate in festivals of blood, where they sacrifice groaning beasts to the \"inner blood\" that \"surges beyond the dark\"\n\nIn the temple-lands, Blood Mages often speak of this place; a gyre of blood rotating through the stars, itself a great red star, curled like a snake, that presides within the blood-pull of life, a font to which all history vanishes"
+  },
+  "poison": {
+    "title": "poison",
+    "text": "Though cults of poison thrive in the deep forest and dawn marshes, nowhere does its magic hold greater sway than the northern filth-valleys\n\nAll poison comes from the green mother, it is said, the source of all life, who the Brud of the filth-valleys once worshipped during the reign of the oozes\n\nIn the aging of Achra, the green mother became \"divided from life\" and lay down in the mountains\n\nA dark-violet citadel rose from her corpse, now called the gate of death, throne of the blight-princes\n\nThough the Brud have turned to doom-magic, the green mother is still invoked by Venites, great fighters who spread the \"Path of Poison\" throughout Achra, the \"shimmering middle\" between life and death"
+  },
+  "powerless": {
+    "title": "powerless",
+    "text": "Many who walk the path of Achra crave the great glory-won powers of magic and skill\n\nRare pilgrims will abstain from the great powers, keeping a vow of humility\n\nTo ones such as these, glory alone is the prize, a divine mystery that glimmers above the earth"
+  }
+}
