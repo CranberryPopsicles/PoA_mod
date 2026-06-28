@@ -122,6 +122,7 @@
 | Frozen vines | 冰藤 | Ice Shah 相关地形。 |
 | Strange tint | 异色 | Ill Prophet 相关地形。 |
 | Plant | 植物 | 生命系召唤/盟友类别。 |
+| Reptile | 爬行动物 | Snakedancer/Serpent 相关盟友类别。 |
 | Skill level | 技能等级 | 能力说明中的 level 计数。 |
 | Learn | 学习 | 获得能力时的触发条件。 |
 | Self-damage | 自伤 | 自身对自身造成的伤害。 |
