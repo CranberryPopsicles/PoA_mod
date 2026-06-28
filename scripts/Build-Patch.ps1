@@ -125,7 +125,10 @@ $sceneScripts = @(
     'Graveyard.gd',
     'Continent.gd',
     'UI_Popup.gd',
-    'UI_Popup_Nongame.gd'
+    'UI_Popup_Nongame.gd',
+    'Player.gd',
+    'Tile.gd',
+    'UI_God.gd'
 )
 foreach ($script in $sceneScripts) {
     $scriptPath = Join-Path $patchScenes $script
