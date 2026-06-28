@@ -483,8 +483,8 @@ margin_right = 376.0
 margin_bottom = 145.0
 mouse_filter = 2
 bbcode_enabled = true
-bbcode_text = " [color=#ffff00][/color][color=#ff7050]STR[/color]"
-text = " STR"
+bbcode_text = " [color=#ffff00][/color][color=#ff7050]力量[/color]"
+text = " 力量"
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -607,8 +607,8 @@ margin_right = 433.0
 margin_bottom = 145.0
 mouse_filter = 2
 bbcode_enabled = true
-bbcode_text = " [color=#ffff00][/color][color=#50ff70]DEX[/color]"
-text = " DEX"
+bbcode_text = " [color=#ffff00][/color][color=#50ff70]敏捷[/color]"
+text = " 敏捷"
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -720,8 +720,8 @@ margin_right = 487.0
 margin_bottom = 145.0
 mouse_filter = 2
 bbcode_enabled = true
-bbcode_text = " [color=#ffff00][/color][color=#c050ff]WIL[/color]"
-text = " WIL"
+bbcode_text = " [color=#ffff00][/color][color=#c050ff]意志[/color]"
+text = " 意志"
 __meta__ = {
 "_edit_use_anchors_": false
 }

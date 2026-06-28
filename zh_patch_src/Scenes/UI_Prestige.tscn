@@ -137,7 +137,7 @@ margin_top = 112.0
 margin_right = 870.0
 margin_bottom = 670.0
 bbcode_enabled = true
-text = "top here"
+text = "选择一项查看说明"
 
 [node name="Border" type="Sprite" parent="."]
 position = Vector2( 320, 240 )
