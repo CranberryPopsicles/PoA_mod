@@ -7273,7 +7273,7 @@
     "boss": true,
     "summoned": false,
     "rumor": "世界尽头的神矗立在这里……",
-    "intro": "The [color=#af9060]Horror Giant[/color] apprehends you!\n\n\"Little pilgrim...The end is near...\"",
+    "intro": "[color=#af9060]Horror Giant[/color] 截住了你！\n\n“小朝圣者……终末近了……”",
     "taunt": "[color=#af9060]Horror Giant[/color] 分解了你的身体……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 0,
@@ -7289,8 +7289,8 @@
     "resist_lightning": 0,
     "speech": false,
     "phrase": [
-      "Pilgrim! Who rules thy fear?",
-      "O horror..."
+      "朝圣者！谁支配着汝之恐惧？",
+      "哦，恐怖……"
     ],
     "speechtype": "cries"
   },
@@ -7357,7 +7357,7 @@
     "boss": true,
     "summoned": false,
     "rumor": "一个无思的形体在此进食……",
-    "intro": "The [color=#af9060]Voggite[/color] emerges through a slit in the air!\n\nThe walls vibrate. Sour smell of metal...",
+    "intro": "[color=#af9060]Voggite[/color] 从空气裂口中现身！\n\n墙壁震颤。金属酸味弥漫……",
     "taunt": "[color=#af9060]Voggite[/color] 吞噬了你的身体……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 50,
@@ -7373,8 +7373,8 @@
     "resist_lightning": 0,
     "speech": false,
     "phrase": [
-      "Med voga...ad voga...",
-      "O shapeless will..."
+      "Med voga……ad voga……",
+      "哦，无形意志……"
     ],
     "speechtype": "cries"
   },
@@ -7442,7 +7442,7 @@
     "boss": true,
     "summoned": false,
     "rumor": "一头盘卷野兽在火红天空中闪现……",
-    "intro": "The [color=#af9060]Robak[/color] writhes forth!\n\nO pale dancer...",
+    "intro": "[color=#af9060]Robak[/color] 扭动着现身！\n\n哦，苍白舞者……",
     "taunt": "[color=#af9060]Robak[/color] 以致盲火焰环绕了你……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 0,
@@ -7458,8 +7458,8 @@
     "resist_lightning": 75,
     "speech": false,
     "phrase": [
-      "O pale flame...",
-      "Blessed dancer!"
+      "哦，苍白火焰……",
+      "受祝福的舞者！"
     ],
     "speechtype": "cries"
   },
@@ -7525,7 +7525,7 @@
     "boss": true,
     "summoned": false,
     "rumor": "一群紫袍教徒恍惚站立：“哦，花朵……哦，不动之面……黑暗之外……”",
-    "intro": "The [color=#af9060]Jeweled Visage[/color] rises!\n\nO wretched sight!",
+    "intro": "[color=#af9060]Jeweled Visage[/color] 升起！\n\n哦，可憎之景！",
     "taunt": "[color=#af9060]Jeweled Visage[/color] 令你僵立……一阵颤抖的呼吸……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 0,
@@ -7541,8 +7541,8 @@
     "resist_lightning": 50,
     "speech": false,
     "phrase": [
-      "Little pilgrim...prepare thy gaze...",
-      "It watches! Beyond the dark..."
+      "小朝圣者……准备好汝之凝视……",
+      "它在注视！在黑暗之外……"
     ],
     "speechtype": "cries"
   },
@@ -9069,7 +9069,7 @@
     "boss": true,
     "summoned": false,
     "rumor": "一道孤独身影立于星石之上……",
-    "intro": "The [color=#30ff90]King of Many Colors[/color] appears!\n\n\"O disciples...\"",
+    "intro": "[color=#30ff90]King of Many Colors[/color] 出现了！\n\n“哦，门徒们……”",
     "taunt": "[color=#30ff90]King of Many Colors[/color] 将你投入深渊……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 0,
@@ -9085,8 +9085,8 @@
     "resist_lightning": 0,
     "speech": false,
     "phrase": [
-      "O sickly night...",
-      "O king of dissolution..."
+      "哦，病腐之夜……",
+      "哦，溶解之王……"
     ],
     "speechtype": "cries"
   },
