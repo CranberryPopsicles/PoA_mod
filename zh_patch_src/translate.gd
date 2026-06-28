@@ -347,7 +347,9 @@ static func visible_text(text):
 		"Hit": "命中",
 		"Glory": "荣耀",
 		"self-damage": "自伤",
-		"anything": "任意能力"
+		"anything": "任意能力",
+		"Jin-bu": "进步",
+		"Anqarak": "安卡拉克"
 	}
 	for key in replacements:
 		stringa = stringa.replace(key, replacements[key])
