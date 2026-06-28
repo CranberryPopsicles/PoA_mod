@@ -281,10 +281,10 @@ func _on_Clear_pressed():
 
 func _on_Clear_mouse_entered():
 	var stringa = ""
-	stringa += "[color=#a00000]Clear all prestige-related steam achievements[/color]"
-	stringa += "\n\n[color=#707070]Achievements for prestige classes were recently changed on 1/10/24 to require victory, and their wording on steam was also changed (from just having to unlock them)"
-	stringa += "\n\nIf you'd like to re-earn them on steam, this should [color=#a00000]clear all the achievements for prestige classes[/color] that you HAVEN'T since won with"
-	stringa += " after Version 0.9.4.6  'Feats'"
+	stringa += "[color=#a00000]清除所有进阶职业相关的 Steam 成就[/color]"
+	stringa += "\n\n[color=#707070]进阶职业成就在 2024-01-10 前后改为需要取得胜利才会达成，Steam 上的文字也从“解锁即可”改成了胜利要求"
+	stringa += "\n\n如果你想在 Steam 上重新获取这些成就，此操作会[color=#a00000]清除所有你尚未再次取胜的进阶职业成就[/color]"
+	stringa += "，以 0.9.4.6 版本后的“事迹”记录为准"
 	$RichTextLabel.bbcode_text = stringa
 
 
