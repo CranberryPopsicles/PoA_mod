@@ -2992,7 +2992,7 @@
     "boss": true,
     "summoned": false,
     "rumor": "你听见非自然风暴的回声",
-    "intro": "The [color=#0060ff]Thunderdrake[/color] roars!\n\nSparks dance through the air...",
+    "intro": "[color=#0060ff]Thunderdrake[/color] 咆哮！\n\n火花在空中飞舞……",
     "taunt": "[color=#0060ff]Thunderdrake[/color] 发出刺耳咆哮。你的身体被闪电填满……",
     "sprite_corpse": "CorpseRed",
     "resist_slash": 0,
@@ -3008,8 +3008,8 @@
     "resist_lightning": 90,
     "speech": false,
     "phrase": [
-      "Thunder take thee!",
-      "O sparking beast..."
+      "愿雷霆吞没汝！",
+      "哦，迸火的野兽……"
     ],
     "speechtype": "cries"
   },
@@ -3073,7 +3073,7 @@
     "boss": true,
     "summoned": false,
     "rumor": "你听见污秽蒸汽的嘶声",
-    "intro": "The [color=#50ff00]Fumedrake[/color] roars!\n\nA deadly stench billows...",
+    "intro": "[color=#50ff00]Fumedrake[/color] 咆哮！\n\n致命恶臭翻涌而来……",
     "taunt": "[color=#50ff00]Fumedrake[/color] 愉悦地嘶鸣。你的身体屈服于翻腾疾病……",
     "sprite_corpse": "CorpseRed",
     "resist_slash": 0,
@@ -3089,8 +3089,8 @@
     "resist_lightning": 0,
     "speech": false,
     "phrase": [
-      "O sickly beast...",
-      "Venom take thee!"
+      "哦，病腐的野兽……",
+      "愿毒液吞没汝！"
     ],
     "speechtype": "cries"
   },
@@ -3155,7 +3155,7 @@
     "boss": true,
     "summoned": false,
     "rumor": "你观察到一群神志错乱的信徒。他们声称追随“暗影之神”",
-    "intro": "The [color=#8030af]Umbrarch[/color] raises a shimmering blade...\n\n\"Little pilgrim...you have climbed so high...\"",
+    "intro": "[color=#8030af]Umbrarch[/color] 举起一柄闪光之刃……\n\n“小朝圣者……你爬得真高……”",
     "taunt": "[color=#8030af]Umbrarch[/color] 咧嘴笑道：“小朝圣者……”",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 0,
@@ -3171,8 +3171,8 @@
     "resist_lightning": 50,
     "speech": false,
     "phrase": [
-      "O exile...",
-      "The shadow nears..."
+      "哦，流放者……",
+      "暗影近了……"
     ],
     "speechtype": "cries"
   },
@@ -3239,7 +3239,7 @@
     "boss": true,
     "summoned": false,
     "rumor": "恐惧的旅人谈起“黄金之王”",
-    "intro": "The [color=#ff0070]Irga Knight[/color] blocks your path...\n\n\"O lord of dismemberment...witness my axe...\"",
+    "intro": "[color=#ff0070]Irga Knight[/color] 挡住了你的道路……\n\n“哦，肢解之主……见证我的斧……”",
     "taunt": "[color=#ff0070]Irga Knight[/color] 将你一分为二……“主啊……荣耀我……”",
     "sprite_corpse": "CorpseRed",
     "resist_slash": 0,
@@ -3255,8 +3255,8 @@
     "resist_lightning": 0,
     "speech": false,
     "phrase": [
-      "Bless me! O red lord!",
-      "Thy golden blade..."
+      "祝福我！哦，赤红之主！",
+      "汝之黄金利刃……"
     ],
     "speechtype": "cries"
   },
@@ -3322,7 +3322,7 @@
     "boss": true,
     "summoned": false,
     "rumor": "奇异的红蓝火焰在空中变幻",
-    "intro": "The [color=#5070ff]Ikuma[/color] beats its chest!\n\n\"O stench of fire! O ripple of ice!\"",
+    "intro": "[color=#5070ff]Ikuma[/color] 捶打胸膛！\n\n“哦，火焰的恶臭！哦，寒冰的涟漪！”",
     "taunt": "[color=#5070ff]Ikuma[/color] 在你冻结的身体上方吼出颂咒……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 0,
@@ -3338,8 +3338,8 @@
     "resist_lightning": 0,
     "speech": false,
     "phrase": [
-      "O wretched ice...",
-      "O twisted flame..."
+      "哦，可憎之冰……",
+      "哦，扭曲之焰……"
     ],
     "speechtype": "cries"
   },
@@ -3402,7 +3402,7 @@
     "boss": true,
     "summoned": false,
     "rumor": "你听见回荡的尖啸",
-    "intro": "The [color=#906010]Ruk[/color] spreads its mighty wings!",
+    "intro": "[color=#906010]Ruk[/color] 展开强有力的双翼！",
     "taunt": "[color=#906010]Ruk[/color] 用利爪碾碎了你……",
     "sprite_corpse": "CorpseRed",
     "resist_slash": 0,
@@ -3418,8 +3418,8 @@
     "resist_lightning": 0,
     "speech": false,
     "phrase": [
-      "Blessed feather! Guide me!",
-      "O lofty beast..."
+      "受祝福的羽毛！指引我！",
+      "哦，崇高的野兽……"
     ],
     "speechtype": "cries"
   },
@@ -3484,7 +3484,7 @@
     "boss": true,
     "summoned": false,
     "rumor": "你看见大地破裂出的深邃裂隙",
-    "intro": "The [color=#704030]Cave Worm[/color] emerges from the depths!",
+    "intro": "[color=#704030]Cave Worm[/color] 从深处钻出！",
     "taunt": "[color=#704030]Cave Worm[/color] 用沉重盘卷将你碾成粉末……",
     "sprite_corpse": "CorpseRed",
     "resist_slash": 50,
@@ -3500,8 +3500,8 @@
     "resist_lightning": 0,
     "speech": false,
     "phrase": [
-      "The earth trembles!",
-      "O sacred weight..."
+      "大地颤抖！",
+      "哦，神圣的重量……"
     ],
     "speechtype": "cries"
   },
@@ -3567,7 +3567,7 @@
     "boss": true,
     "summoned": false,
     "rumor": "奇异红花附着在墙上。你闻到灰烬气味",
-    "intro": "The [color=#70af00]Red Flower[/color] blooms!\n\nStench of rage...",
+    "intro": "[color=#70af00]Red Flower[/color] 盛放！\n\n愤怒的恶臭……",
     "taunt": "[color=#70af00]Red Flower[/color] 将你拖入它沸腾的花苞……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": -100,
@@ -3583,8 +3583,8 @@
     "resist_lightning": 0,
     "speech": false,
     "phrase": [
-      "Little pilgrim...thy master blooms...",
-      "O trembling bud..."
+      "小朝圣者……汝之主人盛放了……",
+      "哦，颤抖的花苞……"
     ],
     "speechtype": "cries"
   },
@@ -3647,7 +3647,7 @@
     "boss": true,
     "summoned": false,
     "rumor": "一面细长的藤绿色旗帜在风中起伏",
-    "intro": "The [color=#20af60]Fey Partisan[/color] ambushes you!\n\n\"O mortal...Despoiler!\"",
+    "intro": "[color=#20af60]Fey Partisan[/color] 伏击了你！\n\n“哦，凡人……亵渎者！”",
     "taunt": "[color=#20af60]Fey Partisan[/color] 用令人作呕的长枪刺向你……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 0,
@@ -3663,8 +3663,8 @@
     "resist_lightning": 90,
     "speech": false,
     "phrase": [
-      "O ageless trod...",
-      "O green beyond..."
+      "哦，无龄的禁行之路……",
+      "哦，彼方之绿……"
     ],
     "speechtype": "cries"
   },
