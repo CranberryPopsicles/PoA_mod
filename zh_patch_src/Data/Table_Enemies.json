@@ -1154,7 +1154,7 @@
     "boss": true,
     "summoned": false,
     "rumor": "你闻到烟味。大地在颤抖",
-    "intro": "The [color=#ff7000]Firedrake[/color] roars!\n\nHeat...unbearable heat...",
+    "intro": "[color=#ff7000]Firedrake[/color] 咆哮！\n\n热……难以忍受的炽热……",
     "taunt": "[color=#ff7000]Firedrake[/color] 胜利地咆哮。你的身体被火焰覆盖……",
     "sprite_corpse": "CorpseRed",
     "resist_slash": 0,
@@ -1170,8 +1170,8 @@
     "resist_lightning": 50,
     "speech": false,
     "phrase": [
-      "O scorching breath! Redeem me!",
-      "Flame take thee!"
+      "哦，灼热吐息！救赎我！",
+      "愿火焰吞没汝！"
     ],
     "speechtype": "cries"
   },
@@ -1235,7 +1235,7 @@
     "boss": true,
     "summoned": false,
     "rumor": "旅人谈起“死亡之翼”",
-    "intro": "The [color=#a0a000]Deathdrake[/color] hisses viciously!\n\nThe stench...foul redolence...",
+    "intro": "[color=#a0a000]Deathdrake[/color] 恶毒地嘶鸣！\n\n恶臭……污秽的气息……",
     "taunt": "[color=#a0a000]Deathdrake[/color] 发出令人作呕的咆哮。你的身体枯萎了……",
     "sprite_corpse": "CorpseRed",
     "resist_slash": 0,
@@ -1251,8 +1251,8 @@
     "resist_lightning": 0,
     "speech": false,
     "phrase": [
-      "O cursed beast...",
-      "Blight take thee!"
+      "哦，受诅咒的野兽……",
+      "愿枯萎吞没汝！"
     ],
     "speechtype": "cries"
   },
@@ -1315,7 +1315,7 @@
     "boss": true,
     "summoned": false,
     "rumor": "此处有一座巨大的头骨堆，上面覆盖着苔藓和闪光紫花",
-    "intro": "The [color=#30af40]Slagh Astromancer[/color] gestures at you...\n\n\"O pilgrim...beast of hungry stars...my trophy...\"",
+    "intro": "[color=#30af40]Slagh Astromancer[/color] 向你作出手势……\n\n“哦，朝圣者……饥饿群星的野兽……我的战利品……”",
     "taunt": "[color=#30af40]Slagh Astromancer[/color] 围着你昏迷的身体起舞。一道紫罗兰色裂隙出现了……",
     "sprite_corpse": "CorpseRed",
     "resist_slash": -25,
@@ -1331,8 +1331,8 @@
     "resist_lightning": 0,
     "speech": false,
     "phrase": [
-      "Our vizier awaits thee...",
-      "O hungry stars..."
+      "我们的维齐尔正等着汝……",
+      "哦，饥饿的群星……"
     ],
     "speechtype": "cries"
   },
@@ -1397,7 +1397,7 @@
     "boss": true,
     "summoned": false,
     "rumor": "你看见一座由粪便制成的恐怖雕像。它呈王冠形状",
-    "intro": "The [color=#c0c040]Burrow King[/color] rises from his pile of dung...\n\n\"Squeak squeak\"...such horrific nobility...",
+    "intro": "[color=#c0c040]Burrow King[/color] 从粪堆中升起……\n\n“吱吱”……何等恐怖的高贵……",
     "taunt": "[color=#c0c040]Burrow King[/color] 发出命令般的尖叫。你的身体被刺穿……",
     "sprite_corpse": "CorpseRed",
     "resist_slash": 0,
@@ -1413,8 +1413,8 @@
     "resist_lightning": 0,
     "speech": false,
     "phrase": [
-      "O lord of dung...",
-      "Chittering master..."
+      "哦，粪土之主……",
+      "吱喳作响的主人……"
     ],
     "speechtype": "cries"
   },
@@ -1479,7 +1479,7 @@
     "boss": true,
     "summoned": false,
     "rumor": "你看见一座沾满鲜血的爬行动物圣祠",
-    "intro": "The [color=#ff4040]Gil-Elga[/color] raises its scythe...\n\nA god of blood is near...",
+    "intro": "[color=#ff4040]Gil-Elga[/color] 举起镰刀……\n\n鲜血之神近在咫尺……",
     "taunt": "[color=#ff4040]Gil-Elga[/color] 斩开了你。鲜血奔涌……",
     "sprite_corpse": "CorpseRed",
     "resist_slash": 0,
@@ -1495,8 +1495,8 @@
     "resist_lightning": 0,
     "speech": false,
     "phrase": [
-      "For the red blade!",
-      "O tunnel-prince..."
+      "为了赤红之刃！",
+      "哦，隧道王子……"
     ],
     "speechtype": "cries"
   },
@@ -1560,7 +1560,7 @@
     "boss": true,
     "summoned": false,
     "rumor": "你听见关于“活金”的传闻",
-    "intro": "The [color=#f0a000]Golden Litter[/color] is raised...\n\nShimmering light. Strange heat...",
+    "intro": "[color=#f0a000]Golden Litter[/color] 被抬起……\n\n闪烁的光。怪异的热……",
     "taunt": "[color=#f0a000]Golden Litter[/color] 将你包裹起来……",
     "sprite_corpse": "CorpsePurp",
     "resist_slash": 50,
@@ -1576,8 +1576,8 @@
     "resist_lightning": 0,
     "speech": false,
     "phrase": [
-      "O golden flesh...",
-      "O glimmering...O beauteous..."
+      "哦，黄金血肉……",
+      "哦，闪耀之物……哦，美丽之物……"
     ],
     "speechtype": "cries"
   },
@@ -1641,7 +1641,7 @@
     "boss": true,
     "summoned": false,
     "rumor": "高塔上层似乎已被溶解。你闻到岩石融化的气味",
-    "intro": "The [color=#ffd000]Hamidrake[/color] hisses!\n\nVile seepage...all-consuming...",
+    "intro": "[color=#ffd000]Hamidrake[/color] 嘶鸣！\n\n污秽渗流……吞噬一切……",
     "taunt": "[color=#ffd000]Hamidrake[/color] 盲目地吞噬了你……",
     "sprite_corpse": "CorpseRed",
     "resist_slash": 50,
@@ -1657,8 +1657,8 @@
     "resist_lightning": -100,
     "speech": false,
     "phrase": [
-      "Blessed dissolution!",
-      "O seething beast..."
+      "受祝福的溶解！",
+      "哦，翻腾的野兽……"
     ],
     "speechtype": "cries"
   },
