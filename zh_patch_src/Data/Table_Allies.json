@@ -2447,7 +2447,7 @@
     "family": "humanoid",
     "name": "Thrall",
     "name_color": "[color=#af8f50]Thrall[/color]",
-    "description": "An honor-bound axefighter",
+    "description": "受荣誉约束的斧斗士",
     "quant": [
       1,
       1
@@ -2507,7 +2507,7 @@
     "family": "humanoid",
     "name": "Fire Knight",
     "name_color": "[color=#ff8000]Fire Knight[/color]",
-    "description": "A corporeal warrior summoned from the elemental domain of Fire",
+    "description": "从火焰元素领域召来的实体战士",
     "quant": [
       1,
       1
@@ -2568,7 +2568,7 @@
     "family": "humanoid",
     "name": "Ice Knight",
     "name_color": "[color=#5080ff]Ice Knight[/color]",
-    "description": "A corporeal warrior summoned from the elemental domain of Ice",
+    "description": "从寒冰元素领域召来的实体战士",
     "quant": [
       1,
       1
@@ -2628,7 +2628,7 @@
     "family": "humanoid",
     "name": "Astral Knight",
     "name_color": "[color=#8030af]Astral Knight[/color]",
-    "description": "A noble warrior pledged to stewardship of the Astral Wall",
+    "description": "誓言守护星界之墙的高贵战士",
     "quant": [
       1,
       1
@@ -2689,7 +2689,7 @@
     "family": "humanoid",
     "name": "Scout",
     "name_color": "[color=#bf9f40]Scout[/color]",
-    "description": "A hired archer",
+    "description": "受雇的弓箭手",
     "quant": [
       1,
       1
@@ -2749,7 +2749,7 @@
     "family": "humanoid",
     "name": "Nomad",
     "name_color": "[color=#bf9f40]Nomad[/color]",
-    "description": "A wanderer of the path",
+    "description": "道路上的流浪者",
     "quant": [
       1,
       1
@@ -2809,7 +2809,7 @@
     "family": "beast",
     "name": "Blue Wyrm",
     "name_color": "[color=#0060ff]Blue Wyrm[/color]",
-    "description": "A wingless beast that spits lightning",
+    "description": "吐出闪电的无翼野兽",
     "quant": [
       1,
       1
@@ -2869,7 +2869,7 @@
     "family": "humanoid",
     "name": "Fanatic",
     "name_color": "[color=#d04040]Fanatic[/color]",
-    "description": "A swordfigher devoted to a zealot",
+    "description": "效忠狂热者的剑斗士",
     "quant": [
       1,
       1
@@ -2929,7 +2929,7 @@
     "family": "humanoid",
     "name": "Worshipper",
     "name_color": "[color=#c0c060]Worshipper[/color]",
-    "description": "A common worshipper bound to the cult authority of a Liturgist",
+    "description": "受 Liturgist 教团权威约束的普通信徒",
     "quant": [
       1,
       1
@@ -2990,7 +2990,7 @@
     "family": "humanoid",
     "name": "Rat-man Phalangite",
     "name_color": "[color=#c0c040]Rat-man Phalangite[/color]",
-    "description": "A disciplined guardian of the rat-man colonies",
+    "description": "鼠人殖群中纪律严明的守卫",
     "quant": [
       1,
       1
@@ -3050,7 +3050,7 @@
     "family": "humanoid",
     "name": "Rat-man Flourisher",
     "name_color": "[color=#c0c040]Rat-man Flourisher[/color]",
-    "description": "A zealous patriot of the rat-man colonies",
+    "description": "鼠人殖群中狂热的爱族者",
     "quant": [
       1,
       1
@@ -3110,7 +3110,7 @@
     "family": "humanoid",
     "name": "Rat-man Peltast",
     "name_color": "[color=#c0c040]Rat-man Peltast[/color]",
-    "description": "A humanoid rodent that lives in swarming colonies",
+    "description": "生活在成群殖群中的人形啮齿生物",
     "quant": [
       1,
       1
@@ -3170,7 +3170,7 @@
     "family": "elemental",
     "name": "Okko",
     "name_color": "[color=#0060ff]Okko[/color]",
-    "description": "A human-shaped sliver of lightning",
+    "description": "一缕人形闪电",
     "quant": [
       1,
       1
@@ -3230,7 +3230,7 @@
     "family": "elemental",
     "name": "Ball Lightning",
     "name_color": "[color=#0060ff]Ball Lightning[/color]",
-    "description": "A fragile burst of elemental intention",
+    "description": "一团脆弱的元素意志爆发",
     "quant": [
       1,
       1
@@ -3290,7 +3290,7 @@
     "family": "elemental",
     "name": "Glinting Blade",
     "name_color": "[color=#ffaf30]Glinting Blade[/color]",
-    "description": "A flying sword conjured from the mind-warren",
+    "description": "从心灵巢穴召出的飞剑",
     "quant": [
       1,
       1
@@ -3350,7 +3350,7 @@
     "family": "elemental",
     "name": "Burning Blade",
     "name_color": "[color=#ff7000]Burning Blade[/color]",
-    "description": "A flying sword conjured from elemental flame",
+    "description": "由元素火焰召出的飞剑",
     "quant": [
       1,
       1
@@ -3410,7 +3410,7 @@
     "family": "elemental",
     "name": "Kotka",
     "name_color": "[color=#0060ff]Kotka[/color]",
-    "description": "A storm-bird summoned by thunder magic",
+    "description": "由雷霆魔法召来的风暴鸟",
     "quant": [
       1,
       1
@@ -3470,7 +3470,7 @@
     "family": "humanoid",
     "name": "Fulminant Priest",
     "name_color": "[color=#0060ff]Fulminant Priest[/color]",
-    "description": "A loyal acolyte of storm-born power. Summoned from a mountain shrine",
+    "description": "风暴所生力量的忠诚侍僧。从山中圣祠召来",
     "quant": [
       1,
       1
@@ -3530,7 +3530,7 @@
     "family": "beast",
     "name": "Musmahu",
     "name_color": "[color=#20af70]Musmahu[/color]",
-    "description": "An exalted plant-serpent of Ninhurs",
+    "description": "Ninhurs 的崇高植物蛇",
     "quant": [
       1,
       1
@@ -3592,7 +3592,7 @@
     "family": "elemental",
     "name": "Janin",
     "name_color": "[color=#a070ff]Janin[/color]",
-    "description": "A billowing spirit composed of astral flame",
+    "description": "由星界火焰构成的翻涌灵体",
     "quant": [
       1,
       1
@@ -3652,7 +3652,7 @@
     "family": "elemental",
     "name": "Afrit",
     "name_color": "[color=#ff7000]Afrit[/color]",
-    "description": "An elemental of pure cosmic flame",
+    "description": "纯粹宇宙火焰的元素体",
     "quant": [
       1,
       1
@@ -3712,7 +3712,7 @@
     "family": "elemental",
     "name": "Ooze",
     "name_color": "[color=#70ff00]Ooze[/color]",
-    "description": "A roiling mass of elemental poison",
+    "description": "一团翻腾的元素毒素",
     "quant": [
       1,
       1
@@ -3774,7 +3774,7 @@
     "family": "elemental",
     "name": "Phantasm",
     "name_color": "[color=#60b0ff]Phantasm[/color]",
-    "description": "An ethereal servant of Mehtar's freezing dreamscape",
+    "description": "Mehtar 冰冷梦境中的虚灵仆从",
     "quant": [
       1,
       1
@@ -3834,7 +3834,7 @@
     "family": "elemental",
     "name": "Wisp",
     "name_color": "[color=#9060ff]Wisp[/color]",
-    "description": "An ethereal orb hatched from a pink star",
+    "description": "从粉色星辰中孵出的虚灵球体",
     "quant": [
       1,
       1
@@ -3895,7 +3895,7 @@
     "family": "elemental",
     "name": "Psychomorph",
     "name_color": "[color=#ffaf30]Psychomorph[/color]",
-    "description": "An ethereal projection of your weapon",
+    "description": "你的武器的虚灵投影",
     "quant": [
       1,
       1
@@ -3955,7 +3955,7 @@
     "family": "humanoid",
     "name": "Gore Priest",
     "name_color": "[color=#ff1010]Gore Priest[/color]",
-    "description": "A loyal acolyte of sacrifical blood. Summoned from a hidden temple of bone",
+    "description": "献祭之血的忠诚侍僧。从隐秘骨之神殿召来",
     "quant": [
       1,
       1
@@ -4015,7 +4015,7 @@
     "family": "humanoid",
     "name": "Hemogoblin",
     "name_color": "[color=#ff1010]Hemogoblin[/color]",
-    "description": "A vigorous waddling creature of blood",
+    "description": "充满活力、蹒跚行走的鲜血生物",
     "quant": [
       1,
       1
@@ -4077,7 +4077,7 @@
     "family": "beast",
     "name": "Tsuchigumo",
     "name_color": "[color=#70ff00]Tsuchigumo[/color]",
-    "description": "A cunning spider summoned from a nest beneath the dawn marshes",
+    "description": "从黎明沼泽下方巢穴召来的狡诈蜘蛛",
     "quant": [
       1,
       1
@@ -4139,7 +4139,7 @@
     "family": "beast",
     "name": "Garnet Spider",
     "name_color": "[color=#9050cf]Garnet Spider[/color]",
-    "description": "A glimmering beast born in a chasm past the edge of Achra",
+    "description": "诞生于 Achra 边缘外裂隙中的闪光野兽",
     "quant": [
       1,
       1
@@ -4203,7 +4203,7 @@
     "family": "Beast",
     "name": "Brass Dragon",
     "name_color": "[color=#af7020]Brass Dragon[/color]",
-    "description": "A rare beast of living brass born in the mountains of Achra",
+    "description": "诞生于 Achra 群山中的稀有活黄铜野兽",
     "quant": [
       1,
       1
@@ -4265,7 +4265,7 @@
     "family": "beast",
     "name": "Quartz Tortoise",
     "name_color": "[color=#50ff80]Quartz Tortoise[/color]",
-    "description": "A dread beast born in the crystal tunnels beneath the frozen waste of Achra",
+    "description": "诞生于 Achra 冰封荒原下水晶隧道中的可怖野兽",
     "quant": [
       1,
       1
@@ -4328,7 +4328,7 @@
     "family": "Astrophyte",
     "name": "Astrophyte",
     "name_color": "[color=#8030af]Astrophyte[/color]",
-    "description": "A blurred warrior conjured from starlight",
+    "description": "由星光召出的模糊战士",
     "quant": [
       1,
       1
@@ -4388,7 +4388,7 @@
     "family": "reptile",
     "name": "Blinksnake",
     "name_color": "[color=#8030af]Blinksnake[/color]",
-    "description": "A blurred reptile conjured from starlight",
+    "description": "由星光召出的模糊爬行动物",
     "quant": [
       1,
       1
@@ -4448,7 +4448,7 @@
     "family": "Beast",
     "name": "Red Dragon",
     "name_color": "[color=#cf3000]Red Dragon[/color]",
-    "description": "A magnificent beast of elemental flame",
+    "description": "由元素火焰构成的壮丽野兽",
     "quant": [
       1,
       1
@@ -4508,7 +4508,7 @@
     "family": "Beast",
     "name": "Bukavac",
     "name_color": "[color=#00ff70]Bukavac[/color]",
-    "description": "A paralyzing beast from the ancient earth. Now a companion-demon of an Uspori",
+    "description": "来自古代大地的麻痹野兽。如今是 Uspori 的伴生恶魔",
     "quant": [
       1,
       1
