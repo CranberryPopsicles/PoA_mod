@@ -87,12 +87,38 @@
 | Return | 返回 | 返回主菜单。 |
 | Bloodrage | 血怒 | Humbaba 相关增益效果。 |
 | Bleed | 流血 | 鲜血伤害相关有害效果。 |
+| Agony | 苦痛 | 鲜血伤害相关有害效果。 |
+| Scorch | 灼烧 | 火焰伤害相关有害效果。 |
+| Poison | 中毒 | 毒素伤害相关有害效果。 |
 | Sickness | 疾病 | 毒素伤害相关有害效果。 |
+| Plague | 瘟疫 | 毒素/死亡伤害相关有害效果。 |
+| Freeze | 冻结 | 寒冰伤害相关有害效果。 |
+| Paralysis | 麻痹 | 寒冰相关控制效果。 |
 | Entangle | 缠绕 | Ninhurs/神圣草地相关控制效果。 |
+| Blind | 致盲 | 生命系/精准与闪避惩罚效果。 |
 | Grace | 恩典 | Ashem 相关减伤/反击效果。 |
 | Dream | 梦境 | Mehtar 相关效果。 |
+| Poise | 沉着 | 武艺相关防御/精准增益。 |
+| Repulsion | 斥力 | 灵能反击伤害增益。 |
+| Refraction | 折射 | 毒素反击伤害增益。 |
+| Inflame | 炽燃 | 火焰相关精准/命中增益。 |
+| Attune | 调谐 | 火焰相关命中/护甲/伤害增益。 |
+| Meditate | 冥想 | 星界相关伤害增益。 |
+| Windstrike | 风击 | 攻击触发的斩击增益。 |
+| Mark | 标记 | 提高目标受到物理伤害的有害效果。 |
+| Berserk | 狂暴 | 额外攻击和速度相关增益。 |
+| Evasion | 闪避 | 状态名与属性名同译，按上下文区分。 |
+| Charge | 蓄势 | 伤害增益状态，和 Prayer charge 的“充能”区分。 |
+| Stasis | 停滞 | 阻止传送的状态。 |
+| Anoint | 受膏 | 星界相关命中/闪避增益。 |
+| Gust | 阵风 | 攻击触发的斩击路径伤害增益。 |
+| Protection | 守护 | 将受伤限制为 1 的防护效果。 |
+| Corrosion | 腐蚀 | 护甲/格挡惩罚和火焰反伤效果。 |
+| Doom | 厄运 | 死亡伤害相关有害效果。 |
 | Divine grass | 神圣草地 | Ninhurs 相关地形。 |
 | Prayer charge | 祈祷充能 | 祈祷可用次数/充能机制。 |
+| Teleport | 传送 | 位移机制。 |
+| Transformation | 变身 | form 类状态说明统一用语。 |
 | Stand still | 站立不动 | 原地等待/不移动触发条件。 |
 | Entrance | 进入区域 | 进入新区域时触发。 |
 | Familiar | 魔宠 | 召唤单位类型，角色/神祇说明沿用。 |
