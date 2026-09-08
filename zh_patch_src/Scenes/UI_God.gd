@@ -74,12 +74,12 @@ func write_invoke_description(invoke):
 	if invoke != null:
 		string += invoke.name
 		if Global.Player.level < invoke.level_required:
-			string += "\n\n[color=#ff6c64]需要荣耀 "
+			string += "\n[color=#ff6c64]需要荣耀 "
 			string += str(invoke.level_required) + "[/color]"
 		string += "\n\n[color=#78bca4]"
 		string += str(invoke.use_max)
 		string += "[/color]"
-		string += " 最大[color=#78bca4]充能[/color]\n\n"
+		string += " 最大[color=#78bca4]充能[/color]\n"
 		string += invoke.description
 		
 		if invoke.infpen == true:
@@ -94,7 +94,7 @@ func write_invoke_description(invoke):
 func write_description_trait(trait):
 	var stringa = ""
 	stringa += trait.Name
-	stringa += "\n\n[color=#c0c0c0]特质[/color]"
+	stringa += "\n[color=#c0c0c0]特质[/color]"
 	stringa += "\n\n" + trait.Description
 	if trait.infpen == true:
 		$infpen.texture = load("res://Ham_Sprite/UI/Info/inflex.png")

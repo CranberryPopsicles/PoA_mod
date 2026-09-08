@@ -1,4 +1,4 @@
-param(
+﻿param(
     [string]$GameDir = 'C:\Programs\Steam\steamapps\common\Path of Achra',
     [string]$GDRETools = 'C:\Dev\GDRE_tools\gdre_tools.exe',
     [string]$ProjectRoot = (Resolve-Path (Join-Path $PSScriptRoot '..')).Path,
@@ -93,7 +93,8 @@ $patchSrc = Join-Path $ProjectRoot 'zh_patch_src'
 $patchScenes = Join-Path $patchSrc 'Scenes'
 $patchData = Join-Path $patchSrc 'Data'
 $loaderSrc = Join-Path $ProjectRoot 'src\loader'
-$fontPath = Join-Path $ProjectRoot 'local_assets\Fonts\zh-CN.ttf'
+$fontPath = Join-Path $ProjectRoot 'zh_patch_src\Fonts\zh-CN.ttf'
+$fontPath10 = Join-Path $ProjectRoot 'zh_patch_src\Fonts\zh-CN-10.ttf'
 
 if (-not (Test-Path $GDRETools)) {
     throw "GDRETools not found: $GDRETools"
@@ -103,6 +104,9 @@ if (-not (Test-Path $originalPck)) {
 }
 if (-not (Test-Path $fontPath)) {
     throw "Font not found: $fontPath. Put a Chinese font there and name it zh-CN.ttf before building."
+}
+if (-not (Test-Path $fontPath10)) {
+    throw "Font not found: $fontPath10. Put a 10px Chinese font there and name it zh-CN-10.ttf before building."
 }
 
 New-Item -ItemType Directory -Path $buildDir, $loaderBuildDir, $externalScenes -Force | Out-Null
@@ -246,7 +250,8 @@ Write-Step "Building loader PCK..."
     --patch-file="$((Join-Path $patchSrc 'MyFont.tres'))=res://MyFont.tres" `
     --patch-file="$((Join-Path $patchSrc 'MyFont2.tres'))=res://MyFont2.tres" `
     --patch-file="$((Join-Path $patchSrc 'MyFont3t.tres'))=res://MyFont3t.tres" `
-    --patch-file="$fontPath=res://Fonts/zh-CN.ttf"
+    --patch-file="$fontPath=res://Fonts/zh-CN.ttf" `
+    --patch-file="$fontPath10=res://Fonts/zh-CN-10.ttf"
 
 Write-Step "Building external Chinese patch PCK..."
 & $GDRETools --headless "--pck-create=$externalSrc" "--output=$zhPck" --pck-version=1 --pck-engine-version=3.5.2

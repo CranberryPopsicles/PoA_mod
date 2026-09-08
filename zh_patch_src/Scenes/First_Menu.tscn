@@ -370,6 +370,8 @@ margin_left = 17.0
 margin_top = 19.0
 margin_right = 231.0
 margin_bottom = 169.0
+line_spacing = 2
+	fit_content = true
 custom_fonts/normal_font = SubResource( 29 )
 bbcode_enabled = true
 bbcode_text = "[color=#803030]Path of 
@@ -383,6 +385,8 @@ margin_left = 261.0
 margin_top = 287.0
 margin_right = 381.0
 margin_bottom = 327.0
+line_spacing = 2
+	fit_content = true
 bbcode_enabled = true
 bbcode_text = "[center][color=#808080][[/color] [color=#ffff00]enter[/color] [color=#808080]][/color]
 [color=#808080][[/color] [color=#ffff00]tab[/color] [color=#808080]][/color][/center]"
@@ -399,6 +403,8 @@ margin_left = 371.0
 margin_top = 344.0
 margin_right = 593.0
 margin_bottom = 451.0
+line_spacing = 2
+	fit_content = true
 bbcode_enabled = true
 bbcode_text = "
 proem"
@@ -435,7 +441,8 @@ modulate = Color( 0.643137, 0.643137, 0.643137, 1 )
 margin_left = -4.0
 margin_top = 35.0
 margin_right = 36.0
-margin_bottom = 45.0
+	margin_bottom = 48
+	valign = 1
 text = "开始"
 align = 1
 __meta__ = {
@@ -447,7 +454,8 @@ modulate = Color( 1, 0.764706, 0.203922, 1 )
 margin_left = 5.0
 margin_top = 3.0
 margin_right = 69.0
-margin_bottom = 13.0
+	margin_bottom = 16
+	valign = 1
 text = "踏上道路"
 
 [node name="PrestigeAlarm" type="AnimatedSprite" parent="Button"]
@@ -487,7 +495,8 @@ modulate = Color( 0.643137, 0.643137, 0.643137, 1 )
 margin_left = 5.0
 margin_top = 3.0
 margin_right = 69.0
-margin_bottom = 13.0
+	margin_bottom = 16
+	valign = 1
 text = "陵墓"
 
 [node name="Button4" type="Button" parent="."]
@@ -519,7 +528,8 @@ modulate = Color( 0.905882, 0.513726, 0.862745, 1 )
 margin_left = 5.0
 margin_top = 3.0
 margin_right = 69.0
-margin_bottom = 13.0
+	margin_bottom = 16
+	valign = 1
 text = "传说"
 
 [node name="Button5" type="Button" parent="."]
@@ -550,7 +560,8 @@ modulate = Color( 0.380392, 0.380392, 0.380392, 1 )
 margin_left = 5.0
 margin_top = 3.0
 margin_right = 69.0
-margin_bottom = 13.0
+	margin_bottom = 16
+	valign = 1
 text = "制作名单"
 
 [node name="Button2" type="Button" parent="."]
@@ -570,6 +581,7 @@ margin_left = -2.0
 margin_top = 32.0
 margin_right = 80.0
 margin_bottom = 72.0
+line_spacing = 2
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[color=#808080][[/color] [color=#ffff00]esc[/color] [color=#808080]]"
@@ -583,7 +595,8 @@ modulate = Color( 0.796078, 0.192157, 0.192157, 1 )
 margin_left = 5.0
 margin_top = 3.0
 margin_right = 69.0
-margin_bottom = 13.0
+	margin_bottom = 16
+	valign = 1
 text = "退出"
 
 [node name="Menu" type="Button" parent="."]
@@ -611,7 +624,8 @@ modulate = Color( 1, 0.443137, 0.878431, 1 )
 margin_left = 36.0
 margin_top = 12.0
 margin_right = 226.0
-margin_bottom = 23.0
+	margin_bottom = 25
+	valign = 1
 text = "< 选项"
 
 [node name="version" type="Label" parent="."]
@@ -718,3 +732,5 @@ text = "确认
 [connection signal="pressed" from="Button2" to="." method="_on_Button2_pressed"]
 [connection signal="mouse_entered" from="Menu" to="." method="_on_Menu_mouse_entered"]
 [connection signal="pressed" from="Menu" to="." method="_on_Menu_pressed"]
+
+

@@ -114,6 +114,8 @@ func write_unit(data):
 	stringa += "\n" + translate_tier(data.tier, data.boss)
 	
 	$RichTextLabel2.bbcode_text = stringa
+	yield(get_tree(), "idle_frame")
+	$RichTextLabel2.rect_size.y = min($RichTextLabel2.get_content_height(), 415.0)
 	
 	
 	
@@ -158,7 +160,7 @@ func write_unit(data):
 	stringa += "[color=#5050ff]" + str(data.arm) + "[/color] 护甲"
 	if data.cycle.has("armor"): stringa += " [color=#af40af]+ 轮回[/color]"
 	
-	stringa += "\n\n[color=#707070]抗性：[/color]"
+	stringa += "\n[color=#707070]抗性：[/color]"
 	stringa += "\n\n"
 	var typelist = ["slash", "blunt", "pierce", "fire", "ice", "poison", "lightning", "death", "psychic", "astral", "blood"]
 	
@@ -178,6 +180,8 @@ func write_unit(data):
 				stringa += "\n"
 	
 	$RichTextLabel.bbcode_text = "[color=#c0c0c0]" + stringa
+	yield(get_tree(), "idle_frame")
+	$RichTextLabel.rect_size.y = min($RichTextLabel.get_content_height(), 313.0)
 
 func write_ability(data):
 	var stringa = "[color=#c0c0c0]"
@@ -194,6 +198,7 @@ func write_ability(data):
 	
 	$RichTextLabel2.bbcode_text = stringa
 	$RichTextLabel.bbcode_text = ""
+	$RichTextLabel.rect_size.y = 313.0
 	
 
 func create_buttons():

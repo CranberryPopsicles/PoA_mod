@@ -298,7 +298,7 @@ func press_learn():
 func gain_prestige(trait):
 	Global.sound.new_sound("Invoke")
 	var stringa = ""
-	stringa += "[color=#c0c0c0]进阶职业已解锁！\n\n你成为了 "
+	stringa += "[color=#c0c0c0]进阶职业已解锁！\n你成为了 "
 	stringa += translate.trait_name(trait)
 	$PopupLayer / Popup2 / Label.bbcode_text = stringa
 	$PopupLayer / Popup2 / Sprite.texture = load(trait.sprite)
@@ -522,7 +522,7 @@ func write_description(trait, button):
 			else:
 				stringa += "[color=#808080]未知[/color]"
 			
-			stringa += "\n\n[color=#808080]消耗 [color=#ffff00]"
+			stringa += "\n[color=#808080]消耗 [color=#ffff00]"
 			stringa += str(trait.cost)
 			stringa += "[/color] 点以"
 			if Global.Player.abilities.has(trait.title):
@@ -935,7 +935,7 @@ func _on_ButtonRandom_mouse_entered():
 	button_hovered = null
 	$PopupLayer / Popup / Button_Learn.visible = false
 	$Description / Trait_Info_Pic.texture = null
-	$Description / RichTextLabel.bbcode_text = "[color=#c0c0c0][[color=#ffff50]0[/color]] 从可用元素中随机学习一个新能力\n\n如果已达能力上限，则随机升级一个已知能力[/color]"
+	$Description / RichTextLabel.bbcode_text = "[color=#c0c0c0][[color=#ffff50]0[/color]] 从可用元素中随机学习一个新能力\n如果已达能力上限，则随机升级一个已知能力[/color]"
 
 
 func random_power():

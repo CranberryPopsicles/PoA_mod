@@ -551,6 +551,8 @@ margin_left = 699.0
 margin_top = 430.0
 margin_right = 987.0
 margin_bottom = 470.0
+line_spacing = 2
+	fit_content = true
 rect_rotation = 90.0
 mouse_filter = 2
 bbcode_enabled = true
@@ -576,6 +578,7 @@ margin_left = 5.0
 margin_top = 3.0
 margin_right = 405.0
 margin_bottom = 43.0
+line_spacing = 2
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[color=#ffff00]退出游戏[/color] -[color=#ff0000]会删除[/color]此角色 - 要[color=#00ff00]保存[/color]，请从[color=#ffff00]世界地图[/color]退出"
@@ -609,6 +612,7 @@ margin_left = 5.0
 margin_top = 3.0
 margin_right = 405.0
 margin_bottom = 43.0
+line_spacing = 2
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[color=#ffff50]?: [/color][color=#c0c0c0]控制[/color]"
@@ -636,6 +640,7 @@ margin_left = 5.0
 margin_top = 3.0
 margin_right = 405.0
 margin_bottom = 43.0
+line_spacing = 2
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[color=#ffff50]g: [/color][color=#c0c0c0]指南[/color]"
@@ -656,6 +661,7 @@ margin_left = 5.0
 margin_top = 3.0
 margin_right = 405.0
 margin_bottom = 43.0
+line_spacing = 2
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[color=#ffff50]ctrl-f: [color=#c0c0c0]全屏 / 窗口[/color]"
@@ -686,6 +692,7 @@ margin_left = 5.0
 margin_top = 3.0
 margin_right = 405.0
 margin_bottom = 43.0
+line_spacing = 2
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[color=#c0c0c0]恢复默认[/color]"
@@ -714,6 +721,7 @@ custom_styles/normal = SubResource( 98 )
 margin_top = 4.0
 margin_right = 96.0
 margin_bottom = 44.0
+line_spacing = 2
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[center][color=#c0c0c0]自动加点
@@ -731,6 +739,7 @@ texture = ExtResource( 21 )
 margin_top = 32.0
 margin_right = 88.0
 margin_bottom = 72.0
+line_spacing = 2
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[center]无"
@@ -751,6 +760,7 @@ margin_left = 64.0
 margin_top = 10.0
 margin_right = 160.0
 margin_bottom = 50.0
+line_spacing = 2
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[center][color=#c0c0c0]手柄支持
@@ -769,6 +779,7 @@ margin_left = 64.0
 margin_top = 42.0
 margin_right = 152.0
 margin_bottom = 82.0
+line_spacing = 2
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[center]无"
@@ -779,6 +790,7 @@ margin_left = -16.0
 margin_top = 58.0
 margin_right = 240.0
 margin_bottom = 90.0
+line_spacing = 2
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[center][color=#707070]使用 [img]res://Ham_Sprite/UI/gamepad_stick.png[/img][img]res://Ham_Sprite/UI/gamepad_a.png[/img][img]res://Ham_Sprite/UI/gamepad_b.png[/img][img]res://Ham_Sprite/UI/gamepad_y.png[/img][img]res://Ham_Sprite/UI/gamepad_x.png[/img]"
@@ -817,6 +829,8 @@ margin_left = 40.0
 margin_top = 11.0
 margin_right = 120.0
 margin_bottom = 51.0
+line_spacing = 2
+	fit_content = true
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[color=#50af50]音效[/color] | | | | |"
@@ -855,6 +869,8 @@ margin_left = 40.0
 margin_top = 11.0
 margin_right = 120.0
 margin_bottom = 51.0
+line_spacing = 2
+	fit_content = true
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[color=#5050af]音乐[/color]  | | | | |"
@@ -870,6 +886,8 @@ margin_left = 144.0
 margin_top = 432.0
 margin_right = 544.0
 margin_bottom = 648.0
+line_spacing = 2
+	fit_content = true
 mouse_filter = 2
 bbcode_enabled = true
 
@@ -921,6 +939,7 @@ margin_left = 40.0
 margin_top = 5.0
 margin_right = 274.0
 margin_bottom = 45.0
+line_spacing = 2
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[color=#c0c0c0]显示攻击范围
@@ -939,6 +958,7 @@ margin_left = -8.0
 margin_top = 10.0
 margin_right = 41.0
 margin_bottom = 50.0
+line_spacing = 2
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[center]开"
@@ -959,6 +979,7 @@ margin_left = 40.0
 margin_top = 10.0
 margin_right = 274.0
 margin_bottom = 50.0
+line_spacing = 2
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[color=#c0c0c0]单位速度条
@@ -977,6 +998,7 @@ margin_left = -8.0
 margin_top = 10.0
 margin_right = 41.0
 margin_bottom = 50.0
+line_spacing = 2
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[center]开"
@@ -997,6 +1019,7 @@ margin_left = 40.0
 margin_top = 5.0
 margin_right = 274.0
 margin_bottom = 45.0
+line_spacing = 2
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[color=#c0c0c0]仅保存胜利者
@@ -1015,6 +1038,7 @@ margin_left = -8.0
 margin_top = 10.0
 margin_right = 41.0
 margin_bottom = 50.0
+line_spacing = 2
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[center]开"
@@ -1035,6 +1059,7 @@ margin_left = 40.0
 margin_top = 11.0
 margin_right = 185.0
 margin_bottom = 51.0
+line_spacing = 2
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[color=#c0c0c0]快速模式
@@ -1053,6 +1078,7 @@ margin_left = -8.0
 margin_top = 10.0
 margin_right = 41.0
 margin_bottom = 50.0
+line_spacing = 2
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[center]开"
@@ -1073,6 +1099,7 @@ margin_left = 40.0
 margin_top = 11.0
 margin_right = 185.0
 margin_bottom = 51.0
+line_spacing = 2
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[color=#c0c0c0]FPS 上限
@@ -1091,6 +1118,7 @@ margin_left = -8.0
 margin_top = 10.0
 margin_right = 41.0
 margin_bottom = 50.0
+line_spacing = 2
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[center]开"
@@ -1111,6 +1139,7 @@ margin_left = 40.0
 margin_top = 5.0
 margin_right = 185.0
 margin_bottom = 45.0
+line_spacing = 2
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[color=#c0c0c0]垂直同步
@@ -1129,6 +1158,7 @@ margin_left = -8.0
 margin_top = 10.0
 margin_right = 41.0
 margin_bottom = 50.0
+line_spacing = 2
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[center]开"
@@ -1149,6 +1179,7 @@ margin_left = 40.0
 margin_top = 10.0
 margin_right = 185.0
 margin_bottom = 50.0
+line_spacing = 2
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[color=#c0c0c0]宽消息日志
@@ -1167,6 +1198,7 @@ margin_left = -8.0
 margin_top = 10.0
 margin_right = 41.0
 margin_bottom = 50.0
+line_spacing = 2
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[center]开"
@@ -1187,6 +1219,7 @@ margin_left = 40.0
 margin_top = 5.0
 margin_right = 185.0
 margin_bottom = 45.0
+line_spacing = 2
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[color=#c0c0c0]详细数值
@@ -1205,6 +1238,7 @@ margin_left = -8.0
 margin_top = 10.0
 margin_right = 41.0
 margin_bottom = 50.0
+line_spacing = 2
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[center]开"
@@ -1225,6 +1259,7 @@ margin_left = 40.0
 margin_top = 10.0
 margin_right = 185.0
 margin_bottom = 50.0
+line_spacing = 2
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[color=#c0c0c0]浮动文字
@@ -1243,6 +1278,7 @@ margin_left = -8.0
 margin_top = 10.0
 margin_right = 41.0
 margin_bottom = 50.0
+line_spacing = 2
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[center]开"
@@ -1263,6 +1299,7 @@ margin_left = 40.0
 margin_top = 10.0
 margin_right = 185.0
 margin_bottom = 50.0
+line_spacing = 2
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[color=#c0c0c0]胜利标记
@@ -1281,6 +1318,7 @@ margin_left = -8.0
 margin_top = 10.0
 margin_right = 41.0
 margin_bottom = 50.0
+line_spacing = 2
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[center]开"
@@ -1301,6 +1339,7 @@ margin_left = 40.0
 margin_top = 5.0
 margin_right = 274.0
 margin_bottom = 45.0
+line_spacing = 2
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[color=#c0c0c0]隐藏大生命条
@@ -1319,6 +1358,7 @@ margin_left = -8.0
 margin_top = 10.0
 margin_right = 41.0
 margin_bottom = 50.0
+line_spacing = 2
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[center]开"
@@ -1345,6 +1385,8 @@ margin_left = 89.0
 margin_top = 38.0
 margin_right = 554.0
 margin_bottom = 503.0
+line_spacing = 2
+	fit_content = true
 bbcode_enabled = true
 bbcode_text = "[color=#c0c0c0][center]控制
 
@@ -1432,6 +1474,8 @@ margin_left = 60.0
 margin_top = 5.0
 margin_right = 621.0
 margin_bottom = 533.0
+line_spacing = 2
+	fit_content = true
 bbcode_enabled = true
 bbcode_text = "[color=#c0c0c0][center]指南[/center]
 
@@ -1571,3 +1615,5 @@ text = "X"
 [connection signal="pressed" from="ButtonCharges" to="." method="_on_ButtonCharges_pressed"]
 [connection signal="mouse_entered" from="Button_Close" to="." method="_on_Button_Close_mouse_entered"]
 [connection signal="pressed" from="Button_Close" to="." method="_on_Button_Close_pressed"]
+
+

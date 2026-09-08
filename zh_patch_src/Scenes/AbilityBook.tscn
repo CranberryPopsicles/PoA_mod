@@ -63,6 +63,8 @@ margin_left = 432.0
 margin_top = 9.0
 margin_right = 627.0
 margin_bottom = 634.0
+line_spacing = 2
+	fit_content = true
 mouse_filter = 2
 bbcode_enabled = true
 
@@ -71,6 +73,8 @@ margin_left = 338.0
 margin_top = 169.0
 margin_right = 596.0
 margin_bottom = 492.0
+line_spacing = 2
+	fit_content = true
 mouse_filter = 2
 bbcode_enabled = true
 
@@ -92,6 +96,7 @@ modulate = Color( 0.878431, 0.317647, 0.317647, 1 )
 margin_top = 3.0
 margin_right = 64.0
 margin_bottom = 34.0
+line_spacing = 2
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[center]返回"
@@ -105,6 +110,8 @@ margin_left = 24.0
 margin_top = 8.0
 margin_right = 224.0
 margin_bottom = 72.0
+line_spacing = 2
+	fit_content = true
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[color=#c0c0c0]想象你的能力...[/color]"
@@ -143,3 +150,5 @@ centered = false
 [connection signal="pressed" from="Quit" to="." method="_on_Quit_pressed"]
 [connection signal="focus_entered" from="TextEdit" to="." method="_on_TextEdit_focus_entered"]
 [connection signal="text_changed" from="TextEdit" to="." method="_on_TextEdit_text_changed"]
+
+

@@ -41,9 +41,9 @@ func play_screen(killer, type):
 		$Sprite.texture = load(Global.Player.god.sprite)
 		$description.bbcode_text = "[color=#ff9020]胜利！[/color][color=#c0c0c0] 赞美 " + Global.Player.god.name + "！"
 		if cycler.unlock_next_cycle() == true:
-			$description.bbcode_text += "\n\n你进入 " + cycler.int_to_cycle_name(ToolSettings.settings_data.cycle_current)
+			$description.bbcode_text += "\n你进入 " + cycler.int_to_cycle_name(ToolSettings.settings_data.cycle_current)
 		else:
-			$description.bbcode_text += "\n\n一道奇异的传送门在召唤，但道路尚未显现..."
+			$description.bbcode_text += "\n一道奇异的传送门在召唤，但道路尚未显现..."
 		$description2.bbcode_text = "你获得了 " + str(glory_added) + " 荣耀"
 
 func _on_Button_QuitGame_mouse_entered():

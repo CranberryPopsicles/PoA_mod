@@ -24,7 +24,7 @@ func create_display():
 			var stringa = "[color=#c0c0c0]"
 			stringa += "你的旅程开始了..."
 			stringa += "\n\n"
-			stringa += "试着按 [[color=#c0c050]TAB[/color] / [color=#c0c050]右键[/color]] 执行自动移动\n\n"
+			stringa += "试着按 [[color=#c0c050]TAB[/color] / [color=#c0c050]右键[/color]] 执行自动移动\n"
 			stringa += "[img]res://Ham_Sprite/UI/Powers.png[/img] 可让你[color=#ffff50]获得新能力[/color]"
 			label.bbcode_text = stringa
 			sprite.texture = load(data.icon)
@@ -88,9 +88,9 @@ func create_display():
 			if Global.Player.get_tint_items():
 				var items = Global.Player.get_tint_items()
 				var item = items[Global.rng.randi_range(0, items.size() - 1)]
-				stringa += "\n\n它被你的 " + item.name + " 吸引..."
+				stringa += "\n它被你的 " + item.name + " 吸引..."
 			
-			stringa += "\n\n[color=#707070]饥饿的幽魂啊...[/color]"
+			stringa += "\n[color=#707070]饥饿的幽魂啊...[/color]"
 				
 			
 			Achoicebutton.text = "确定"

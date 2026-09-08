@@ -985,7 +985,7 @@ static func is_encumbered(unit):
 
 static func compose_buff_description(buff):
 	var stringa = buff.description
-	stringa = "[color=#707070]效果：[/color]\n\n"
+	stringa = "[color=#707070]效果：[/color]\n"
 	return stringa
 
 static func get_shield_or_aoe_text(weapon):

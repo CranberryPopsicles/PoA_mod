@@ -653,7 +653,7 @@ func write_descriptions():
 				stringa = describe_weapon(player.weapon_off)
 				
 			else:
-				stringa = "[color=#c0c0c0]支援手\n\n主手正在双手持握"
+				stringa = "[color=#c0c0c0]支援手\n主手正在双手持握"
 				$Focus / Sprite_Focus.visible = false
 				$Focus / Sprite_Equip_Focused.texture = null
 				$PopupLayer / Popup / RichTextLabel.bbcode_text = "[center][color=#c0c0c0]支援手"
@@ -752,7 +752,7 @@ func write_descriptions():
 					stringa += "[color=#808080]等级 [/color]" + str(button.trait.Level)
 			else:
 				stringa += translate.element(button.trait.Element) + "[color=#808080]元素[/color]"
-				stringa += "\n\n[color=#808080]等级 [/color]" + str(button.trait.Level)
+				stringa += "\n[color=#808080]等级 [/color]" + str(button.trait.Level)
 				
 				
 			stringa += "\n\n"
@@ -951,7 +951,7 @@ func describe_armor(armor):
 		$Focus / Sprite_Equip_Focused.texture = load(armor.sprite)
 		stringa = translate.item_name(armor.name) + stringa
 		
-		stringa = stringa + "\n\n[color=#5050ff]" + "+" + str(armor.arm) + " [color=#a0a0a0]护甲[/color][/color]\n"
+		stringa = stringa + "\n[color=#5050ff]" + "+" + str(armor.arm) + " [color=#a0a0a0]护甲[/color][/color]\n"
 		stringa = stringa + "\n[color=#ff0000]" + "+" + str(armor.weight) + " [color=#a0a0a0]负重[/color][/color]"
 		
 		
@@ -1201,16 +1201,16 @@ func describe_states():
 		stringa += "[color=#50ffff]单手持握[/color]"
 		stringa += "：副手持有武器，或主手为空手；你会用双手攻击"
 	if int(game.Player.get_total_weight()) > int(game.Player.get_total_STR()):
-		stringa += "\n\n[color=#ff0000]超重[/color]"
+		stringa += "\n[color=#ff0000]超重[/color]"
 		stringa += "：负重高于力量，速度和闪避降低"
 	else:
-		stringa += "\n\n[color=#00ff00]未超重[/color]"
+		stringa += "\n[color=#00ff00]未超重[/color]"
 		stringa += "：负重不高于力量，无惩罚"
 	if int(game.Player.get_total_inflex()) > 1:
-		stringa += "\n\n[color=#ff0000]僵硬[/color]"
+		stringa += "\n[color=#ff0000]僵硬[/color]"
 		stringa += "：僵硬度高于 1，通常来自某些已装备护甲；速度和意志伤害加成会大幅降低，但格挡会提高"
 	else:
-		stringa += "\n\n[color=#00ff00]灵活[/color]"
+		stringa += "\n[color=#00ff00]灵活[/color]"
 		stringa += "：僵硬度为 1，无惩罚"
 	
 	return stringa
@@ -1924,7 +1924,7 @@ func write_destroy():
 	stringa += translate.item_name(item.name)
 	
 	if is_equipped == true:
-		stringa += "\n\n用于强化：\n\n"
+		stringa += "\n用于强化：\n"
 		stringa += translate.item_name(dict.name)
 		
 		var multi = 0.25
@@ -1937,7 +1937,7 @@ func write_destroy():
 		if is_armor == false:
 			var acc_amount = int(float(item.acc) * multi)
 			if acc_amount < 1: acc_amount = 1
-			acc_amount = "\n\n[color=#ffa050]+" + str(acc_amount * 10) + " 精准"
+			acc_amount = "\n[color=#ffa050]+" + str(acc_amount * 10) + " 精准"
 			stringa += acc_amount
 			
 			
@@ -1954,23 +1954,23 @@ func write_destroy():
 		else:
 			var arm_amount = int(float(item.arm) * multi)
 			if arm_amount < 1: arm_amount = 1
-			arm_amount = "\n\n[color=#5050ff]+" + str(arm_amount) + " 护甲"
+			arm_amount = "\n[color=#5050ff]+" + str(arm_amount) + " 护甲"
 			stringa += arm_amount
 			
 		
 		if "eris" in textstrip.strip_bbcode(item.name).to_lower():
-			stringa += "\n\n[color=#707070][color=#fff0a0]Eris[/color] 会转移物品 100% 的属性"
+			stringa += "\n[color=#707070][color=#fff0a0]Eris[/color] 会转移物品 100% 的属性"
 		else:
-			stringa += "\n\n[color=#707070]加成等于被献祭物品的 25%"
+			stringa += "\n[color=#707070]加成等于被献祭物品的 25%"
 	else:
-		stringa += "\n\n没有装备对应物品"
+		stringa += "\n没有装备对应物品"
 	
 	stringa += "\n\n"
 	stringa += "[color=#ff8080]+20 最大生命[/color]"
 	
 	if Global.Player.get_traits().has("Goblin"):
 		stringa += "\n\n\n[color=#90ff50]Goblin's Way[/color]:"
-		stringa += "\n\n[color=#ff8080]+25 最大生命[/color]\n[color=#20ff20]+1 速度[/color] [color=#707070]基础[/color]"
+		stringa += "\n[color=#ff8080]+25 最大生命[/color]\n[color=#20ff20]+1 速度[/color] [color=#707070]基础[/color]"
 	
 	if item.position == "none": stringa = "error"
 	

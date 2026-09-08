@@ -330,6 +330,8 @@ margin_left = 4.0
 margin_top = -10.0
 margin_right = 112.0
 margin_bottom = 30.0
+line_spacing = 2
+	fit_content = true
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[color=#a0a0a0][color=#ffff50]文[/color]化[/color]"
@@ -344,6 +346,8 @@ margin_left = 4.0
 margin_top = -10.0
 margin_right = 112.0
 margin_bottom = 30.0
+line_spacing = 2
+	fit_content = true
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[color=#a0a0a0]职[color=#ffff50]业[/color][/color]"
@@ -360,6 +364,8 @@ margin_left = 4.0
 margin_top = -10.0
 margin_right = 112.0
 margin_bottom = 30.0
+line_spacing = 2
+	fit_content = true
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[color=#a0a0a0][color=#ffff50]信[/color]仰[/color]"
@@ -375,6 +381,8 @@ margin_left = 225.0
 margin_top = 11.0
 margin_right = 439.0
 margin_bottom = 488.0
+line_spacing = 2
+	fit_content = true
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "你是一名流浪者
@@ -393,6 +401,8 @@ margin_left = 475.0
 margin_top = 157.0
 margin_right = 620.0
 margin_bottom = 496.0
+line_spacing = 2
+	fit_content = true
 bbcode_enabled = true
 bbcode_text = "杜木兹的 albaz 战士
 
@@ -473,6 +483,8 @@ margin_left = 15.5
 margin_top = -22.0
 margin_right = 123.5
 margin_bottom = 18.0
+line_spacing = 2
+	fit_content = true
 rect_scale = Vector2( 0.5, 0.5 )
 mouse_filter = 2
 bbcode_enabled = true
@@ -494,7 +506,8 @@ modulate = Color( 0.54902, 0.247059, 0.831373, 1 )
 margin_left = 6.0
 margin_top = 4.0
 margin_right = 70.0
-margin_bottom = 14.0
+	margin_bottom = 17
+	valign = 1
 text = "能力"
 
 [node name="Armory" type="Button" parent="."]
@@ -512,7 +525,8 @@ modulate = Color( 0.780392, 0.403922, 0.0470588, 1 )
 margin_left = 6.0
 margin_top = 4.0
 margin_right = 70.0
-margin_bottom = 14.0
+	margin_bottom = 17
+	valign = 1
 text = "军械库"
 
 [node name="Nemesis" type="Button" parent="."]
@@ -530,7 +544,8 @@ modulate = Color( 0.0470588, 0.611765, 0.780392, 1 )
 margin_left = 6.0
 margin_top = 4.0
 margin_right = 70.0
-margin_bottom = 14.0
+	margin_bottom = 17
+	valign = 1
 text = "宿敌"
 
 [node name="Continue" type="Button" parent="."]
@@ -552,6 +567,7 @@ margin_left = 6.0
 margin_top = 4.0
 margin_right = 130.0
 margin_bottom = 22.0
+line_spacing = 2
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[color=#a0a0a0]读取[color=#ffff50]存[/color]档[/color]"
@@ -583,7 +599,8 @@ modulate = Color( 0.776471, 0.788235, 0.27451, 1 )
 margin_left = 6.0
 margin_top = 4.0
 margin_right = 46.0
-margin_bottom = 14.0
+	margin_bottom = 17
+	valign = 1
 text = "开始"
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="Button_Start"]
@@ -644,6 +661,8 @@ margin_left = 475.0
 margin_top = 145.0
 margin_right = 631.0
 margin_bottom = 249.0
+line_spacing = 2
+	fit_content = true
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "姓名"
@@ -689,7 +708,8 @@ visible = false
 margin_left = 40.0
 margin_top = 11.0
 margin_right = 80.0
-margin_bottom = 21.0
+	margin_bottom = 24
+	valign = 1
 text = "随机"
 __meta__ = {
 "_edit_use_anchors_": false
@@ -756,7 +776,8 @@ modulate = Color( 0.788235, 0.27451, 0.27451, 1 )
 margin_left = 6.0
 margin_top = 3.0
 margin_right = 46.0
-margin_bottom = 13.0
+	margin_bottom = 16
+	valign = 1
 text = "返回"
 __meta__ = {
 "_edit_use_anchors_": false
@@ -837,6 +858,8 @@ margin_left = 88.0
 margin_top = 410.0
 margin_right = 224.0
 margin_bottom = 450.0
+line_spacing = 2
+	fit_content = true
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "下个解锁"
@@ -887,6 +910,8 @@ margin_left = 89.0
 margin_top = 411.0
 margin_right = 584.0
 margin_bottom = 423.0
+line_spacing = 2
+	fit_content = true
 mouse_filter = 2
 bbcode_enabled = true
 
@@ -912,9 +937,10 @@ custom_styles/normal = SubResource( 53 )
 [node name="RichTextLabel" type="RichTextLabel" parent="P1"]
 modulate = Color( 0.858824, 0.882353, 0.388235, 1 )
 margin_left = -12.0
-margin_top = 4.0
+	margin_top = 0.0
 margin_right = 28.0
-margin_bottom = 44.0
+	margin_bottom = 16.0
+line_spacing = 2
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[center]I"
@@ -933,9 +959,10 @@ custom_styles/normal = SubResource( 57 )
 [node name="RichTextLabel" type="RichTextLabel" parent="P2"]
 modulate = Color( 0.858824, 0.882353, 0.388235, 1 )
 margin_left = -12.0
-margin_top = 4.0
+	margin_top = 0.0
 margin_right = 28.0
-margin_bottom = 44.0
+	margin_bottom = 16.0
+line_spacing = 2
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[center]II"
@@ -954,9 +981,10 @@ custom_styles/normal = SubResource( 61 )
 [node name="RichTextLabel" type="RichTextLabel" parent="P3"]
 modulate = Color( 0.858824, 0.882353, 0.388235, 1 )
 margin_left = -12.0
-margin_top = 4.0
+	margin_top = 0.0
 margin_right = 28.0
-margin_bottom = 44.0
+	margin_bottom = 16.0
+line_spacing = 2
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[center]III"
@@ -1144,3 +1172,5 @@ color = Color( 0.2, 0.0862745, 0.172549, 1 )
 [connection signal="focus_entered" from="TextEdit" to="." method="_on_TextEdit_focus_entered"]
 [connection signal="focus_exited" from="TextEdit" to="." method="_on_TextEdit_focus_exited"]
 [connection signal="text_changed" from="TextEdit" to="." method="_on_TextEdit_text_changed"]
+
+

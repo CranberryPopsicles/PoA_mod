@@ -97,7 +97,7 @@ func write_button(button):
 func write_weapon(data):
 	var stringa = translate.item_name(data.name)
 	var weapon = data
-	stringa += "\n\n"
+	stringa += "\n"
 	stringa += "[color=#707070]"
 	stringa += data.rumor
 	stringa += ".."
@@ -109,7 +109,7 @@ func write_weapon(data):
 	
 	
 	
-	stringa += "\n\n[color=#ffa050]" + str(weapon.acc * 10) + " [color=#a0a0a0]精准[/color][/color]"
+	stringa += "\n[color=#ffa050]" + str(weapon.acc * 10) + " [color=#a0a0a0]精准[/color][/color]"
 	stringa += "\n[color=#ff8030]" + str(weapon.dmg * 10) + " [color=#a0a0a0]命中[/color][/color]"
 	stringa += " " + translate.damage_type(weapon["dmgtype"])
 	stringa = stringa + "\n[color=#5050ff]" + str(weapon.arm) + " [color=#a0a0a0]格挡[/color][/color]"
@@ -174,7 +174,7 @@ func write_weapon(data):
 				stringa = stringa + "\n[color=#c0c0c0]" + translate.visible_text(traitreal.Description)
 				
 				if traitreal.reference != "none":
-					stringa += "\n\n"
+					stringa += "\n"
 					var abuff = LBuffs.buff_data[traitreal.reference]
 					stringa += "[color=#707070]效果[/color]\n" + abuff.color + translate.visible_text(abuff.name) + ": [/color]" + translate.visible_text(abuff.description)
 				
@@ -188,13 +188,15 @@ func write_weapon(data):
 		stringa += "\n...位于 " + data.tile_name + "  [img]" + data.tile_sprite + "[/img]"
 	
 	$RichTextLabel.bbcode_text = stringa
+	yield(get_tree(), "idle_frame")
+	$RichTextLabel.rect_size.y = min($RichTextLabel.get_content_height(), 434.0)
 	
 
 func write_armor(data):
 	var stringa = translate.item_name(data.name)
 	var armor = data
 
-	stringa += "\n\n"
+	stringa += "\n"
 	stringa += "[color=#707070]"
 	stringa += data.rumor
 	stringa += ".."
@@ -204,7 +206,7 @@ func write_armor(data):
 	stringa += "[/color]"
 	
 	
-	stringa += "\n\n[color=#5050ff]" + "+" + str(armor.arm) + " [color=#a0a0a0]护甲[/color][/color]\n"
+	stringa += "\n[color=#5050ff]" + "+" + str(armor.arm) + " [color=#a0a0a0]护甲[/color][/color]\n"
 	stringa += "\n[color=#ff0000]" + "+" + str(armor.weight) + " [color=#a0a0a0]负重[/color][/color]"
 		
 		
@@ -242,7 +244,7 @@ func write_armor(data):
 				stringa = stringa + "\n" + translate.visible_text(traitreal.Description)
 				
 				if traitreal.reference != "none":
-					stringa += "\n\n"
+					stringa += "\n"
 					var abuff = LBuffs.buff_data[traitreal.reference]
 					stringa += "[color=#707070]效果[/color]\n" + abuff.color + translate.visible_text(abuff.name) + ": [/color]" + translate.visible_text(abuff.description)
 			
@@ -255,6 +257,8 @@ func write_armor(data):
 		stringa += "\n...位于 " + data.tile_name + "  [img]" + data.tile_sprite + "[/img]"
 	
 	$RichTextLabel.bbcode_text = stringa
+	yield(get_tree(), "idle_frame")
+	$RichTextLabel.rect_size.y = min($RichTextLabel.get_content_height(), 434.0)
 	pass
 
 

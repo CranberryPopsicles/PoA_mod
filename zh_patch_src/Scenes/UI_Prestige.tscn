@@ -91,6 +91,8 @@ margin_left = 24.0
 margin_top = 58.0
 margin_right = 120.0
 margin_bottom = 98.0
+line_spacing = 2
+	fit_content = true
 bbcode_enabled = true
 bbcode_text = "[color=#c0c0c0]做出你的选择..."
 text = "做出你的选择..."
@@ -100,6 +102,8 @@ margin_left = 24.0
 margin_top = 78.0
 margin_right = 262.0
 margin_bottom = 118.0
+line_spacing = 2
+	fit_content = true
 bbcode_enabled = true
 bbcode_text = "元素 1 / 元素 2 / 元素 3"
 text = "元素 1 / 元素 2 / 元素 3"
@@ -136,6 +140,8 @@ margin_left = 648.0
 margin_top = 112.0
 margin_right = 870.0
 margin_bottom = 670.0
+line_spacing = 2
+	fit_content = true
 bbcode_enabled = true
 text = "选择一项查看说明"
 
@@ -193,6 +199,7 @@ margin_left = 6.0
 margin_top = 7.0
 margin_right = 107.0
 margin_bottom = 47.0
+line_spacing = 2
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[center]成为"
@@ -203,6 +210,8 @@ margin_left = 59.0
 margin_top = 10.0
 margin_right = 166.0
 margin_bottom = 58.0
+line_spacing = 2
+	fit_content = true
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[center]进阶职业名称[/center]"
@@ -312,3 +321,4 @@ text = "确认
 [connection signal="focus_entered" from="TextEdit" to="." method="_on_TextEdit_focus_entered"]
 [connection signal="focus_exited" from="TextEdit" to="." method="_on_TextEdit_focus_exited"]
 [connection signal="text_changed" from="TextEdit" to="." method="_on_TextEdit_text_changed"]
+

@@ -71,9 +71,9 @@ func write_big_buttons():
 	stringa += info.STR.description_small
 	
 	if speed_min == "STR":
-		stringa += "\n\n[color=#70a070]*会提高最低速度"
+		stringa += "\n[color=#70a070]*会提高最低速度"
 	elif speed_min == "none":
-		stringa += "\n\n[color=#707070]*最低速度持平，力量 / 敏捷都不会提高它"
+		stringa += "\n[color=#707070]*最低速度持平，力量 / 敏捷都不会提高它"
 	
 	$Choices / STR / Label.bbcode_text = stringa
 	
@@ -84,7 +84,7 @@ func write_big_buttons():
 	stringa += info.DEX.description_small
 	
 	if speed_min == "DEX":
-		stringa += "\n\n[color=#70a070]*会提高最低速度"
+		stringa += "\n[color=#70a070]*会提高最低速度"
 	
 	$Choices / DEX / Label.bbcode_text = stringa
 	

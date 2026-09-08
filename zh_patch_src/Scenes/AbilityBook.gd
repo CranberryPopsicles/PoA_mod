@@ -107,7 +107,7 @@ func write_button(button):
 	stringa += "\n[img]" + data.sprite + "[/img]"
 
 	if button.type == "power":
-		stringa += "\n\n消耗 [color=#ffff50]" + str(data.cost) + "[/color]，"
+		stringa += "\n消耗 [color=#ffff50]" + str(data.cost) + "[/color]，"
 		stringa += translate.element(data.Element)
 	else:
 		stringa += "\n\n" + translate.prestige_requirement_text(data)

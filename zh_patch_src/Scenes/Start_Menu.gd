@@ -471,15 +471,15 @@ func write_description():
 	
 	if hovered_button == null:
 		
-		stringa += "\n\n\n[center][color=#707070]组合[/color]\n"
+		stringa += "\n[center][color=#707070]组合[/color]\n"
 		stringa += "\n[color=#a0a0a0][color=#ffff50]文[/color]化[/color]"
-		stringa += "\n\n[color=#a0a0a0]职[color=#ffff50]业[/color][/color]"
-		stringa += "\n\n[color=#a0a0a0][color=#ffff50]信[/color]仰[/color]"
+		stringa += "\n[color=#a0a0a0]职[color=#ffff50]业[/color][/color]"
+		stringa += "\n[color=#a0a0a0][color=#ffff50]信[/color]仰[/color]"
 		
 		if Global.universal.deck.gamepad_active == true:
-			stringa += "\n\n\n\n[color=#707070][img]res://Ham_Sprite/UI/gamepad_b.png[/img] 随机组合[/color]"
+			stringa += "\n[color=#707070][img]res://Ham_Sprite/UI/gamepad_b.png[/img] 随机组合[/color]"
 		else:
-			stringa += "\n\n\n\n[color=#707070][color=#ffff50]TAB [/color]随机组合[/color]"
+			stringa += "\n[color=#707070][color=#ffff50]TAB [/color]随机组合[/color]"
 	elif hovered_button == $P1 or hovered_button == $P2 or hovered_button == $P3:
 		var invoke = invoke_1
 		if hovered_button == $P2:
@@ -487,11 +487,11 @@ func write_description():
 		if hovered_button == $P3:
 			invoke = invoke_3
 		stringa += invoke.name
-		stringa += "\n\n[color=#78bca4]祈祷[/color]\n\n最多 " + str(invoke.use_max) + " 次充能"
+		stringa += "\n[color=#78bca4]祈祷[/color]\n最多 " + str(invoke.use_max) + " 次充能"
 		stringa += "\n\n" + invoke.description_short
 		if invoke.reference != "none":
 			var buff = LBuffs.buff_data[invoke.reference]
-			stringa += "\n\n" + "[color=#707070]效果[/color]\n" + buff.color + buff.name + "[/color]: "
+			stringa += "\n" + "[color=#707070]效果[/color]\n" + buff.color + buff.name + "[/color]: "
 			stringa += buff.description
 	
 	elif hovered_button == $bodybuttons / head or hovered_button == $bodybuttons / off or hovered_button == $bodybuttons / main or hovered_button == $bodybuttons / arm or hovered_button == $bodybuttons / arm2 or hovered_button == $bodybuttons / chest or hovered_button == $bodybuttons / leg:
@@ -539,7 +539,7 @@ func write_description():
 		if saved_game.has("EXISTS"):
 			if saved_game.EXISTS == true:
 				if is_loaded == false:
-					stringa += "\n\n你[color=#ffff00]当前保存的角色[/color]将被[color=#ff3030]删除[/color]"
+					stringa += "\n你[color=#ffff00]当前保存的角色[/color]将被[color=#ff3030]删除[/color]"
 	elif hovered_button == $Armory:
 		
 		stringa += "查看旅途中可能发现的宝物..."
@@ -554,8 +554,8 @@ func write_description():
 	
 	elif hovered_button == $Continue:
 		stringa += "[color=#50c050]读取[/color] / [color=#c05050]清除[/color]现有角色。"
-		stringa += "\n\n以下情况会[color=#ff3030]删除[/color]该角色：\n\n     使用新角色开始游戏"
-		stringa += "\n\n     未保存就关闭正在进行的游戏"
+		stringa += "\n以下情况会[color=#ff3030]删除[/color]该角色：\n     使用新角色开始游戏"
+		stringa += "\n     未保存就关闭正在进行的游戏"
 		
 	elif hovered_button == $Randomize:
 		stringa += "[img]res://Ham_Sprite/UI/Dice.png[/img]\n组合文化、职业与信仰，创建新角色"
@@ -564,11 +564,11 @@ func write_description():
 	
 	elif hovered_button == $glory_progress / GloryButton:
 		stringa += "踏上 Achra 之路即可获得[color=#ffff50]荣耀[/color]"
-		stringa += "\n\n达成[color=#ff9020]胜利！[/color]后，会解锁新的轮回"
-		stringa += "\n\n[color=#a0a0a0]第一轮回之后会加入更快的能力与更不稳定的敌人，适合熟练玩家"
-		stringa += "\n\n每个轮回都会加快[color=#ffff50]荣耀[/color]获取[color=#707070]（荣耀等级超过 " + str(Global.cycle_taper) + " 后减缓）[/color]，并提高[color=#ff8080]最大生命获取[/color][color=#707070]（游戏开始 / 提升活力 / 提升力量时）[/color]"
-		stringa += "\n\n敌人会获得[color=#af40af]增幅[/color]，随机提升[color=#ff8030]命中[/color] / [color=#ffa050]精准[/color] / [color=#ff8080]生命[/color] / [color=#20ff20]速度[/color] / [color=#50ffff]闪避[/color] / [color=#5050ff]格挡[/color] / [color=#5050ff]护甲[/color]，并获得若干层[color=#ffff50]已施加效果[/color]"
-		stringa += "\n\n你当前处于 " + cycler.int_to_cycle_name(ToolSettings.settings_data.cycle_current)
+		stringa += "\n达成[color=#ff9020]胜利！[/color]后，会解锁新的轮回"
+		stringa += "\n[color=#a0a0a0]第一轮回之后会加入更快的能力与更不稳定的敌人，适合熟练玩家"
+		stringa += "\n每个轮回都会加快[color=#ffff50]荣耀[/color]获取[color=#707070]（荣耀等级超过 " + str(Global.cycle_taper) + " 后减缓）[/color]，并提高[color=#ff8080]最大生命获取[/color][color=#707070]（游戏开始 / 提升活力 / 提升力量时）[/color]"
+		stringa += "\n敌人会获得[color=#af40af]增幅[/color]，随机提升[color=#ff8030]命中[/color] / [color=#ffa050]精准[/color] / [color=#ff8080]生命[/color] / [color=#20ff20]速度[/color] / [color=#50ffff]闪避[/color] / [color=#5050ff]格挡[/color] / [color=#5050ff]护甲[/color]，并获得若干层[color=#ffff50]已施加效果[/color]"
+		stringa += "\n你当前处于 " + cycler.int_to_cycle_name(ToolSettings.settings_data.cycle_current)
 		
 		print((ToolSettings.settings_data.cycle_current))
 	
@@ -684,7 +684,7 @@ func write_description_summary():
 	
 	stringa = stringa + "[color=#ff8080]生命[/color] " + "[color=#ffff50]" + str(int(StatePlayerSheet.HP)) + "[/color]"
 	stringa = stringa + "  [color=#20ff20]速度[/color] " + "[color=#ffff50]" + str(int(StatePlayerSheet.SPEED + (StatePlayerSheet.DEX * 2))) + "[/color]"
-	stringa = stringa + "\n\n[color=#ff7050]力量[/color] " + "[color=#ffff50]" + str(int(StatePlayerSheet.STR)) + "[/color]"
+	stringa = stringa + "\n[color=#ff7050]力量[/color] " + "[color=#ffff50]" + str(int(StatePlayerSheet.STR)) + "[/color]"
 	stringa = stringa + "  [color=#50ff70]敏捷[/color] " + "[color=#ffff50]" + str(int(StatePlayerSheet.DEX)) + "[/color]"
 	stringa = stringa + "  [color=#c050ff]意志[/color] " + "[color=#ffff50]" + str(int(StatePlayerSheet.WIL)) + "[/color]"
 	
@@ -1563,7 +1563,7 @@ func describe_armor(armor):
 		
 		stringa = armor.name + stringa
 		
-		stringa = stringa + "\n\n[color=#5050ff]" + "+" + str(armor.arm) + " [color=#a0a0a0]护甲[/color][/color]\n"
+		stringa = stringa + "\n[color=#5050ff]" + "+" + str(armor.arm) + " [color=#a0a0a0]护甲[/color][/color]\n"
 		stringa = stringa + "\n[color=#ff0000]" + "+" + str(armor.weight) + " [color=#a0a0a0]负重[/color][/color]"
 		
 		

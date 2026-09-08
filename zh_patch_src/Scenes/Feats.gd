@@ -109,13 +109,13 @@ func write_button(button):
 		if button.unlocked == true: stringa += "\n\n" + write_lore(data.title)
 		
 		
-		stringa += "\n\n以 " + data.Name + " 进阶职业取得胜利"
+		stringa += "\n以 " + data.Name + " 进阶职业取得胜利"
 	
 	
 	
 	if button.unlocked == false:
 		
-		stringa += "\n\n尚未达成..."
+		stringa += "\n尚未达成..."
 	
 		
 	
@@ -125,7 +125,7 @@ func write_button(button):
 		
 		stringa = "[color=#a0a0a0]" + stringa
 		
-		stringa += "\n\n[color=#ff80ff]已达成！"
+		stringa += "\n[color=#ff80ff]已达成！"
 	
 	$RichTextLabel.bbcode_text = stringa
 
@@ -282,8 +282,8 @@ func _on_Clear_pressed():
 func _on_Clear_mouse_entered():
 	var stringa = ""
 	stringa += "[color=#a00000]清除所有进阶职业相关的 Steam 成就[/color]"
-	stringa += "\n\n[color=#707070]进阶职业成就在 2024-01-10 前后改为需要取得胜利才会达成，Steam 上的文字也从“解锁即可”改成了胜利要求"
-	stringa += "\n\n如果你想在 Steam 上重新获取这些成就，此操作会[color=#a00000]清除所有你尚未再次取胜的进阶职业成就[/color]"
+	stringa += "\n[color=#707070]进阶职业成就在 2024-01-10 前后改为需要取得胜利才会达成，Steam 上的文字也从“解锁即可”改成了胜利要求"
+	stringa += "\n如果你想在 Steam 上重新获取这些成就，此操作会[color=#a00000]清除所有你尚未再次取胜的进阶职业成就[/color]"
 	stringa += "，以 0.9.4.6 版本后的“事迹”记录为准"
 	$RichTextLabel.bbcode_text = stringa
 

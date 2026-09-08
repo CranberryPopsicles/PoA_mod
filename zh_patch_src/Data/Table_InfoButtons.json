@@ -1,7 +1,7 @@
 {
   "attack": {
     "title": "attack",
-    "description": "[color=#ffa050]精准[/color]\n\n[color=#909090]主手[/color]\n攻击时用于[color=#ff8030]命中[/color]敌人的最高数值\n[color=#707070]战斗中，你的精准会在 1 到该数值之间随机取值[/color]\n\n必须高于敌人的[color=#50ffff]闪避[/color]\n[color=#707070]敌人的闪避会在 1 到其闪避值之间随机取值[/color]\n\n只能攻击[color=#ffff50]射程[/color]内的敌人\n\n     [color=#707070]由你装备的武器决定[/color]\n     每点[color=#50ff70]敏捷[/color]提供 [color=#ffff50]+5%[/color] [color=#909090]双手持握时为 10%[/color]\n\n[color=#707070]这会确立你的“基础”精准，其他增幅都以此为基准计算[/color]\n\n[color=#ffff50]射程[/color]由你的主手武器决定",
+    "description": "[color=#ffa050]精准[/color]\n[color=#909090]主手[/color]\n攻击时用于[color=#ff8030]命中[/color]敌人的最高数值\n[color=#707070]战斗中，你的精准会在 1 到该数值之间随机取值[/color]\n必须高于敌人的[color=#50ffff]闪避[/color]\n[color=#707070]敌人的闪避会在 1 到其闪避值之间随机取值[/color]\n只能攻击[color=#ffff50]射程[/color]内的敌人\n     [color=#707070]由你装备的武器决定[/color]\n     每点[color=#50ff70]敏捷[/color]提供 [color=#ffff50]+5%[/color] [color=#909090]双手持握时为 10%[/color]\n[color=#707070]这会确立你的“基础”精准，其他增幅都以此为基准计算[/color]\n[color=#ffff50]射程[/color]由你的主手武器决定",
     "text_icon": "[color=#ffa050]精准[/color]",
     "description_small": "none",
     "name": "ATK",
@@ -14,7 +14,7 @@
   },
   "damage": {
     "title": "damage",
-    "description": "[color=#ff8030]命中[/color]\n\n[color=#909090]主手[/color]\n用[color=#ffff50]攻击[/color][color=#ff8030]命中[/color]敌人时，你能[color=#ffff50]造成[/color]的最高伤害值\n[color=#707070]战斗中，你的命中会在 1 到该数值之间随机取值[/color]\n\n会被敌人的[color=#5050ff]格挡[/color]和[color=#5050ff]护甲[/color]降低\n\n     [color=#707070]由你装备的武器决定[/color]\n     每点[color=#ff7050]力量[/color]提供 [color=#ffff50]+10%[/color] [color=#909090]双手持握时为 20%[/color]\n     速度超过 100 后，每点[color=#20ff20]速度[/color]提供 [color=#ffff50]+1[/color]\n\n[color=#707070]这会确立你的“基础”命中，其他增幅都以此为基准计算[/color]",
+    "description": "[color=#ff8030]命中[/color]\n[color=#909090]主手[/color]\n用[color=#ffff50]攻击[/color][color=#ff8030]命中[/color]敌人时，你能[color=#ffff50]造成[/color]的最高伤害值\n[color=#707070]战斗中，你的命中会在 1 到该数值之间随机取值[/color]\n会被敌人的[color=#5050ff]格挡[/color]和[color=#5050ff]护甲[/color]降低\n     [color=#707070]由你装备的武器决定[/color]\n     每点[color=#ff7050]力量[/color]提供 [color=#ffff50]+10%[/color] [color=#909090]双手持握时为 20%[/color]\n     速度超过 100 后，每点[color=#20ff20]速度[/color]提供 [color=#ffff50]+1[/color]\n[color=#707070]这会确立你的“基础”命中，其他增幅都以此为基准计算[/color]",
     "text_icon": "[color=#ff8030]命中[/color]",
     "description_small": "none",
     "name": "DMG",
@@ -27,7 +27,7 @@
   },
   "attack2": {
     "title": "attack2",
-    "description": "[color=#ffa050]精准[/color]\n\n[color=#909090]副手[/color]\n攻击时用于[color=#ff8030]命中[/color]敌人的最高数值\n[color=#707070]战斗中，你的精准会在 1 到该数值之间随机取值[/color]\n\n必须高于敌人的[color=#50ffff]闪避[/color]\n[color=#707070]敌人的闪避会在 1 到其闪避值之间随机取值[/color]\n\n只能攻击[color=#ffff50]射程[/color]内的敌人\n\n     [color=#707070]由你装备的武器决定[/color]\n     每点[color=#50ff70]敏捷[/color]提供 [color=#ffff50]+5%[/color] [color=#909090]双手持握时为 10%[/color]\n\n[color=#707070]这会确立你的“基础”精准，其他增幅都以此为基准计算[/color]\n\n[color=#ffff50]射程[/color]由你的主手武器决定",
+    "description": "[color=#ffa050]精准[/color]\n[color=#909090]副手[/color]\n攻击时用于[color=#ff8030]命中[/color]敌人的最高数值\n[color=#707070]战斗中，你的精准会在 1 到该数值之间随机取值[/color]\n必须高于敌人的[color=#50ffff]闪避[/color]\n[color=#707070]敌人的闪避会在 1 到其闪避值之间随机取值[/color]\n只能攻击[color=#ffff50]射程[/color]内的敌人\n     [color=#707070]由你装备的武器决定[/color]\n     每点[color=#50ff70]敏捷[/color]提供 [color=#ffff50]+5%[/color] [color=#909090]双手持握时为 10%[/color]\n[color=#707070]这会确立你的“基础”精准，其他增幅都以此为基准计算[/color]\n[color=#ffff50]射程[/color]由你的主手武器决定",
     "text_icon": "[color=#ffa050]精准[/color]",
     "description_small": "none",
     "name": "ATK",
@@ -40,7 +40,7 @@
   },
   "damage2": {
     "title": "damage2",
-    "description": "[color=#ff8030]命中[/color]\n\n[color=#909090]副手[/color]\n用[color=#ffff50]攻击[/color][color=#ff8030]命中[/color]敌人时，你能[color=#ffff50]造成[/color]的最高伤害值\n[color=#707070]战斗中，你的命中会在 1 到该数值之间随机取值[/color]\n\n会被敌人的[color=#5050ff]格挡[/color]和[color=#5050ff]护甲[/color]降低\n\n     [color=#707070]由你装备的武器决定[/color]\n     每点[color=#ff7050]力量[/color]提供 [color=#ffff50]+10%[/color] [color=#909090]双手持握时为 20%[/color]\n     速度超过 100 后，每点[color=#20ff20]速度[/color]提供 [color=#ffff50]+1[/color]\n\n[color=#707070]这会确立你的“基础”命中，其他增幅都以此为基准计算[/color]",
+    "description": "[color=#ff8030]命中[/color]\n[color=#909090]副手[/color]\n用[color=#ffff50]攻击[/color][color=#ff8030]命中[/color]敌人时，你能[color=#ffff50]造成[/color]的最高伤害值\n[color=#707070]战斗中，你的命中会在 1 到该数值之间随机取值[/color]\n会被敌人的[color=#5050ff]格挡[/color]和[color=#5050ff]护甲[/color]降低\n     [color=#707070]由你装备的武器决定[/color]\n     每点[color=#ff7050]力量[/color]提供 [color=#ffff50]+10%[/color] [color=#909090]双手持握时为 20%[/color]\n     速度超过 100 后，每点[color=#20ff20]速度[/color]提供 [color=#ffff50]+1[/color]\n[color=#707070]这会确立你的“基础”命中，其他增幅都以此为基准计算[/color]",
     "text_icon": "[color=#ff8030]命中[/color]",
     "description_small": "none",
     "name": "DMG",
@@ -53,7 +53,7 @@
   },
   "life": {
     "title": "life",
-    "description": "[color=#ff8080]生命[/color]\n\n衡量你存在的绝对尺度。当它降至 0 时，[color=#ff3030]你会死亡……[/color]\n\n[color=#ff3030]死亡[/color]会通过你的神祇发动[color=#78bca4]神圣干预[/color] [img]res://Ham_Sprite/UI/Ankh.png[/img] 来阻止，代价是随机一个[color=#78bca4]已完全充能的祈祷[/color]失去所有充能。你的[color=#ff8080]生命[/color]会被设为 25%",
+    "description": "[color=#ff8080]生命[/color]\n衡量你存在的绝对尺度。当它降至 0 时，[color=#ff3030]你会死亡……[/color]\n[color=#ff3030]死亡[/color]会通过你的神祇发动[color=#78bca4]神圣干预[/color] [img]res://Ham_Sprite/UI/Ankh.png[/img] 来阻止，代价是随机一个[color=#78bca4]已完全充能的祈祷[/color]失去所有充能。你的[color=#ff8080]生命[/color]会被设为 25%",
     "text_icon": "[color=#ff8080]生命[/color]",
     "description_small": "衡量你存在的绝对尺度。当它降至 0 时，[color=#ff3030]你会死亡……[/color]。[color=#ff3030]死亡[/color]会通过你的神祇发动[color=#78bca4]神圣干预[/color] [img]res://Ham_Sprite/UI/Ankh.png[/img] 来阻止，代价是随机一个[color=#78bca4]已完全充能的祈祷[/color]失去所有充能。你的[color=#ff8080]生命[/color]会被设为 25%",
     "name": "HP",
@@ -66,9 +66,9 @@
   },
   "revive": {
     "title": "revive",
-    "description": "[color=#ff8080]生命[/color]\n\n衡量你存在的绝对尺度。当它降至 0 时，[color=#ff3030]你会死亡……[/color]",
+    "description": "[color=#ff8080]生命[/color]\n衡量你存在的绝对尺度。当它降至 0 时，[color=#ff3030]你会死亡……[/color]",
     "text_icon": "[color=#ff8080]活力[/color]",
-    "description_small": "[center][color=#ff8080]活力[/color][color=#ffc0c0c0]\n\n[color=#ff8080]+75 生命[/color]\n\n[color=#a0a0a0]将你[color=#50ff50]治疗[/color]至满生命[/color]\n\n[color=#a0a0a0][color=#ffff50]净化[/color]你身上的所有有害效果[/color]",
+    "description_small": "[center][color=#ff8080]活力[/color][color=#ffc0c0c0]\n[color=#ff8080]+75 生命[/color]\n[color=#a0a0a0]将你[color=#50ff50]治疗[/color]至满生命[/color]\n[color=#a0a0a0][color=#ffff50]净化[/color]你身上的所有有害效果[/color]",
     "name": "Revive",
     "sprite": "none",
     "icon": "life",
@@ -79,7 +79,7 @@
   },
   "speed": {
     "title": "speed",
-    "description": "[color=#20ff20]速度[/color]\n\n你行动的速度\n\n     [color=#ff7050]力量[/color]以上每点[color=#ff0000]负重[/color]使速度 [color=#ff5050]-2[/color]\n\n     会被总[color=#ff0000]僵硬度[/color][color=#ff5050]除算[/color]\n\n     [color=#50ff50]不会低于[/color]最低值 [color=#707070]由力量或基础值（敏捷 * 2 + 初始速度）决定，取较低者[/color]\n\n[color=#707070]这会确立你的基础速度，其他增幅都以此为基准计算[/color]\n\n每个[color=#ffff50]游戏回合[/color]在速度 5 时发生 [color=#707070]这是“每个游戏回合”触发器生效、流血等效果到期的速度[/color]\n\n速度接近 100 时会开始[color=#ff3030]收益递减[/color]\n\n速度超过 100 后，每点速度都会加入你的[color=#ff8030]命中[/color]",
+    "description": "[color=#20ff20]速度[/color]\n你行动的速度\n     [color=#ff7050]力量[/color]以上每点[color=#ff0000]负重[/color]使速度 [color=#ff5050]-2[/color]\n     会被总[color=#ff0000]僵硬度[/color][color=#ff5050]除算[/color]\n     [color=#50ff50]不会低于[/color]最低值 [color=#707070]由力量或基础值（敏捷 * 2 + 初始速度）决定，取较低者[/color]\n[color=#707070]这会确立你的基础速度，其他增幅都以此为基准计算[/color]\n每个[color=#ffff50]游戏回合[/color]在速度 5 时发生 [color=#707070]这是“每个游戏回合”触发器生效、流血等效果到期的速度[/color]\n速度接近 100 时会开始[color=#ff3030]收益递减[/color]\n速度超过 100 后，每点速度都会加入你的[color=#ff8030]命中[/color]",
     "text_icon": "[color=#20ff20]速度[/color]",
     "description_small": "你行动的速度。如果敌人比你[color=#ffff50]更慢[/color]，他们会采取[color=#ffff50]更少行动[/color]。每个[color=#ffff50]游戏回合[/color]在速度 10 时发生。如果你的速度[color=#ffff50]低于一个游戏回合[/color]，你每回合行动一次；如果[color=#ffff50]高于一个游戏回合[/color]，你可以比游戏回合效果更频繁地行动。[color=#ff0000]会受到负重和僵硬度惩罚[/color]",
     "name": "SPD",
@@ -92,7 +92,7 @@
   },
   "resistances": {
     "title": "resistances",
-    "description": "[color=#ffff00]抗性[/color]\n\n你对每种[color=#ffff50]类型[/color]伤害的抵抗量\n\n[color=#ff0000]负数[/color]抗性会使你受到更多伤害\n\n最高 [color=#00ff00]75%[/color]，最低 [color=#ff0000]-100%[/color]",
+    "description": "[color=#ffff00]抗性[/color]\n你对每种[color=#ffff50]类型[/color]伤害的抵抗量\n[color=#ff0000]负数[/color]抗性会使你受到更多伤害\n最高 [color=#00ff00]75%[/color]，最低 [color=#ff0000]-100%[/color]",
     "text_icon": "[color=#ffff00]抗性[/color]",
     "description_small": "none",
     "name": "RES",
@@ -105,7 +105,7 @@
   },
   "dodge": {
     "title": "dodge",
-    "description": "[color=#50ffff]闪避[/color]\n\n用于闪避敌人[color=#ffff50]攻击[/color]的最高数值\n[color=#707070]战斗中，你的闪避会在 1 到该数值之间随机取值[/color]\n\n必须高于敌人的[color=#ffa050]精准[/color]\n[color=#707070]敌人的精准会在 1 到其精准值之间随机取值[/color]\n\n若成功，攻击会被[color=#ffff50]“闪避”[/color]\n\n     每点[color=#50ff70]敏捷[/color]提供 [color=#ffff50]+20[/color]\n     [color=#ff7050]力量[/color]以上每点[color=#ff0000]负重[/color]使闪避 [color=#ff5050]-20[/color]\n\n[color=#707070]这会确立你的“基础”闪避，其他增幅都以此为基准计算[/color]\n\n[color=#ff5050]10% 概率失败[/color] [color=#707070]永久存在[/color]\n\n[color=#ff5050]不会影响[/color][color=#ffff50]非攻击来源[/color]造成的伤害",
+    "description": "[color=#50ffff]闪避[/color]\n用于闪避敌人[color=#ffff50]攻击[/color]的最高数值\n[color=#707070]战斗中，你的闪避会在 1 到该数值之间随机取值[/color]\n必须高于敌人的[color=#ffa050]精准[/color]\n[color=#707070]敌人的精准会在 1 到其精准值之间随机取值[/color]\n若成功，攻击会被[color=#ffff50]“闪避”[/color]\n     每点[color=#50ff70]敏捷[/color]提供 [color=#ffff50]+20[/color]\n     [color=#ff7050]力量[/color]以上每点[color=#ff0000]负重[/color]使闪避 [color=#ff5050]-20[/color]\n[color=#707070]这会确立你的“基础”闪避，其他增幅都以此为基准计算[/color]\n[color=#ff5050]10% 概率失败[/color] [color=#707070]永久存在[/color]\n[color=#ff5050]不会影响[/color][color=#ffff50]非攻击来源[/color]造成的伤害",
     "text_icon": "[color=#50ffff]闪避[/color]",
     "description_small": "none",
     "name": "DGE",
@@ -118,7 +118,7 @@
   },
   "defense": {
     "title": "defense",
-    "description": "[color=#50ffff]防御[/color]\n\n决定你[color=#ffff50]尝试[/color][color=#5050ff]格挡[/color]敌人[color=#ffff50]攻击[/color]的概率\n\n必须高于敌人的[color=#ffa050]精准[/color]\n\n会由[color=#50ff70]敏捷[/color]和你的[color=#ffff50]武器[/color]提高",
+    "description": "[color=#50ffff]防御[/color]\n决定你[color=#ffff50]尝试[/color][color=#5050ff]格挡[/color]敌人[color=#ffff50]攻击[/color]的概率\n必须高于敌人的[color=#ffa050]精准[/color]\n会由[color=#50ff70]敏捷[/color]和你的[color=#ffff50]武器[/color]提高",
     "text_icon": "[color=#50ffff]防御[/color]",
     "description_small": "none",
     "name": "DEF",
@@ -131,7 +131,7 @@
   },
   "block": {
     "title": "block",
-    "description": "[color=#5050ff]格挡[/color]\n\n提供一次[color=#ffff50]机会[/color]，降低[color=#ff8030]攻击[/color]造成的[color=#ff8030]伤害[/color]\n\n降低敌人的[color=#ff8030]命中[/color]\n[color=#707070]敌人的命中会在 1 到其命中值之间随机取值[/color]\n\n若大于或等于[color=#ff8030]命中[/color]，攻击会被[color=#ffff50]“格挡”[/color]\n     \n     每点[color=#50ff70]敏捷[/color]提供 [color=#ffff50]+1%[/color] 概率\n     每件持有的[color=#ffff50]武器[/color]和装备的[color=#ffff50]手部护甲[/color]提供 [color=#ffff50]+15%[/color]\n     [color=#c0c0c0]最高 90%[/color]\n\n数值由你的[color=#ffff50]武器[/color]和[color=#ffff50]手部护甲[/color]的[color=#5050ff]护甲[/color]决定\n\n     [color=#707070]由你装备的武器和手部护甲决定[/color]\n     每点[color=#50ff70]敏捷[/color]提供 [color=#ffff50]+20[/color]\n     每点[color=#ff7050]力量[/color]使[color=#707070]装备提供的[/color]数值 [color=#ffff50]+10%[/color]\n     1 以上每点[color=#ff0000]僵硬度[/color]使[color=#707070]装备提供的[/color]数值 [color=#ffff50]+25%[/color]\n\n[color=#707070]这会确立你的“基础”格挡，其他增幅都以此为基准计算[/color]\n\n[color=#ff5050]不会影响[/color][color=#ffff50]非攻击来源[/color]造成的伤害\n\n对[color=#af8f50]物理[/color]伤害 [color=#a0a0a0]斩击、钝击和穿刺[/color] 有 [color=#ffff50]100%[/color] 效果\n\n对其他伤害类型有 [color=#ffff50]25%[/color] [color=#707070]最低[/color]效果，并加上对应[color=#ffff00]抗性[/color]",
+    "description": "[color=#5050ff]格挡[/color]\n提供一次[color=#ffff50]机会[/color]，降低[color=#ff8030]攻击[/color]造成的[color=#ff8030]伤害[/color]\n降低敌人的[color=#ff8030]命中[/color]\n[color=#707070]敌人的命中会在 1 到其命中值之间随机取值[/color]\n若大于或等于[color=#ff8030]命中[/color]，攻击会被[color=#ffff50]“格挡”[/color]\n     \n     每点[color=#50ff70]敏捷[/color]提供 [color=#ffff50]+1%[/color] 概率\n     每件持有的[color=#ffff50]武器[/color]和装备的[color=#ffff50]手部护甲[/color]提供 [color=#ffff50]+15%[/color]\n     [color=#c0c0c0]最高 90%[/color]\n数值由你的[color=#ffff50]武器[/color]和[color=#ffff50]手部护甲[/color]的[color=#5050ff]护甲[/color]决定\n     [color=#707070]由你装备的武器和手部护甲决定[/color]\n     每点[color=#50ff70]敏捷[/color]提供 [color=#ffff50]+20[/color]\n     每点[color=#ff7050]力量[/color]使[color=#707070]装备提供的[/color]数值 [color=#ffff50]+10%[/color]\n     1 以上每点[color=#ff0000]僵硬度[/color]使[color=#707070]装备提供的[/color]数值 [color=#ffff50]+25%[/color]\n[color=#707070]这会确立你的“基础”格挡，其他增幅都以此为基准计算[/color]\n[color=#ff5050]不会影响[/color][color=#ffff50]非攻击来源[/color]造成的伤害\n对[color=#af8f50]物理[/color]伤害 [color=#a0a0a0]斩击、钝击和穿刺[/color] 有 [color=#ffff50]100%[/color] 效果\n对其他伤害类型有 [color=#ffff50]25%[/color] [color=#707070]最低[/color]效果，并加上对应[color=#ffff00]抗性[/color]",
     "text_icon": "[color=#5050ff]格挡[/color]",
     "description_small": "none",
     "name": "BLK",
@@ -144,7 +144,7 @@
   },
   "armor": {
     "title": "armor",
-    "description": "[color=#5050ff]护甲[/color]\n\n降低[color=#ff8030]攻击[/color]造成的[color=#ff8030]伤害[/color]\n\n降低敌人的[color=#ff8030]命中[/color]\n[color=#707070]敌人的命中会在 1 到其命中值之间随机取值[/color]\n\n若大于或等于[color=#ff8030]命中[/color]，攻击会被[color=#ffff50]“硬抗”[/color]\n\n     [color=#707070]由你装备的护甲决定[/color]\n     每点[color=#ff7050]力量[/color]提供 [color=#ffff50]+15[/color]\n     每点[color=#ff7050]力量[/color]使[color=#707070]装备提供的[/color]数值 [color=#ffff50]+10%[/color]\n\n[color=#707070]这会确立你的“基础”护甲，其他增幅都以此为基准计算[/color]\n\n[color=#ff5050]10% 概率失败[/color] [color=#707070]永久存在[/color]\n\n[color=#ff5050]不会影响[/color][color=#ffff50]非攻击来源[/color]造成的伤害\n\n对[color=#af8f50]物理[/color]伤害 [color=#a0a0a0]斩击、钝击和穿刺[/color] 有 [color=#ffff50]100%[/color] 效果\n\n对其他伤害类型有 [color=#ffff50]25%[/color] [color=#707070]最低[/color]效果，并加上对应[color=#ffff00]抗性[/color]",
+    "description": "[color=#5050ff]护甲[/color]\n降低[color=#ff8030]攻击[/color]造成的[color=#ff8030]伤害[/color]\n降低敌人的[color=#ff8030]命中[/color]\n[color=#707070]敌人的命中会在 1 到其命中值之间随机取值[/color]\n若大于或等于[color=#ff8030]命中[/color]，攻击会被[color=#ffff50]“硬抗”[/color]\n     [color=#707070]由你装备的护甲决定[/color]\n     每点[color=#ff7050]力量[/color]提供 [color=#ffff50]+15[/color]\n     每点[color=#ff7050]力量[/color]使[color=#707070]装备提供的[/color]数值 [color=#ffff50]+10%[/color]\n[color=#707070]这会确立你的“基础”护甲，其他增幅都以此为基准计算[/color]\n[color=#ff5050]10% 概率失败[/color] [color=#707070]永久存在[/color]\n[color=#ff5050]不会影响[/color][color=#ffff50]非攻击来源[/color]造成的伤害\n对[color=#af8f50]物理[/color]伤害 [color=#a0a0a0]斩击、钝击和穿刺[/color] 有 [color=#ffff50]100%[/color] 效果\n对其他伤害类型有 [color=#ffff50]25%[/color] [color=#707070]最低[/color]效果，并加上对应[color=#ffff00]抗性[/color]",
     "text_icon": "[color=#5050ff]护甲[/color]",
     "description_small": "none",
     "name": "ARM",
@@ -157,7 +157,7 @@
   },
   "encumbrance": {
     "title": "encumbrance",
-    "description": "[color=#ff0000]负重[/color]，若[color=#ffff50]高于[/color][color=#ff7050]力量[/color]，每点会造成：\n\n     [color=#20ff20]速度[/color] [color=#ff5050]-2[/color]\n\n     [color=#50ffff]闪避[/color] [color=#ff5050]-20[/color]",
+    "description": "[color=#ff0000]负重[/color]，若[color=#ffff50]高于[/color][color=#ff7050]力量[/color]，每点会造成：\n     [color=#20ff20]速度[/color] [color=#ff5050]-2[/color]\n     [color=#50ffff]闪避[/color] [color=#ff5050]-20[/color]",
     "text_icon": "[color=#ff0000]负重[/color]",
     "description_small": "none",
     "name": "ENC",
@@ -170,7 +170,7 @@
   },
   "inflex": {
     "title": "inflex",
-    "description": "[color=#ff0000]僵硬度[/color]，若[color=#ffff50]高于[/color] 1，每点会造成：\n\n     [color=#5050ff]格挡 +25%[/color] [color=#707070]按装备数值缩放[/color]\n\n     [color=#ff5050]除算[/color][color=#20ff20]速度[/color]\n\n     [color=#ff5050]除算[/color][color=#c050ff]意志伤害加成[/color]",
+    "description": "[color=#ff0000]僵硬度[/color]，若[color=#ffff50]高于[/color] 1，每点会造成：\n     [color=#5050ff]格挡 +25%[/color] [color=#707070]按装备数值缩放[/color]\n     [color=#ff5050]除算[/color][color=#20ff20]速度[/color]\n     [color=#ff5050]除算[/color][color=#c050ff]意志伤害加成[/color]",
     "text_icon": "[color=#ff0000]僵硬度[/color]",
     "description_small": "none",
     "name": "INF",
@@ -183,7 +183,7 @@
   },
   "weaponsize": {
     "title": "weaponsize",
-    "description": "[color=#ff0000]武器尺寸[/color]\n\n会影响某些能力……",
+    "description": "[color=#ff0000]武器尺寸[/color]\n会影响某些能力……",
     "text_icon": "[color=#ff0000]武器尺寸[/color]",
     "description_small": "none",
     "name": "WSZ",
@@ -209,9 +209,9 @@
   },
   "prestige": {
     "title": "prestige",
-    "description": "[color=#c0c0c0][[color=#ffff50]r[/color]] 查看进阶职业\n\n你只能“成为”一个进阶职业\n\n通过在不同元素、主题能力上投入点数，或装备特定物品来解锁",
+    "description": "[color=#c0c0c0][[color=#ffff50]r[/color]] 查看进阶职业\n你只能“成为”一个进阶职业\n通过在不同元素、主题能力上投入点数，或装备特定物品来解锁",
     "text_icon": "none",
-    "description_small": "[color=#c0c0c0]查看进阶职业\n\n你只能拥有一个进阶职业，也就是你最先解锁的那个；它会成为你的职业名称\n\n通过在不同元素和主题能力上投入点数来解锁",
+    "description_small": "[color=#c0c0c0]查看进阶职业\n你只能拥有一个进阶职业，也就是你最先解锁的那个；它会成为你的职业名称\n通过在不同元素和主题能力上投入点数来解锁",
     "name": "prestige",
     "sprite": "none",
     "icon": "STR3",
@@ -222,9 +222,9 @@
   },
   "STR": {
     "title": "STR",
-    "description": "[color=#ff7050]力量[/color]，每点提供：\n\n     [color=#ff8080]+25 生命[/color]\n     [color=#5050ff]+15 护甲[/color]\n     [color=#ffff50]+1%[/color] [color=#70ff00]毒素[/color] / [color=#a0a000]死亡[/color] / [color=#ff1010]鲜血[/color]抗性\n\n     [color=#707070]按已装备护甲 / 武器缩放：[/color]\n     [color=#5050ff]+10% 格挡[/color]\n     [color=#5050ff]+10% 护甲[/color]\n     [color=#ff8030]+10% 命中[/color] [color=#c0c0c0]双手持握时 +20%[/color]\n\n     抵消[color=#ff0000]负重[/color]\n    \n     提高最低[color=#20ff20]速度[/color] [color=#707070]最高到敏捷 + 初始速度[/color]",
+    "description": "[color=#ff7050]力量[/color]，每点提供：\n     [color=#ff8080]+25 生命[/color]\n     [color=#5050ff]+15 护甲[/color]\n     [color=#ffff50]+1%[/color] [color=#70ff00]毒素[/color] / [color=#a0a000]死亡[/color] / [color=#ff1010]鲜血[/color]抗性\n     [color=#707070]按已装备护甲 / 武器缩放：[/color]\n     [color=#5050ff]+10% 格挡[/color]\n     [color=#5050ff]+10% 护甲[/color]\n     [color=#ff8030]+10% 命中[/color] [color=#c0c0c0]双手持握时 +20%[/color]\n     抵消[color=#ff0000]负重[/color]\n    \n     提高最低[color=#20ff20]速度[/color] [color=#707070]最高到敏捷 + 初始速度[/color]",
     "text_icon": "[color=#ff7050]力量[/color]",
-    "description_small": "[center][color=#ff7050]力量[/color][color=#ffc0c0c0]\n\n[color=#ff8080]+25 生命[/color]\n[color=#5050ff]+15 护甲[/color]\n[color=#ffff50]+1%[/color] [color=#70ff00]毒素[/color] / [color=#a0a000]死亡[/color] / [color=#ff1010]鲜血[/color]抗性\n\n\n[color=#707070]按已装备护甲 / 武器缩放：[/color] \n[color=#5050ff]+10% 格挡[/color]\n[color=#5050ff]+10% 护甲[/color]\n[color=#ff8030]+10% 命中[/color] [color=#c0c0c0]双手持握时 +20%[/color]\n\n\n抵消[color=#ff0000]负重[/color]\n    \n提高最低[color=#20ff20]速度[/color] [color=#707070]最高到敏捷 + 初始速度[/color]",
+    "description_small": "[center][color=#ff7050]力量[/color][color=#ffc0c0c0]\n[color=#ff8080]+25 生命[/color]\n[color=#5050ff]+15 护甲[/color]\n[color=#ffff50]+1%[/color] [color=#70ff00]毒素[/color] / [color=#a0a000]死亡[/color] / [color=#ff1010]鲜血[/color]抗性\n[color=#707070]按已装备护甲 / 武器缩放：[/color] \n[color=#5050ff]+10% 格挡[/color]\n[color=#5050ff]+10% 护甲[/color]\n[color=#ff8030]+10% 命中[/color] [color=#c0c0c0]双手持握时 +20%[/color]\n抵消[color=#ff0000]负重[/color]\n    \n提高最低[color=#20ff20]速度[/color] [color=#707070]最高到敏捷 + 初始速度[/color]",
     "name": "STR",
     "sprite": "none",
     "icon": "STR3",
@@ -235,9 +235,9 @@
   },
   "DEX": {
     "title": "DEX",
-    "description": "[color=#50ff70]敏捷[/color]，每点提供：\n\n     [color=#50ffff]+20 闪避[/color]\n     [color=#5050ff]+20 格挡[/color]\n     [color=#5050ff]+1% 格挡概率[/color] [color=#707070]最高 90%[/color]\n\n     [color=#707070]按已装备武器缩放：[/color]\n     [color=#ffa050]+5% 精准[/color] [color=#c0c0c0]双手持握时 +10%[/color]\n\n     [color=#20ff20]+2 速度[/color]",
+    "description": "[color=#50ff70]敏捷[/color]，每点提供：\n     [color=#50ffff]+20 闪避[/color]\n     [color=#5050ff]+20 格挡[/color]\n     [color=#5050ff]+1% 格挡概率[/color] [color=#707070]最高 90%[/color]\n     [color=#707070]按已装备武器缩放：[/color]\n     [color=#ffa050]+5% 精准[/color] [color=#c0c0c0]双手持握时 +10%[/color]\n     [color=#20ff20]+2 速度[/color]",
     "text_icon": "[color=#50ff70]敏捷[/color]",
-    "description_small": "[center][color=#50ff70]敏捷[/color][color=#ffc0c0c0]\n\n[color=#50ffff]+20 闪避[/color]\n[color=#5050ff]+20 格挡[/color]\n[color=#5050ff]+1% 格挡概率[/color] [color=#707070]最高 90%[/color]\n\n[color=#707070]按已装备武器缩放：[/color]\n[color=#ffa050]+5% 精准[/color] [color=#c0c0c0]双手持握时 +10%[/color]\n\n\n[color=#20ff20]+2 速度[/color]",
+    "description_small": "[center][color=#50ff70]敏捷[/color][color=#ffc0c0c0]\n[color=#50ffff]+20 闪避[/color]\n[color=#5050ff]+20 格挡[/color]\n[color=#5050ff]+1% 格挡概率[/color] [color=#707070]最高 90%[/color]\n[color=#707070]按已装备武器缩放：[/color]\n[color=#ffa050]+5% 精准[/color] [color=#c0c0c0]双手持握时 +10%[/color]\n[color=#20ff20]+2 速度[/color]",
     "name": "DEX",
     "sprite": "none",
     "icon": "STR3",
@@ -248,9 +248,9 @@
   },
   "WIL": {
     "title": "WIL",
-    "description": "[color=#c050ff]意志[/color]，每点提供：\n     \n     [color=#ffff50]+10% 造成的伤害[/color] [color=#707070]会被僵硬度除算[/color]\n     [color=#50ff50]+10% 治疗[/color]\n\n     [color=#ffff50]+1%[/color] 从每个有害效果中恢复的概率 [color=#707070]每个游戏回合[/color]\n     \n     决定你的[color=#8030af]召唤盟友[/color]上限\n     向[color=#c050ff]魔宠[/color]提供百分比加成",
+    "description": "[color=#c050ff]意志[/color]，每点提供：\n     \n     [color=#ffff50]+10% 造成的伤害[/color] [color=#707070]会被僵硬度除算[/color]\n     [color=#50ff50]+10% 治疗[/color]\n     [color=#ffff50]+1%[/color] 从每个有害效果中恢复的概率 [color=#707070]每个游戏回合[/color]\n     \n     决定你的[color=#8030af]召唤盟友[/color]上限\n     向[color=#c050ff]魔宠[/color]提供百分比加成",
     "text_icon": "[color=#c050ff]意志[/color]",
-    "description_small": "[center][color=#c050ff]意志[/color][color=#ffc0c0c0]\n\n[color=#ffff50]+10% 造成的伤害[/color] [color=#707070]会被僵硬度除算[/color]\n[color=#50ff50]+10% 治疗[/color]\n\n[color=#ffff50]+1%[/color] 从每个有害效果中恢复的概率 [color=#707070]每个游戏回合[/color]\n     \n决定你的[color=#8030af]召唤盟友[/color]上限\n向[color=#c050ff]魔宠[/color]提供百分比加成",
+    "description_small": "[center][color=#c050ff]意志[/color][color=#ffc0c0c0]\n[color=#ffff50]+10% 造成的伤害[/color] [color=#707070]会被僵硬度除算[/color]\n[color=#50ff50]+10% 治疗[/color]\n[color=#ffff50]+1%[/color] 从每个有害效果中恢复的概率 [color=#707070]每个游戏回合[/color]\n     \n决定你的[color=#8030af]召唤盟友[/color]上限\n向[color=#c050ff]魔宠[/color]提供百分比加成",
     "name": "WIL",
     "sprite": "none",
     "icon": "WIL3",

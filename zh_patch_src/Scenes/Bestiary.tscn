@@ -108,7 +108,8 @@ margin_left = 435.0
 margin_top = 217.0
 margin_right = 597.0
 margin_bottom = 530.0
-mouse_filter = 2
+line_spacing = 2
+	mouse_filter = 2
 bbcode_enabled = true
 
 [node name="RichTextLabel2" type="RichTextLabel" parent="."]
@@ -116,7 +117,8 @@ margin_left = 440.0
 margin_top = 115.0
 margin_right = 626.0
 margin_bottom = 438.0
-mouse_filter = 2
+line_spacing = 2
+	mouse_filter = 2
 bbcode_enabled = true
 
 [node name="Node2D2" type="Node2D" parent="."]
@@ -137,6 +139,7 @@ modulate = Color( 0.878431, 0.317647, 0.317647, 1 )
 margin_top = 3.0
 margin_right = 64.0
 margin_bottom = 34.0
+line_spacing = 2
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[center]返回"
@@ -151,7 +154,8 @@ margin_left = 24.0
 margin_top = 8.0
 margin_right = 224.0
 margin_bottom = 72.0
-mouse_filter = 2
+line_spacing = 2
+	mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[color=#c0c0c0]敌人遍布大地...[/color]"
 text = "敌人遍布大地..."
@@ -165,3 +169,5 @@ centered = false
 
 [connection signal="mouse_entered" from="Quit" to="." method="_on_Quit_mouse_entered"]
 [connection signal="pressed" from="Quit" to="." method="_on_Quit_pressed"]
+
+

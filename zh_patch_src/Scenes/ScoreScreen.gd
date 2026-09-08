@@ -56,17 +56,17 @@ func write_screen(data):
 	stringa += "\n[color=#50ff70]敏捷[/color] [color=#ffff00]" + str(int(data.dex)) + "[/color]"
 	stringa += "\n[color=#c050ff]意志[/color] [color=#ffff00]" + str(int(data.wil)) + "[/color]"
 	
-	stringa += "\n\n[color=#707070]已装备[/color]"
+	stringa += "\n[color=#707070]已装备[/color]"
 	
 	for item in data.inventory:
 		stringa += "\n" + translate.item_name(item.name)
 	
-	stringa += "\n\n[color=#707070]已学习[/color]"
+	stringa += "\n[color=#707070]已学习[/color]"
 	
 	for power in data.powers:
 		stringa += "\n" + translate.trait_name(power) + " " + str(int(power.Level))
 	
-	stringa += "\n\n[color=#707070]事迹"
+	stringa += "\n[color=#707070]事迹"
 	
 	for feat in data.feats:
 		stringa += "\n" + feat

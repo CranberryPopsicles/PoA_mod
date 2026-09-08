@@ -98,6 +98,8 @@ margin_left = 24.0
 margin_top = 20.0
 margin_right = 633.0
 margin_bottom = 84.0
+line_spacing = 2
+	fit_content = true
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[color=#c0c0c0]传说之迹...[/color]"
@@ -108,6 +110,8 @@ margin_left = 414.0
 margin_top = 26.0
 margin_right = 625.0
 margin_bottom = 636.0
+line_spacing = 2
+	fit_content = true
 mouse_filter = 2
 bbcode_enabled = true
 
@@ -129,6 +133,7 @@ modulate = Color( 0.878431, 0.317647, 0.317647, 1 )
 margin_top = 3.0
 margin_right = 64.0
 margin_bottom = 34.0
+line_spacing = 2
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[center]返回"
@@ -150,6 +155,7 @@ custom_styles/normal = SubResource( 9 )
 margin_top = 3.0
 margin_right = 300.0
 margin_bottom = 34.0
+line_spacing = 2
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[center][color=#a00000]清除 Steam 成就 [color=#707070](按住 ALT 点击)"
@@ -170,3 +176,5 @@ centered = false
 [connection signal="mouse_entered" from="Clear" to="." method="_on_Clear_mouse_entered"]
 [connection signal="mouse_exited" from="Clear" to="." method="_on_Clear_mouse_exited"]
 [connection signal="pressed" from="Clear" to="." method="_on_Clear_pressed"]
+
+

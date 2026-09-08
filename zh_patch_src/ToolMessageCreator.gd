@@ -169,7 +169,7 @@ func create_hovered_string():
 		"inventory":
 			stringa = "[color=#a0a0a0][[color=#ffff50]i[/color]]"
 			stringa += " 背包、属性、装备武器和护甲"
-			stringa += "\n\n按 [color=#a0a0a0][[color=#ffff50]5[/color]] 交换主手与副手武器 [color=#707070]不计为行动，也可在背包中执行"
+			stringa += "\n按 [color=#a0a0a0][[color=#ffff50]5[/color]] 交换主手与副手武器 [color=#707070]不计为行动，也可在背包中执行"
 		"powers":
 			stringa = "[color=#a0a0a0][[color=#ffff50]p[/color]]"
 			stringa += " 学习并升级新能力"
@@ -195,7 +195,7 @@ func create_hovered_string():
 				"hold":
 					stringa += "[color=#ffff50]坚守[/color]位置"
 			
-			stringa += "\n\n你有 [color=#b050b0]" + str(Global.get_allies_size_minus_familiars() - 1) + " 个召唤[/color]盟友"
+			stringa += "\n你有 [color=#b050b0]" + str(Global.get_allies_size_minus_familiars() - 1) + " 个召唤[/color]盟友"
 			stringa += "，上限为 [color=#707070]" + str(Global.Player.get_total_WIL()) + "（意志）[/color]"
 			stringa += "\n你有 [color=#703080]" + str(Global.Allies.size() - Global.get_allies_size_minus_familiars())
 			stringa += " 个召唤魔宠[/color]，不受上限限制"
@@ -476,7 +476,7 @@ func write_enemy_popup(data):
 	
 	
 	
-	stringa += "\n\n\n[color=#808080]抗性：\n"
+	stringa += "\n[color=#808080]抗性：\n"
 	var typelist = ["slash", "blunt", "pierce", "fire", "ice", "poison", "lightning", "death", "psychic", "astral", "blood"]
 	for label in typelist:
 		var resist = data["resist_" + label]
@@ -491,13 +491,13 @@ func write_enemy_popup(data):
 			stringa += "[/color]"
 			stringa += ""
 	
-	stringa += "\n\n\n[color=#808080]特质：\n"
+	stringa += "\n[color=#808080]特质：\n"
 	for key in data.abilities:
 		if key != "none":
 			stringa += "\n"
 			stringa += LTraitsGeneric.trait_data[key].Name
 	
-	stringa += "\n\n\n[color=#707070][[color=#ffff50]点击[/color]]查看详细特质信息"
+	stringa += "\n[color=#707070][[color=#ffff50]点击[/color]]查看详细特质信息"
 	
 	item_popup.get_node("label").bbcode_text = stringa
 	
@@ -529,7 +529,7 @@ func write_weapon(data):
 	
 	
 	
-	stringa += "\n\n[color=#ffa050]" + str(weapon.acc * 10) + " [color=#a0a0a0]精准[/color][/color]"
+	stringa += "\n[color=#ffa050]" + str(weapon.acc * 10) + " [color=#a0a0a0]精准[/color][/color]"
 	stringa += "\n[color=#ff8030]" + str(weapon.dmg * 10) + " [color=#a0a0a0]命中[/color][/color]"
 	stringa += " " + translate.damage_type(weapon["dmgtype"])
 	stringa = stringa + "\n[color=#5050ff]" + str(weapon.arm) + " [color=#a0a0a0]格挡[/color][/color]"
@@ -625,7 +625,7 @@ func write_armor(data):
 	stringa += "[/color]"
 	
 	
-	stringa += "\n\n[color=#5050ff]" + "+" + str(armor.arm) + " [color=#a0a0a0]护甲[/color][/color]\n"
+	stringa += "\n[color=#5050ff]" + "+" + str(armor.arm) + " [color=#a0a0a0]护甲[/color][/color]\n"
 	stringa += "\n[color=#ff0000]" + "+" + str(armor.weight) + " [color=#a0a0a0]负重[/color][/color]"
 		
 		

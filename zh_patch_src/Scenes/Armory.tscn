@@ -90,6 +90,8 @@ margin_left = 420.0
 margin_top = 22.0
 margin_right = 628.0
 margin_bottom = 595.0
+line_spacing = 2
+	fit_content = true
 bbcode_enabled = true
 bbcode_text = "紫罗兰斧
 
@@ -128,6 +130,7 @@ modulate = Color( 0.878431, 0.317647, 0.317647, 1 )
 margin_top = 3.0
 margin_right = 64.0
 margin_bottom = 34.0
+line_spacing = 2
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[center]返回"
@@ -142,6 +145,8 @@ margin_left = 24.0
 margin_top = 8.0
 margin_right = 224.0
 margin_bottom = 72.0
+line_spacing = 2
+	fit_content = true
 mouse_filter = 2
 bbcode_enabled = true
 bbcode_text = "[color=#c0c0c0]宝藏陈列于道路之上...[/color]"
@@ -181,3 +186,5 @@ color = Color( 0.2, 0.0862745, 0.172549, 1 )
 [connection signal="focus_entered" from="TextEdit" to="." method="_on_TextEdit_focus_entered"]
 [connection signal="focus_exited" from="TextEdit" to="." method="_on_TextEdit_focus_exited"]
 [connection signal="text_changed" from="TextEdit" to="." method="_on_TextEdit_text_changed"]
+
+

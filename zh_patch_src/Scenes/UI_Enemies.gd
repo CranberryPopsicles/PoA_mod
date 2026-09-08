@@ -104,6 +104,8 @@ func load_info(object_info):
 	
 	
 	display.get_node("decription").bbcode_text = stringa
+	yield(get_tree(), "idle_frame")
+	display.get_node("decription").rect_size.y = min(display.get_node("decription").get_content_height(), 154.0)
 	
 	stringa = "\n\n"
 	stringa += "[color=#c0c0c0]攻击造成"
@@ -116,7 +118,7 @@ func load_info(object_info):
 		stringa += "[/color]"
 	else:
 		stringa += "，需[color=#ffff50]近战[/color]"
-	stringa += "\n\n每个游戏回合有 "
+	stringa += "\n每个游戏回合有 "
 	stringa += "[color=#ffff50]" + str(object_info.size) + "%[/color]"
 	stringa += " 概率从有害效果中[color=#9010cf]恢复[/color]"
 	stringa += "\n"
@@ -135,6 +137,8 @@ func load_info(object_info):
 				stringa += "[/color]"
 				
 	display.get_node("decription2").bbcode_text = stringa
+	yield(get_tree(), "idle_frame")
+	display.get_node("decription2").rect_size.y = min(display.get_node("decription2").get_content_height(), 440.0)
 	
 	create_trait_buttons(object_info)
 	

@@ -31,3 +31,7 @@ Desktop.ini
 .DS_Store
 *.swp
 *.swo
+
+# Chinese fonts (required for build, shipped with repo)
+!zh_patch_src/Fonts/
+!zh_patch_src/Fonts/*.ttf
