@@ -3,7 +3,8 @@
     [string]$GDRETools = 'C:\Dev\GDRE_tools\gdre_tools.exe',
     [string]$ProjectRoot = (Resolve-Path (Join-Path $PSScriptRoot '..')).Path,
     [switch]$Deploy,
-    [switch]$ListFiles
+    [switch]$ListFiles,
+    [switch]$SkipGit
 )
 
 $ErrorActionPreference = 'Stop'
@@ -269,6 +270,43 @@ if ($Deploy) {
     Write-Step "Deploying to game directory..."
     Copy-Verified -Source $loaderPck -Destination $gamePck
     Copy-Verified -Source $zhPck -Destination (Join-Path $GameDir 'poa_zh.pck')
+}
+
+
+function Invoke-AutoGit {
+    $changed = git -C $ProjectRoot status --short 2>$null
+    if (-not $changed) {
+        Write-Step "无变更，跳过自动提交"
+        return
+    }
+    $fileCount = ($changed | Measure-Object).Count
+    $added = ($changed | Where-Object { $_ -match '^\?\?|^A' } | Measure-Object).Count
+    $modified = ($changed | Where-Object { $_ -match '^ M|^M' } | Measure-Object).Count
+    $deleted = ($changed | Where-Object { $_ -match '^ D|^D' } | Measure-Object).Count
+    $names = $changed | ForEach-Object { $_.Substring(3) } | Select-Object -First 5
+    $subject = "自动构建部署：更新 $fileCount 个文件（新增 $added / 修改 $modified / 删除 $deleted）"
+    $body = "涉及：" + ($names -join '、')
+    $msgFile = Join-Path $ProjectRoot '.git_auto_commit_msg.tmp'
+    try {
+        [System.IO.File]::WriteAllLines($msgFile, @($subject, '', $body), (New-Object System.Text.UTF8Encoding($false)))
+        git -C $ProjectRoot add -A
+        if ($LASTEXITCODE -ne 0) { throw 'git add 失败' }
+        git -C $ProjectRoot commit -F $msgFile
+        if ($LASTEXITCODE -ne 0) { throw 'git commit 失败' }
+        git -C $ProjectRoot push origin main
+        if ($LASTEXITCODE -ne 0) { throw 'git push 失败' }
+        Write-Step "已自动提交并推送：$subject"
+    }
+    catch {
+        Write-Host "[WARN] 自动提交/推送失败：$($_.Exception.Message)"
+    }
+    finally {
+        Remove-Item -LiteralPath $msgFile -Force -ErrorAction SilentlyContinue
+    }
+}
+
+if (-not $SkipGit) {
+    Invoke-AutoGit
 }
 
 Write-Step "Done."
